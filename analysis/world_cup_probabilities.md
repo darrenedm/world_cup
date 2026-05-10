@@ -11,7 +11,8 @@ The 2026 FIFA World Cup kicks off June 11, 2026 across USA, Canada & Mexico. All
 |------|--------|------|---------|---------|-----------|
 | 1 | **Harry Kane** | Bayern Munich | England | **99%** | England captain, 33 BL goals this season — automatic pick |
 | 2 | **Kylian Mbappé** | Real Madrid | France | **99%** | France captain, 41 goals in all comps — irreplaceable |
-| 3 | **Lamine Yamal** | Barcelona | Spain | **99%** | Spain's talisman, 17G/13A in La Liga — non-negotiable |
+| 3 | **Erling Haaland** | Manchester City | Norway | **99%** | Broke PL season goals record (35); 16 WC qualifying goals; Norway's all-time top scorer — absolute certainty |
+| 4 | **Lamine Yamal** | Barcelona | Spain | **99%** | Spain's talisman, 17G/13A in La Liga — non-negotiable |
 | 4 | **Lautaro Martínez** | Inter Milan | Argentina | **95%** | Argentina captain, 16G/5A — confirmed starter |
 | 5 | **Mohamed Salah** | Liverpool | Egypt | **95%** | Egypt's greatest ever player, 12G/9A in all comps — captain-level |
 | 6 | **Vinícius Júnior** | Real Madrid | Brazil | **95%** | Brazil's key attacker, 20G/13A — first choice left wing |
@@ -28,6 +29,9 @@ The 2026 FIFA World Cup kicks off June 11, 2026 across USA, Canada & Mexico. All
 | 17 | **Alexander Isak** | Liverpool | Sweden | **72%** | World-class when fit — major injury concern after injury-plagued season |
 | 18 | **Ollie Watkins** | Aston Villa | England | **65%** | Solid season (16G all comps) but England have Kane + attacking depth |
 | 19 | **Rafael Leão** | AC Milan | Portugal | **65%** | Quality player but inconsistent; Portugal's attack has competition |
+| — | **Pedro Neto** | Chelsea | Portugal | **68%** | 2025 Nations League winner; creative winger; regular Portugal squad member |
+| — | **Omar Marmoush** | Manchester City | Egypt | **68%** | 28G/14A at Frankfurt last season; knee injury destroyed 2025-26 — a crucial fitness call |
+| — | **Jérémy Doku** | Manchester City | Belgium | **72%** | Rotation at City limits club stats; regular Belgium squad member; scored in qualifying |
 | 20 | **Jonathan Burkardt** | Eintracht Frankfurt | Germany | **55%** | 10 Bundesliga goals; emerging Germany option competing for limited spots |
 | 21 | **Matheus Cunha** | Man United | Brazil | **52%** | Good PL debut (9G) but Brazil has many attacking options |
 | 22 | **Karim Adeyemi** | Borussia Dortmund | Germany | **50%** | In Germany squad plans but inconsistent; fighting for spot |
@@ -37,6 +41,7 @@ The 2026 FIFA World Cup kicks off June 11, 2026 across USA, Canada & Mexico. All
 | 26 | **Nick Woltemade** | Newcastle | Germany | **45%** | £69m PL signing; Germany squad bubble but needs more intl caps |
 | 27 | **Serge Gnabry** | Bayern Munich | Germany | **40%** | Late-season groin injury hurts case; Germany have many options |
 | 28 | **Antony** | Real Betis | Brazil | **38%** | Improved (7G/6A) but Brazil's forward depth makes squad tough |
+| — | **João Pedro** | Chelsea | Brazil | **42%** | 14G for Chelsea; competing vs Vinicius/Raphinha/Endrick/Rodrygo/Cunha for limited spots |
 | 29 | **Matías Soulé** | Roma | Argentina | **22%** | Not yet capped consistently; Argentina's depth at forward is world-class |
 | 30 | **Mason Greenwood** | Marseille | England | **5%** | Outstanding club form (18G/7A all comps) but England have effectively excluded him |
 | — | **Bryan Mbeumo** | Man United | Cameroon | **0%** | 🚫 Cameroon did not qualify |

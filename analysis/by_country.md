@@ -40,9 +40,10 @@
 | Vinícius Júnior | Real Madrid | 20G/13A (all) | 95% | Brazil's key player; certain starter |
 | Raphinha | Barcelona | 14G/5A (all) | 82% | Brazil captain; certain starter |
 | Matheus Cunha | Manchester United | 9G/2A (PL) | 52% | Good debut PL season but tough competition |
+| João Pedro | Chelsea | 14G/5A (all) | 42% | Strong Chelsea season; Brazil forward depth limits chances |
 | Antony | Real Betis | 7G/6A (LL) | 38% | Best form of career but Brazil too deep |
 
-**Brazil Forward Picture:** Vinicius and Raphinha are first choices. Beyond them, Brazil have Rodrygo, Endrick (next generational talent), plus Cunha and Antony competing. Cunha's Manchester United move gives him visibility but the squad crunch is real.
+**Brazil Forward Picture:** Vinicius and Raphinha are first choices. Beyond them, Brazil have Rodrygo, Endrick (next generational talent), plus Cunha, João Pedro, and Antony competing for limited spots. João Pedro's 14 Chelsea goals help the case but Brazil's attacking options are extraordinary — the toughest squad to break into on this list.
 
 ---
 
@@ -124,8 +125,9 @@
 | Player | Club | 25-26 G/A | WC Prob | Assessment |
 |--------|------|-----------|---------|------------|
 | Romelu Lukaku | Napoli | 1G/0A (5 apps, inj) | 50% | Severe thigh injury; fitness is everything |
+| Jérémy Doku | Manchester City | 5G/5A (PL) | 72% | Electric winger; rotation at City but trusted by Belgium |
 
-**Belgium Forward Picture:** Lukaku is Belgium's all-time top scorer (80 goals). If he recovers in time, he travels. If not, Belgium have a major problem up front. Loïs Openda and others are in the frame.
+**Belgium Forward Picture:** Lukaku is Belgium's all-time top scorer (80 goals). If he recovers in time, he travels — but the thigh injury is severe. Doku provides something different: pace, directness, and WC qualifying goals already on his record. If Lukaku misses out, Doku becomes Belgium's most dangerous attacker. Loïs Openda also in the frame.
 
 ---
 
@@ -135,8 +137,9 @@
 | Player | Club | 25-26 G/A | WC Prob | Assessment |
 |--------|------|-----------|---------|------------|
 | Rafael Leão | AC Milan | 9G/3A (SA) | 65% | Quality player; Portugal's forward competition is real |
+| Pedro Neto | Chelsea | 5G/4A (PL) | 68% | 2025 Nations League winner; creative winger; regular squad member |
 
-**Portugal Forward Picture:** Leão is an important player but Portugal have João Félix, Gonçalo Ramos, and others competing. His inconsistency may cost him the starring role.
+**Portugal Forward Picture:** Both Leão and Pedro Neto are in the frame. Neto's Nations League winner's medal and regular squad appearances give him a slight edge in probability — though Leão's ceiling is higher. Portugal also have João Félix, Gonçalo Ramos, and others competing. One of the most competitive attacking squads in the tournament.
 
 ---
 
@@ -157,8 +160,20 @@
 | Player | Club | 25-26 G/A | WC Prob | Assessment |
 |--------|------|-----------|---------|------------|
 | Mohamed Salah | Liverpool | 12G/9A (all) | 95% | Captain; in final Liverpool season |
+| Omar Marmoush | Manchester City | 1G/3A (PL, inj) | 68% | Knee ligament injury gutted 2025-26; fitness the only question |
 
-**Egypt Forward Picture:** Salah is Egypt and Egypt is Salah. At 34, this will almost certainly be his last World Cup. An emotional send-off awaits at the biggest stage.
+**Egypt Forward Picture:** Salah is Egypt and Egypt is Salah. At 34, this will almost certainly be his last World Cup. Marmoush adds exciting depth if fit — he was sensational at Frankfurt 2024-25 (28G/14A) before his injury. The knee ligament issue sustained on Egypt international duty is the cruel twist that makes his inclusion a medical decision.
+
+---
+
+## 🇳🇴 Norway (Qualified)
+*Haaland carried them here — literally*
+
+| Player | Club | 25-26 G/A | WC Prob | Assessment |
+|--------|------|-----------|---------|------------|
+| Erling Haaland | Manchester City | 50G/8A (all) | 99% | The reason Norway are even at this World Cup |
+
+**Norway Forward Picture:** Haaland's 16 WC qualifying goals in 8 games are the reason Norway qualified. Without him they would almost certainly not be here. The most straightforward selection decision at this entire tournament — 50 goals across all competitions this season, Norway's all-time top scorer, and their captain. An automatic pick.
 
 ---
 

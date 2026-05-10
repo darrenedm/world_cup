@@ -112,6 +112,14 @@ International figures cover Nations League, World Cup qualifying, and friendlies
 > **Fitness:** ✅ Fully fit
 > **Verdict:** Good club season but Brazil have Vinicius, Raphinha, Rodrygo, Endrick ahead of him. Borderline squad pick at best.
 
+### João Pedro — Chelsea / Brazil
+| Context | Apps | Goals | Assists | Notes |
+|---------|------|-------|---------|-------|
+| **Club (all comps)** | 32 | **14** | 5 | Strong debut Chelsea season; 12G/4A PL + 2G/1A elsewhere |
+| **Intl (Sep 24–May 26)** | 6 | **2** | 2 | Fringe squad player; competing for limited spots |
+> **Fitness:** ✅ Fully fit
+> **Verdict:** Good Chelsea season but Brazil's attacking depth (Vinicius, Raphinha, Rodrygo, Endrick, Cunha) makes this very difficult. 14 club goals is not enough to break through.
+
 ### Antony — Real Betis / Brazil
 | Context | Apps | Goals | Assists | Notes |
 |---------|------|-------|---------|-------|
@@ -196,6 +204,14 @@ International figures cover Nations League, World Cup qualifying, and friendlies
 > **Fitness:** ✅ Fully fit
 > **Verdict:** Non-negotiable for Egypt. Captains them into what is almost certainly his final World Cup.
 
+### Omar Marmoush — Manchester City / Egypt
+| Context | Apps | Goals | Assists | Notes |
+|---------|------|-------|---------|-------|
+| **Club (PL)** | 10 | **1** | 3 | Only 576 PL minutes all season; knee ligament injury destroyed 2025-26 |
+| **Intl (Sep 24–May 26)** | 6 | **3** | 2 | Injury sustained on international duty vs Burkina Faso (Sept 2025) |
+> **Fitness:** ⚠️ Injury concern — knee ligament; picked up Sept 2025; very limited club action since
+> **Verdict:** Was sensational at Frankfurt 2024-25 (28G/14A) before his £67m move to City. The injury makes this a fitness call above all else. If passed fit, he travels — Egypt have Salah but need attacking depth.
+
 ### Kenan Yıldız — Juventus / Turkey
 | Context | Apps | Goals | Assists | Notes |
 |---------|------|-------|---------|-------|
@@ -220,6 +236,14 @@ International figures cover Nations League, World Cup qualifying, and friendlies
 > **Fitness:** ✅ Fully fit
 > **Verdict:** Portugal have strong attacking depth. Leão likely makes the squad but competes for starts.
 
+### Pedro Neto — Chelsea / Portugal
+| Context | Apps | Goals | Assists | Notes |
+|---------|------|-------|---------|-------|
+| **Club (PL)** | 28 | **5** | 4 | Creative winger; consistent Chelsea contributor |
+| **Intl (Sep 24–May 26)** | 8 | **3** | 4 | 2025 Nations League winner; regular squad member |
+> **Fitness:** ✅ Fully fit
+> **Verdict:** A reliable Portugal squad member and Nations League winner. Competes with Leão for wide starting spots. Slightly better international return (3G in 8 apps vs Leão's 2G) keeps him firmly in the picture.
+
 ### Luis Díaz — Bayern Munich / Colombia
 | Context | Apps | Goals | Assists | Notes |
 |---------|------|-------|---------|-------|
@@ -235,6 +259,22 @@ International figures cover Nations League, World Cup qualifying, and friendlies
 | **Intl (Sep 24–May 26)** | 4 | **2** | 1 | 89 career intl goals / 124 caps; barely played since Jan 2026 |
 > **Fitness:** 🚨 MAJOR CONCERN — High-grade rectus femoris tear; ~5 months out; return timeline to WC extremely tight
 > **Verdict:** Belgium's all-time top scorer, but he may simply not be fit in time. Belgium have Openda and others as backup.
+
+### Jérémy Doku — Manchester City / Belgium
+| Context | Apps | Goals | Assists | Notes |
+|---------|------|-------|---------|-------|
+| **Club (PL)** | 22+ | **5** | 5 | Rotation role at City limits his minutes; electric when starting |
+| **Intl (Sep 24–May 26)** | 8 | **2** | 3 | Regular Belgium squad member; scored in WC qualifying |
+> **Fitness:** ✅ Fully fit
+> **Verdict:** City rotation limits club stats but Doku is a trusted Belgium international. His pace and directness make him a different option to Lukaku. If Lukaku misses out through injury, Doku becomes Belgium's most dangerous attacking weapon.
+
+### Erling Haaland — Manchester City / Norway
+| Context | Apps | Goals | Assists | Notes |
+|---------|------|-------|---------|-------|
+| **Club (all comps)** | 40+ | **50** | 8 | Broke the PL single-season goals record (35); extraordinary output |
+| **Intl (Sep 24–May 26)** | 12 | **16** | 3 | Norway's all-time top scorer; WC qualifying top scorer (16G in 8 games) |
+> **Fitness:** ✅ Fully fit
+> **Verdict:** The most prolific striker on the planet right now. 50 goals across all competitions this season. His 16 WC qualifying goals are the main reason Norway are even at this tournament. Automatic pick.
 
 ### Viktor Gyökeres — Arsenal / Sweden
 | Context | Apps | Goals | Assists | Notes |
