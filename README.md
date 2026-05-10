@@ -1,6 +1,6 @@
-# 2026 World Cup — Forwards Analysis
+# 2026 World Cup — Player Analysis
 
-Analysis of 34 elite forwards and their likelihood of featuring at the **2026 FIFA World Cup** (June 11 – July 19, USA/Canada/Mexico).
+Analysis of elite **forwards** and **midfielders** and their likelihood of featuring at the **2026 FIFA World Cup** (June 11 – July 19, USA/Canada/Mexico).
 
 All data as of **May 10, 2026**.
 
@@ -8,28 +8,38 @@ All data as of **May 10, 2026**.
 
 ## What's in this repo
 
+### Forwards (39 players)
 | File | Description |
 |------|-------------|
-| [`data/forwards_stats.csv`](data/forwards_stats.csv) | Raw 2025-26 club stats, international caps, and WC squad probability for all 34 players |
+| [`data/forwards_stats.csv`](data/forwards_stats.csv) | Raw 2025-26 club stats, international caps, fitness, and WC squad probability |
 | [`analysis/world_cup_probabilities.md`](analysis/world_cup_probabilities.md) | Full ranked probability table with rationale + key storylines |
 | [`analysis/club_vs_country.md`](analysis/club_vs_country.md) | Side-by-side club vs. international performance breakdown per player |
 | [`analysis/by_country.md`](analysis/by_country.md) | Players grouped by nation with squad picture commentary |
 
+### Midfielders (40 players)
+| File | Description |
+|------|-------------|
+| [`data/midfielders_stats.csv`](data/midfielders_stats.csv) | Raw 2025-26 club stats, sub-position, international caps, fitness, and WC squad probability |
+| [`analysis/midfielders_probabilities.md`](analysis/midfielders_probabilities.md) | Full ranked probability table with sub-position framework + key storylines |
+| [`analysis/midfielders_club_vs_country.md`](analysis/midfielders_club_vs_country.md) | Side-by-side club vs. international breakdown with DM/CM/AM context |
+| [`analysis/midfielders_by_country.md`](analysis/midfielders_by_country.md) | Players grouped by nation with squad picture commentary |
+
 ---
 
-## Quick Summary
+## Forwards — Quick Summary
 
 ### Certainties (95–99%)
 | Player | Club | Country | Goals 25-26 |
 |--------|------|---------|-------------|
 | Harry Kane | Bayern Munich | England | 33 (BL) |
 | Kylian Mbappé | Real Madrid | France | 41 (all) |
+| Erling Haaland | Manchester City | Norway | 50 (all) |
 | Lamine Yamal | Barcelona | Spain | 17 (LL) |
 | Lautaro Martínez | Inter Milan | Argentina | 16 (SA) |
 | Mohamed Salah | Liverpool | Egypt | 12 (all) |
 | Vinícius Júnior | Real Madrid | Brazil | 20 (all) |
 
-### WC Probability = 0 (Country Not Qualified)
+### WC Probability = 0 (Forwards)
 | Player | Club | Country | Reason |
 |--------|------|---------|--------|
 | Bryan Mbeumo | Man United | Cameroon | CAF exit |
@@ -37,9 +47,47 @@ All data as of **May 10, 2026**.
 | Rasmus Højlund | Napoli (loan) | Denmark | UEFA playoff loss to Czechia |
 | Khvicha Kvaratskhelia | PSG | Georgia | UEFA exit |
 
-### The Wildcard: Fitness
+### Forwards Fitness Wildcards
 - **Romelu Lukaku** (Belgium) — severe thigh injury, 5+ months out
 - **Alexander Isak** (Sweden) — only 3 goals in 16 apps after £125m Liverpool move
+- **Omar Marmoush** (Egypt) — knee ligament injury destroyed 2025-26 season
+
+---
+
+## Midfielders — Quick Summary
+
+### Sub-position key: DM (6) | CM (8) | AM (10)
+
+### Certainties (95–99%)
+| Player | Club | Country | Sub-Pos | G/A 25-26 |
+|--------|------|---------|---------|-----------|
+| Declan Rice | Arsenal | England | DM | 4G/5A (all) |
+| Christian Pulisic | AC Milan | USA | AM | 8G/3A (SA) |
+| Bruno Fernandes | Man United | Portugal | AM | 8G/19A (all) |
+| Federico Valverde | Real Madrid | Uruguay | CM | 5G/8A (LL) |
+| Scott McTominay | Napoli | Scotland | CM | 13G/3A (all) |
+| Joshua Kimmich | Bayern Munich | Germany | DM | 2G/7A (all) |
+| Michael Olise | Bayern Munich | France | AM | 15G/18A (all) |
+| Florian Wirtz | Liverpool | Germany | AM | 6G/9A (all) |
+| Moisés Caicedo | Chelsea | Ecuador | DM | 3G/1A (PL) |
+| Malik Tillman | Bayer Leverkusen | USA | AM | 6G/0A (BL) |
+
+### WC Probability = 0 (Midfielders)
+| Player | Club | Country | Reason |
+|--------|------|---------|--------|
+| Manuel Locatelli | Juventus | Italy | Italy lost playoff final to Bosnia (3rd consecutive WC miss) |
+| Sandro Tonali | Newcastle | Italy | Italy did not qualify |
+| Nicolò Barella | Inter Milan | Italy | Italy did not qualify |
+| Pierre-Emile Højbjerg | Marseille | Denmark | Denmark lost playoff final to Czechia |
+| Xavi Simons | Tottenham | Netherlands | ACL rupture April 25 — ruled out of entire WC |
+
+### Midfielders Fitness Watchlist
+- **Rodri** (Spain) — groin injury May 2026; Spain's biggest World Cup concern
+- **Hakan Çalhanoğlu** (Turkey) — soleus injury May 2026; out for club season
+- **Jude Bellingham** (England) — hamstring Feb 2026; missed England's final camp
+- **Arda Güler** (Turkey) — thigh tear April 21; season over; targeting June 13
+- **Cole Palmer** (England) — chronic pubalgia managed all season
+- **Martin Ødegaard** (Norway) — knee + shoulder; only 24 PL apps
 
 ---
 
@@ -50,7 +98,7 @@ All data as of **May 10, 2026**.
 - [ESPN Soccer](https://www.espn.com/soccer)
 - [UEFA.com](https://www.uefa.com)
 - [Bundesliga.com](https://www.bundesliga.com)
-- [Al Jazeera Sport](https://www.aljazeera.com/sports)
+- [Sofascore](https://www.sofascore.com)
 - [Sky Sports](https://www.skysports.com/football)
 - [GiveMeSport](https://www.givemesport.com)
-- [Sofascore](https://www.sofascore.com)
+- [Al Jazeera Sport](https://www.aljazeera.com/sports)
