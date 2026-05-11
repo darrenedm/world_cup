@@ -1,6 +1,6 @@
 # 2026 World Cup — Player Analysis
 
-Analysis of elite **forwards**, **midfielders**, and **defenders** and their likelihood of featuring at the **2026 FIFA World Cup** (June 11 – July 19, USA/Canada/Mexico).
+Analysis of elite **forwards**, **midfielders**, **defenders**, and **goalkeepers** and their likelihood of featuring at the **2026 FIFA World Cup** (June 11 – July 19, USA/Canada/Mexico).
 
 All data as of **May 10, 2026**.
 
@@ -31,6 +31,14 @@ All data as of **May 10, 2026**.
 | [`analysis/defenders_probabilities.md`](analysis/defenders_probabilities.md) | Full ranked probability table with sub-position framework + key storylines |
 | [`analysis/defenders_club_vs_country.md`](analysis/defenders_club_vs_country.md) | Side-by-side club vs. international breakdown per player |
 | [`analysis/defenders_by_country.md`](analysis/defenders_by_country.md) | Players grouped by nation with squad picture commentary |
+
+### Goalkeepers (22 players)
+| File | Description |
+|------|-------------|
+| [`data/goalkeepers_stats.csv`](data/goalkeepers_stats.csv) | Raw 2025-26 club stats (save %, PSxG-GA, CS, GA), GK style, international caps, fitness, and WC squad probability |
+| [`analysis/goalkeepers_probabilities.md`](analysis/goalkeepers_probabilities.md) | Full ranked probability table with PSxG-GA framework + key storylines |
+| [`analysis/goalkeepers_club_vs_country.md`](analysis/goalkeepers_club_vs_country.md) | Side-by-side club vs. international breakdown per player |
+| [`analysis/goalkeepers_by_country.md`](analysis/goalkeepers_by_country.md) | Players grouped by nation with squad GK picture commentary |
 
 ---
 
@@ -134,6 +142,34 @@ All data as of **May 10, 2026**.
 - **Jurriën Timber** (Netherlands) — groin injury Mar 2026; slow recovery
 - **Nuno Mendes** (Portugal) — minor right thigh knock May 9; managed
 - **Cristian Romero** (Argentina) — Grade 2 MCL Apr 12; on track for June 16
+
+---
+
+## Goalkeepers — Quick Summary
+
+### GK Metrics Key: Save % | PSxG-GA (positive = saving above expectation) | Clean Sheets
+
+### Certainties (95–97%)
+| Player | Club | Country | Save % | PSxG-GA |
+|--------|------|---------|--------|---------|
+| Mike Maignan | AC Milan | France | 77.7% | +8 (Serie A top) |
+| Emiliano Martínez | Aston Villa | Argentina | 72.3% | ~0 |
+| Jordan Pickford | Everton | England | 69.6% | +3.8 |
+| Unai Simón | Athletic Club | Spain | 67.3% | slightly neg |
+| Gregor Kobel | B. Dortmund | Switzerland | 72.1% | ~positive |
+
+### WC Probability = 0 (Goalkeepers)
+| Player | Club | Country | Reason |
+|--------|------|---------|--------|
+| Gianluigi Donnarumma | Manchester City | Italy | Italy did not qualify (3rd consecutive WC miss) — NEVER appeared at a WC |
+| Michele Di Gregorio | Juventus | Italy | Italy did not qualify |
+| Guglielmo Vicario | Tottenham | Italy | Italy did not qualify |
+| Jan Oblak | Atlético Madrid | Slovenia | Slovenia did not qualify — NEVER appeared at a WC |
+| Manuel Neuer | Bayern Munich | Germany | Internationally RETIRED — confirmed Feb 2026 |
+
+### Goalkeepers Fitness Watchlist
+- **Thibaut Courtois** (Belgium) — quad/muscle injury Mar 2026; targeting return ~May 10; 1 month to WC
+- **Alisson Becker** (Brazil) — hamstring since March 18; very close to return; race for June 11 opener
 
 ---
 
