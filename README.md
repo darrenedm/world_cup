@@ -12,9 +12,9 @@ All data as of **May 10, 2026**.
 | File | Description |
 |------|-------------|
 | [`data/forwards_stats.csv`](data/forwards_stats.csv) | Raw 2025-26 club stats, international caps, fitness, and WC squad probability |
-| [`analysis/world_cup_probabilities.md`](analysis/world_cup_probabilities.md) | Full ranked probability table with rationale + key storylines |
-| [`analysis/club_vs_country.md`](analysis/club_vs_country.md) | Side-by-side club vs. international performance breakdown per player |
-| [`analysis/by_country.md`](analysis/by_country.md) | Players grouped by nation with squad picture commentary |
+| [`analysis/forwards_probabilities.md`](analysis/forwards_probabilities.md) | Full ranked probability table with rationale + key storylines |
+| [`analysis/forwards_club_vs_country.md`](analysis/forwards_club_vs_country.md) | Side-by-side club vs. international performance breakdown per player |
+| [`analysis/forwards_by_country.md`](analysis/forwards_by_country.md) | Players grouped by nation with squad picture commentary |
 
 ### Midfielders (40 players)
 | File | Description |
