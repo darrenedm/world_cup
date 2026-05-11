@@ -1,6 +1,6 @@
 # 2026 World Cup — Player Analysis
 
-Analysis of elite **forwards** and **midfielders** and their likelihood of featuring at the **2026 FIFA World Cup** (June 11 – July 19, USA/Canada/Mexico).
+Analysis of elite **forwards**, **midfielders**, and **defenders** and their likelihood of featuring at the **2026 FIFA World Cup** (June 11 – July 19, USA/Canada/Mexico).
 
 All data as of **May 10, 2026**.
 
@@ -23,6 +23,14 @@ All data as of **May 10, 2026**.
 | [`analysis/midfielders_probabilities.md`](analysis/midfielders_probabilities.md) | Full ranked probability table with sub-position framework + key storylines |
 | [`analysis/midfielders_club_vs_country.md`](analysis/midfielders_club_vs_country.md) | Side-by-side club vs. international breakdown with DM/CM/AM context |
 | [`analysis/midfielders_by_country.md`](analysis/midfielders_by_country.md) | Players grouped by nation with squad picture commentary |
+
+### Defenders (38 players)
+| File | Description |
+|------|-------------|
+| [`data/defenders_stats.csv`](data/defenders_stats.csv) | Raw 2025-26 club stats, sub-position (CB/RB/LB/RWB/LWB), fitness, and WC squad probability |
+| [`analysis/defenders_probabilities.md`](analysis/defenders_probabilities.md) | Full ranked probability table with sub-position framework + key storylines |
+| [`analysis/defenders_club_vs_country.md`](analysis/defenders_club_vs_country.md) | Side-by-side club vs. international breakdown per player |
+| [`analysis/defenders_by_country.md`](analysis/defenders_by_country.md) | Players grouped by nation with squad picture commentary |
 
 ---
 
@@ -88,6 +96,44 @@ All data as of **May 10, 2026**.
 - **Arda Güler** (Turkey) — thigh tear April 21; season over; targeting June 13
 - **Cole Palmer** (England) — chronic pubalgia managed all season
 - **Martin Ødegaard** (Norway) — knee + shoulder; only 24 PL apps
+
+---
+
+## Defenders — Quick Summary
+
+### Sub-position key: CB | RB | LB | RWB | LWB
+
+### Certainties (90–97%)
+| Player | Club | Country | Sub-Pos | G/A 25-26 |
+|--------|------|---------|---------|-----------|
+| Virgil van Dijk | Liverpool | Netherlands | CB | 4G/3A (all) |
+| William Saliba | Arsenal | France | CB | 1G/0A (all) |
+| Jules Koundé | Barcelona | France | RB | 3G/1A (all) |
+| Gabriel Magalhães | Arsenal | Brazil | CB | 3G/4A (PL) |
+| Marc Cucurella | Chelsea | Spain | LB | 1G/4A (PL) |
+| Dayot Upamecano | Bayern Munich | France | CB | 1G/1A (BL) |
+
+### WC Probability = 0 (Defenders)
+| Player | Club | Country | Reason |
+|--------|------|---------|--------|
+| Alessandro Bastoni | Inter Milan | Italy | Italy lost playoff to Bosnia (3rd consec. miss) |
+| Giovanni Di Lorenzo | Napoli | Italy | Italy did not qualify |
+| Alessio Romagnoli | Lazio | Italy | Italy did not qualify |
+| Amir Rrahmani | Napoli | Kosovo | Kosovo lost playoff final to Turkey |
+| Strahinja Pavlović | AC Milan | Serbia | Serbia 3rd in group, did not qualify |
+| Edmond Tapsoba | Leverkusen | Burkina Faso | Burkina Faso eliminated in CAF |
+| Ola Aina | Nott'm Forest | Nigeria | Nigeria lost CAF playoff on penalties |
+| Miloš Kerkez | Liverpool | Hungary | Hungary lost final qualifier to Ireland 2-3 |
+| Joe Rodon | Leeds United | Wales | Wales lost playoff semi-final vs Bosnia |
+| Éder Militão | Real Madrid | Brazil | Individually ruled out — hamstring surgery |
+
+### Defenders Fitness Watchlist
+- **Achraf Hakimi** (Morocco) — hamstring tear May 8; season over; race for June 14
+- **Joško Gvardiol** (Croatia) — tibial fracture Jan 4; back in training; 4+ months without a match
+- **Rúben Dias** (Portugal) — ankle injury after earlier hamstring; near return
+- **Jurriën Timber** (Netherlands) — groin injury Mar 2026; slow recovery
+- **Nuno Mendes** (Portugal) — minor right thigh knock May 9; managed
+- **Cristian Romero** (Argentina) — Grade 2 MCL Apr 12; on track for June 16
 
 ---
 
