@@ -11,12 +11,13 @@
 | Tier | Role | Competitive Game | Dead Rubber G3 | Knockout |
 |------|------|-----------------|----------------|---------|
 | GK1 | Starting GK | 90 min | 90 min | 90 min |
-| GK2/3 | Backup / Third GK | 0 min | 0 min | 0 min |
+| GK2 | Backup GK | ~5 min | ~5 min | ~10 min total |
+| GK3 | Third GK | ~2 min | ~2 min | ~3 min total |
 | 1 | Automatic Starter | 88 min | 60 min | 90 min |
 | 2 | Regular Starter | 75 min | 55 min | 80 min |
 | 3 | Impact Sub | 30 min | 75 min | 20 min |
 | 4 | Fringe | 12 min | 30 min | 5 min |
-| 5 | Non-Playing | — | — | — |
+| 5 | Depth | ~3 min | ~8 min | ~5 min total |
 
 **Group Mins/Game** — blended average per game across all 3 group games, incorporating each country's P(Dead Rubber Game 3). Game 1 and Game 2 always use competitive mins; Game 3 is weighted by P(DR G3). Managers never rest GKs even in dead rubbers.
 
@@ -68,16 +69,16 @@
 | Jordan Pickford | Everton | England | 96% | Starting GK | 90 | 257 | England settled No.1; 5th major tournament |
 | Alisson Becker | Liverpool | Brazil | 80% | Starting GK | 90 | 187 | **[INJ]** Hamstring since Mar 18; race for Jun 11 |
 | Thibaut Courtois | Real Madrid | Belgium | 88% | Starting GK | 90 | 207 | **[INJ]** Quad Mar 2026; targeting return ~May 10 |
-| Gerónimo Rulli | Marseille | Argentina | 88% | Backup GK | 0 | 0 | Confirmed No.2; guaranteed squad |
-| David Raya | Arsenal | Spain | 82% | Backup GK | 0 | 0 | Plays if Simón struggles |
-| Joan García | Barcelona | Spain | 80% | Third GK | 0 | 0 | Confirmed in squad per May 9 reports |
-| Matz Sels | Nottingham Forest | Belgium | 75% | Backup GK | 0 | 0 | Becomes key No.1 if Courtois misses |
-| Lucas Chevalier | PSG | France | 75% | Third GK | 0 | 0 | France future No.1; bench only now |
-| James Trafford | Manchester City | England | 65% | Third GK | 0 | 0 | Strong contender; Tuchel backing |
-| Mark Flekken | Bayer Leverkusen | Netherlands | 45% | Third GK | 0 | 0 | Below Verbruggen and Bijlow |
-| Dean Henderson | Crystal Palace | England | 55% | Third GK | 0 | 0 | +5.0 PSxG-GA but 0 recent caps |
-| Nick Pope | Newcastle | England | 30% | Third GK | 0 | 0 | **[MGD]** 4th option; crowded race |
-| Robert Sánchez | Chelsea | Spain | 25% | Third GK | 0 | 0 | 4th option; 3 ahead of him |
+| Gerónimo Rulli | Marseille | Argentina | 88% | Backup GK | 5 | 10 | Confirmed No.2; guaranteed squad |
+| David Raya | Arsenal | Spain | 82% | Backup GK | 5 | 10 | Plays if Simón struggles |
+| Joan García | Barcelona | Spain | 80% | Third GK | 2 | 3 | Confirmed in squad per May 9 reports |
+| Matz Sels | Nottingham Forest | Belgium | 75% | Backup GK | 5 | 10 | Becomes key No.1 if Courtois misses |
+| Lucas Chevalier | PSG | France | 75% | Third GK | 2 | 3 | France future No.1; bench only now |
+| James Trafford | Manchester City | England | 65% | Third GK | 2 | 3 | Strong contender; Tuchel backing |
+| Mark Flekken | Bayer Leverkusen | Netherlands | 45% | Third GK | 2 | 3 | Below Verbruggen and Bijlow |
+| Dean Henderson | Crystal Palace | England | 55% | Third GK | 2 | 3 | +5.0 PSxG-GA but 0 recent caps |
+| Nick Pope | Newcastle | England | 30% | Third GK | 2 | 3 | **[MGD]** 4th option; crowded race |
+| Robert Sánchez | Chelsea | Spain | 25% | Third GK | 2 | 3 | 4th option; 3 ahead of him |
 
 ---
 
@@ -111,8 +112,8 @@
 | Pedro Porro | Tottenham | Spain | 72% | RB | Impact Sub | 39.0 | 68 | ~12 Spain caps; cover for Carvajal role |
 | Daniel Svensson | B. Dortmund | Sweden | 55% | LB | Impact Sub | 31.5 | 3 | 2 Sweden caps; competing for squad spot |
 | Jarell Quansah | Bayer Leverkusen | England | 52% | CB | Fringe | 15.3 | 14 | 1 senior cap; dead rubber minutes only |
-| Leny Yoro | Manchester United | France | 22% | CB | Non-Playing | — | — | No senior France caps yet |
-| Álvaro Carreras | Real Madrid | Spain | 22% | LB | Non-Playing | — | — | Zero senior Spain caps |
+| Leny Yoro | Manchester United | France | 22% | CB | Depth | 3 | 5 | No senior France caps yet |
+| Álvaro Carreras | Real Madrid | Spain | 22% | LB | Depth | 3 | 5 | Zero senior Spain caps |
 
 ---
 
@@ -152,9 +153,9 @@
 | Morgan Gibbs-White | Nottingham Forest | England | 68% | AM | Fringe | 15.3 | 14 | 13 PL goals but Tuchel trust barrier |
 | Fabián Ruiz | PSG | Spain | 73% | CM | Fringe | 15.6 | 17 | **[INJ]** Knee Jan; limited to 13 L1 apps |
 | Exequiel Palacios | Bayer Leverkusen | Argentina | 65% | CM | Fringe | 16.2 | 17 | **[MGD]** Returning from adductor; Argentina depth |
-| Maghnes Akliouche | AS Monaco | France | 55% | AM | Non-Playing | — | — | France AM depth too deep to get minutes |
-| Elliot Anderson | Nottingham Forest | England | 35% | CM | Non-Playing | — | — | England CM crowded; squad bubble only |
-| Jobe Bellingham | B. Dortmund | England | 5% | DM | Non-Playing | — | — | Zero senior caps; emergency only |
+| Maghnes Akliouche | AS Monaco | France | 55% | AM | Depth | 3 | 5 | France AM depth too deep to get minutes |
+| Elliot Anderson | Nottingham Forest | England | 35% | CM | Depth | 3 | 5 | England CM crowded; squad bubble only |
+| Jobe Bellingham | B. Dortmund | England | 5% | DM | Depth | 3 | 5 | Zero senior caps; emergency only |
 
 ---
 
@@ -195,9 +196,9 @@
 | Serge Gnabry | Bayern Munich | Germany | 40% | Fringe | 15.6 | 12 | **[INJ]** Late-season groin; Germany have options ahead |
 | João Pedro | Chelsea | Brazil | 42% | Fringe | 13.2 | 10 | Brazil forward depth makes squad very hard |
 | Matheus Cunha | Manchester United | Brazil | 52% | Fringe | 13.2 | 10 | Fringe role even if he makes squad |
-| Matías Soulé | Roma | Argentina | 22% | Non-Playing | — | — | 2 senior caps; Argentina depth too deep |
-| Antony | Real Betis | Brazil | 38% | Non-Playing | — | — | Not featuring for Brazil; squad unlikely |
-| Mason Greenwood | Marseille | England | 5% | Non-Playing | — | — | 18G/7A but effectively excluded by FA |
+| Matías Soulé | Roma | Argentina | 22% | Depth | 3 | 5 | 2 senior caps; Argentina depth too deep |
+| Antony | Real Betis | Brazil | 38% | Depth | 3 | 5 | Not featuring for Brazil; squad unlikely |
+| Mason Greenwood | Marseille | England | 5% | Depth | 3 | 5 | 18G/7A but effectively excluded by FA |
 
 ---
 
