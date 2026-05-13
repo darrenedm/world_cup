@@ -131,10 +131,10 @@ Expected points gaps converted to finishing probabilities using a sigmoid-style 
 |------|-----------|---------|--------|--------|--------|------------|--------------|------------------|
 | **Morocco** | 11 | 8.3 | 5.71 | **43%** | 41% | **84%** | 16% | ~20% |
 | **Brazil** | 5 | 7.9 | 5.65 | 42% | **41%** | **83%** | 17% | ~20% |
-| Scotland | 36 | 5.0 | 4.26 | 14% | 16% | 30% | **70%** | ~10% |
+| **Scotland** | 36 | 5.0 | 4.26 | 14% | 16% | **40%** | **60%** | ~10% |
 | Haiti | 84 | 1.2 | 1.23 | 1% | 2% | 3% | **97%** | ~5% |
 
-**Read:** The standout group of the tournament. Morocco's form boost (8.3) edges past Brazil's adjusted score (7.9 after −0.3 for qualifying struggles), making this a coin-flip for 1st — effectively 43%/42%. Scotland are genuine dark-horse for 2nd (McTominay generation, 14% to win the group). Haiti are makeweights. No dead rubbers in this group at all — Brazil and Morocco will be fighting to the wire.
+**Read:** The standout group of the tournament. Morocco's form boost (8.3) edges past Brazil's adjusted score (7.9 after −0.3 for qualifying struggles), making this a coin-flip for 1st — effectively 43%/42%. Scotland are genuine dark-horse for 2nd (McTominay generation, 14% to win the group). Haiti are makeweights. No dead rubbers in this group at all — Brazil and Morocco will be fighting to the wire. Scotland's overall P(advance) rises to 40% with the third-place route factored in.
 
 **Key watchlist players:** Brazil (Gabriel, Alisson, Vinícius, Raphinha, Rodrygo, Endrick candidates), Morocco (Hakimi, En-Nesyri candidates), Scotland (McTominay)
 
@@ -161,10 +161,10 @@ Expected points gaps converted to finishing probabilities using a sigmoid-style 
 |------|-----------|---------|--------|--------|--------|------------|--------------|------------------|
 | **Germany** | 9 | 7.9 | 6.15 | **78%** | 17% | **95%** | 5% | ~60% |
 | **Ecuador** | 23 | 5.8 | 5.08 | 16% | **50%** | 66% | **34%** | ~20% |
-| **Ivory Coast** | 42 | 4.4 | 4.23 | 5% | 29% | 34% | **66%** | ~10% |
+| **Ivory Coast** | 42 | 4.4 | 4.23 | 5% | 29% | **44%** | **56%** | ~10% |
 | Curaçao | 82 | 1.3 | 1.38 | 1% | 4% | 5% | **95%** | ~5% |
 
-**Read:** Germany has the highest expected points of any team across all groups (6.15). They are near-certain to advance and very likely to win the group. Curaçao are outclassed. The interesting battle is Ecuador vs Ivory Coast for 2nd — Ecuador (50% to finish 2nd) are modest favorites, but Ivory Coast (Amad Diallo) make it competitive. Germany's game 3 is likely a dead rubber with ~60% probability.
+**Read:** Germany has the highest expected points of any team across all groups (6.15). They are near-certain to advance and very likely to win the group. Curaçao are outclassed. The interesting battle is Ecuador vs Ivory Coast for 2nd — Ecuador (50% to finish 2nd) are modest favorites, but Ivory Coast (Amad Diallo) make it competitive. Germany's game 3 is likely a dead rubber with ~60% probability. Ivory Coast's overall P(advance) rises to 44% once the third-place route is factored in.
 
 **Key watchlist players:** Germany (Kimmich, Wirtz, Tah, Schlotterbeck, Mittelstädt, Burkardt, Woltemade), Ecuador (Caicedo), Ivory Coast (Amad Diallo)
 
@@ -177,9 +177,9 @@ Expected points gaps converted to finishing probabilities using a sigmoid-style 
 | **Netherlands** | 7 | 8.2 | 5.65 | **72%** | 22% | **94%** | 6% | ~55% |
 | **Japan** | 18 | 6.8 | 4.73 | 22% | **55%** | 77% | **23%** | ~20% |
 | Tunisia | 40 | 4.5 | 3.08 | 3% | 12% | 15% | **85%** | ~10% |
-| **Sweden** | 43 | 4.4 | 3.08 | 3% | 11% | 14% | **86%** | ~10% |
+| **Sweden** | 43 | 4.4 | 3.08 | 3% | 11% | **20%** | **80%** | ~10% |
 
-**Read:** Netherlands are heavy group favorites (94% P(advance)). Japan are comfortable 2nd most likely. Tunisia and Sweden are near-identical (both 4.4–4.5) and face an uphill battle. For Sweden, Gyökeres and Isak need a near-perfect campaign just to reach the knockouts. Netherlands' game 3 is very likely a dead rubber.
+**Read:** Netherlands are heavy group favorites (94% P(advance)). Japan are comfortable 2nd most likely. Tunisia and Sweden are near-identical (both 4.4–4.5) and face an uphill battle. For Sweden, Gyökeres and Isak need a near-perfect campaign just to reach the knockouts. Netherlands' game 3 is very likely a dead rubber. Sweden's overall P(advance) rises to 20% once the third-place route is included.
 
 **Key watchlist players:** Netherlands (Van Dijk, Dumfries, Gravenberch, Timber), Sweden (Gyökeres, Isak, Svensson)
 
@@ -191,10 +191,10 @@ Expected points gaps converted to finishing probabilities using a sigmoid-style 
 |------|-----------|---------|--------|--------|--------|------------|--------------|------------------|
 | **Belgium** | 8 | 7.6 | 5.93 | **70%** | 22% | **92%** | 8% | ~50% |
 | **Iran** | 20 | 5.5 | 5.07 | 19% | **44%** | 63% | **37%** | ~15% |
-| **Egypt** | 34 | 5.0 | 4.78 | 10% | 33% | 43% | **57%** | ~10% |
+| **Egypt** | 34 | 5.0 | 4.78 | 10% | 33% | **58%** | **42%** | ~10% |
 | New Zealand | 86 | 1.0 | 1.08 | 1% | 1% | 2% | **98%** | ~5% |
 
-**Read:** Belgium are clear favorites but this group is trickier than it looks — Iran (ranked 20th) are a genuine 2nd-place threat, and Egypt (Salah) are not far behind. The Iran vs Egypt match will be a real contest for 2nd. Belgium likely have a dead rubber game 3.
+**Read:** Belgium are clear favorites but this group is trickier than it looks — Iran (ranked 20th) are a genuine 2nd-place threat, and Egypt (Salah) are not far behind. The Iran vs Egypt match will be a real contest for 2nd. Belgium likely have a dead rubber game 3. Egypt's P(advance) bumped to 58% once the 8-of-12 third-place route is included.
 
 **Key watchlist players:** Belgium (Courtois, Thibaut, De Bruyne, Doku, Lukaku?), Egypt (Salah, Marmoush)
 
@@ -267,9 +267,9 @@ Expected points gaps converted to finishing probabilities using a sigmoid-style 
 | **England** | 4 | 9.3 | 5.97 | **72%** | 23% | **95%** | 5% | ~55% |
 | **Croatia** | 10 | 7.4 | 5.08 | 22% | **60%** | 82% | **18%** | ~30% |
 | **Panama** | 30 | 5.3 | 4.08 | 5% | 15% | 20% | **80%** | ~10% |
-| **Ghana** | 72 | 2.1 | 1.65 | 1% | 2% | 3% | **97%** | ~5% |
+| **Ghana** | 72 | 2.1 | 1.65 | 1% | 2% | **5%** | **95%** | ~5% |
 
-**Read:** England are clear group favorites. Croatia (Modric generation's final WC — likely) are comfortable 2nd favorites at 60%. Panama is the only team that could disrupt — a 20% chance of advancing is not negligible. Ghana (Kudus) have almost no path. England likely have a dead rubber game 3 (~55%). Expect Pickford, Rice, Kane to be rested.
+**Read:** England are clear group favorites. Croatia (Modric generation's final WC — likely) are comfortable 2nd favorites at 60%. Panama is the only team that could disrupt — a 20% chance of advancing is not negligible. Ghana (Kudus) have almost no path — P(advance) rises to only 5% even with the third-place route included. England likely have a dead rubber game 3 (~55%). Expect Pickford, Rice, Kane to be rested.
 
 **Key watchlist players:** England (Pickford, Guéhi, Alexander-Arnold, Konsa, Quansah, Rice, Bellingham, Saka, Kane, Watkins, Rashford?), Croatia (Gvardiol), Ghana (Kudus)
 
@@ -296,12 +296,12 @@ Expected points gaps converted to finishing probabilities using a sigmoid-style 
 | **Canada** | B | Switzerland, Qatar, Bosnia | 5.7 | 43% | **83%** | 17% | **~20%** | Switzerland the primary obstacle |
 | **Ecuador** | E | Germany, Ivory Coast, Curaçao | 5.8 | 16% | 66% | **34%** | **~20%** | Germany dominant; Ivory Coast danger |
 | **Turkey** | D | USA, Australia, Paraguay | 5.8 | 19% | 56% | **44%** | **~15%** | Australia near-equal strength |
-| **Sweden** | F | Netherlands, Japan, Tunisia | 4.4 | 3% | 14% | **86%** | ~10% | Facing Netherlands + Japan; very tough |
-| **Scotland** | C | Brazil, Morocco, Haiti | 5.0 | 14% | 30% | **70%** | ~10% | Two top-10 teams; miracle needed |
+| **Sweden** | F | Netherlands, Japan, Tunisia | 4.4 | 3% | **20%** | **80%** | ~10% | Facing Netherlands + Japan; very tough |
+| **Scotland** | C | Brazil, Morocco, Haiti | 5.0 | 14% | **40%** | **60%** | ~10% | Two top-10 teams; miracle needed |
 | **Norway** | I | France, Senegal, Iraq | 5.3 | 3% | 17% | **83%** | ~10% | France dominant; Senegal dangerous |
-| **Egypt** | G | Belgium, Iran, New Zealand | 5.0 | 10% | 43% | **57%** | ~10% | Iran close in strength; tough for 2nd |
-| **Ivory Coast** | E | Germany, Ecuador, Curaçao | 4.4 | 5% | 34% | **66%** | ~10% | Germany dominant; Ecuador ahead |
-| **Ghana** | L | England, Croatia, Panama | 2.1 | 1% | 3% | **97%** | ~5% | Massive quality gap to top 2 |
+| **Egypt** | G | Belgium, Iran, New Zealand | 5.0 | 10% | **58%** | **42%** | ~10% | Iran close in strength; tough for 2nd |
+| **Ivory Coast** | E | Germany, Ecuador, Curaçao | 4.4 | 5% | **44%** | **56%** | ~10% | Germany dominant; Ecuador ahead |
+| **Ghana** | L | England, Croatia, Panama | 2.1 | 1% | **5%** | **95%** | ~5% | Massive quality gap to top 2 |
 | **USA** | D | Turkey, Australia, Paraguay | 7.1 | **62%** | **87%** | 13% | **~45%** | Turkey/Australia fight for 2nd |
 | **Mexico** | A | South Korea, Czech Republic, South Africa | 7.1 | **55%** | **87%** | 13% | **~40%** | South Korea real challenge for 1st |
 
@@ -337,6 +337,6 @@ These countries should have reduced starter minutes in at least one game:
 | Ecuador | Ivory Coast competition | No room for error |
 
 ### Countries likely not advancing (affects knockout minutes to 0)
-Sweden (86%), Norway (83%), Scotland (70%), Ivory Coast (66%), Ghana (97%), Ecuador (34% eliminated), Turkey (44% eliminated)
+Norway (83%), Ghana (95%), Scotland (60%), Sweden (80%), Ivory Coast (56%), Ecuador (34% eliminated), Turkey (44% eliminated)
 
-*These players will have 3 group games of minutes at most, then zero knockout minutes in expectation.*
+*P(eliminated) after accounting for the 8-of-12 best third-place route. These players will have 3 group games of minutes at most, then near-zero knockout minutes in expectation.*
