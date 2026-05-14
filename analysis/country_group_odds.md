@@ -34,6 +34,13 @@ Expected points per team = Σ over 3 opponents of `3 × P(win) + 1 × P(draw)`
 ### Finishing Probability Conversion
 Expected points gaps converted to finishing probabilities using a sigmoid-style heuristic calibrated on historical WC group stage outcomes. **P(Dead Rubber G3)** = probability the team's group outcome (advance/eliminate AND final position) is already determined before game 3, meaning the manager can rotate freely.
 
+### Advancement Format — 2026 (48 teams)
+**32 teams advance to R32:** top 2 from each of 12 groups (24 teams) + **8 best 3rd-place teams** (ranked by points, then goal difference, then goals scored). This means roughly 2/3 of all 3rd-place finishers advance. **P(Advance)** in every group table below includes this 3rd-place route:
+
+`P(Advance) = P(finish 1st or 2nd) + P(finish 3rd) × P(qualify as best-8 3rd | finished 3rd)`
+
+Conditional P(qualify as best-8 3rd) is estimated from expected goal difference in 3rd-place scenarios — stronger teams facing weaker opposition in groups accumulate better GD and are more likely to make the best-8 cut. Typical estimates: **~65–70%** for strong 3rd-place finishers (GD ~ −1); **~45–55%** for medium (GD ~ −2); **~25–35%** for weak (GD ~ −4 or worse).
+
 ---
 
 ## All Team Strength Scores
@@ -101,10 +108,10 @@ Expected points gaps converted to finishing probabilities using a sigmoid-style 
 |------|-----------|---------|--------|--------|--------|------------|--------------|------------------|
 | **Mexico** | 15 | 7.1 | 5.60 | **55%** | 32% | **87%** | 13% | ~40% |
 | **South Korea** | 22 | 5.9 | 4.76 | 30% | **45%** | **75%** | 25% | ~20% |
-| Czech Republic | 44 | 4.3 | 3.89 | 13% | 20% | 33% | **67%** | ~10% |
-| South Africa | 61 | 2.9 | 2.35 | 2% | 3% | 5% | **95%** | ~5% |
+| Czech Republic | 44 | 4.3 | 3.89 | 13% | 20% | **62%** | **38%** | ~10% |
+| South Africa | 61 | 2.9 | 2.35 | 2% | 3% | 7% | **93%** | ~5% |
 
-**Read:** Mexico is the clear group favorite but S.Korea (0.84 pts behind in expected) makes this a real contest. Czech could sneak 2nd if both Mexico and S.Korea stumble. S.Africa has almost no path.
+**Read:** Mexico is the clear group favorite but S.Korea (0.84 pts behind in expected) makes this a real contest. Czech Republic's P(Advance) jumps to 62% once the 3rd-place route is included — Czech (4.3 strength) playing mostly weaker opposition accumulate reasonable GD and frequently qualify as a best-8 third. S.Africa has almost no path even as 3rd.
 
 **Key watchlist players:** Mexico (none on our list) — *note: this group has no players from our 139-player watchlist*
 
@@ -116,10 +123,10 @@ Expected points gaps converted to finishing probabilities using a sigmoid-style 
 |------|-----------|---------|--------|--------|--------|------------|--------------|------------------|
 | **Switzerland** | 17 | 6.5 | 5.63 | **47%** | 40% | **87%** | 13% | ~20% |
 | **Canada** | 27 | 5.7 | 5.29 | 43% | **40%** | **83%** | 17% | ~20% |
-| Qatar | 51 | 3.7 | 3.52 | 9% | 16% | 25% | **75%** | ~10% |
-| Bosnia | 71 | 2.2 | 2.22 | 1% | 4% | 5% | **95%** | ~5% |
+| Qatar | 51 | 3.7 | 3.52 | 9% | 16% | **49%** | **51%** | ~10% |
+| Bosnia | 71 | 2.2 | 2.22 | 1% | 4% | 7% | **93%** | ~5% |
 
-**Read:** This is the tightest group for the top-2 battle — Switzerland (6.5) vs Canada (5.7) is very close, gap of only 0.34 expected points. Either team could win the group. Qatar has an outside shot at 2nd if both collapse. No dead rubbers here; every game matters for Switzerland and Canada.
+**Read:** This is the tightest group for the top-2 battle — Switzerland (6.5) vs Canada (5.7) is very close, gap of only 0.34 expected points. Either team could win the group. Qatar rises to 49% P(Advance) with the 3rd-place route — they will often beat Bosnia comfortably and have a decent GD case. No dead rubbers here; every game matters for Switzerland and Canada.
 
 **Key watchlist players:** Switzerland (Kobel, Gregor), Canada (Jonathan David)
 
@@ -145,11 +152,11 @@ Expected points gaps converted to finishing probabilities using a sigmoid-style 
 | Team | FIFA Rank | Strength | E[Pts] | P(1st) | P(2nd) | P(Advance) | P(Eliminated) | P(Dead Rubber G3) |
 |------|-----------|---------|--------|--------|--------|------------|--------------|------------------|
 | **USA** | 14 | 7.1 | 5.02 | **62%** | 25% | **87%** | 13% | ~45% |
-| **Turkey** | 25 | 5.8 | 4.10 | 19% | **37%** | 56% | **44%** | ~15% |
-| **Australia** | 26 | 5.6 | 4.10 | 17% | 36% | 53% | **47%** | ~15% |
-| Paraguay | 39 | 4.6 | 3.22 | 2% | 2% | 4% | **96%** | ~5% |
+| **Turkey** | 25 | 5.8 | 4.10 | 19% | **37%** | **79%** | **21%** | ~15% |
+| **Australia** | 26 | 5.6 | 4.10 | 17% | 36% | **78%** | **22%** | ~15% |
+| Paraguay | 39 | 4.6 | 3.22 | 2% | 2% | **12%** | **88%** | ~5% |
 
-**Read:** USA's home advantage pushes them to clear group favorites. Turkey and Australia are near-identical in strength (5.8 vs 5.6) making 2nd place a coin-flip between them. Paraguay have almost no path. USA likely have a dead rubber game 3 — high probability (~45%) they've already clinched 1st by then.
+**Read:** USA's home advantage pushes them to clear group favorites. Turkey and Australia are near-identical in strength (5.8 vs 5.6) making 2nd place a coin-flip between them. The 3rd-place route is decisive here — whichever of Turkey/Australia finishes 3rd (37–38% chance each) has a ~65% conditional chance of being in the best 8, pushing both to ~79%/78% P(Advance). Paraguay (4.6 strength) also benefits modestly. USA likely have a dead rubber game 3.
 
 **Key watchlist players:** USA (Pulisic, Tillman, Weah), Turkey (Güler, Çalhanoğlu, Yıldız)
 
@@ -162,7 +169,7 @@ Expected points gaps converted to finishing probabilities using a sigmoid-style 
 | **Germany** | 9 | 7.9 | 6.15 | **78%** | 17% | **95%** | 5% | ~60% |
 | **Ecuador** | 23 | 5.8 | 5.08 | 16% | **50%** | 66% | **34%** | ~20% |
 | **Ivory Coast** | 42 | 4.4 | 4.23 | 5% | 29% | **44%** | **56%** | ~10% |
-| Curaçao | 82 | 1.3 | 1.38 | 1% | 4% | 5% | **95%** | ~5% |
+| Curaçao | 82 | 1.3 | 1.38 | 1% | 4% | 6% | **94%** | ~5% |
 
 **Read:** Germany has the highest expected points of any team across all groups (6.15). They are near-certain to advance and very likely to win the group. Curaçao are outclassed. The interesting battle is Ecuador vs Ivory Coast for 2nd — Ecuador (50% to finish 2nd) are modest favorites, but Ivory Coast (Amad Diallo) make it competitive. Germany's game 3 is likely a dead rubber with ~60% probability. Ivory Coast's overall P(advance) rises to 44% once the third-place route is factored in.
 
@@ -176,10 +183,10 @@ Expected points gaps converted to finishing probabilities using a sigmoid-style 
 |------|-----------|---------|--------|--------|--------|------------|--------------|------------------|
 | **Netherlands** | 7 | 8.2 | 5.65 | **72%** | 22% | **94%** | 6% | ~55% |
 | **Japan** | 18 | 6.8 | 4.73 | 22% | **55%** | 77% | **23%** | ~20% |
-| Tunisia | 40 | 4.5 | 3.08 | 3% | 12% | 15% | **85%** | ~10% |
-| **Sweden** | 43 | 4.4 | 3.08 | 3% | 11% | **20%** | **80%** | ~10% |
+| Tunisia | 40 | 4.5 | 3.08 | 3% | 12% | **29%** | **71%** | ~10% |
+| **Sweden** | 43 | 4.4 | 3.08 | 3% | 11% | **28%** | **72%** | ~10% |
 
-**Read:** Netherlands are heavy group favorites (94% P(advance)). Japan are comfortable 2nd most likely. Tunisia and Sweden are near-identical (both 4.4–4.5) and face an uphill battle. For Sweden, Gyökeres and Isak need a near-perfect campaign just to reach the knockouts. Netherlands' game 3 is very likely a dead rubber. Sweden's overall P(advance) rises to 20% once the third-place route is included.
+**Read:** Netherlands are heavy group favorites (94% P(advance)). Japan are comfortable 2nd most likely. Tunisia and Sweden are near-identical (both 4.4–4.5) and face an uphill battle. Whichever of the two finishes 3rd has a ~32% chance of doing so and a ~44% conditional chance of being in the best 8 — poor GD expected after facing Netherlands. Sweden rises to 28% and Tunisia to 29% P(Advance) with the 3rd-place route. Netherlands' game 3 is very likely a dead rubber.
 
 **Key watchlist players:** Netherlands (Van Dijk, Dumfries, Gravenberch, Timber), Sweden (Gyökeres, Isak, Svensson)
 
@@ -190,11 +197,11 @@ Expected points gaps converted to finishing probabilities using a sigmoid-style 
 | Team | FIFA Rank | Strength | E[Pts] | P(1st) | P(2nd) | P(Advance) | P(Eliminated) | P(Dead Rubber G3) |
 |------|-----------|---------|--------|--------|--------|------------|--------------|------------------|
 | **Belgium** | 8 | 7.6 | 5.93 | **70%** | 22% | **92%** | 8% | ~50% |
-| **Iran** | 20 | 5.5 | 5.07 | 19% | **44%** | 63% | **37%** | ~15% |
+| **Iran** | 20 | 5.5 | 5.07 | 19% | **44%** | **79%** | **21%** | ~15% |
 | **Egypt** | 34 | 5.0 | 4.78 | 10% | 33% | **58%** | **42%** | ~10% |
-| New Zealand | 86 | 1.0 | 1.08 | 1% | 1% | 2% | **98%** | ~5% |
+| New Zealand | 86 | 1.0 | 1.08 | 1% | 1% | 3% | **97%** | ~5% |
 
-**Read:** Belgium are clear favorites but this group is trickier than it looks — Iran (ranked 20th) are a genuine 2nd-place threat, and Egypt (Salah) are not far behind. The Iran vs Egypt match will be a real contest for 2nd. Belgium likely have a dead rubber game 3. Egypt's P(advance) bumped to 58% once the 8-of-12 third-place route is included.
+**Read:** Belgium are clear favorites but this group is trickier than it looks — Iran (ranked 20th) are a genuine 2nd-place threat, and Egypt (Salah) are not far behind. Iran rises to 79% P(Advance) with the 3rd-place route included (P(finish 3rd) ≈ 28%, decent GD expected). Egypt rises to 58%. The Iran vs Egypt match will be a real contest for 2nd. Belgium likely have a dead rubber game 3.
 
 **Key watchlist players:** Belgium (Courtois, Thibaut, De Bruyne, Doku, Lukaku?), Egypt (Salah, Marmoush)
 
@@ -206,10 +213,10 @@ Expected points gaps converted to finishing probabilities using a sigmoid-style 
 |------|-----------|---------|--------|--------|--------|------------|--------------|------------------|
 | **Spain** | 1 | 9.7 | 6.29 | **80%** | 17% | **97%** | 3% | ~60% |
 | **Uruguay** | 16 | 7.0 | 5.51 | 18% | **76%** | 94% | **6%** | ~50% |
-| Saudi Arabia | 60 | 3.0 | 2.75 | 1% | 5% | 6% | **94%** | ~5% |
-| Cape Verde | 68 | 2.5 | 2.27 | 1% | 2% | 3% | **97%** | ~5% |
+| Saudi Arabia | 60 | 3.0 | 2.75 | 1% | 5% | **18%** | **82%** | ~5% |
+| Cape Verde | 68 | 2.5 | 2.27 | 1% | 2% | 5% | **95%** | ~5% |
 
-**Read:** Spain and Uruguay are near-certain to both advance (97% and 94% respectively). Saudi Arabia and Cape Verde are makeweights. The key game is Spain vs Uruguay — that determines who finishes 1st and therefore gets an easier R32 path. **Both teams likely have dead rubber game 3s** (high probability both qualify before the final round). Valverde/Fernández minutes will be managed carefully. Spain playing without Rodri makes the group slightly more interesting.
+**Read:** Spain and Uruguay are near-certain to both advance (97% and 94% respectively). Saudi Arabia rises to 18% P(Advance) with the 3rd-place route — they'll typically beat Cape Verde and will be assessed as 3rd, though poor GD (losing to Spain and Uruguay by multiple goals) limits their conditional qualification chance to ~25%. The key group game is Spain vs Uruguay for 1st. **Both teams likely have dead rubber game 3s.** Valverde/Fernández minutes will be managed carefully.
 
 **Key watchlist players:** Spain (Simón, Raya, Cubarsí, Saliba's France isn't here — Spain's: Cucurella, Le Normand, Huijsen, Olmo, Pedri, Yamal, etc.), Uruguay (Valverde, Fernández)
 
@@ -221,10 +228,10 @@ Expected points gaps converted to finishing probabilities using a sigmoid-style 
 |------|-----------|---------|--------|--------|--------|------------|--------------|------------------|
 | **France** | 3 | 10.0 | 6.16 | **82%** | 15% | **97%** | 3% | ~60% |
 | **Senegal** | 19 | 7.1 | 4.76 | 14% | **70%** | 84% | **16%** | ~30% |
-| **Norway** | 29 | 5.3 | 3.69 | 3% | 14% | 17% | **83%** | ~10% |
-| Iraq | 58 | 3.2 | 2.10 | 1% | 1% | 2% | **98%** | ~5% |
+| **Norway** | 29 | 5.3 | 3.69 | 3% | 14% | **58%** | **42%** | ~10% |
+| Iraq | 58 | 3.2 | 2.10 | 1% | 1% | 3% | **97%** | ~5% |
 
-**Read:** France are the group's dominant force (82% to win it). Senegal are comfortable 2nd favorites. Norway (Haaland + Ødegaard) have only a 17% chance of advancing — Haaland will likely play all 3 group games but go home early. France's game 3 (likely vs Iraq or Senegal) is a probable dead rubber. Olise and Mbappé likely rested.
+**Read:** France are the group's dominant force (82% to win it). Senegal are comfortable 2nd favorites. Norway's P(Advance) rises dramatically to **58%** with the 3rd-place route: Norway finishes 3rd roughly 70% of the time (almost always beating Iraq, almost always losing to France and Senegal), and their expected GD as 3rd (~−1 or better) makes them a strong best-8 candidate — roughly 58% conditional probability of qualifying. Haaland plays all 3 group games regardless; he and Ødegaard now have meaningful knockout-stage exposure. France's game 3 is a probable dead rubber; Olise and Mbappé likely rested.
 
 **Key watchlist players:** France (Maignan, Saliba, Upamecano, Koundé, Mbappé, Dembélé, Doué, Olise, Ekitiké, Cherki), Norway (Haaland, Ødegaard)
 
@@ -235,11 +242,11 @@ Expected points gaps converted to finishing probabilities using a sigmoid-style 
 | Team | FIFA Rank | Strength | E[Pts] | P(1st) | P(2nd) | P(Advance) | P(Eliminated) | P(Dead Rubber G3) |
 |------|-----------|---------|--------|--------|--------|------------|--------------|------------------|
 | **Argentina** | 2 | 10.0 | 6.38 | **88%** | 10% | **98%** | 2% | ~70% |
-| Austria | 24 | 5.9 | 4.56 | 9% | **53%** | 62% | **38%** | ~15% |
-| Algeria | 35 | 4.9 | 3.91 | 3% | 34% | 37% | **63%** | ~10% |
-| Jordan | 66 | 2.5 | 1.90 | 0% | 3% | 3% | **97%** | ~5% |
+| **Austria** | 24 | 5.9 | 4.56 | 9% | **53%** | **72%** | **28%** | ~15% |
+| **Algeria** | 35 | 4.9 | 3.91 | 3% | 34% | **55%** | **45%** | ~10% |
+| Jordan | 66 | 2.5 | 1.90 | 0% | 3% | 4% | **96%** | ~5% |
 
-**Read:** Argentina have the highest expected points across all 48 teams (6.38). They are near-certain to advance (98%) and overwhelmingly likely to win the group (88%). Argentina's game 3 is the strongest dead rubber candidate in the entire tournament (~70%). Expect Lautaro, Enzo, and potentially Álvarez to be rested. Austria vs Algeria is a real 2nd-place contest.
+**Read:** Argentina have the highest expected points across all 48 teams (6.38). They are near-certain to advance (98%) and overwhelmingly likely to win the group (88%). Argentina's game 3 is the strongest dead rubber candidate in the entire tournament (~70%). Expect Lautaro, Enzo, and potentially Álvarez to be rested. Austria vs Algeria is a real 2nd-place contest — and with the 3rd-place route, even the loser of that battle (the team finishing 3rd) has a solid chance of advancing: Austria rises to 72% and Algeria to 55% P(Advance) overall.
 
 **Key watchlist players:** Argentina (Martínez, Romero, Enzo Fernández, Julián Álvarez, Lautaro, Soulé)
 
@@ -251,10 +258,10 @@ Expected points gaps converted to finishing probabilities using a sigmoid-style 
 |------|-----------|---------|--------|--------|--------|------------|--------------|------------------|
 | **Portugal** | 6 | 8.6 | 5.99 | **68%** | 27% | **95%** | 5% | ~45% |
 | **Colombia** | 13 | 7.3 | 5.34 | 28% | **61%** | 89% | **11%** | ~35% |
-| Uzbekistan | 50 | 3.9 | 3.00 | 3% | 9% | 12% | **88%** | ~10% |
-| DR Congo | 56 | 3.3 | 2.39 | 1% | 3% | 4% | **96%** | ~5% |
+| Uzbekistan | 50 | 3.9 | 3.00 | 3% | 9% | **25%** | **75%** | ~10% |
+| DR Congo | 56 | 3.3 | 2.39 | 1% | 3% | **10%** | **90%** | ~5% |
 
-**Read:** Portugal and Colombia are both very likely to advance (95% and 89%). The group winner race is a real contest (68% vs 28%). Their head-to-head (Bruno Fernandes vs Caicedo/Lucho Díaz) is the marquee group game. Both managers may rotate for game 3 if both qualified. Uzbekistan and DR Congo are outmatched.
+**Read:** Portugal and Colombia are both very likely to advance (95% and 89%). The group winner race is a real contest (68% vs 28%). Their head-to-head (Bruno Fernandes vs Caicedo/Lucho Díaz) is the marquee group game. Both managers may rotate for game 3 if both qualified. Uzbekistan rises to 25% P(Advance) with the 3rd-place route — they'll beat DR Congo and have a reasonable GD case. DR Congo has a small 10% chance of sneaking through as a 3rd-place qualifier.
 
 **Key watchlist players:** Portugal (Rúben Dias, Nuno Mendes, Vitinha, Bruno Fernandes, João Neves, Neto, Leão), Colombia (Caicedo, Luis Díaz)
 
@@ -266,10 +273,10 @@ Expected points gaps converted to finishing probabilities using a sigmoid-style 
 |------|-----------|---------|--------|--------|--------|------------|--------------|------------------|
 | **England** | 4 | 9.3 | 5.97 | **72%** | 23% | **95%** | 5% | ~55% |
 | **Croatia** | 10 | 7.4 | 5.08 | 22% | **60%** | 82% | **18%** | ~30% |
-| **Panama** | 30 | 5.3 | 4.08 | 5% | 15% | 20% | **80%** | ~10% |
+| **Panama** | 30 | 5.3 | 4.08 | 5% | 15% | **46%** | **54%** | ~10% |
 | **Ghana** | 72 | 2.1 | 1.65 | 1% | 2% | **5%** | **95%** | ~5% |
 
-**Read:** England are clear group favorites. Croatia (Modric generation's final WC — likely) are comfortable 2nd favorites at 60%. Panama is the only team that could disrupt — a 20% chance of advancing is not negligible. Ghana (Kudus) have almost no path — P(advance) rises to only 5% even with the third-place route included. England likely have a dead rubber game 3 (~55%). Expect Pickford, Rice, Kane to be rested.
+**Read:** England are clear group favorites. Croatia are comfortable 2nd favorites at 60%. Panama rises dramatically to 46% P(Advance) with the 3rd-place route — they'll beat Ghana comfortably, suffer narrow losses to England and Croatia, and finish 3rd with a solid GD (~0), giving them a ~65% conditional chance of making the best-8 cut. Ghana P(advance) stays at 5% even as 3rd (massive quality gap, terrible expected GD). England likely have a dead rubber game 3 (~55%).
 
 **Key watchlist players:** England (Pickford, Guéhi, Alexander-Arnold, Konsa, Quansah, Rice, Bellingham, Saka, Kane, Watkins, Rashford?), Croatia (Gvardiol), Ghana (Kudus)
 
@@ -295,10 +302,10 @@ Expected points gaps converted to finishing probabilities using a sigmoid-style 
 | **Switzerland** | B | Canada, Qatar, Bosnia | 6.5 | **47%** | **87%** | 13% | **~20%** | Canada neck-and-neck; no dead rubber |
 | **Canada** | B | Switzerland, Qatar, Bosnia | 5.7 | 43% | **83%** | 17% | **~20%** | Switzerland the primary obstacle |
 | **Ecuador** | E | Germany, Ivory Coast, Curaçao | 5.8 | 16% | 66% | **34%** | **~20%** | Germany dominant; Ivory Coast danger |
-| **Turkey** | D | USA, Australia, Paraguay | 5.8 | 19% | 56% | **44%** | **~15%** | Australia near-equal strength |
-| **Sweden** | F | Netherlands, Japan, Tunisia | 4.4 | 3% | **20%** | **80%** | ~10% | Facing Netherlands + Japan; very tough |
+| **Turkey** | D | USA, Australia, Paraguay | 5.8 | 19% | **79%** | **21%** | **~15%** | 3rd-place route key; coin-flip with Australia |
+| **Sweden** | F | Netherlands, Japan, Tunisia | 4.4 | 3% | **28%** | **72%** | ~10% | 3rd-place route adds ~14pp; poor GD caps it |
 | **Scotland** | C | Brazil, Morocco, Haiti | 5.0 | 14% | **40%** | **60%** | ~10% | Two top-10 teams; miracle needed |
-| **Norway** | I | France, Senegal, Iraq | 5.3 | 3% | 17% | **83%** | ~10% | France dominant; Senegal dangerous |
+| **Norway** | I | France, Senegal, Iraq | 5.3 | 3% | **58%** | **42%** | ~10% | 3rd-place route huge; expect 3pts vs Iraq, decent GD |
 | **Egypt** | G | Belgium, Iran, New Zealand | 5.0 | 10% | **58%** | **42%** | ~10% | Iran close in strength; tough for 2nd |
 | **Ivory Coast** | E | Germany, Ecuador, Curaçao | 4.4 | 5% | **44%** | **56%** | ~10% | Germany dominant; Ecuador ahead |
 | **Ghana** | L | England, Croatia, Panama | 2.1 | 1% | **5%** | **95%** | ~5% | Massive quality gap to top 2 |
@@ -336,7 +343,15 @@ These countries should have reduced starter minutes in at least one game:
 | Colombia | Portugal fights for 1st | High-intensity all 3 games |
 | Ecuador | Ivory Coast competition | No room for error |
 
-### Countries likely not advancing (affects knockout minutes to 0)
-Norway (83%), Ghana (95%), Scotland (60%), Sweden (80%), Ivory Coast (56%), Ecuador (34% eliminated), Turkey (44% eliminated)
+### Countries with significant elimination risk (affects knockout-minute weighting)
+| Country | P(Eliminated) | Notes |
+|---------|--------------|-------|
+| Ghana | 95% | Almost certain 4th-place finish; Kudus plays group games only |
+| Scotland | 60% | Strong 3rd-place candidate but Brazil/Morocco group is brutal |
+| Sweden | 72% | Poor GD expected in group limits 3rd-place chances |
+| Ivory Coast | 56% | Often finish 3rd in Group E; borderline best-8 candidate |
+| Ecuador | 34% | Has a real shot; Caicedo anchors their campaign |
+| Turkey | 21% | Now 79% P(Advance) — 3rd-place route makes them likely qualifiers |
+| Norway | 42% | Now 58% P(Advance) — Haaland/Ødegaard have real knockout exposure |
 
-*P(eliminated) after accounting for the 8-of-12 best third-place route. These players will have 3 group games of minutes at most, then near-zero knockout minutes in expectation.*
+*The 3rd-place route matters enormously: in the 2026 format, even clear 3rd-place finishers often advance. Only teams with very poor expected GD (Ghana, South Africa, New Zealand, Haiti, etc.) should be treated as near-certain eliminations.*

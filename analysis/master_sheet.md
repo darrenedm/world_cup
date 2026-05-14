@@ -48,12 +48,12 @@
 | USA | D | 87% | 45% | 2.1 |
 | Canada | B | 83% | 20% | 1.8 |
 | Ecuador | E | 66% | 20% | 1.8 |
-| Turkey | D | 56% | 15% | 1.8 |
+| Turkey | D | 79% | 15% | 1.8 |
 | Egypt | G | 58% | 10% | 1.2 |
 | Ivory Coast | E | 44% | 10% | 1.3 |
 | Scotland | C | 40% | 10% | 1.3 |
-| Norway | I | 17% | 10% | 1.3 |
-| Sweden | F | 20% | 10% | 1.3 |
+| Norway | I | 58% | 10% | 1.3 |
+| Sweden | F | 28% | 10% | 1.3 |
 | Ghana | L | 5% | 5% | 1.3 |
 
 ---
@@ -110,7 +110,7 @@
 | Dean Huijsen | Real Madrid | Spain | 78% | CB | Impact Sub | 39.0 | 64 | 5 caps; gets dead rubber starts; 20 yrs old |
 | Alejandro Grimaldo | Bayer Leverkusen | Spain | 72% | LB | Impact Sub | 39.0 | 64 | 8G/7A from LB; backup to Cucurella |
 | Pedro Porro | Tottenham | Spain | 72% | RB | Impact Sub | 39.0 | 64 | ~12 Spain caps; cover for Carvajal role |
-| Daniel Svensson | B. Dortmund | Sweden | 55% | LB | Impact Sub | 31.5 | 5 | 2 Sweden caps; competing for squad spot |
+| Daniel Svensson | B. Dortmund | Sweden | 55% | LB | Impact Sub | 31.5 | 7 | 2 Sweden caps; competing for squad spot |
 | Jarell Quansah | Bayer Leverkusen | England | 52% | CB | Fringe | 15.3 | 14 | 1 senior cap; dead rubber minutes only |
 | Leny Yoro | Manchester United | France | 22% | CB | Depth | 3 | 6 | No senior France caps yet |
 | Álvaro Carreras | Real Madrid | Spain | 22% | LB | Depth | 3 | 6 | Zero senior Spain caps |
@@ -136,14 +136,14 @@
 | Moisés Caicedo | Chelsea | Ecuador | 95% | DM | Automatic Starter | 86.1 | 107 | Ecuador's best; discipline concern (11Y 1R) |
 | Christian Pulisic | AC Milan | USA | 99% | AM | Automatic Starter | 83.8 | 164 | USMNT captain and best player; 84 caps |
 | Scott McTominay | Napoli | Scotland | 98% | CM | Automatic Starter | 87.1 | 47 | Scotland WC hero; bicycle kick vs Denmark |
-| Martin Ødegaard | Arsenal | Norway | 82% | AM | Automatic Starter | 87.1 | 20 | **[INJ]** Knee + shoulder all season; Norway captain |
+| Martin Ødegaard | Arsenal | Norway | 82% | AM | Automatic Starter | 87.1 | 68 | **[INJ]** Knee + shoulder all season; Norway captain |
 | Mohammed Kudus | Tottenham | Ghana | 88% | AM | Automatic Starter | 87.5 | 6 | Ghana's best player; limited by Spurs' poor season |
 | Jude Bellingham | Real Madrid | England | 85% | CM | Automatic Starter | 82.9 | 256 | **[INJ]** Hamstring Feb-Apr; Tuchel wants him regardless |
 | Dani Olmo | Barcelona | Spain | 88% | AM | Regular Starter | 71.0 | 256 | Euro 2024 Golden Boot; rotates in attack |
 | Malik Tillman | Bayer Leverkusen | USA | 95% | AM | Regular Starter | 71.9 | 146 | USMNT key creative force; starts most games |
 | Kevin De Bruyne | Napoli | Belgium | 72% | CM | Regular Starter | 71.7 | 184 | **[MGD]** Age 34; hamstring Oct-Mar; managed carefully |
-| Arda Güler | Real Madrid | Turkey | 78% | AM | Regular Starter | 74.0 | 81 | **[INJ]** Thigh tear Apr 21; targeting Jun 13 opener |
-| Hakan Çalhanoğlu | Inter Milan | Turkey | 71% | DM | Regular Starter | 74.0 | 81 | **[INJ]** Soleus May 2026; fitness race for Jun 13 |
+| Arda Güler | Real Madrid | Turkey | 78% | AM | Regular Starter | 74.0 | 114 | **[INJ]** Thigh tear Apr 21; targeting Jun 13 opener |
+| Hakan Çalhanoğlu | Inter Milan | Turkey | 71% | DM | Regular Starter | 74.0 | 114 | **[INJ]** Soleus May 2026; fitness race for Jun 13 |
 | Cole Palmer | Chelsea | England | 74% | AM | Impact Sub | 38.3 | 57 | **[INJ]** Chronic pubalgia; impact sub role |
 | Eberechi Eze | Arsenal | England | 72% | AM | Impact Sub | 38.3 | 57 | Different option for England; ~10 caps |
 | Angelo Stiller | Stuttgart | Germany | 62% | DM | Impact Sub | 39.0 | 51 | Germany backup DM; won't start over Kimmich |
@@ -163,7 +163,7 @@
 
 | Player | Club | Country | WC Prob | Playing Role | Group Mins/Game | Exp Post-Group Mins | Notes |
 |--------|------|---------|---------|-------------|----------------|--------------------|----|
-| Erling Haaland | Manchester City | Norway | 99% | Automatic Starter | 87.1 | 20 | Broke PL record (35 PL goals); Norway's everything |
+| Erling Haaland | Manchester City | Norway | 99% | Automatic Starter | 87.1 | 68 | Broke PL record (35 PL goals); Norway's everything |
 | Harry Kane | Bayern Munich | England | 99% | Automatic Starter | 82.9 | 256 | England captain; 33 BL goals; automatic |
 | Kylian Mbappé | Real Madrid | France | 99% | Automatic Starter | 82.4 | 288 | France captain; 41 goals all comps; irreplaceable |
 | Lamine Yamal | Barcelona | Spain | 99% | Automatic Starter | 82.4 | 288 | Spain talisman; 17G/13A La Liga; non-negotiable |
@@ -175,12 +175,12 @@
 | Luis Díaz | Bayern Munich | Colombia | 92% | Automatic Starter | 84.7 | 176 | Colombia's best; 15G/13A — BL's best output |
 | Jonathan David | Juventus | Canada | 90% | Automatic Starter | 86.1 | 134 | Canada all-time top scorer; hosts nation |
 | Raphinha | Barcelona | Brazil | 82% | Automatic Starter | 86.1 | 202 | Brazil captain; first choice right winger |
-| Viktor Gyökeres | Arsenal | Sweden | 82% | Automatic Starter | 87.1 | 23 | Sweden's standout striker; 14 PL goals |
+| Viktor Gyökeres | Arsenal | Sweden | 82% | Automatic Starter | 87.1 | 33 | Sweden's standout striker; 14 PL goals |
 | Julián Álvarez | Atlético Madrid | Argentina | 85% | Regular Starter | 70.3 | 259 | Often starts alongside Lautaro; 2022 WC winner |
-| Kenan Yıldız | Juventus | Turkey | 85% | Automatic Starter | 86.6 | 91 | Turkey's defining player |
+| Kenan Yıldız | Juventus | Turkey | 85% | Automatic Starter | 86.6 | 128 | Turkey's defining player |
 | Amad Diallo | Manchester United | Ivory Coast | 80% | Automatic Starter | 87.1 | 51 | WC qualifying hero; Ivory Coast's talisman |
 | Ousmane Dembélé | PSG | France | 75% | Regular Starter | 71.0 | 256 | Established France starter; trusted by Deschamps |
-| Alexander Isak | Liverpool | Sweden | 72% | Regular Starter | 74.3 | 21 | **[INJ]** Injury-ravaged season; starts if fit |
+| Alexander Isak | Liverpool | Sweden | 72% | Regular Starter | 74.3 | 29 | **[INJ]** Injury-ravaged season; starts if fit |
 | Jérémy Doku | Manchester City | Belgium | 72% | Impact Sub | 37.5 | 46 | Regular Belgium squad; rotation at City |
 | Pedro Neto | Chelsea | Portugal | 68% | Impact Sub | 36.8 | 57 | Nations League winner; regular squad member |
 | Omar Marmoush | Manchester City | Egypt | 68% | Impact Sub | 31.5 | 14 | **[INJ]** Knee Sep 2025; wrecked season; limited role |
@@ -207,7 +207,7 @@
 **Highest total expected minutes (assuming squad inclusion):**
 Lautaro Martínez, Enzo Fernández, Emiliano Martínez (Argentina ~82+291), Mbappé, Olise, Saliba, Koundé, Upamecano, Yamal (France/Spain ~82+288) dominate because their countries have the highest P(advance) × E[KO games].
 
-**The Haaland paradox:** 87 group mins/game (plays every minute for Norway) but only 20 expected post-group minutes. Norway's 17% P(advance) means he almost certainly goes home after 3 games despite being the tournament's most dangerous individual threat.
+**The Haaland paradox revised:** 87 group mins/game for Norway, and now 68 expected post-group minutes — not as bleak as originally modelled. Norway's P(Advance) rises to 58% once the 3rd-place route is included (they beat Iraq most of the time, and a GD of ~−1 makes them strong best-8 candidates). Haaland likely goes home after 3 games in 42% of scenarios, but in 58% he has real knockout exposure. Still a far cry from the 288 expected post-group minutes for Mbappé.
 
 **Argentina's dead rubber effect:** All Argentina players take a ~6-min/game hit in group stage average vs equivalent tier on Brazil/Morocco (70% vs 20% P(DR G3)). Lautaro and Enzo likely rest in game 3 against Jordan.
 

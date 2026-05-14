@@ -43,7 +43,7 @@ Gabriel Magalhães,DEF,CB,Arsenal,Brazil,C,95,1,Automatic Starter,86.1,202,83,20
 Nuno Mendes,DEF,LB,PSG,Portugal,K,85,1,Automatic Starter,83.8,256,95,45,Managed,Nations League best player Jun 2025; minor thigh
 Rúben Dias,DEF,CB,Manchester City,Portugal,K,80,1,Automatic Starter,83.8,256,95,45,Injury,Ankle injury Mar/Apr; near return; Portugal linchpin
 Joško Gvardiol,DEF,LB,Manchester City,Croatia,L,68,1,Automatic Starter,85.2,162,82,30,Injury,Tibial fracture Jan 2026; back in training May; WC target
-Daniel Svensson,DEF,LB,B. Dortmund,Sweden,F,55,3,Impact Sub,31.5,5,20,10,Fit,Only 2 Sweden caps; competing for squad place
+Daniel Svensson,DEF,LB,B. Dortmund,Sweden,F,55,3,Impact Sub,31.5,7,28,10,Fit,Only 2 Sweden caps; competing for squad place
 Michael Olise,MID,AM,Bayern Munich,France,I,96,1,Automatic Starter,82.4,288,97,60,Fit,15G/18A — best MF stats in Europe; France creative hub
 Rayan Cherki,MID,AM,Manchester City,France,I,52,4,Fringe,15.6,16,97,60,Fit,6 France caps; France depth means dead rubber only
 Maghnes Akliouche,MID,AM,AS Monaco,France,I,55,5,Depth,3,6,97,60,Fit,Fringe squad; France AM depth extraordinary
@@ -74,9 +74,9 @@ Moisés Caicedo,MID,DM,Chelsea,Ecuador,E,95,1,Automatic Starter,86.1,107,66,20,F
 Christian Pulisic,MID,AM,AC Milan,USA,D,99,1,Automatic Starter,83.8,164,87,45,Fit,USMNT captain and best player; 84 caps / 32 goals
 Malik Tillman,MID,AM,Bayer Leverkusen,USA,D,95,2,Regular Starter,71.9,146,87,45,Fit,USMNT key creative force; 28 caps; starts most games
 Scott McTominay,MID,CM,Napoli,Scotland,C,98,1,Automatic Starter,87.1,47,40,10,Fit,Scotland captain; WC-qualifying hero; bicycle kick vs Denmark
-Martin Ødegaard,MID,AM,Arsenal,Norway,I,82,1,Automatic Starter,87.1,20,17,10,Injury,Norway captain; knee + shoulder throughout season; critical
-Hakan Çalhanoğlu,MID,DM,Inter Milan,Turkey,D,71,2,Regular Starter,74.0,81,56,15,Injury,Soleus May 2026; out for club season; fitness race for Jun 13
-Arda Güler,MID,AM,Real Madrid,Turkey,D,78,2,Regular Starter,74.0,81,56,15,Injury,Thigh tear Apr 21; targeting Jun 13 opener; race vs time
+Martin Ødegaard,MID,AM,Arsenal,Norway,I,82,1,Automatic Starter,87.1,68,58,10,Injury,Norway captain; knee + shoulder throughout season; critical
+Hakan Çalhanoğlu,MID,DM,Inter Milan,Turkey,D,71,2,Regular Starter,74.0,114,79,15,Injury,Soleus May 2026; out for club season; fitness race for Jun 13
+Arda Güler,MID,AM,Real Madrid,Turkey,D,78,2,Regular Starter,74.0,114,79,15,Injury,Thigh tear Apr 21; targeting Jun 13 opener; race vs time
 Kevin De Bruyne,MID,CM,Napoli,Belgium,G,72,2,Regular Starter,71.7,184,92,50,Managed,Age 34; hamstring Oct-Mar; Belgium include if he can play
 Mohammed Kudus,MID,AM,Tottenham,Ghana,L,88,1,Automatic Starter,87.5,6,5,5,Fit,Ghana's best player; 19 PL apps hurt by Spurs' poor season
 Harry Kane,FWD,,Bayern Munich,England,L,99,1,Automatic Starter,82.9,256,95,55,Fit,England captain; 33 BL goals; automatic starter
@@ -88,18 +88,18 @@ Vinícius Júnior,FWD,,Real Madrid,Brazil,C,95,1,Automatic Starter,86.1,202,83,2
 Bukayo Saka,FWD,,Arsenal,England,L,92,1,Automatic Starter,82.9,256,95,55,Fit,England first-choice right winger; consistent two-way threat
 Luis Díaz,FWD,,Bayern Munich,Colombia,K,92,1,Automatic Starter,84.7,176,89,35,Fit,Colombia's best player; 15G/13A — best BL season by anyone
 Jonathan David,FWD,,Juventus,Canada,B,90,1,Automatic Starter,86.1,134,83,20,Fit,Canada all-time top scorer; hosts nation; 39 intl goals
-Kenan Yıldız,FWD,,Juventus,Turkey,D,85,1,Automatic Starter,86.6,91,56,15,Fit,Turkey's defining player; 23 career caps
+Kenan Yıldız,FWD,,Juventus,Turkey,D,85,1,Automatic Starter,86.6,128,79,15,Fit,Turkey's defining player; 23 career caps
 Julián Álvarez,FWD,,Atlético Madrid,Argentina,J,85,2,Regular Starter,70.3,259,98,70,Fit,2022 WC winner; often starts alongside Lautaro
 Amad Diallo,FWD,,Manchester United,Ivory Coast,E,80,1,Automatic Starter,87.1,51,44,10,Fit,18 caps / 5 goals; WC qualifying hero; Ivory Coast talisman
 Raphinha,FWD,,Barcelona,Brazil,C,82,1,Automatic Starter,86.1,202,83,20,Fit,Brazil captain; first choice right winger
-Viktor Gyökeres,FWD,,Arsenal,Sweden,F,82,1,Automatic Starter,87.1,23,20,10,Fit,Sweden's standout striker; 15 intl goals; 14 PL goals
+Viktor Gyökeres,FWD,,Arsenal,Sweden,F,82,1,Automatic Starter,87.1,33,28,10,Fit,Sweden's standout striker; 15 intl goals; 14 PL goals
 Désiré Doué,FWD,,PSG,France,I,72,3,Impact Sub,39.0,64,97,60,Fit,26G across 5 comps; 8 caps; France depth limits starts
-Alexander Isak,FWD,,Liverpool,Sweden,F,72,2,Regular Starter,74.3,21,20,10,Injury,Injury-ravaged season; only 3 goals; starts if fit
+Alexander Isak,FWD,,Liverpool,Sweden,F,72,2,Regular Starter,74.3,29,28,10,Injury,Injury-ravaged season; only 3 goals; starts if fit
 Ousmane Dembélé,FWD,,PSG,France,I,75,2,Regular Starter,71.0,256,97,60,Fit,Established France starter; trusted by Deschamps
 Ollie Watkins,FWD,,Aston Villa,England,L,65,3,Impact Sub,38.3,57,95,55,Fit,Kane backup; 16G all comps; likely squad pick
 Rafael Leão,FWD,,AC Milan,Portugal,K,65,3,Impact Sub,36.8,57,95,45,Fit,Quality but inconsistent; depth behind Neto/Ramos
 Jonathan Burkardt,FWD,,Eintracht Frankfurt,Germany,E,55,3,Impact Sub,39.0,51,95,60,Fit,5 caps; emerging Germany option; competing for 1 spot
-Erling Haaland,FWD,,Manchester City,Norway,I,99,1,Automatic Starter,87.1,20,17,10,Fit,Broke PL record (35 PL goals); Norway's everything
+Erling Haaland,FWD,,Manchester City,Norway,I,99,1,Automatic Starter,87.1,68,58,10,Fit,Broke PL record (35 PL goals); Norway's everything
 Jérémy Doku,FWD,,Manchester City,Belgium,G,72,3,Impact Sub,37.5,46,92,50,Fit,Regular Belgium squad; rotation at City limits him
 João Pedro,FWD,,Chelsea,Brazil,C,42,4,Fringe,13.2,11,83,20,Fit,14G for Chelsea; competing vs massive Brazil forward depth
 Pedro Neto,FWD,,Chelsea,Portugal,K,68,3,Impact Sub,36.8,57,95,45,Fit,Nations League winner; creative winger; regular squad member
