@@ -328,7 +328,7 @@ def compute_player_pts(row):
 
 
 def main():
-    path = '/tmp/world_cup/data/master_sheet.csv'
+    path = '/tmp/world_cup_fresh/data/master_sheet.csv'
 
     with open(path, newline='', encoding='utf-8') as f:
         reader    = csv.DictReader(f)

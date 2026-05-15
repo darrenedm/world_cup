@@ -277,7 +277,7 @@ NAME_MAP = {
 
 def main():
     # Load CSV
-    with open('/tmp/world_cup/data/master_sheet.csv', newline='', encoding='utf-8') as f:
+    with open('/tmp/world_cup_fresh/data/master_sheet.csv', newline='', encoding='utf-8') as f:
         csv_rows = {r['player']: r for r in csv.DictReader(f)}
 
     # Build lookup: price_name → csv_row (or None)
@@ -428,7 +428,7 @@ def main():
             f"| {e['value']:.1f} | {e['value_index']} | {note} |"
         )
 
-    out_path = '/tmp/world_cup/analysis/valuation_sheet.md'
+    out_path = '/tmp/world_cup_fresh/analysis/valuation_sheet.md'
     with open(out_path, 'w', encoding='utf-8') as f:
         f.write('\n'.join(lines) + '\n')
 
