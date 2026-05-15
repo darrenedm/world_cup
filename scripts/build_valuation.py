@@ -4,7 +4,7 @@ build_valuation.py
 Cross-references price-list with master_sheet.csv expected WC points.
 Outputs analysis/valuation_sheet.md — ranked by value_score within each position bracket.
 value_score = total_exp_fantasy_pts / price
-value_index = (value_score / position_mean_value_score) × 100  (100 = average)
+value_index = (value_score / position_mean_value_score) × 100  (100 = average T1/T2 starter)
 """
 import csv
 from collections import defaultdict
@@ -304,10 +304,12 @@ def main():
             'value':       round(tot_pts / price, 2) if tot_pts is not None else None,
         })
 
-    # Compute position-mean value (only players WITH pts)
+    # Compute position-mean value using T1/T2 players only (GK1/GK2 for keepers)
+    # Excludes T3-T5 benchwarmers so "100 = average starter" not "average of all priced players"
+    STARTER_TIERS = {'1', '2', 'GK1', 'GK2'}
     pos_values = defaultdict(list)
     for e in entries:
-        if e['value'] is not None:
+        if e['value'] is not None and e['tier'] in STARTER_TIERS:
             pos_values[e['bracket_pos']].append(e['value'])
     pos_mean = {p: sum(vs)/len(vs) for p, vs in pos_values.items()}
 
@@ -316,6 +318,19 @@ def main():
             e['value_index'] = round(e['value'] / pos_mean[e['bracket_pos']] * 100)
         else:
             e['value_index'] = None
+
+    # Portfolio allocation: 1.5% base per player, extra weighted by value_index, cutoff ≥ 100
+    selected = [e for e in entries if e['value_index'] is not None and e['value_index'] >= 100]
+    n_sel = len(selected)
+    base_pct = 1.5
+    base_total = n_sel * base_pct
+    remaining = 100.0 - base_total
+    sum_idx = sum(e['value_index'] for e in selected)
+    for e in entries:
+        if e['value_index'] is not None and e['value_index'] >= 100:
+            e['alloc_pct'] = base_pct + (e['value_index'] / sum_idx) * remaining
+        else:
+            e['alloc_pct'] = None
 
     # Sort within each bracket: analysed players by value desc, unanalysed at bottom
     by_pos = defaultdict(list)
@@ -330,7 +345,7 @@ def main():
         f'*Players priced, ranked by WC expected pts / price within each position bracket.*',
         '',
         '**value_score** = `total_exp_fantasy_pts / price` — higher is better value.',
-        '**value_index** = value_score vs position average (100 = average; 150 = 50% above average).',
+        '**value_index** = value_score vs T1/T2 starter average (100 = average starter; 150 = 50% above average starter).',
         '`—` = player\'s national team outside our 24-country WC analysis.',
         '',
         '---',
@@ -346,8 +361,8 @@ def main():
         lines.append(f'## {pos_label[pos]}')
         lines.append(f'*Position avg value_score: {mean_v:.1f} pts/price-unit*')
         lines.append('')
-        lines.append('| # | Player | Club | Nation | WC Tier | Price | Exp Pts | value_score | value_index |')
-        lines.append('|---|--------|------|--------|---------|------:|--------:|------------:|------------:|')
+        lines.append('| # | Player | Club | Nation | WC Tier | Price | Exp Pts | value_score | value_index | Alloc % |')
+        lines.append('|---|--------|------|--------|---------|------:|--------:|------------:|------------:|--------:|')
 
         rank = 0
         for e in players:
@@ -355,16 +370,31 @@ def main():
             if e['value'] is not None:
                 rank += 1
                 rank_str = str(rank)
-            pts_str  = f"{e['tot_pts']:.0f}"  if e['tot_pts']  is not None else '—'
-            val_str  = f"{e['value']:.1f}"    if e['value']    is not None else '—'
-            idx_str  = str(e['value_index'])  if e['value_index'] is not None else '—'
+            pts_str   = f"{e['tot_pts']:.0f}"    if e['tot_pts']    is not None else '—'
+            val_str   = f"{e['value']:.1f}"      if e['value']      is not None else '—'
+            idx_str   = str(e['value_index'])    if e['value_index'] is not None else '—'
+            alloc_str = f"{e['alloc_pct']:.2f}%" if e['alloc_pct']  is not None else '—'
             lines.append(
                 f"| {rank_str} | {e['price_name']} | {e['club']} | {e['nat']} | {e['tier']} "
-                f"| {e['price']} | {pts_str} | {val_str} | {idx_str} |"
+                f"| {e['price']} | {pts_str} | {val_str} | {idx_str} | {alloc_str} |"
             )
         lines.append('')
         lines.append('---')
         lines.append('')
+
+    # Portfolio summary
+    lines.append('## Portfolio Allocation Summary')
+    lines.append(f'*{n_sel} players selected (value_index ≥ 100). Base: {base_pct}% × {n_sel} = {base_total:.1f}%. '
+                 f'Extra {remaining:.1f}% split proportional to value_index.*')
+    lines.append('')
+    for pos in pos_order:
+        pos_sel = [e for e in by_pos[pos] if e['alloc_pct'] is not None]
+        pos_total = sum(e['alloc_pct'] for e in pos_sel)
+        lines.append(f'**{pos_label[pos]}** ({len(pos_sel)} players, {pos_total:.1f}%): ' +
+                     ', '.join(f"{e['price_name']} {e['alloc_pct']:.2f}%" for e in pos_sel))
+    lines.append('')
+    lines.append('---')
+    lines.append('')
 
     # Top value picks summary
     all_analysed = [e for e in entries if e['value'] is not None]
