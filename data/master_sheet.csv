@@ -1,116 +1,116 @@
-player,position,sub_position,club,nationality,group,wc_squad_prob_pct,tier,playing_role,group_mins_per_game,exp_post_group_mins_total,country_p_advance_pct,country_p_dead_rubber_g3_pct,fitness_flag,notes,action_pts_per_90,exp_pts_per_90,total_exp_fantasy_pts
-Mike Maignan,GK,,AC Milan,France,I,97,GK1,Starting GK,90,288,97,60,Fit,Undisputed France No.1,29.5,71.7,444.8
-Lucas Chevalier,GK,,PSG,France,I,75,GK3,Third GK,2,3,97,60,Fit,3rd GK; won't play barring emergency,29.5,43.6,4.4
-Unai Simón,GK,,Athletic Club,Spain,H,95,GK1,Starting GK,90,288,97,60,Fit,Spain first choice despite domestic dip,29.5,71.3,442.1
-David Raya,GK,,Arsenal,Spain,H,82,GK2,Backup GK,5,10,97,60,Fit,Backup to Simón; plays if Simón struggles,29.5,43.3,12.0
-Joan García,GK,,Barcelona,Spain,H,80,GK3,Third GK,2,3,97,60,Fit,3rd GK; confirmed in squad per May 9 reports,29.5,43.7,4.4
-Robert Sánchez,GK,,Chelsea,Spain,H,25,GK3,Third GK,2,3,97,60,Fit,4th option; De la Fuente has 3 ahead of him,29.5,43.7,4.4
-Emiliano Martínez,GK,,Aston Villa,Argentina,J,97,GK1,Starting GK,90,291,98,70,Fit,Argentina undisputed No.1; 3x WC/Copa GG,29.5,71.1,443.5
-Gerónimo Rulli,GK,,Marseille,Argentina,J,88,GK2,Backup GK,5,10,98,70,Fit,Confirmed No.2; 15 caps; guaranteed squad,29.5,43.2,12.0
-Jordan Pickford,GK,,Everton,England,L,96,GK1,Starting GK,90,256,95,55,Fit,England settled No.1; 5th major tournament,29.5,68.0,397.2
-James Trafford,GK,,Manchester City,England,L,65,GK3,Third GK,2,3,95,55,Fit,Strong 3rd GK contender; Tuchel camp backing,29.5,42.9,4.3
-Dean Henderson,GK,,Crystal Palace,England,L,55,GK3,Third GK,2,3,95,55,Fit,Statistically strong (+5.0 PSxG) but 0 caps,29.5,42.9,4.3
-Nick Pope,GK,,Newcastle,England,L,30,GK3,Third GK,2,3,95,55,Managed,Stop-start season; 4th option at best,29.5,42.9,4.3
-Gregor Kobel,GK,,B. Dortmund,Switzerland,B,95,GK1,Starting GK,90,164,87,20,Fit,Switzerland undisputed No.1; record clean sheet run,29.5,61.6,296.9
-Thibaut Courtois,GK,,Real Madrid,Belgium,G,88,GK1,Starting GK,90,207,92,50,Injury,Quad injury Mar 2026; targeting return May 10,29.5,65.9,349.5
-Matz Sels,GK,,Nottingham Forest,Belgium,G,75,GK2,Backup GK,5,10,92,50,Fit,Becomes key No.1 if Courtois misses WC,29.5,41.5,11.5
-Alisson Becker,GK,,Liverpool,Brazil,C,80,GK1,Starting GK,90,202,83,20,Injury,Hamstring since Mar 18; race for June 11 opener,29.5,63.2,331.5
-Mark Flekken,GK,,Bayer Leverkusen,Netherlands,F,45,GK3,Third GK,2,3,94,55,Fit,Netherlands 3rd GK; below Verbruggen and Bijlow,29.5,42.2,4.2
-William Saliba,DEF,CB,Arsenal,France,I,95,1,Automatic Starter,82.4,288,97,60,Fit,France CB1; Euro 2024 ToT; non-negotiable,51.8,91.9,546.6
-Dayot Upamecano,DEF,CB,Bayern Munich,France,I,90,1,Automatic Starter,82.4,288,97,60,Fit,Saliba's established partner; 35 caps,51.8,91.9,546.6
-Jules Koundé,DEF,RB,Barcelona,France,I,95,1,Automatic Starter,82.4,288,97,60,Fit,Undisputed France first-choice RB,58.6,98.6,586.5
-Leny Yoro,DEF,CB,Manchester United,France,I,22,5,Depth,3,6,97,60,Managed,No senior France caps; Deschamps hasn't called him up,51.8,244.5,40.7
-Achraf Hakimi,DEF,RWB,PSG,Morocco,C,75,1,Automatic Starter,86.1,204,84,20,Injury,Hamstring tear May 8; race for June 14 opener,61.9,94.4,485.1
-Pau Cubarsí,DEF,CB,Barcelona,Spain,H,88,1,Automatic Starter,82.4,288,97,60,Fit,17-yr-old Spain CB1; left-footed elite; Euro 2024,51.8,91.6,544.8
-Robin Le Normand,DEF,CB,Atlético Madrid,Spain,H,82,2,Regular Starter,71.0,256,97,60,Fit,Returned from knee injury Jan 2026; experienced,51.8,97.7,509.0
-Dean Huijsen,DEF,CB,Real Madrid,Spain,H,78,3,Impact Sub,39.0,64,97,60,Fit,5 caps; gets dead rubber starts; 20 yrs old,51.8,89.9,180.9
-Marc Cucurella,DEF,LB,Chelsea,Spain,H,90,1,Automatic Starter,82.4,288,97,60,Fit,Euro 2024 ToT; Spain first-choice LB,58.6,98.3,584.7
-Alejandro Grimaldo,DEF,LB,Bayer Leverkusen,Spain,H,72,3,Impact Sub,39.0,64,97,60,Fit,8G/7A from LB but backup to Cucurella,58.6,96.7,194.4
-Pedro Porro,DEF,RB,Tottenham,Spain,H,72,3,Impact Sub,39.0,64,97,60,Fit,~12 Spain caps; Carvajal cover,58.6,96.7,194.4
-Álvaro Carreras,DEF,LB,Real Madrid,Spain,H,22,5,Depth,3,6,97,60,Fit,Zero senior Spain caps; fringe squad at best,58.6,252.1,42.0
-Cristian Romero,DEF,CB,Tottenham,Argentina,J,82,1,Automatic Starter,81.5,291,98,70,Injury,Grade 2 MCL Apr 12; on track for Jun 16 opener,51.8,91.6,545.3
-Marc Guéhi,DEF,CB,Manchester City,England,L,82,1,Automatic Starter,82.9,256,95,55,Fit,England CB1; scored first intl goal Sep 2025,51.8,88.6,496.7
-Ezri Konsa,DEF,CB,Aston Villa,England,L,72,2,Regular Starter,71.3,228,95,55,Fit,Competing for CB2 alongside Guéhi,51.8,94.4,463.3
-Trent Alexander-Arnold,DEF,RB,Real Madrid,England,L,82,2,Regular Starter,71.3,228,95,55,Fit,Hybrid RB-mid role; England need his quality,58.6,101.1,496.4
-Jarell Quansah,DEF,CB,Bayer Leverkusen,England,L,52,4,Fringe,15.3,14,95,55,Fit,1 senior cap; could get dead rubber minutes,51.8,123.0,81.8
-Virgil van Dijk,DEF,CB,Liverpool,Netherlands,F,97,1,Automatic Starter,82.9,228,94,55,Fit,Netherlands captain; 90+ caps; still elite at 34,51.8,87.1,461.4
-Denzel Dumfries,DEF,RWB,Inter Milan,Netherlands,F,85,1,Automatic Starter,82.9,228,94,55,Fit,Netherlands automatic RWB; 11 intl goals,58.6,93.8,497.0
-Jurriën Timber,DEF,RB,Arsenal,Netherlands,F,72,2,Regular Starter,71.3,203,94,55,Injury,Groin Mar 2026; slow recovery; needs mins late May,58.6,99.5,460.9
-Jonathan Tah,DEF,CB,Bayern Munich,Germany,E,82,2,Regular Starter,71.0,205,95,60,Fit,Competing for CB2 with Schlotterbeck; 41 apps,51.8,94.4,438.7
-Nico Schlotterbeck,DEF,CB,B. Dortmund,Germany,E,85,1,Automatic Starter,82.4,231,95,60,Fit,Germany best-rated CB (FotMob 7.58); set-piece threat,51.8,88.6,471.0
-Maximilian Mittelstädt,DEF,LB,Stuttgart,Germany,E,82,1,Automatic Starter,82.4,231,95,60,Fit,Germany established LB; 5G/4A from LB,58.6,95.4,506.7
-Gabriel Magalhães,DEF,CB,Arsenal,Brazil,C,95,1,Automatic Starter,86.1,202,83,20,Fit,Brazil CB1 with Militão ruled out; 15 PL clean sheets,51.8,83.7,428.2
-Nuno Mendes,DEF,LB,PSG,Portugal,K,85,1,Automatic Starter,83.8,256,95,45,Managed,Nations League best player Jun 2025; minor thigh,60.2,96.0,541.5
-Rúben Dias,DEF,CB,Manchester City,Portugal,K,80,1,Automatic Starter,83.8,256,95,45,Injury,Ankle injury Mar/Apr; near return; Portugal linchpin,51.8,87.7,494.2
-Joško Gvardiol,DEF,LB,Manchester City,Croatia,L,68,1,Automatic Starter,85.2,162,82,30,Injury,Tibial fracture Jan 2026; back in training May; WC target,62.3,92.0,427.0
-Daniel Svensson,DEF,LB,B. Dortmund,Sweden,F,55,3,Impact Sub,31.5,8,28,10,Fit,Only 2 Sweden caps; competing for squad place,58.6,80.7,91.9
-Michael Olise,MID,AM,Bayern Munich,France,I,96,1,Automatic Starter,82.4,288,97,60,Fit,15G/18A — best MF stats in Europe; France creative hub,107.2,138.0,820.6
-Rayan Cherki,MID,AM,Manchester City,France,I,52,4,Fringe,15.6,16,97,60,Fit,6 France caps; France depth means dead rubber only,65.3,142.3,99.3
-Maghnes Akliouche,MID,AM,AS Monaco,France,I,55,5,Depth,3,6,97,60,Fit,Fringe squad; France AM depth extraordinary,65.3,259.8,43.3
-Pedri,MID,CM,Barcelona,Spain,H,91,1,Automatic Starter,82.4,288,97,60,Fit,Spain most elegant CM; returned from injury,90.8,123.8,736.4
-Dani Olmo,MID,AM,Barcelona,Spain,H,88,2,Regular Starter,71.0,256,97,60,Fit,Euro 2024 Golden Boot; rotates with Yamal in attack,75.6,110.9,578.1
-Rodri,MID,DM,Manchester City,Spain,H,75,1,Automatic Starter,82.4,288,97,60,Injury,Groin May 2026; Spain's biggest WC concern,68.1,101.1,601.5
-Fabián Ruiz,MID,CM,PSG,Spain,H,73,4,Fringe,15.6,16,97,60,Injury,Knee injury Jan 2026; limited to 13 L1 apps; goodwill from Euros,66.0,142.0,99.1
-Joshua Kimmich,MID,DM,Bayern Munich,Germany,E,97,1,Automatic Starter,82.4,231,95,60,Fit,Germany midfield anchor; first name on sheet,95.7,126.7,673.4
-Florian Wirtz,MID,AM,Liverpool,Germany,E,96,1,Automatic Starter,82.4,231,95,60,Fit,Germany creative hub; £116m Liverpool adaptation complete,65.6,95.3,506.5
-Angelo Stiller,MID,DM,Stuttgart,Germany,E,62,3,Impact Sub,39.0,51,95,60,Fit,Germany backup DM; likely squad; won't start over Kimmich,68.1,104.7,195.4
-Felix Nmecha,MID,CM,B. Dortmund,Germany,E,58,3,Impact Sub,39.0,51,95,60,Fit,Germany 4th/5th CM; squad filler with upside,66.0,102.6,191.6
-Declan Rice,MID,DM,Arsenal,England,L,99,1,Automatic Starter,82.9,256,95,55,Fit,England most important midfielder; automatic,72.0,103.1,578.2
-Jude Bellingham,MID,CM,Real Madrid,England,L,85,1,Automatic Starter,82.9,256,95,55,Injury,Hamstring Feb-Apr; missed final camp; Tuchel wants him regardless,80.2,111.3,624.4
-Cole Palmer,MID,AM,Chelsea,England,L,74,3,Impact Sub,38.3,57,95,55,Injury,Chronic pubalgia managed all season; impact sub role,65.3,105.2,200.9
-Eberechi Eze,MID,AM,Arsenal,England,L,72,3,Impact Sub,38.3,57,95,55,Fit,Directness gives England different option; ~10 caps,65.3,105.2,200.9
-Morgan Gibbs-White,MID,AM,Nottingham Forest,England,L,68,4,Fringe,15.3,14,95,55,Fit,13 PL goals but Tuchel trust barrier remains,65.3,139.3,92.7
-Phil Foden,MID,AM,Manchester City,England,L,58,4,Fringe,15.3,14,95,55,Injury,Ankle Apr 2026; form drop-off significant; Tuchel doubts,65.3,139.3,92.7
-Elliot Anderson,MID,CM,Nottingham Forest,England,L,35,5,Depth,3,6,95,55,Fit,England CM crowded; squad bubble only,66.0,251.7,42.0
-Jobe Bellingham,MID,DM,B. Dortmund,England,L,5,5,Depth,3,6,95,55,Fit,Zero senior caps; emergency only,68.1,253.8,42.3
-Enzo Fernández,MID,CM,Chelsea,Argentina,J,90,1,Automatic Starter,81.5,291,98,70,Fit,Justified record fee; 9G in 42 apps; 9 yellows concern,66.0,99.1,589.6
-Exequiel Palacios,MID,CM,Bayer Leverkusen,Argentina,J,65,4,Fringe,16.2,16,98,70,Managed,Returning from adductor injury; Argentina depth limits him,66.0,139.4,100.1
-Vitinha,MID,DM,PSG,Portugal,K,93,1,Automatic Starter,83.8,256,95,45,Fit,Portugal best pure midfielder; 7G/10A incl 6 UCL goals,82.6,113.2,638.3
-Bruno Fernandes,MID,AM,Manchester United,Portugal,K,98,1,Automatic Starter,83.8,256,95,45,Fit,Portugal captain; record PL assists; FWA Player of the Year,76.9,106.3,599.5
-João Neves,MID,DM,PSG,Portugal,K,87,1,Automatic Starter,83.8,256,95,45,Fit,21 yrs old; already PSG's pivotal figure,74.5,105.0,592.1
-Ryan Gravenberch,MID,DM,Liverpool,Netherlands,F,88,1,Automatic Starter,82.9,228,94,55,Fit,PL Young Player of Season; Netherlands DM anchor,71.5,101.4,536.9
-Federico Valverde,MID,CM,Real Madrid,Uruguay,H,98,1,Automatic Starter,83.3,203,94,50,Fit,Uruguay's most complete midfielder; first name on sheet,76.3,104.6,526.2
-Moisés Caicedo,MID,DM,Chelsea,Ecuador,E,95,1,Automatic Starter,86.1,107,66,20,Fit,Ecuador's best player; 11 yellows 1 red — discipline concern,72.4,97.6,396.3
-Christian Pulisic,MID,AM,AC Milan,USA,D,99,1,Automatic Starter,83.8,164,87,45,Fit,USMNT captain and best player; 84 caps / 32 goals,87.5,114.2,527.1
-Malik Tillman,MID,AM,Bayer Leverkusen,USA,D,95,2,Regular Starter,71.9,146,87,45,Fit,USMNT key creative force; 28 caps; starts most games,65.3,95.9,385.5
-Scott McTominay,MID,CM,Napoli,Scotland,C,98,1,Automatic Starter,87.1,50,40,10,Fit,Scotland captain; WC-qualifying hero; bicycle kick vs Denmark,81.4,103.1,356.6
-Martin Ødegaard,MID,AM,Arsenal,Norway,I,82,1,Automatic Starter,87.1,73,58,10,Injury,Norway captain; knee + shoulder throughout season; critical,67.9,90.5,336.3
-Hakan Çalhanoğlu,MID,DM,Inter Milan,Turkey,D,71,2,Regular Starter,74.0,107,79,15,Injury,Soleus May 2026; out for club season; fitness race for Jun 13,92.4,118.5,433.3
-Arda Güler,MID,AM,Real Madrid,Turkey,D,78,2,Regular Starter,74.0,107,79,15,Injury,Thigh tear Apr 21; targeting Jun 13 opener; race vs time,68.6,96.2,351.5
-Kevin De Bruyne,MID,CM,Napoli,Belgium,G,72,2,Regular Starter,71.7,184,92,50,Managed,Age 34; hamstring Oct-Mar; Belgium include if he can play,87.5,122.0,541.0
-Mohammed Kudus,MID,AM,Tottenham,Ghana,L,88,1,Automatic Starter,87.5,5,5,5,Fit,Ghana's best player; 19 PL apps hurt by Spurs' poor season,65.2,81.9,243.4
-Harry Kane,FWD,,Bayern Munich,England,L,99,1,Automatic Starter,82.9,256,95,55,Fit,England captain; 33 BL goals; automatic starter,85.7,115.5,647.7
-Kylian Mbappé,FWD,,Real Madrid,France,I,99,1,Automatic Starter,82.4,288,97,60,Fit,France captain; 41 goals all comps; irreplaceable,96.7,127.6,758.7
-Lamine Yamal,FWD,,Barcelona,Spain,H,99,1,Automatic Starter,82.4,288,97,60,Fit,Spain talisman; 17G/13A La Liga; non-negotiable,101.0,132.0,785.2
-Lautaro Martínez,FWD,,Inter Milan,Argentina,J,95,1,Automatic Starter,81.5,291,98,70,Fit,Argentina captain; 2022 WC winner; automatic striker,46.0,77.0,457.9
-Mohamed Salah,FWD,,Liverpool,Egypt,G,95,1,Automatic Starter,87.1,73,58,10,Fit,Egypt's greatest player; captain; final Liverpool season,66.9,92.4,343.4
-Vinícius Júnior,FWD,,Real Madrid,Brazil,C,95,1,Automatic Starter,86.1,202,83,20,Fit,Brazil key winger; 20G/13A; first choice left wing,73.6,102.0,521.7
-Bukayo Saka,FWD,,Arsenal,England,L,92,1,Automatic Starter,82.9,256,95,55,Fit,England first-choice right winger; consistent two-way threat,67.9,97.7,547.9
-Luis Díaz,FWD,,Bayern Munich,Colombia,K,92,1,Automatic Starter,84.7,176,89,35,Fit,Colombia's best player; 15G/13A — best BL season by anyone,83.8,110.6,528.6
-Jonathan David,FWD,,Juventus,Canada,B,90,1,Automatic Starter,86.1,134,83,20,Fit,Canada all-time top scorer; hosts nation; 39 intl goals,39.6,66.3,288.8
-Kenan Yıldız,FWD,,Juventus,Turkey,D,85,1,Automatic Starter,86.6,121,79,15,Fit,Turkey's defining player; 23 career caps,68.8,92.6,391.8
-Julián Álvarez,FWD,,Atlético Madrid,Argentina,J,85,2,Regular Starter,70.3,259,98,70,Fit,2022 WC winner; often starts alongside Lautaro,40.0,75.4,393.5
-Amad Diallo,FWD,,Manchester United,Ivory Coast,E,80,1,Automatic Starter,87.1,59,44,10,Fit,18 caps / 5 goals; WC qualifying hero; Ivory Coast talisman,56.6,81.1,288.7
-Raphinha,FWD,,Barcelona,Brazil,C,82,1,Automatic Starter,86.1,202,83,20,Fit,Brazil captain; first choice right winger,80.9,109.3,559.1
-Viktor Gyökeres,FWD,,Arsenal,Sweden,F,82,1,Automatic Starter,87.1,35,28,10,Fit,Sweden's standout striker; 15 intl goals; 14 PL goals,47.1,68.6,225.8
-Désiré Doué,FWD,,PSG,France,I,72,3,Impact Sub,39.0,64,97,60,Fit,26G across 5 comps; 8 caps; France depth limits starts,66.9,108.1,217.3
-Alexander Isak,FWD,,Liverpool,Sweden,F,72,2,Regular Starter,74.3,31,28,10,Injury,Injury-ravaged season; only 3 goals; starts if fit,36.6,61.6,173.7
-Ousmane Dembélé,FWD,,PSG,France,I,75,2,Regular Starter,71.0,256,97,60,Fit,Established France starter; trusted by Deschamps,63.9,99.1,516.3
-Ollie Watkins,FWD,,Aston Villa,England,L,65,3,Impact Sub,38.3,57,95,55,Fit,Kane backup; 16G all comps; likely squad pick,46.0,85.9,164.0
-Rafael Leão,FWD,,AC Milan,Portugal,K,65,3,Impact Sub,36.8,57,95,45,Fit,Quality but inconsistent; depth behind Neto/Ramos,66.9,107.5,200.0
-Jonathan Burkardt,FWD,,Eintracht Frankfurt,Germany,E,55,3,Impact Sub,39.0,51,95,60,Fit,5 caps; emerging Germany option; competing for 1 spot,46.0,84.8,158.3
-Erling Haaland,FWD,,Manchester City,Norway,I,99,1,Automatic Starter,87.1,73,58,10,Fit,Broke PL record (35 PL goals); Norway's everything,61.8,84.4,313.6
-Jérémy Doku,FWD,,Manchester City,Belgium,G,72,3,Impact Sub,37.5,46,92,50,Fit,Regular Belgium squad; rotation at City limits him,66.9,105.5,185.8
-João Pedro,FWD,,Chelsea,Brazil,C,42,4,Fringe,13.2,11,83,20,Fit,14G for Chelsea; competing vs massive Brazil forward depth,46.0,123.3,69.3
-Pedro Neto,FWD,,Chelsea,Portugal,K,68,3,Impact Sub,36.8,57,95,45,Fit,Nations League winner; creative winger; regular squad member,66.9,107.5,200.0
-Omar Marmoush,FWD,,Manchester City,Egypt,G,68,3,Impact Sub,31.5,16,58,10,Injury,Knee ligament Sep 2025; wrecked season; limited if included,32.0,69.4,85.3
-Matheus Cunha,FWD,,Manchester United,Brazil,C,52,4,Fringe,13.2,11,83,20,Fit,Brazil forward depth means limited role if included,46.0,123.3,69.3
-Karim Adeyemi,FWD,,B. Dortmund,Germany,E,50,3,Impact Sub,39.0,51,95,60,Fit,Inconsistent; in Germany plans; competing for 1 spot,66.9,105.7,197.2
-Romelu Lukaku,FWD,,Napoli,Belgium,G,50,4,Fringe,15.0,12,92,50,Injury,High-grade thigh injury; 5-month recovery; fitness is everything,46.0,117.2,74.2
-Hugo Ekitiké,FWD,,Liverpool,France,I,48,4,Fringe,15.6,16,97,60,Fit,7 France caps; France forward depth extraordinary,66.9,143.9,100.4
-Marcus Rashford,FWD,,Barcelona,England,L,45,3,Impact Sub,38.3,57,95,55,Fit,Revitalised at Barça (12G/10A); re-entering England picture,66.9,106.8,203.9
-Nick Woltemade,FWD,,Newcastle,Germany,E,45,3,Impact Sub,39.0,51,95,60,Fit,10 caps; scored vs Luxembourg qualifying; squad bubble,66.9,105.7,197.2
-Serge Gnabry,FWD,,Bayern Munich,Germany,E,40,4,Fringe,15.6,13,95,60,Injury,Late-season groin injury; Germany have options ahead,66.9,138.4,92.0
-Antony,FWD,,Real Betis,Brazil,C,38,5,Depth,3,4,83,20,Fit,Improved season but not featuring for Brazil,66.9,238.8,34.5
-Mason Greenwood,FWD,,Marseille,England,L,5,5,Depth,3,6,95,55,Fit,Elite form (18G/7A) but effectively excluded by FA,66.9,253.9,42.3
-Matías Soulé,FWD,,Roma,Argentina,J,22,5,Depth,3,6,98,70,Fit,Only 2 senior caps; Argentina depth makes squad very hard,46.0,240.5,40.1
+player,position,sub_position,club,nationality,group,wc_squad_prob_pct,tier,playing_role,group_mins_per_game,exp_post_group_mins_total,country_p_advance_pct,country_p_dead_rubber_g3_pct,fitness_flag,notes,action_pts_per_90,exp_pts_per_90,total_exp_fantasy_pts,int_l5_pattern,int_l5_starts,int_absence_reason,fitness_current,tier_evidence,tier_revised
+Mike Maignan,GK,,AC Milan,France,I,97,GK1,Starting GK,90,288,97,60,Fit,Undisputed France No.1,29.5,71.7,444.8,,,,,,
+Lucas Chevalier,GK,,PSG,France,I,75,GK3,Third GK,2,3,97,60,Fit,3rd GK; won't play barring emergency,29.5,43.6,4.4,,,,,,
+Unai Simón,GK,,Athletic Club,Spain,H,95,GK1,Starting GK,90,288,97,60,Fit,Spain first choice despite domestic dip,29.5,71.3,442.1,,,,,,
+David Raya,GK,,Arsenal,Spain,H,82,GK2,Backup GK,5,10,97,60,Fit,Backup to Simón; plays if Simón struggles,29.5,43.3,12.0,,,,,,
+Joan García,GK,,Barcelona,Spain,H,80,GK3,Third GK,2,3,97,60,Fit,3rd GK; confirmed in squad per May 9 reports,29.5,43.7,4.4,,,,,,
+Robert Sánchez,GK,,Chelsea,Spain,H,25,GK3,Third GK,2,3,97,60,Fit,4th option; De la Fuente has 3 ahead of him,29.5,43.7,4.4,,,,,,
+Emiliano Martínez,GK,,Aston Villa,Argentina,J,97,GK1,Starting GK,90,291,98,70,Fit,Argentina undisputed No.1; 3x WC/Copa GG,29.5,71.1,443.5,,,,,,
+Gerónimo Rulli,GK,,Marseille,Argentina,J,88,GK2,Backup GK,5,10,98,70,Fit,Confirmed No.2; 15 caps; guaranteed squad,29.5,43.2,12.0,,,,,,
+Jordan Pickford,GK,,Everton,England,L,96,GK1,Starting GK,90,256,95,55,Fit,England settled No.1; 5th major tournament,29.5,68.0,397.2,90/DNP/DNP/90/90,3/5,Rested vs Uruguay; unused sub vs Albania,Fit,Undisputed No.1; zero competition,GK1
+James Trafford,GK,,Manchester City,England,L,65,GK3,Third GK,2,3,95,55,Fit,Strong 3rd GK contender; Tuchel camp backing,29.5,42.9,4.3,DNP/90/DNP/DNP/DNP,1/5,Senior debut vs Uruguay; not called up previously,Fit,Tuchel-backed No.3; likely to travel,GK3
+Dean Henderson,GK,,Crystal Palace,England,L,80,GK2,Backup GK,5,10,95,55,Fit,Confirmed England No.2; started Albania Nov 2025,29.5,42.4,11.8,90/DNP/DNP/DNP/DNP,1/5,Unused sub / not selected in other camps,Fit,Confirmed No.2 GK; started Albania; Pickford rested vs Uruguay,GK2
+Nick Pope,GK,,Newcastle,England,L,5,GK3,Third GK,2,3,95,55,Managed,No call-up since Oct 2024; not in Tuchel plans; persistent shoulder/groin issues,29.5,42.9,4.3,DNP/DNP/DNP/DNP/DNP,0/5,Not selected / withdrew injured Oct 2024,Managed,Last cap Sep 2022; Tuchel not calling him up,GK3
+Gregor Kobel,GK,,B. Dortmund,Switzerland,B,95,GK1,Starting GK,90,164,87,20,Fit,Switzerland undisputed No.1; record clean sheet run,29.5,61.6,296.9,,,,,,
+Thibaut Courtois,GK,,Real Madrid,Belgium,G,88,GK1,Starting GK,90,207,92,50,Injury,Quad injury Mar 2026; targeting return May 10,29.5,65.9,349.5,,,,,,
+Matz Sels,GK,,Nottingham Forest,Belgium,G,75,GK2,Backup GK,5,10,92,50,Fit,Becomes key No.1 if Courtois misses WC,29.5,41.5,11.5,,,,,,
+Alisson Becker,GK,,Liverpool,Brazil,C,80,GK1,Starting GK,90,202,83,20,Injury,Hamstring since Mar 18; race for June 11 opener,29.5,63.2,331.5,,,,,,
+Mark Flekken,GK,,Bayer Leverkusen,Netherlands,F,45,GK3,Third GK,2,3,94,55,Fit,Netherlands 3rd GK; below Verbruggen and Bijlow,29.5,42.2,4.2,,,,,,
+William Saliba,DEF,CB,Arsenal,France,I,95,1,Automatic Starter,82.4,288,97,60,Fit,France CB1; Euro 2024 ToT; non-negotiable,51.8,91.9,546.6,,,,,,
+Dayot Upamecano,DEF,CB,Bayern Munich,France,I,90,1,Automatic Starter,82.4,288,97,60,Fit,Saliba's established partner; 35 caps,51.8,91.9,546.6,,,,,,
+Jules Koundé,DEF,RB,Barcelona,France,I,95,1,Automatic Starter,82.4,288,97,60,Fit,Undisputed France first-choice RB,58.6,98.6,586.5,,,,,,
+Leny Yoro,DEF,CB,Manchester United,France,I,22,5,Depth,3,6,97,60,Managed,No senior France caps; Deschamps hasn't called him up,51.8,244.5,40.7,,,,,,
+Achraf Hakimi,DEF,RWB,PSG,Morocco,C,75,1,Automatic Starter,86.1,204,84,20,Injury,Hamstring tear May 8; race for June 14 opener,61.9,94.4,485.1,,,,,,
+Pau Cubarsí,DEF,CB,Barcelona,Spain,H,88,1,Automatic Starter,82.4,288,97,60,Fit,17-yr-old Spain CB1; left-footed elite; Euro 2024,51.8,91.6,544.8,,,,,,
+Robin Le Normand,DEF,CB,Atlético Madrid,Spain,H,82,2,Regular Starter,71.0,256,97,60,Fit,Returned from knee injury Jan 2026; experienced,51.8,97.7,509.0,,,,,,
+Dean Huijsen,DEF,CB,Real Madrid,Spain,H,78,3,Impact Sub,39.0,64,97,60,Fit,5 caps; gets dead rubber starts; 20 yrs old,51.8,89.9,180.9,,,,,,
+Marc Cucurella,DEF,LB,Chelsea,Spain,H,90,1,Automatic Starter,82.4,288,97,60,Fit,Euro 2024 ToT; Spain first-choice LB,58.6,98.3,584.7,,,,,,
+Alejandro Grimaldo,DEF,LB,Bayer Leverkusen,Spain,H,72,3,Impact Sub,39.0,64,97,60,Fit,8G/7A from LB but backup to Cucurella,58.6,96.7,194.4,,,,,,
+Pedro Porro,DEF,RB,Tottenham,Spain,H,72,3,Impact Sub,39.0,64,97,60,Fit,~12 Spain caps; Carvajal cover,58.6,96.7,194.4,,,,,,
+Álvaro Carreras,DEF,LB,Real Madrid,Spain,H,22,5,Depth,3,6,97,60,Fit,Zero senior Spain caps; fringe squad at best,58.6,252.1,42.0,,,,,,
+Cristian Romero,DEF,CB,Tottenham,Argentina,J,82,1,Automatic Starter,81.5,291,98,70,Injury,Grade 2 MCL Apr 12; on track for Jun 16 opener,51.8,91.6,545.3,,,,,,
+Marc Guéhi,DEF,CB,Manchester City,England,L,82,1,Automatic Starter,82.9,256,95,55,Fit,England CB1; scored first intl goal Sep 2025,51.8,88.6,496.7,83/DNP/DNP/90/68,3/5,Not in Mar 27 rotated squad,Fit,CB1 under Tuchel; first name on sheet,1
+Ezri Konsa,DEF,CB,Aston Villa,England,L,72,2,Regular Starter,71.3,228,95,55,Fit,Competing for CB2 alongside Guéhi,51.8,94.4,463.3,83/DNP/90/DNP/sub76,2/5,Not in Mar 27 rotated squad; unused in Oct,Fit,Confirmed squad; CB rotation behind Guéhi/Stones,2
+Trent Alexander-Arnold,DEF,RB,Real Madrid,England,L,82,3,Impact Sub,38.3,57,95,55,Fit,5 consecutive DNPs under Tuchel; in provisional 55 only due to White/Livramento injuries,58.6,94.6,180.7,DNP/DNP/DNP/DNP/DNP,0/5,Tuchel sporting decision / injury-disrupted Real Madrid season,Managed,5 DNPs; fringe inclusion; injuries to rivals only reason in provisional list,3
+Jarell Quansah,DEF,CB,Bayer Leverkusen,England,L,52,4,Fringe,15.3,14,95,55,Fit,Withdrew injured Mar 2026; Leverkusen confirmed; 1 senior cap; WC hopes in doubt,51.8,123.0,81.8,DNP(inj)/DNP(inj)/90/DNP/DNP,1/5,Withdrew injured Mar 2026; unused sub previously,Injury,Only 1 cap; injury concern; fringe at best,4
+Virgil van Dijk,DEF,CB,Liverpool,Netherlands,F,97,1,Automatic Starter,82.9,228,94,55,Fit,Netherlands captain; 90+ caps; still elite at 34,51.8,87.1,461.4,,,,,,
+Denzel Dumfries,DEF,RWB,Inter Milan,Netherlands,F,85,1,Automatic Starter,82.9,228,94,55,Fit,Netherlands automatic RWB; 11 intl goals,58.6,93.8,497.0,,,,,,
+Jurriën Timber,DEF,RB,Arsenal,Netherlands,F,72,2,Regular Starter,71.3,203,94,55,Injury,Groin Mar 2026; slow recovery; needs mins late May,58.6,99.5,460.9,,,,,,
+Jonathan Tah,DEF,CB,Bayern Munich,Germany,E,82,2,Regular Starter,71.0,205,95,60,Fit,Competing for CB2 with Schlotterbeck; 41 apps,51.8,94.4,438.7,,,,,,
+Nico Schlotterbeck,DEF,CB,B. Dortmund,Germany,E,85,1,Automatic Starter,82.4,231,95,60,Fit,Germany best-rated CB (FotMob 7.58); set-piece threat,51.8,88.6,471.0,,,,,,
+Maximilian Mittelstädt,DEF,LB,Stuttgart,Germany,E,82,1,Automatic Starter,82.4,231,95,60,Fit,Germany established LB; 5G/4A from LB,58.6,95.4,506.7,,,,,,
+Gabriel Magalhães,DEF,CB,Arsenal,Brazil,C,95,1,Automatic Starter,86.1,202,83,20,Fit,Brazil CB1 with Militão ruled out; 15 PL clean sheets,51.8,83.7,428.2,,,,,,
+Nuno Mendes,DEF,LB,PSG,Portugal,K,85,1,Automatic Starter,83.8,256,95,45,Managed,Nations League best player Jun 2025; minor thigh,60.2,96.0,541.5,,,,,,
+Rúben Dias,DEF,CB,Manchester City,Portugal,K,80,1,Automatic Starter,83.8,256,95,45,Injury,Ankle injury Mar/Apr; near return; Portugal linchpin,51.8,87.7,494.2,,,,,,
+Joško Gvardiol,DEF,LB,Manchester City,Croatia,L,68,1,Automatic Starter,85.2,162,82,30,Injury,Tibial fracture Jan 2026; back in training May; WC target,62.3,92.0,427.0,,,,,,
+Daniel Svensson,DEF,LB,B. Dortmund,Sweden,F,55,3,Impact Sub,31.5,8,28,10,Fit,Only 2 Sweden caps; competing for squad place,58.6,80.7,91.9,,,,,,
+Michael Olise,MID,AM,Bayern Munich,France,I,96,1,Automatic Starter,82.4,288,97,60,Fit,15G/18A — best MF stats in Europe; France creative hub,107.2,138.0,820.6,,,,,,
+Rayan Cherki,MID,AM,Manchester City,France,I,52,4,Fringe,15.6,16,97,60,Fit,6 France caps; France depth means dead rubber only,65.3,142.3,99.3,,,,,,
+Maghnes Akliouche,MID,AM,AS Monaco,France,I,55,5,Depth,3,6,97,60,Fit,Fringe squad; France AM depth extraordinary,65.3,259.8,43.3,,,,,,
+Pedri,MID,CM,Barcelona,Spain,H,91,1,Automatic Starter,82.4,288,97,60,Fit,Spain most elegant CM; returned from injury,90.8,123.8,736.4,,,,,,
+Dani Olmo,MID,AM,Barcelona,Spain,H,88,2,Regular Starter,71.0,256,97,60,Fit,Euro 2024 Golden Boot; rotates with Yamal in attack,75.6,110.9,578.1,,,,,,
+Rodri,MID,DM,Manchester City,Spain,H,75,1,Automatic Starter,82.4,288,97,60,Injury,Groin May 2026; Spain's biggest WC concern,68.1,101.1,601.5,,,,,,
+Fabián Ruiz,MID,CM,PSG,Spain,H,73,4,Fringe,15.6,16,97,60,Injury,Knee injury Jan 2026; limited to 13 L1 apps; goodwill from Euros,66.0,142.0,99.1,,,,,,
+Joshua Kimmich,MID,DM,Bayern Munich,Germany,E,97,1,Automatic Starter,82.4,231,95,60,Fit,Germany midfield anchor; first name on sheet,95.7,126.7,673.4,,,,,,
+Florian Wirtz,MID,AM,Liverpool,Germany,E,96,1,Automatic Starter,82.4,231,95,60,Fit,Germany creative hub; £116m Liverpool adaptation complete,65.6,95.3,506.5,,,,,,
+Angelo Stiller,MID,DM,Stuttgart,Germany,E,62,3,Impact Sub,39.0,51,95,60,Fit,Germany backup DM; likely squad; won't start over Kimmich,68.1,104.7,195.4,,,,,,
+Felix Nmecha,MID,CM,B. Dortmund,Germany,E,58,3,Impact Sub,39.0,51,95,60,Fit,Germany 4th/5th CM; squad filler with upside,66.0,102.6,191.6,,,,,,
+Declan Rice,MID,DM,Arsenal,England,L,99,1,Automatic Starter,82.9,256,95,55,Fit,England most important midfielder; automatic,72.0,103.1,578.2,DNP/DNP/62/65/90,3/5,Not in Mar 35-man squad (managed); left Mar 31 camp early,Fit,England's most important midfielder; certain starter,1
+Jude Bellingham,MID,CM,Real Madrid,England,L,85,1,Automatic Starter,82.9,256,95,55,Injury,Hamstring Feb-Apr; missed final camp; Tuchel wants him regardless,80.2,111.3,624.4,DNP/DNP/84/sub65/DNP,1/5,Shoulder surgery summer 2025; hamstring scare; managed out of Mar camps,Fit,Central to Tuchel's plans; kept T1 — says he's feeling good,1
+Cole Palmer,MID,AM,Chelsea,England,L,74,3,Impact Sub,38.3,57,95,55,Injury,Chronic pubalgia managed all season; impact sub role,65.3,105.2,200.9,59/sub56/DNP/DNP/DNP,1/5,Groin/pubalgia — missed Nov 2025 and Oct camps,Fit,Groin chronic; started Japan as positive signal; Tuchel not guaranteeing,3
+Eberechi Eze,MID,AM,Arsenal,England,L,72,3,Impact Sub,38.3,57,95,55,Fit,Directness gives England different option; ~10 caps,65.3,105.2,200.9,DNP(inj)/DNP(inj)/DNP/sub65/DNP,0/5,Calf injury Mar 2026 (vs Leverkusen CL); not selected previously,Fit,Calf recovering; expected fit by June; rotation attacker,3
+Morgan Gibbs-White,MID,AM,Nottingham Forest,England,L,35,5,Depth,3,6,95,55,Fit,Repeatedly omitted under Tuchel despite 12 PL goals; unlikely to make 26,65.3,252.3,42.1,DNP/DNP/DNP/DNP/sub78,0/5,Consistently not selected by Tuchel despite strong form,Fit,Omitted from last 4 squads; Tuchel trust barrier,5
+Phil Foden,MID,AM,Manchester City,England,L,40,5,Depth,3,6,95,55,Injury,Ankle knock Mar 2026; Tuchel said not a guarantee; poor club form under Guardiola,65.3,252.3,42.1,60/56/sub62/sub65/90,3/5,Ankle vs Uruguay; form drop / competing with Palmer/Eze/Anderson,Fit,Tuchel: 'not a guarantee'; poor City form; rivals stronger,5
+Elliot Anderson,MID,CM,Nottingham Forest,England,L,88,2,Regular Starter,71.3,228,95,55,Fit,Tuchel's preferred box-to-box starter alongside Rice; 7 caps since Sep 2025; described as elite,66.0,101.9,500.4,71/DNP/sub75/85/90,3/5,Not in Mar 27 rotated squad,Fit,Regular Tuchel starter; described as 'elite'; featured in 4 of last 5 camps,2
+Jobe Bellingham,MID,DM,B. Dortmund,England,L,3,5,Depth,3,6,95,55,Fit,Zero senior caps; England U21 captain; not in Tuchel's thoughts for 2026,68.1,253.8,42.3,N/A (no senior caps),0/5,Not called up to senior squad,Fit,No senior caps; U21 only; excluded,5
+Enzo Fernández,MID,CM,Chelsea,Argentina,J,90,1,Automatic Starter,81.5,291,98,70,Fit,Justified record fee; 9G in 42 apps; 9 yellows concern,66.0,99.1,589.6,,,,,,
+Exequiel Palacios,MID,CM,Bayer Leverkusen,Argentina,J,65,4,Fringe,16.2,16,98,70,Managed,Returning from adductor injury; Argentina depth limits him,66.0,139.4,100.1,,,,,,
+Vitinha,MID,DM,PSG,Portugal,K,93,1,Automatic Starter,83.8,256,95,45,Fit,Portugal best pure midfielder; 7G/10A incl 6 UCL goals,82.6,113.2,638.3,,,,,,
+Bruno Fernandes,MID,AM,Manchester United,Portugal,K,98,1,Automatic Starter,83.8,256,95,45,Fit,Portugal captain; record PL assists; FWA Player of the Year,76.9,106.3,599.5,,,,,,
+João Neves,MID,DM,PSG,Portugal,K,87,1,Automatic Starter,83.8,256,95,45,Fit,21 yrs old; already PSG's pivotal figure,74.5,105.0,592.1,,,,,,
+Ryan Gravenberch,MID,DM,Liverpool,Netherlands,F,88,1,Automatic Starter,82.9,228,94,55,Fit,PL Young Player of Season; Netherlands DM anchor,71.5,101.4,536.9,,,,,,
+Federico Valverde,MID,CM,Real Madrid,Uruguay,H,98,1,Automatic Starter,83.3,203,94,50,Fit,Uruguay's most complete midfielder; first name on sheet,76.3,104.6,526.2,,,,,,
+Moisés Caicedo,MID,DM,Chelsea,Ecuador,E,95,1,Automatic Starter,86.1,107,66,20,Fit,Ecuador's best player; 11 yellows 1 red — discipline concern,72.4,97.6,396.3,,,,,,
+Christian Pulisic,MID,AM,AC Milan,USA,D,99,1,Automatic Starter,83.8,164,87,45,Fit,USMNT captain and best player; 84 caps / 32 goals,87.5,114.2,527.1,,,,,,
+Malik Tillman,MID,AM,Bayer Leverkusen,USA,D,95,2,Regular Starter,71.9,146,87,45,Fit,USMNT key creative force; 28 caps; starts most games,65.3,95.9,385.5,,,,,,
+Scott McTominay,MID,CM,Napoli,Scotland,C,98,1,Automatic Starter,87.1,50,40,10,Fit,Scotland captain; WC-qualifying hero; bicycle kick vs Denmark,81.4,103.1,356.6,,,,,,
+Martin Ødegaard,MID,AM,Arsenal,Norway,I,82,1,Automatic Starter,87.1,73,58,10,Injury,Norway captain; knee + shoulder throughout season; critical,67.9,90.5,336.3,,,,,,
+Hakan Çalhanoğlu,MID,DM,Inter Milan,Turkey,D,71,2,Regular Starter,74.0,107,79,15,Injury,Soleus May 2026; out for club season; fitness race for Jun 13,92.4,118.5,433.3,,,,,,
+Arda Güler,MID,AM,Real Madrid,Turkey,D,78,2,Regular Starter,74.0,107,79,15,Injury,Thigh tear Apr 21; targeting Jun 13 opener; race vs time,68.6,96.2,351.5,,,,,,
+Kevin De Bruyne,MID,CM,Napoli,Belgium,G,72,2,Regular Starter,71.7,184,92,50,Managed,Age 34; hamstring Oct-Mar; Belgium include if he can play,87.5,122.0,541.0,,,,,,
+Mohammed Kudus,MID,AM,Tottenham,Ghana,L,88,1,Automatic Starter,87.5,5,5,5,Fit,Ghana's best player; 19 PL apps hurt by Spurs' poor season,65.2,81.9,243.4,,,,,,
+Harry Kane,FWD,,Bayern Munich,England,L,99,1,Automatic Starter,82.9,256,95,55,Fit,England captain; 33 BL goals; automatic starter,85.7,115.5,647.7,DNP(inj)/DNP(inj)/90/65/90,3/5,Ankle injury forced withdrawal from Mar camp,Fit,England captain; expected fully fit by June 11,1
+Kylian Mbappé,FWD,,Real Madrid,France,I,99,1,Automatic Starter,82.4,288,97,60,Fit,France captain; 41 goals all comps; irreplaceable,96.7,127.6,758.7,,,,,,
+Lamine Yamal,FWD,,Barcelona,Spain,H,99,1,Automatic Starter,82.4,288,97,60,Fit,Spain talisman; 17G/13A La Liga; non-negotiable,101.0,132.0,785.2,,,,,,
+Lautaro Martínez,FWD,,Inter Milan,Argentina,J,95,1,Automatic Starter,81.5,291,98,70,Fit,Argentina captain; 2022 WC winner; automatic striker,46.0,77.0,457.9,,,,,,
+Mohamed Salah,FWD,,Liverpool,Egypt,G,95,1,Automatic Starter,87.1,73,58,10,Fit,Egypt's greatest player; captain; final Liverpool season,66.9,92.4,343.4,,,,,,
+Vinícius Júnior,FWD,,Real Madrid,Brazil,C,95,1,Automatic Starter,86.1,202,83,20,Fit,Brazil key winger; 20G/13A; first choice left wing,73.6,102.0,521.7,,,,,,
+Bukayo Saka,FWD,,Arsenal,England,L,92,1,Automatic Starter,82.9,256,95,55,Fit,England first-choice right winger; consistent two-way threat,67.9,97.7,547.9,DNP/DNP/sub62/90/90,2/5,Achilles management — left Mar 31 camp; not in Mar 27 squad,Fit,Back in training; Arsenal managing load for WC; expected starter,1
+Luis Díaz,FWD,,Bayern Munich,Colombia,K,92,1,Automatic Starter,84.7,176,89,35,Fit,Colombia's best player; 15G/13A — best BL season by anyone,83.8,110.6,528.6,,,,,,
+Jonathan David,FWD,,Juventus,Canada,B,90,1,Automatic Starter,86.1,134,83,20,Fit,Canada all-time top scorer; hosts nation; 39 intl goals,39.6,66.3,288.8,,,,,,
+Kenan Yıldız,FWD,,Juventus,Turkey,D,85,1,Automatic Starter,86.6,121,79,15,Fit,Turkey's defining player; 23 career caps,68.8,92.6,391.8,,,,,,
+Julián Álvarez,FWD,,Atlético Madrid,Argentina,J,85,2,Regular Starter,70.3,259,98,70,Fit,2022 WC winner; often starts alongside Lautaro,40.0,75.4,393.5,,,,,,
+Amad Diallo,FWD,,Manchester United,Ivory Coast,E,80,1,Automatic Starter,87.1,59,44,10,Fit,18 caps / 5 goals; WC qualifying hero; Ivory Coast talisman,56.6,81.1,288.7,,,,,,
+Raphinha,FWD,,Barcelona,Brazil,C,82,1,Automatic Starter,86.1,202,83,20,Fit,Brazil captain; first choice right winger,80.9,109.3,559.1,,,,,,
+Viktor Gyökeres,FWD,,Arsenal,Sweden,F,82,1,Automatic Starter,87.1,35,28,10,Fit,Sweden's standout striker; 15 intl goals; 14 PL goals,47.1,68.6,225.8,,,,,,
+Désiré Doué,FWD,,PSG,France,I,72,3,Impact Sub,39.0,64,97,60,Fit,26G across 5 comps; 8 caps; France depth limits starts,66.9,108.1,217.3,,,,,,
+Alexander Isak,FWD,,Liverpool,Sweden,F,72,2,Regular Starter,74.3,31,28,10,Injury,Injury-ravaged season; only 3 goals; starts if fit,36.6,61.6,173.7,,,,,,
+Ousmane Dembélé,FWD,,PSG,France,I,75,2,Regular Starter,71.0,256,97,60,Fit,Established France starter; trusted by Deschamps,63.9,99.1,516.3,,,,,,
+Ollie Watkins,FWD,,Aston Villa,England,L,65,3,Impact Sub,38.3,57,95,55,Fit,Kane backup; 16G all comps; likely squad pick,46.0,85.9,164.0,DNP/DNP/DNP/DNP/sub76,0/5,Consistently not selected; lean club form earlier in season,Fit,6 goals in last 5 games; form surge makes squad inclusion likely,3
+Rafael Leão,FWD,,AC Milan,Portugal,K,65,3,Impact Sub,36.8,57,95,45,Fit,Quality but inconsistent; depth behind Neto/Ramos,66.9,107.5,200.0,,,,,,
+Jonathan Burkardt,FWD,,Eintracht Frankfurt,Germany,E,55,3,Impact Sub,39.0,51,95,60,Fit,5 caps; emerging Germany option; competing for 1 spot,46.0,84.8,158.3,,,,,,
+Erling Haaland,FWD,,Manchester City,Norway,I,99,1,Automatic Starter,87.1,73,58,10,Fit,Broke PL record (35 PL goals); Norway's everything,61.8,84.4,313.6,,,,,,
+Jérémy Doku,FWD,,Manchester City,Belgium,G,72,3,Impact Sub,37.5,46,92,50,Fit,Regular Belgium squad; rotation at City limits him,66.9,105.5,185.8,,,,,,
+João Pedro,FWD,,Chelsea,Brazil,C,42,4,Fringe,13.2,11,83,20,Fit,14G for Chelsea; competing vs massive Brazil forward depth,46.0,123.3,69.3,,,,,,
+Pedro Neto,FWD,,Chelsea,Portugal,K,68,3,Impact Sub,36.8,57,95,45,Fit,Nations League winner; creative winger; regular squad member,66.9,107.5,200.0,,,,,,
+Omar Marmoush,FWD,,Manchester City,Egypt,G,68,3,Impact Sub,31.5,16,58,10,Injury,Knee ligament Sep 2025; wrecked season; limited if included,32.0,69.4,85.3,,,,,,
+Matheus Cunha,FWD,,Manchester United,Brazil,C,52,4,Fringe,13.2,11,83,20,Fit,Brazil forward depth means limited role if included,46.0,123.3,69.3,,,,,,
+Karim Adeyemi,FWD,,B. Dortmund,Germany,E,50,3,Impact Sub,39.0,51,95,60,Fit,Inconsistent; in Germany plans; competing for 1 spot,66.9,105.7,197.2,,,,,,
+Romelu Lukaku,FWD,,Napoli,Belgium,G,50,4,Fringe,15.0,12,92,50,Injury,High-grade thigh injury; 5-month recovery; fitness is everything,46.0,117.2,74.2,,,,,,
+Hugo Ekitiké,FWD,,Liverpool,France,I,48,4,Fringe,15.6,16,97,60,Fit,7 France caps; France forward depth extraordinary,66.9,143.9,100.4,,,,,,
+Marcus Rashford,FWD,,Barcelona,England,L,45,3,Impact Sub,38.3,57,95,55,Fit,Revitalised at Barça (12G/10A); re-entering England picture,66.9,106.8,203.9,sub71/69/sub75/90/sub68,2/5,Impact sub role in most camps,Fit,On the plane; rotation/impact role confirmed by Tuchel recall,3
+Nick Woltemade,FWD,,Newcastle,Germany,E,45,3,Impact Sub,39.0,51,95,60,Fit,10 caps; scored vs Luxembourg qualifying; squad bubble,66.9,105.7,197.2,,,,,,
+Serge Gnabry,FWD,,Bayern Munich,Germany,E,40,4,Fringe,15.6,13,95,60,Injury,Late-season groin injury; Germany have options ahead,66.9,138.4,92.0,,,,,,
+Antony,FWD,,Real Betis,Brazil,C,38,5,Depth,3,4,83,20,Fit,Improved season but not featuring for Brazil,66.9,238.8,34.5,,,,,,
+Mason Greenwood,FWD,,Marseille,England,L,0,5,Depth,3,6,95,55,Fit,Categorically excluded by Tuchel; no England pathway; may pursue Jamaica,66.9,253.9,42.3,N/A (excluded),0/5,Tuchel: 'not in our thoughts'; last cap Nov 2020,Fit (irrelevant),Categorically excluded by Tuchel,5
+Matías Soulé,FWD,,Roma,Argentina,J,22,5,Depth,3,6,98,70,Fit,Only 2 senior caps; Argentina depth makes squad very hard,46.0,240.5,40.1,,,,,,
