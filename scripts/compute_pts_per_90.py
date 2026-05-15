@@ -129,7 +129,7 @@ OVR = {
     'Luis Díaz':         dict(goals=0.50, assists=0.43, SoT=1.80, shots_off=1.20, bcc=0.90, dribbles=2.5, yellow=0.08),
     'Raphinha':          dict(goals=0.75, assists=0.20, SoT=1.29, shots_off=1.20, bcc=0.80, dribbles=2.8, yellow=0.27),
     'Omar Marmoush':     dict(goals=0.20, assists=0.15, SoT=1.20, shots_off=1.00, yellow=0.08),
-    'Scott McTominay':   dict(goals=0.32, assists=0.12, SoT=1.14, shots_off=1.80, yellow=0.04),
+    'Scott McTominay':   dict(goals=0.17, assists=0.12, SoT=1.14, shots_off=1.80, yellow=0.04),
     'Martin Ødegaard':   dict(goals=0.08, assists=0.42, SoT=0.80, bcc=1.00, key2=0.50, yellow=0.05),
     'Bruno Fernandes':   dict(goals=0.26, assists=0.61, SoT=0.77, shots_off=1.80, bcc=1.00, key2=0.50, yellow=0.07),
     'Joshua Kimmich':    dict(goals=0.07, assists=0.24, SoT=0.60, passes_own=52, passes_opp=52,
@@ -160,6 +160,9 @@ OVR = {
     'Achraf Hakimi':     dict(goals=0.13, assists=0.13, SoT=0.59, dribbles=2.0, yellow=0.20, red=0.066),
     'Joško Gvardiol':    dict(goals=0.14, assists=0.14, SoT=0.40, yellow=0.14),
     'Nuno Mendes':       dict(goals=0.06, assists=0.15, SoT=0.40, dribbles=1.5, yellow=0.08),
+    'Nick Woltemade':    dict(goals=0.45, assists=0.15, SoT=1.80, shots_off=1.20, yellow=0.12),
+    'Rafael Leão':       dict(goals=0.46, assists=0.18, SoT=1.70, shots_off=1.00, dribbles=3.5, yellow=0.10),
+    'Jérémy Doku':       dict(goals=0.12, assists=0.22, SoT=0.90, shots_off=0.80, dribbles=5.2, bcc=0.90, yellow=0.14),
 }
 
 WINGERS = {
