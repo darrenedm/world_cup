@@ -286,11 +286,15 @@ def main():
         csv_name = NAME_MAP.get(pname, pname)
         row = csv_rows.get(csv_name)
         if row:
-            tot_pts  = float(row['total_exp_fantasy_pts'])
+            raw_pts  = float(row['total_exp_fantasy_pts'])
+            adj_pts  = float(row['adj_exp_fantasy_pts'])
+            sq_prob  = int(row['wc_squad_prob_pct'])
             nat      = row['nationality']
             tier     = row['tier']
         else:
-            tot_pts  = None
+            raw_pts  = None
+            adj_pts  = None
+            sq_prob  = None
             nat      = '—'
             tier     = '—'
         entries.append({
@@ -298,10 +302,12 @@ def main():
             'club':        club,
             'bracket_pos': bracket_pos,
             'price':       price,
-            'tot_pts':     tot_pts,
+            'raw_pts':     raw_pts,
+            'tot_pts':     adj_pts,   # primary metric is probability-adjusted
+            'sq_prob':     sq_prob,
             'nat':         nat,
             'tier':        tier,
-            'value':       round(tot_pts / price, 2) if tot_pts is not None else None,
+            'value':       round(adj_pts / price, 2) if adj_pts is not None else None,
         })
 
     # Compute position-mean value using T1/T2 players only (GK1/GK2 for keepers)
@@ -342,10 +348,12 @@ def main():
     # Build markdown
     lines = [
         '# World Cup 2026 — Fantasy Valuation Sheet',
-        f'*Players priced, ranked by WC expected pts / price within each position bracket.*',
+        f'*Players priced, ranked by probability-adjusted WC expected pts / price within each position bracket.*',
         '',
-        '**value_score** = `total_exp_fantasy_pts / price` — higher is better value.',
-        '**value_index** = value_score vs T1/T2 starter average (100 = average starter; 150 = 50% above average starter).',
+        '**Adj Pts** = `raw_exp_pts × squad_selection_probability` — discounts injured/uncertain players.',
+        '**value_score** = `adj_exp_fantasy_pts / price` — higher is better value.',
+        '**value_index** = value_score vs T1/T2 starter average (100 = average starter; 150 = 50% above average).',
+        '**Sq%** = probability player is in their nation\'s final WC squad.',
         '`—` = player\'s national team outside our 24-country WC analysis.',
         '',
         '---',
@@ -361,8 +369,8 @@ def main():
         lines.append(f'## {pos_label[pos]}')
         lines.append(f'*Position avg value_score: {mean_v:.1f} pts/price-unit*')
         lines.append('')
-        lines.append('| # | Player | Club | Nation | WC Tier | Price | Exp Pts | value_score | value_index | Alloc % |')
-        lines.append('|---|--------|------|--------|---------|------:|--------:|------------:|------------:|--------:|')
+        lines.append('| # | Player | Club | Nation | Tier | Sq% | Price | Adj Pts | value_score | value_index | Alloc % |')
+        lines.append('|---|--------|------|--------|------|----:|------:|--------:|------------:|------------:|--------:|')
 
         rank = 0
         for e in players:
@@ -371,12 +379,13 @@ def main():
                 rank += 1
                 rank_str = str(rank)
             pts_str   = f"{e['tot_pts']:.0f}"    if e['tot_pts']    is not None else '—'
-            val_str   = f"{e['value']:.1f}"      if e['value']      is not None else '—'
-            idx_str   = str(e['value_index'])    if e['value_index'] is not None else '—'
-            alloc_str = f"{e['alloc_pct']:.2f}%" if e['alloc_pct']  is not None else '—'
+            sq_str    = f"{e['sq_prob']}%"        if e['sq_prob']    is not None else '—'
+            val_str   = f"{e['value']:.1f}"       if e['value']      is not None else '—'
+            idx_str   = str(e['value_index'])     if e['value_index'] is not None else '—'
+            alloc_str = f"{e['alloc_pct']:.2f}%"  if e['alloc_pct']  is not None else '—'
             lines.append(
                 f"| {rank_str} | {e['price_name']} | {e['club']} | {e['nat']} | {e['tier']} "
-                f"| {e['price']} | {pts_str} | {val_str} | {idx_str} | {alloc_str} |"
+                f"| {sq_str} | {e['price']} | {pts_str} | {val_str} | {idx_str} | {alloc_str} |"
             )
         lines.append('')
         lines.append('---')
@@ -384,7 +393,7 @@ def main():
 
     # Portfolio summary
     lines.append('## Portfolio Allocation Summary')
-    lines.append(f'*{n_sel} players selected (value_index ≥ 100). Base: {base_pct}% × {n_sel} = {base_total:.1f}%. '
+    lines.append(f'*{n_sel} players selected (value_index ≥ 100, based on adj_exp_pts). Base: {base_pct}% × {n_sel} = {base_total:.1f}%. '
                  f'Extra {remaining:.1f}% split proportional to value_index.*')
     lines.append('')
     for pos in pos_order:
@@ -401,12 +410,12 @@ def main():
     top_value = sorted(all_analysed, key=lambda e: -e['value'])[:20]
     lines.append('## Top 20 value picks across all positions')
     lines.append('')
-    lines.append('| # | Player | Pos | Club | Nation | Tier | Price | Exp Pts | value_score | value_index |')
-    lines.append('|---|--------|-----|------|--------|------|------:|--------:|------------:|------------:|')
+    lines.append('| # | Player | Pos | Club | Nation | Tier | Sq% | Price | Adj Pts | value_score | value_index |')
+    lines.append('|---|--------|-----|------|--------|------|----:|------:|--------:|------------:|------------:|')
     for i, e in enumerate(top_value, 1):
         lines.append(
             f"| {i} | {e['price_name']} | {e['bracket_pos']} | {e['club']} | {e['nat']} | {e['tier']} "
-            f"| {e['price']} | {e['tot_pts']:.0f} | {e['value']:.1f} | {e['value_index']} |"
+            f"| {e['sq_prob']}% | {e['price']} | {e['tot_pts']:.0f} | {e['value']:.1f} | {e['value_index']} |"
         )
 
     lines.append('')
@@ -414,17 +423,17 @@ def main():
     lines.append('')
 
     # Biggest misprices: high value_index but high enough pts to matter
-    big_value = sorted([e for e in all_analysed if e['tot_pts'] >= 200],
+    big_value = sorted([e for e in all_analysed if (e['raw_pts'] or 0) >= 200],
                        key=lambda e: -e['value_index'])
     lines.append('## Biggest positive misprices (meaningful WC expected pts, high value_index)')
     lines.append('')
-    lines.append('| Player | Pos | Price | Exp Pts | value_score | value_index | Note |')
-    lines.append('|--------|-----|------:|--------:|------------:|------------:|------|')
+    lines.append('| Player | Pos | Sq% | Price | Adj Pts | value_score | value_index | Note |')
+    lines.append('|--------|-----|----:|------:|--------:|------------:|------------:|------|')
     for e in big_value[:15]:
         note = 'priced on club form, WC output much higher' if e['value_index'] > 150 else (
                'solid value' if e['value_index'] > 120 else '')
         lines.append(
-            f"| {e['price_name']} | {e['bracket_pos']} | {e['price']} | {e['tot_pts']:.0f} "
+            f"| {e['price_name']} | {e['bracket_pos']} | {e['sq_prob']}% | {e['price']} | {e['tot_pts']:.0f} "
             f"| {e['value']:.1f} | {e['value_index']} | {note} |"
         )
 
@@ -434,10 +443,10 @@ def main():
 
     print(f"Written: {out_path}")
     print(f"\nPos averages: { {p: round(v,1) for p,v in pos_mean.items()} }")
-    print(f"\nTop 10 value picks:")
+    print(f"\nTop 10 value picks (by adj pts / price):")
     for i, e in enumerate(top_value[:10], 1):
-        print(f"  {i:2}. {e['price_name']:<28} {e['bracket_pos']:<4} £{e['price']:>3}  "
-              f"{e['tot_pts']:>6.0f} pts  value={e['value']:>5.1f}  idx={e['value_index']}")
+        print(f"  {i:2}. {e['price_name']:<28} {e['bracket_pos']:<4} {e['sq_prob']:>3}%sq  "
+              f"£{e['price']:>6}  adj={e['tot_pts']:>6.0f}pts  idx={e['value_index']}")
 
 
 if __name__ == '__main__':

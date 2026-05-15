@@ -335,28 +335,30 @@ def main():
         rows      = list(reader)
         fieldnames = list(reader.fieldnames)
 
-    new_cols = ['action_pts_per_90', 'exp_pts_per_90', 'total_exp_fantasy_pts']
+    new_cols = ['action_pts_per_90', 'exp_pts_per_90', 'total_exp_fantasy_pts', 'adj_exp_fantasy_pts']
     out_fields = fieldnames + [c for c in new_cols if c not in fieldnames]
 
     for row in rows:
         a90, e90, tot = compute_player_pts(row)
+        squad_prob = float(row.get('wc_squad_prob_pct', 100)) / 100.0
         row['action_pts_per_90']     = a90
         row['exp_pts_per_90']        = e90
         row['total_exp_fantasy_pts'] = tot
+        row['adj_exp_fantasy_pts']   = round(tot * squad_prob, 1)
 
     with open(path, 'w', newline='', encoding='utf-8') as f:
         writer = csv.DictWriter(f, fieldnames=out_fields)
         writer.writeheader()
         writer.writerows(rows)
 
-    ranked = sorted(rows, key=lambda r: float(r['total_exp_fantasy_pts']), reverse=True)
-    hdr = f"{'#':<4} {'Player':<28} {'Nat':<13} {'Pos':<4} {'Tier':<5} {'act/90':>7} {'exp/90':>7} {'Total':>7}"
+    ranked = sorted(rows, key=lambda r: float(r['adj_exp_fantasy_pts']), reverse=True)
+    hdr = f"{'#':<4} {'Player':<28} {'Nat':<13} {'Pos':<4} {'Tier':<5} {'Sq%':>4} {'act/90':>7} {'Raw Pts':>8} {'Adj Pts':>8}"
     print(hdr)
     print('-' * len(hdr))
     for i, r in enumerate(ranked[:35], 1):
         print(f"{i:<4} {r['player']:<28} {r['nationality']:<13} {r['position']:<4} "
-              f"{r['tier']:<5} {r['action_pts_per_90']:>7} {r['exp_pts_per_90']:>7} "
-              f"{r['total_exp_fantasy_pts']:>7}")
+              f"{r['tier']:<5} {r['wc_squad_prob_pct']:>3}% {r['action_pts_per_90']:>7} "
+              f"{r['total_exp_fantasy_pts']:>8} {r['adj_exp_fantasy_pts']:>8}")
 
     print(f"\nTotal players processed: {len(rows)}")
 
