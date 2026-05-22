@@ -66,7 +66,7 @@
 | 2 | Argentina | ❌ | TBC | |
 | 3 | Spain | ❌ | TBC | |
 | 4 | England | ✅ | ✅ | 26/26 tracked |
-| 5 | Portugal | ❌ | TBC | |
+| 5 | Portugal | ✅ | ✅ | 26/26 tracked |
 | 6 | Morocco | ❌ | TBC | |
 | 7 | Netherlands | ❌ | TBC | |
 | 8 | Germany | ❌ | TBC | |

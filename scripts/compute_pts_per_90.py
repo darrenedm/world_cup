@@ -241,6 +241,21 @@ OVR = {
     'Ibrahima Konaté':   dict(goals=0.08, assists=0.04, SoT=0.22,
                               passes_own=48, passes_opp=12, pass_pct=0.91,
                               tackles=1.2, intercepts=1.8, yellow=0.10),
+    # Portugal
+    'Diogo Costa':       dict(saves_pen=0.12),
+    'Cristiano Ronaldo': dict(goals=0.48, assists=0.12, SoT=1.80, shots_off=1.40,
+                              bcm=0.35, yellow=0.10),
+    'Bernardo Silva':    dict(goals=0.14, assists=0.22, SoT=0.80,
+                              passes_own=32, passes_opp=32, pass_pct=0.88,
+                              dribbles=2.5, bcc=0.8, yellow=0.12),
+    'Gonçalo Ramos':     dict(goals=0.55, assists=0.12, SoT=1.80, shots_off=0.90,
+                              bcm=0.30, dribbles=1.2, yellow=0.10),
+    'João Cancelo':      dict(goals=0.12, assists=0.18, SoT=0.55, dribbles=2.5,
+                              yellow=0.18, pen_won=0.05),
+    'Francisco Conceição': dict(goals=0.22, assists=0.18, SoT=1.20, shots_off=0.80,
+                              dribbles=3.0, yellow=0.10, pen_won=0.08, miscont=1.60),
+    'João Félix':        dict(goals=0.25, assists=0.22, SoT=1.10, dribbles=2.5,
+                              bcc=0.3, yellow=0.12, pen_won=0.08),
 }
 
 WINGERS = {
@@ -252,6 +267,7 @@ WINGERS = {
     'Mason Greenwood', 'Hugo Ekitiké', 'Désiré Doué',
     'Anthony Gordon', 'Noni Madueke',
     'Bradley Barcola', 'Michael Olise', 'Rayan Cherki', 'Maghnes Akliouche',
+    'Francisco Conceição', 'Francisco Trincão', 'João Félix',
 }
 
 # Scoring matrix point values (per event, per 90 min)
