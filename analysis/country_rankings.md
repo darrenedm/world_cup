@@ -70,8 +70,8 @@
 | 6 | Morocco | ❌ | TBC | |
 | 7 | Netherlands | ❌ | TBC | |
 | 8 | Germany | ✅ | ✅ | 26/26 tracked |
-| 9 | Brazil | ❌ | TBC | |
-| 10 | Belgium | ❌ | TBC | |
+| 9 | Brazil | ✅ | ✅ | 26/26 tracked |
+| 10 | Belgium | ✅ | ✅ | 26/26 tracked |
 | 11 | Croatia | ❌ | TBC | |
 | 12 | Colombia | ❌ | TBC | |
 | 13 | USA | ❌ | TBC | |

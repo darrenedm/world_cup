@@ -273,6 +273,35 @@ OVR = {
     'Aleksandar Pavlovic': dict(goals=0.06, assists=0.10, SoT=0.35,
                               passes_own=40, passes_opp=20, pass_pct=0.89,
                               tackles=3.0, intercepts=1.8, yellow=0.12),
+    # Belgium
+    'Romelu Lukaku':     dict(goals=0.55, assists=0.12, SoT=1.80, shots_off=1.20,
+                              bcm=0.55, yellow=0.18),
+    'Amadou Onana':      dict(goals=0.06, assists=0.10, SoT=0.40,
+                              passes_own=38, passes_opp=22, pass_pct=0.87,
+                              tackles=3.8, intercepts=2.0, yellow=0.20),
+    'Leandro Trossard':  dict(goals=0.28, assists=0.22, SoT=1.40, shots_off=0.80,
+                              dribbles=2.5, yellow=0.10, pen_won=0.06),
+    'Charles De Ketelaere': dict(goals=0.22, assists=0.20, SoT=1.10, shots_off=0.70,
+                              dribbles=2.8, bcc=0.6, yellow=0.14),
+    # Brazil
+    'Alisson Becker':    dict(saves_pen=0.08),
+    'Bruno Guimarães':   dict(goals=0.12, assists=0.18, SoT=0.60,
+                              passes_own=35, passes_opp=28, pass_pct=0.88,
+                              tackles=3.2, intercepts=1.8, yellow=0.18),
+    'Marquinhos':        dict(goals=0.08, assists=0.06, SoT=0.25,
+                              passes_own=52, passes_opp=12, pass_pct=0.92,
+                              tackles=1.5, intercepts=2.0, yellow=0.10),
+    'Casemiro':          dict(goals=0.08, assists=0.08, SoT=0.35,
+                              passes_own=40, passes_opp=18, pass_pct=0.88,
+                              tackles=3.5, intercepts=1.8, yellow=0.22),
+    'Lucas Paquetá':     dict(goals=0.18, assists=0.22, SoT=0.90, shots_off=0.60,
+                              dribbles=2.2, bcc=0.5, yellow=0.16),
+    'Neymar':            dict(goals=0.35, assists=0.30, SoT=1.40, shots_off=0.90,
+                              dribbles=3.8, bcc=0.7, yellow=0.22, pen_won=0.10),
+    'Endrick':           dict(goals=0.52, assists=0.14, SoT=1.90, shots_off=1.00,
+                              dribbles=2.0, yellow=0.10),
+    'Gabriel Martinelli': dict(goals=0.28, assists=0.18, SoT=1.30, shots_off=0.90,
+                              dribbles=2.8, yellow=0.12, pen_won=0.07, miscont=1.70),
 }
 
 WINGERS = {
@@ -286,6 +315,8 @@ WINGERS = {
     'Bradley Barcola', 'Michael Olise', 'Rayan Cherki', 'Maghnes Akliouche',
     'Francisco Conceição', 'Francisco Trincão', 'João Félix',
     'Jamal Musiala', 'Leroy Sané', 'Jamie Leweling',
+    'Leandro Trossard', 'Charles De Ketelaere', 'Alexis Saelemaekers', 'Dodi Lukebakio',
+    'Neymar', 'Gabriel Martinelli',
 }
 
 # Scoring matrix point values (per event, per 90 min)
