@@ -9,52 +9,49 @@
 
 ## Goalkeepers
 
-| Tier | Player | Club | Sq% | Fitness | Role | Act/90 | Adj Pts | Tourn. | Squad |
-|------|--------|------|----:|---------|------|-------:|--------:|-------:|------:|
-| GK1 | Jordan Pickford | Everton | 100% | Fit | Starter | 28.4 | 390.8 | 9.2 | 6.4 |
-| GK2 | Dean Henderson | Crystal Palace | 100% | Fit | Backup | 27.8 | 11.3 | 1.2 | 1.1 |
-| GK3 | James Trafford | Manchester City | 100% | Fit | Backup | 27.8 | 4.1 | 1.1 | 1.0 |
+| Tier | Player | Club | Fitness | Role | Act/90 | Adj Pts | Tourn. | Squad | Notes |
+|------|--------|------|---------|------|-------:|--------:|-------:|------:|-------|
+| GK1 | Jordan Pickford | Everton | Fit | Starter | 28.4 | 390.8 | 9.2 | 6.4 |  |
+| GK2 | Dean Henderson | Crystal Palace | Fit | Backup | 27.8 | 11.3 | 1.2 | 1.1 |  |
+| GK3 | James Trafford | Manchester City | Fit | Backup | 27.8 | 4.1 | 1.1 | 1.0 |  |
 
 ## Defenders
 
-| Tier | Player | Club | Sub-Pos | Role | Sq% | Fitness | Act/90 | Adj Pts | Tourn. | Squad |
-|------|--------|------|---------|------|----:|---------|-------:|--------:|-------:|------:|
-| 2 | Reece James | Chelsea | RB | Starter | 100% | Injury | 58.8 | 490.6 | 9.2 | 7.9 |
-  > *Injury: on track for Jun 11; hamstring surgery Jan 2026*
-| 1 | Marc Guéhi | Manchester City | CB | Starter | 100% | Fit | 50.0 | 486.6 | 9.1 | 7.8 |
-| 2 | John Stones | Manchester City | CB | Starter | 100% | Injury | 52.9 | 462.0 | 8.7 | 7.4 |
-  > *Injury: targeting Jun 11; knee managed*
-| 2 | Ezri Konsa | Aston Villa | CB | Starter | 100% | Fit | 50.0 | 454.5 | 8.6 | 7.3 |
-| 3 | Nico O'Reilly | Manchester City | LB | Impact | 100% | Fit | 55.5 | 183.7 | 4.0 | 3.5 |
-| 3 | Tino Livramento | Newcastle United | RB | Impact | 100% | Fit | 55.5 | 152.9 | 3.5 | 3.1 |
-| 4 | Djed Spence | Tottenham Hotspur | RB | Depth | 100% | Fit | 55.5 | 86.2 | 2.4 | 2.2 |
-| 4 | Dan Burn | Newcastle United | CB | Depth | 100% | Fit | 50.0 | 83.2 | 2.3 | 2.1 |
-| 4 | Jarell Quansah | Bayer Leverkusen | CB | Fringe | 100% | Fit | 50.0 | 80.6 | 2.3 | 2.1 |
-  > *Injury*
+| Tier | Player | Club | Sub-Pos | Role | Fitness | Act/90 | Adj Pts | Tourn. | Squad | Notes |
+|------|--------|------|---------|------|---------|-------:|--------:|-------:|------:|-------|
+| 2 | Reece James | Chelsea | RB | Starter | Injury | 58.8 | 490.6 | 9.2 | 7.9 | Injury: on track for Jun 11; hamstring surgery Jan 2026 |
+| 1 | Marc Guéhi | Manchester City | CB | Starter | Fit | 50.0 | 486.6 | 9.1 | 7.8 |  |
+| 2 | John Stones | Manchester City | CB | Starter | Injury | 52.9 | 462.0 | 8.7 | 7.4 | Injury: targeting Jun 11; knee managed |
+| 2 | Ezri Konsa | Aston Villa | CB | Starter | Fit | 50.0 | 454.5 | 8.6 | 7.3 |  |
+| 3 | Nico O'Reilly | Manchester City | LB | Impact | Fit | 55.5 | 183.7 | 4.0 | 3.5 |  |
+| 3 | Tino Livramento | Newcastle United | RB | Impact | Fit | 55.5 | 152.9 | 3.5 | 3.1 |  |
+| 4 | Djed Spence | Tottenham Hotspur | RB | Depth | Fit | 55.5 | 86.2 | 2.4 | 2.2 |  |
+| 4 | Dan Burn | Newcastle United | CB | Depth | Fit | 50.0 | 83.2 | 2.3 | 2.1 |  |
+| 4 | Jarell Quansah | Bayer Leverkusen | CB | Fringe | Fit | 50.0 | 80.6 | 2.3 | 2.1 | Injury |
 
 ## Midfielders
 
-| Tier | Player | Club | Sub-Pos | Role | Sq% | Fitness | Act/90 | Adj Pts | Tourn. | Squad |
-|------|--------|------|---------|------|----:|---------|-------:|--------:|-------:|------:|
-| 1 | Jude Bellingham | Real Madrid | CM | Starter | 100% | Injury | 78.1 | 612.7 | 7.9 | 9.6 |
-| 1 | Declan Rice | Arsenal | DM | Starter | 100% | Fit | 70.4 | 569.5 | 7.3 | 9.0 |
-| 2 | Elliot Anderson | Nottingham Forest | CM | Starter | 100% | Fit | 63.9 | 490.2 | 6.4 | 7.8 |
-| 2 | Kobbie Mainoo | Manchester United | CM | Starter | 100% | Fit | 60.9 | 468.6 | 6.1 | 7.5 |
-| 3 | Eberechi Eze | Arsenal | AM | Impact | 100% | Fit | 64.9 | 200.3 | 2.8 | 3.8 |
-| 3 | Morgan Rogers | Aston Villa | AM | Impact | 100% | Fit | 64.9 | 173.6 | 2.5 | 3.4 |
-| 4 | Jordan Henderson | Brentford | DM | Depth | 100% | Fit | 66.5 | 93.1 | 1.5 | 2.3 |
+| Tier | Player | Club | Sub-Pos | Role | Fitness | Act/90 | Adj Pts | Tourn. | Squad | Notes |
+|------|--------|------|---------|------|---------|-------:|--------:|-------:|------:|-------|
+| 1 | Jude Bellingham | Real Madrid | CM | Starter | Injury | 78.1 | 612.7 | 7.9 | 9.6 |  |
+| 1 | Declan Rice | Arsenal | DM | Starter | Fit | 70.4 | 569.5 | 7.3 | 9.0 |  |
+| 2 | Elliot Anderson | Nottingham Forest | CM | Starter | Fit | 63.9 | 490.2 | 6.4 | 7.8 |  |
+| 2 | Kobbie Mainoo | Manchester United | CM | Starter | Fit | 60.9 | 468.6 | 6.1 | 7.5 |  |
+| 3 | Eberechi Eze | Arsenal | AM | Impact | Fit | 64.9 | 200.3 | 2.8 | 3.8 |  |
+| 3 | Morgan Rogers | Aston Villa | AM | Impact | Fit | 64.9 | 173.6 | 2.5 | 3.4 |  |
+| 4 | Jordan Henderson | Brentford | DM | Depth | Fit | 66.5 | 93.1 | 1.5 | 2.3 |  |
 
 ## Forwards
 
-| Tier | Player | Club | Sub-Pos | Role | Sq% | Fitness | Act/90 | Adj Pts | Tourn. | Squad |
-|------|--------|------|---------|------|----:|---------|-------:|--------:|-------:|------:|
-| 1 | Harry Kane | Bayern Munich | — | Starter | 100% | Fit | 84.9 | 643.2 | 8.7 | 10.0 |
-| 1 | Bukayo Saka | Arsenal | — | Starter | 100% | Fit | 67.0 | 543.1 | 7.5 | 8.6 |
-| 3 | Marcus Rashford | Barcelona | — | Impact | 100% | Fit | 65.7 | 201.8 | 3.4 | 3.8 |
-| 3 | Anthony Gordon | Newcastle United | — | Impact | 100% | Fit | 56.6 | 166.3 | 3.0 | 3.3 |
-| 3 | Ollie Watkins | Aston Villa | — | Impact | 100% | Fit | 45.2 | 162.5 | 2.9 | 3.2 |
-| 3 | Noni Madueke | Arsenal | — | Impact | 100% | Fit | 59.0 | 142.7 | 2.7 | 3.0 |
-| 3 | Ivan Toney | Al-Ahli | — | Impact | 100% | Fit | 40.6 | 140.6 | 2.7 | 2.9 |
+| Tier | Player | Club | Sub-Pos | Role | Fitness | Act/90 | Adj Pts | Tourn. | Squad | Notes |
+|------|--------|------|---------|------|---------|-------:|--------:|-------:|------:|-------|
+| 1 | Harry Kane | Bayern Munich | — | Starter | Fit | 84.9 | 643.2 | 8.7 | 10.0 |  |
+| 1 | Bukayo Saka | Arsenal | — | Starter | Fit | 67.0 | 543.1 | 7.5 | 8.6 |  |
+| 3 | Marcus Rashford | Barcelona | — | Impact | Fit | 65.7 | 201.8 | 3.4 | 3.8 |  |
+| 3 | Anthony Gordon | Newcastle United | — | Impact | Fit | 56.6 | 166.3 | 3.0 | 3.3 |  |
+| 3 | Ollie Watkins | Aston Villa | — | Impact | Fit | 45.2 | 162.5 | 2.9 | 3.2 |  |
+| 3 | Noni Madueke | Arsenal | — | Impact | Fit | 59.0 | 142.7 | 2.7 | 3.0 |  |
+| 3 | Ivan Toney | Al-Ahli | — | Impact | Fit | 40.6 | 140.6 | 2.7 | 2.9 |  |
 
 ---
 

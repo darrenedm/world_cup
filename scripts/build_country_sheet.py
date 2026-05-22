@@ -158,45 +158,41 @@ def build_sheet(country, all_rows):
 
         if pos_key == 'GK':
             lines.append(
-                '| Tier | Player | Club | Sq% | Fitness | Role | '
-                'Act/90 | Adj Pts | Tourn. | Squad |'
+                '| Tier | Player | Club | Fitness | Role | '
+                'Act/90 | Adj Pts | Tourn. | Squad | Notes |'
             )
             lines.append(
-                '|------|--------|------|----:|---------|------|'
-                '-------:|--------:|-------:|------:|'
+                '|------|--------|------|---------|------|'
+                '-------:|--------:|-------:|------:|-------|'
             )
             for r in players:
+                note = fitness_note(r) or ''
                 lines.append(
                     f"| {r['tier']} | {r['player']} | {r['club']} "
-                    f"| {r['wc_squad_prob_pct']}% | {r['fitness_flag']} "
+                    f"| {r['fitness_flag']} "
                     f"| {fmt_role(r['playing_role'])} "
                     f"| {r['action_pts_per_90']} | {r['adj_exp_fantasy_pts']} "
-                    f"| {t_rat[r['player']]} | {s_rat[r['player']]} |"
+                    f"| {t_rat[r['player']]} | {s_rat[r['player']]} | {note} |"
                 )
-                note = fitness_note(r)
-                if note:
-                    lines.append(f"  > *{note}*")
         else:
             lines.append(
-                '| Tier | Player | Club | Sub-Pos | Role | Sq% | Fitness | '
-                'Act/90 | Adj Pts | Tourn. | Squad |'
+                '| Tier | Player | Club | Sub-Pos | Role | Fitness | '
+                'Act/90 | Adj Pts | Tourn. | Squad | Notes |'
             )
             lines.append(
-                '|------|--------|------|---------|------|----:|---------|'
-                '-------:|--------:|-------:|------:|'
+                '|------|--------|------|---------|------|---------|'
+                '-------:|--------:|-------:|------:|-------|'
             )
             for r in players:
-                sub = r.get('sub_position') or '—'
+                sub  = r.get('sub_position') or '—'
+                note = fitness_note(r) or ''
                 lines.append(
                     f"| {r['tier']} | {r['player']} | {r['club']} | {sub} "
                     f"| {fmt_role(r['playing_role'])} "
-                    f"| {r['wc_squad_prob_pct']}% | {r['fitness_flag']} "
+                    f"| {r['fitness_flag']} "
                     f"| {r['action_pts_per_90']} | {r['adj_exp_fantasy_pts']} "
-                    f"| {t_rat[r['player']]} | {s_rat[r['player']]} |"
+                    f"| {t_rat[r['player']]} | {s_rat[r['player']]} | {note} |"
                 )
-                note = fitness_note(r)
-                if note:
-                    lines.append(f"  > *{note}*")
         lines.append('')
 
     # Squad summary table (confirmed players only, top 12)
