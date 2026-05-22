@@ -302,6 +302,22 @@ OVR = {
                               dribbles=2.0, yellow=0.10),
     'Gabriel Martinelli': dict(goals=0.28, assists=0.18, SoT=1.30, shots_off=0.90,
                               dribbles=2.8, yellow=0.12, pen_won=0.07, miscont=1.70),
+    # Croatia
+    'Dominik Livaković': dict(saves_pen=0.13),
+    'Luka Modrić':       dict(goals=0.08, assists=0.20, SoT=0.55,
+                              passes_own=35, passes_opp=35, pass_pct=0.90,
+                              tackles=1.5, intercepts=1.2, bcc=0.6, yellow=0.12),
+    'Andrej Kramarić':   dict(goals=0.55, assists=0.18, SoT=1.80, shots_off=1.20,
+                              bcm=0.40, yellow=0.12),
+    'Ivan Perišić':      dict(goals=0.22, assists=0.28, SoT=1.20, shots_off=0.80,
+                              dribbles=2.2, yellow=0.10, pen_won=0.06),
+    'Mario Pašalić':     dict(goals=0.22, assists=0.16, SoT=1.00, shots_off=0.60,
+                              bcc=0.5, yellow=0.12),
+    'Mateo Kovačić':     dict(goals=0.10, assists=0.14, SoT=0.60,
+                              passes_own=32, passes_opp=30, pass_pct=0.90,
+                              tackles=2.2, intercepts=1.5, yellow=0.12),
+    'Nikola Vlašić':     dict(goals=0.18, assists=0.14, SoT=0.90, shots_off=0.50,
+                              yellow=0.10),
 }
 
 WINGERS = {
@@ -317,6 +333,7 @@ WINGERS = {
     'Jamal Musiala', 'Leroy Sané', 'Jamie Leweling',
     'Leandro Trossard', 'Charles De Ketelaere', 'Alexis Saelemaekers', 'Dodi Lukebakio',
     'Neymar', 'Gabriel Martinelli',
+    'Ivan Perišić',
 }
 
 # Scoring matrix point values (per event, per 90 min)

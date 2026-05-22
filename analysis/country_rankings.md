@@ -72,7 +72,7 @@
 | 8 | Germany | ✅ | ✅ | 26/26 tracked |
 | 9 | Brazil | ✅ | ✅ | 26/26 tracked |
 | 10 | Belgium | ✅ | ✅ | 26/26 tracked |
-| 11 | Croatia | ❌ | TBC | |
+| 11 | Croatia | ✅ | ✅ | 26/26 tracked |
 | 12 | Colombia | ❌ | TBC | |
 | 13 | USA | ❌ | TBC | |
 | 14 | Senegal | ❌ | TBC | |
