@@ -1,6 +1,6 @@
 # England — World Cup 2026
 **Group L** · Advancement 95% · Dead rubber risk 55%  
-*21 players tracked in this dataset (squads are 26 — unlisted players not rated)*
+*26/26 squad members tracked · 7 tracked players not selected*
 
 **Tourn.** = 1–10 vs all WC players at the same position (10 = best at that position in the tournament)  
 **Squad** = 1–10 across all tracked players on this squad (10 = highest adj. expected pts on the team)
@@ -11,65 +11,86 @@
 
 | Tier | Player | Club | Sq% | Fitness | Role | Act/90 | Adj Pts | Tourn. | Squad |
 |------|--------|------|----:|---------|------|-------:|--------:|-------:|------:|
-| GK1 | Jordan Pickford | Everton | 96% | Fit | Starter | 28.4 | 375.2 | 8.8 | 6.3 |
-| GK2 | Dean Henderson | Crystal Palace | 80% | Fit | Backup | 27.8 | 9.0 | 1.2 | 1.1 |
-| GK3 | James Trafford | Manchester City | 65% | Fit | Backup | 27.8 | 2.7 | 1.1 | 1.0 |
-| GK3 | Nick Pope | Newcastle | 5% | Managed | Backup | 27.8 | 0.2 | 1.0 | 1.0 |
-  > *Managed*
+| GK1 | Jordan Pickford | Everton | 100% | Fit | Starter | 28.4 | 390.8 | 9.2 | 6.4 |
+| GK2 | Dean Henderson | Crystal Palace | 100% | Fit | Backup | 27.8 | 11.3 | 1.2 | 1.1 |
+| GK3 | James Trafford | Manchester City | 100% | Fit | Backup | 27.8 | 4.1 | 1.1 | 1.0 |
 
 ## Defenders
 
 | Tier | Player | Club | Sub-Pos | Role | Sq% | Fitness | Act/90 | Adj Pts | Tourn. | Squad |
 |------|--------|------|---------|------|----:|---------|-------:|--------:|-------:|------:|
-| 1 | Marc Guéhi | Manchester City | CB | Starter | 82% | Fit | 50.0 | 399.0 | 7.6 | 6.6 |
-| 2 | Ezri Konsa | Aston Villa | CB | Starter | 72% | Fit | 50.0 | 327.2 | 6.4 | 5.6 |
-| 3 | Trent Alexander-Arnold | Real Madrid | RB | Impact | 82% | Fit | 55.5 | 143.3 | 3.3 | 3.0 |
-  > *Managed*
-| 4 | Jarell Quansah | Bayer Leverkusen | CB | Fringe | 52% | Fit | 50.0 | 41.9 | 1.6 | 1.6 |
+| 2 | Reece James | Chelsea | RB | Starter | 100% | Injury | 58.8 | 490.6 | 9.2 | 7.9 |
+  > *Injury: on track for Jun 11; hamstring surgery Jan 2026*
+| 1 | Marc Guéhi | Manchester City | CB | Starter | 100% | Fit | 50.0 | 486.6 | 9.1 | 7.8 |
+| 2 | John Stones | Manchester City | CB | Starter | 100% | Injury | 52.9 | 462.0 | 8.7 | 7.4 |
+  > *Injury: targeting Jun 11; knee managed*
+| 2 | Ezri Konsa | Aston Villa | CB | Starter | 100% | Fit | 50.0 | 454.5 | 8.6 | 7.3 |
+| 3 | Nico O'Reilly | Manchester City | LB | Impact | 100% | Fit | 55.5 | 183.7 | 4.0 | 3.5 |
+| 3 | Tino Livramento | Newcastle United | RB | Impact | 100% | Fit | 55.5 | 152.9 | 3.5 | 3.1 |
+| 4 | Djed Spence | Tottenham Hotspur | RB | Depth | 100% | Fit | 55.5 | 86.2 | 2.4 | 2.2 |
+| 4 | Dan Burn | Newcastle United | CB | Depth | 100% | Fit | 50.0 | 83.2 | 2.3 | 2.1 |
+| 4 | Jarell Quansah | Bayer Leverkusen | CB | Fringe | 100% | Fit | 50.0 | 80.6 | 2.3 | 2.1 |
   > *Injury*
 
 ## Midfielders
 
 | Tier | Player | Club | Sub-Pos | Role | Sq% | Fitness | Act/90 | Adj Pts | Tourn. | Squad |
 |------|--------|------|---------|------|----:|---------|-------:|--------:|-------:|------:|
-| 1 | Declan Rice | Arsenal | DM | Starter | 99% | Fit | 70.4 | 563.8 | 7.5 | 9.0 |
-| 1 | Jude Bellingham | Real Madrid | CM | Starter | 85% | Injury | 78.1 | 520.8 | 7.0 | 8.4 |
-| 2 | Elliot Anderson | Nottingham Forest | CM | Starter | 88% | Fit | 63.9 | 431.4 | 5.9 | 7.1 |
-| 3 | Cole Palmer | Chelsea | AM | Impact | 74% | Injury | 64.9 | 148.2 | 2.7 | 3.1 |
-| 3 | Eberechi Eze | Arsenal | AM | Impact | 72% | Fit | 64.9 | 144.2 | 2.6 | 3.0 |
-| 5 | Phil Foden | Manchester City | AM | Depth | 40% | Injury | 64.9 | 16.8 | 1.2 | 1.2 |
-| 5 | Morgan Gibbs-White | Nottingham Forest | AM | Depth | 35% | Fit | 64.9 | 14.7 | 1.2 | 1.2 |
-| 5 | Jobe Bellingham | B. Dortmund | DM | Depth | 3% | Fit | 66.5 | 1.3 | 1.0 | 1.0 |
+| 1 | Jude Bellingham | Real Madrid | CM | Starter | 100% | Injury | 78.1 | 612.7 | 7.9 | 9.6 |
+| 1 | Declan Rice | Arsenal | DM | Starter | 100% | Fit | 70.4 | 569.5 | 7.3 | 9.0 |
+| 2 | Elliot Anderson | Nottingham Forest | CM | Starter | 100% | Fit | 63.9 | 490.2 | 6.4 | 7.8 |
+| 2 | Kobbie Mainoo | Manchester United | CM | Starter | 100% | Fit | 60.9 | 468.6 | 6.1 | 7.5 |
+| 3 | Eberechi Eze | Arsenal | AM | Impact | 100% | Fit | 64.9 | 200.3 | 2.8 | 3.8 |
+| 3 | Morgan Rogers | Aston Villa | AM | Impact | 100% | Fit | 64.9 | 173.6 | 2.5 | 3.4 |
+| 4 | Jordan Henderson | Brentford | DM | Depth | 100% | Fit | 66.5 | 93.1 | 1.5 | 2.3 |
 
 ## Forwards
 
 | Tier | Player | Club | Sub-Pos | Role | Sq% | Fitness | Act/90 | Adj Pts | Tourn. | Squad |
 |------|--------|------|---------|------|----:|---------|-------:|--------:|-------:|------:|
-| 1 | Harry Kane | Bayern Munich | — | Starter | 99% | Fit | 84.9 | 636.8 | 8.7 | 10.0 |
-| 1 | Bukayo Saka | Arsenal | — | Starter | 92% | Fit | 67.0 | 499.7 | 7.0 | 8.1 |
-| 3 | Ollie Watkins | Aston Villa | — | Impact | 65% | Fit | 45.2 | 105.6 | 2.3 | 2.5 |
-| 3 | Marcus Rashford | Barcelona | — | Impact | 45% | Fit | 65.7 | 90.8 | 2.1 | 2.3 |
-| 5 | Mason Greenwood | Marseille | — | Depth | 0% | Fit | 65.7 | 0.0 | 1.0 | 1.0 |
+| 1 | Harry Kane | Bayern Munich | — | Starter | 100% | Fit | 84.9 | 643.2 | 8.7 | 10.0 |
+| 1 | Bukayo Saka | Arsenal | — | Starter | 100% | Fit | 67.0 | 543.1 | 7.5 | 8.6 |
+| 3 | Marcus Rashford | Barcelona | — | Impact | 100% | Fit | 65.7 | 201.8 | 3.4 | 3.8 |
+| 3 | Anthony Gordon | Newcastle United | — | Impact | 100% | Fit | 56.6 | 166.3 | 3.0 | 3.3 |
+| 3 | Ollie Watkins | Aston Villa | — | Impact | 100% | Fit | 45.2 | 162.5 | 2.9 | 3.2 |
+| 3 | Noni Madueke | Arsenal | — | Impact | 100% | Fit | 59.0 | 142.7 | 2.7 | 3.0 |
+| 3 | Ivan Toney | Al-Ahli | — | Impact | 100% | Fit | 40.6 | 140.6 | 2.7 | 2.9 |
 
 ---
 
 ## Squad summary — top players by expected pts
 
-| # | Player | Pos | Club | Sq% | Adj Pts | Tourn. | Squad |
-|---|--------|-----|------|----:|--------:|-------:|------:|
-| 1 | Harry Kane | FWD | Bayern Munich | 99% | 636.8 | 8.7 | 10.0 |
-| 2 | Declan Rice | MID | Arsenal | 99% | 563.8 | 7.5 | 9.0 |
-| 3 | Jude Bellingham | MID | Real Madrid | 85% | 520.8 | 7.0 | 8.4 |
-| 4 | Bukayo Saka | FWD | Arsenal | 92% | 499.7 | 7.0 | 8.1 |
-| 5 | Elliot Anderson | MID | Nottingham Forest | 88% | 431.4 | 5.9 | 7.1 |
-| 6 | Marc Guéhi | DEF | Manchester City | 82% | 399.0 | 7.6 | 6.6 |
-| 7 | Jordan Pickford | GK | Everton | 96% | 375.2 | 8.8 | 6.3 |
-| 8 | Ezri Konsa | DEF | Aston Villa | 72% | 327.2 | 6.4 | 5.6 |
-| 9 | Cole Palmer | MID | Chelsea | 74% | 148.2 | 2.7 | 3.1 |
-| 10 | Eberechi Eze | MID | Arsenal | 72% | 144.2 | 2.6 | 3.0 |
-| 11 | Trent Alexander-Arnold | DEF | Real Madrid | 82% | 143.3 | 3.3 | 3.0 |
-| 12 | Ollie Watkins | FWD | Aston Villa | 65% | 105.6 | 2.3 | 2.5 |
+| # | Player | Pos | Club | Adj Pts | Tourn. | Squad |
+|---|--------|-----|------|--------:|-------:|------:|
+| 1 | Harry Kane | FWD | Bayern Munich | 643.2 | 8.7 | 10.0 |
+| 2 | Jude Bellingham | MID | Real Madrid | 612.7 | 7.9 | 9.6 |
+| 3 | Declan Rice | MID | Arsenal | 569.5 | 7.3 | 9.0 |
+| 4 | Bukayo Saka | FWD | Arsenal | 543.1 | 7.5 | 8.6 |
+| 5 | Reece James | DEF | Chelsea | 490.6 | 9.2 | 7.9 |
+| 6 | Elliot Anderson | MID | Nottingham Forest | 490.2 | 6.4 | 7.8 |
+| 7 | Marc Guéhi | DEF | Manchester City | 486.6 | 9.1 | 7.8 |
+| 8 | Kobbie Mainoo | MID | Manchester United | 468.6 | 6.1 | 7.5 |
+| 9 | John Stones | DEF | Manchester City | 462.0 | 8.7 | 7.4 |
+| 10 | Ezri Konsa | DEF | Aston Villa | 454.5 | 8.6 | 7.3 |
+| 11 | Jordan Pickford | GK | Everton | 390.8 | 9.2 | 6.4 |
+| 12 | Marcus Rashford | FWD | Barcelona | 201.8 | 3.4 | 3.8 |
 
 ---
 
-*Dataset covers elite/notable players only. Squad members outside this dataset (fringe/backup players) are not rated here.*
+## Not selected
+
+*Tracked players confirmed NOT in the final squad.*
+
+| Player | Pos | Club | Notes |
+|--------|-----|------|-------|
+| Trent Alexander-Arnold | DEF | Real Madrid | 5 consecutive DNPs under Tuchel |
+| Mason Greenwood | FWD | Marseille | Categorically excluded by Tuchel |
+| Nick Pope | GK | Newcastle | No call-up since Oct 2024 |
+| Cole Palmer | MID | Chelsea | Chronic pubalgia managed all season |
+| Morgan Gibbs-White | MID | Nottingham Forest | Repeatedly omitted under Tuchel despite 12 PL goals |
+| Phil Foden | MID | Manchester City | Ankle knock Mar 2026 |
+| Jobe Bellingham | MID | B. Dortmund | Zero senior caps |
+
+---
+
+*Squad members not in this dataset (unlisted fringe/backup players) have not been rated.*

@@ -208,6 +208,20 @@ OVR = {
     'Jordan Pickford':   dict(saves_pen=0.06),
     'Achraf Hakimi':     dict(goals=0.13, assists=0.13, SoT=0.59, dribbles=2.0, yellow=0.20, red=0.066,
                               pen_won=0.10, miscont=1.50, pen_giveaway=0.06),
+    'Reece James':       dict(goals=0.08, assists=0.15, SoT=0.45, dribbles=1.8, yellow=0.12,
+                              pen_won=0.05, miscont=0.70),
+    'John Stones':       dict(goals=0.05, assists=0.06, SoT=0.18,
+                              passes_own=50, passes_opp=14, pass_pct=0.91,
+                              tackles=1.2, intercepts=1.8, yellow=0.09),
+    'Kobbie Mainoo':     dict(goals=0.08, assists=0.10, SoT=0.45,
+                              passes_own=28, passes_opp=25, pass_pct=0.88,
+                              tackles=2.2, intercepts=1.5, yellow=0.10),
+    'Anthony Gordon':    dict(goals=0.18, assists=0.18, SoT=1.20, shots_off=0.90,
+                              dribbles=2.5, yellow=0.10, pen_won=0.08, miscont=1.80),
+    'Noni Madueke':      dict(goals=0.22, assists=0.16, SoT=1.30, shots_off=0.90,
+                              dribbles=2.5, yellow=0.09, pen_won=0.09, miscont=1.70),
+    'Ivan Toney':        dict(goals=0.40, assists=0.08, SoT=1.50, shots_off=1.20,
+                              bcm=0.40, yellow=0.15),
 }
 
 WINGERS = {
@@ -217,6 +231,7 @@ WINGERS = {
     'Jérémy Doku', 'Pedro Neto', 'Rafael Leão', 'Marcus Rashford',
     'Karim Adeyemi', 'Serge Gnabry', 'Nick Woltemade', 'Antony',
     'Mason Greenwood', 'Hugo Ekitiké', 'Désiré Doué',
+    'Anthony Gordon', 'Noni Madueke',
 }
 
 # Scoring matrix point values (per event, per 90 min)

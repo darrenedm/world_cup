@@ -106,9 +106,10 @@ def build_sheet(country, all_rows):
         print(f'No players found for {country}')
         return None
 
-    squad_sorted = sorted(squad, key=lambda r: -float(r['adj_exp_fantasy_pts']))
+    confirmed = [r for r in squad if int(r['wc_squad_prob_pct']) > 0]
     t_rat = build_tournament_ratings(all_rows)
-    s_rat = build_squad_ratings(squad)
+    s_rat = build_squad_ratings(confirmed)
+    not_sel   = [r for r in squad if int(r['wc_squad_prob_pct']) == 0]
 
     sample  = squad[0]
     group   = sample.get('group', '?')
@@ -121,7 +122,8 @@ def build_sheet(country, all_rows):
         f'**Group {group}** · Advancement {adv}% · Dead rubber risk {dead_rb}%  '
     )
     lines.append(
-        f'*{len(squad)} players tracked in this dataset (squads are 26 — unlisted players not rated)*'
+        f'*{len(confirmed)}/26 squad members tracked · '
+        f'{len(not_sel)} tracked players not selected*'
     )
     lines.append('')
     lines.append(
@@ -145,7 +147,7 @@ def build_sheet(country, all_rows):
 
     for pos_key, pos_label in pos_sections:
         players = sorted(
-            [r for r in squad if r['position'] == pos_key],
+            [r for r in confirmed if r['position'] == pos_key],
             key=lambda r: -float(r['adj_exp_fantasy_pts'])
         )
         if not players:
@@ -197,25 +199,42 @@ def build_sheet(country, all_rows):
                     lines.append(f"  > *{note}*")
         lines.append('')
 
-    # Squad summary table (top 10 by adj pts)
+    # Squad summary table (confirmed players only, top 12)
+    confirmed_sorted = sorted(confirmed, key=lambda r: -float(r['adj_exp_fantasy_pts']))
     lines.append('---')
     lines.append('')
     lines.append('## Squad summary — top players by expected pts')
     lines.append('')
-    lines.append('| # | Player | Pos | Club | Sq% | Adj Pts | Tourn. | Squad |')
-    lines.append('|---|--------|-----|------|----:|--------:|-------:|------:|')
-    for i, r in enumerate(squad_sorted[:12], 1):
+    lines.append('| # | Player | Pos | Club | Adj Pts | Tourn. | Squad |')
+    lines.append('|---|--------|-----|------|--------:|-------:|------:|')
+    for i, r in enumerate(confirmed_sorted[:12], 1):
         lines.append(
             f"| {i} | {r['player']} | {r['position']} | {r['club']} "
-            f"| {r['wc_squad_prob_pct']}% | {r['adj_exp_fantasy_pts']} "
+            f"| {r['adj_exp_fantasy_pts']} "
             f"| {t_rat[r['player']]} | {s_rat[r['player']]} |"
         )
+
+    # Not-selected section
+    if not_sel:
+        lines.append('')
+        lines.append('---')
+        lines.append('')
+        lines.append('## Not selected')
+        lines.append('')
+        lines.append('*Tracked players confirmed NOT in the final squad.*')
+        lines.append('')
+        lines.append('| Player | Pos | Club | Notes |')
+        lines.append('|--------|-----|------|-------|')
+        for r in sorted(not_sel, key=lambda r: r['position']):
+            note = (r.get('notes') or '').split(';')[0][:80]
+            lines.append(f"| {r['player']} | {r['position']} | {r['club']} | {note} |")
+
     lines.append('')
     lines.append('---')
     lines.append('')
     lines.append(
-        '*Dataset covers elite/notable players only. '
-        'Squad members outside this dataset (fringe/backup players) are not rated here.*'
+        '*Squad members not in this dataset (unlisted fringe/backup players) '
+        'have not been rated.*'
     )
 
     os.makedirs(OUT_DIR, exist_ok=True)
