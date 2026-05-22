@@ -256,6 +256,23 @@ OVR = {
                               dribbles=3.0, yellow=0.10, pen_won=0.08, miscont=1.60),
     'João Félix':        dict(goals=0.25, assists=0.22, SoT=1.10, dribbles=2.5,
                               bcc=0.3, yellow=0.12, pen_won=0.08),
+    # Germany
+    'Manuel Neuer':      dict(saves_pen=0.07),
+    'Jamal Musiala':     dict(goals=0.30, assists=0.25, SoT=1.50, shots_off=0.80,
+                              dribbles=3.5, bcc=0.8, yellow=0.10, pen_won=0.08),
+    'Kai Havertz':       dict(goals=0.25, assists=0.15, SoT=1.20, shots_off=0.70,
+                              bcm=0.20, passes_own=28, passes_opp=22, pass_pct=0.87,
+                              yellow=0.12),
+    'Deniz Undav':       dict(goals=0.55, assists=0.14, SoT=1.80, shots_off=1.00,
+                              bcm=0.30, yellow=0.12),
+    'Leroy Sané':        dict(goals=0.28, assists=0.22, SoT=1.40, shots_off=0.90,
+                              dribbles=3.0, yellow=0.14, pen_won=0.06, miscont=1.80),
+    'Leon Goretzka':     dict(goals=0.14, assists=0.18, SoT=0.70,
+                              passes_own=30, passes_opp=25, pass_pct=0.87,
+                              tackles=2.0, intercepts=1.2, yellow=0.16),
+    'Aleksandar Pavlovic': dict(goals=0.06, assists=0.10, SoT=0.35,
+                              passes_own=40, passes_opp=20, pass_pct=0.89,
+                              tackles=3.0, intercepts=1.8, yellow=0.12),
 }
 
 WINGERS = {
@@ -268,6 +285,7 @@ WINGERS = {
     'Anthony Gordon', 'Noni Madueke',
     'Bradley Barcola', 'Michael Olise', 'Rayan Cherki', 'Maghnes Akliouche',
     'Francisco Conceição', 'Francisco Trincão', 'João Félix',
+    'Jamal Musiala', 'Leroy Sané', 'Jamie Leweling',
 }
 
 # Scoring matrix point values (per event, per 90 min)
@@ -290,7 +308,7 @@ def get_archetype(row):
     if pos == 'DEF':
         return 'FB' if sub in ('LB', 'RB', 'RWB', 'FB') else 'CB'
     if pos == 'MID':
-        return sub           # DM, CM, or AM
+        return sub if sub in ('DM', 'CM', 'AM') else 'AM'   # RW/LW → AM
     # FWD (sub_position is empty for all forwards)
     return 'WNG' if name in WINGERS else 'CF'
 
