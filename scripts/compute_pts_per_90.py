@@ -222,6 +222,25 @@ OVR = {
                               dribbles=2.5, yellow=0.09, pen_won=0.09, miscont=1.70),
     'Ivan Toney':        dict(goals=0.40, assists=0.08, SoT=1.50, shots_off=1.20,
                               bcm=0.40, yellow=0.15),
+    # France
+    'Marcus Thuram':     dict(goals=0.55, assists=0.25, SoT=2.00, shots_off=1.00,
+                              bcm=0.45, yellow=0.12),
+    'Theo Hernandez':    dict(goals=0.18, assists=0.22, SoT=0.70, dribbles=2.0,
+                              tackles=1.5, yellow=0.22, pen_won=0.06),
+    'Aurélien Tchouaméni': dict(goals=0.06, assists=0.06, SoT=0.30,
+                              passes_own=45, passes_opp=8, pass_pct=0.90,
+                              tackles=3.5, intercepts=2.0, yellow=0.15),
+    'Bradley Barcola':   dict(goals=0.35, assists=0.22, SoT=1.60, shots_off=1.00,
+                              dribbles=3.5, yellow=0.08, pen_won=0.07, miscont=1.60),
+    'Warren Zaïre-Emery': dict(goals=0.10, assists=0.14, SoT=0.60,
+                              passes_own=30, passes_opp=22, pass_pct=0.87,
+                              tackles=2.0, intercepts=1.2, yellow=0.12),
+    'Adrien Rabiot':     dict(goals=0.12, assists=0.14, SoT=0.65,
+                              passes_own=28, passes_opp=20, pass_pct=0.85,
+                              tackles=2.2, intercepts=1.0, yellow=0.18),
+    'Ibrahima Konaté':   dict(goals=0.08, assists=0.04, SoT=0.22,
+                              passes_own=48, passes_opp=12, pass_pct=0.91,
+                              tackles=1.2, intercepts=1.8, yellow=0.10),
 }
 
 WINGERS = {
@@ -232,6 +251,7 @@ WINGERS = {
     'Karim Adeyemi', 'Serge Gnabry', 'Nick Woltemade', 'Antony',
     'Mason Greenwood', 'Hugo Ekitiké', 'Désiré Doué',
     'Anthony Gordon', 'Noni Madueke',
+    'Bradley Barcola', 'Michael Olise', 'Rayan Cherki', 'Maghnes Akliouche',
 }
 
 # Scoring matrix point values (per event, per 90 min)
