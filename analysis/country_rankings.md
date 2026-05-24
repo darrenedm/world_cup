@@ -75,13 +75,13 @@
 | 11 | Croatia | ✅ | ✅ | 26/26 tracked |
 | 12 | Colombia | ❌ | TBC | |
 | 13 | USA | ❌ | TBC | |
-| 14 | Senegal | ❌ | TBC | |
+| 14 | Senegal | ✅ | Provisional | 28/28 tracked; 2 to be cut Jun 2 |
 | 15 | Mexico | ❌ | TBC | |
 | 16 | Uruguay | ❌ | TBC | |
-| 17 | Japan | ❌ | TBC | |
-| 18 | Switzerland | ❌ | TBC | |
-| 19 | South Korea | ❌ | TBC | |
-| 20 | Austria | ❌ | TBC | |
+| 17 | Japan | ✅ | ✅ | 26/26 tracked |
+| 18 | Switzerland | ✅ | ✅ | 26/26 tracked |
+| 19 | South Korea | ✅ | ✅ | 26/26 tracked |
+| 20 | Austria | ✅ | ✅ | 26/26 tracked |
 | 21 | Turkey | ❌ | TBC | |
 | 22 | Ecuador | ❌ | TBC | |
 | 23 | Canada | ❌ | TBC | |

@@ -318,6 +318,65 @@ OVR = {
                               tackles=2.2, intercepts=1.5, yellow=0.12),
     'Nikola Vlašić':     dict(goals=0.18, assists=0.14, SoT=0.90, shots_off=0.50,
                               yellow=0.10),
+    # Senegal
+    'Sadio Mané':        dict(goals=0.35, assists=0.22, SoT=1.50, shots_off=0.80,
+                              dribbles=2.8, yellow=0.12, pen_won=0.08),
+    'Nicolas Jackson':   dict(goals=0.35, assists=0.12, SoT=1.50, shots_off=0.90,
+                              bcm=0.30, yellow=0.16),
+    'Pape Matar Sarr':   dict(goals=0.10, assists=0.18, SoT=0.70,
+                              passes_own=25, passes_opp=28, pass_pct=0.87,
+                              tackles=2.5, intercepts=1.8, yellow=0.12),
+    'Lamine Camara':     dict(goals=0.15, assists=0.20, SoT=0.80,
+                              passes_own=18, passes_opp=25, pass_pct=0.85,
+                              dribbles=2.0, bcc=0.5, yellow=0.12),
+    'Kalidou Koulibaly': dict(goals=0.06, assists=0.06, SoT=0.25,
+                              passes_own=50, passes_opp=12, pass_pct=0.91,
+                              tackles=1.5, intercepts=2.2, yellow=0.14),
+    # Japan
+    'Takefusa Kubo':     dict(goals=0.20, assists=0.25, SoT=1.20, shots_off=0.80,
+                              dribbles=3.5, bcc=0.8, yellow=0.10, pen_won=0.07),
+    'Wataru Endo':       dict(goals=0.08, assists=0.10, SoT=0.35,
+                              passes_own=38, passes_opp=20, pass_pct=0.90,
+                              tackles=4.0, intercepts=2.5, yellow=0.16),
+    'Ayase Ueda':        dict(goals=0.50, assists=0.12, SoT=1.60, shots_off=0.90,
+                              bcm=0.35, yellow=0.10),
+    'Ritsu Doan':        dict(goals=0.18, assists=0.18, SoT=1.00, shots_off=0.60,
+                              dribbles=2.5, yellow=0.10, pen_won=0.06),
+    # Switzerland
+    'Granit Xhaka':      dict(goals=0.10, assists=0.20, SoT=0.65,
+                              passes_own=42, passes_opp=28, pass_pct=0.90,
+                              tackles=2.5, intercepts=1.8, yellow=0.20),
+    'Manuel Akanji':     dict(goals=0.05, assists=0.08, SoT=0.25,
+                              passes_own=52, passes_opp=12, pass_pct=0.92,
+                              tackles=1.5, intercepts=2.2, yellow=0.10),
+    'Dan Ndoye':         dict(goals=0.18, assists=0.20, SoT=1.10, shots_off=0.70,
+                              dribbles=3.0, yellow=0.12, pen_won=0.06),
+    'Breel Embolo':      dict(goals=0.45, assists=0.18, SoT=1.60, shots_off=1.00,
+                              bcm=0.30, yellow=0.14),
+    'Ardon Jashari':     dict(goals=0.08, assists=0.16, SoT=0.50,
+                              passes_own=32, passes_opp=28, pass_pct=0.88,
+                              tackles=2.2, intercepts=1.5, yellow=0.14),
+    # South Korea
+    'Son Heung-min':     dict(goals=0.40, assists=0.25, SoT=1.50, shots_off=1.00,
+                              dribbles=2.5, yellow=0.06, pen_won=0.08),
+    'Kim Min-jae':       dict(goals=0.06, assists=0.05, SoT=0.22,
+                              passes_own=50, passes_opp=12, pass_pct=0.91,
+                              tackles=1.8, intercepts=2.2, yellow=0.16),
+    'Lee Kang-in':       dict(goals=0.18, assists=0.28, SoT=1.00, shots_off=0.60,
+                              passes_own=20, passes_opp=28, pass_pct=0.87,
+                              dribbles=2.5, bcc=0.7, yellow=0.14),
+    # Austria
+    'Marcel Sabitzer':   dict(goals=0.15, assists=0.18, SoT=0.80,
+                              passes_own=30, passes_opp=28, pass_pct=0.88,
+                              tackles=2.0, intercepts=1.5, yellow=0.14),
+    'David Alaba':       dict(goals=0.06, assists=0.10, SoT=0.30,
+                              passes_own=48, passes_opp=12, pass_pct=0.92,
+                              tackles=1.5, intercepts=2.0, yellow=0.08),
+    'Marko Arnautovic':  dict(goals=0.40, assists=0.14, SoT=1.40, shots_off=1.00,
+                              bcm=0.35, yellow=0.20),
+    'Christoph Baumgartner': dict(goals=0.18, assists=0.22, SoT=0.90, shots_off=0.50,
+                              passes_own=20, passes_opp=25, pass_pct=0.87,
+                              yellow=0.10),
 }
 
 WINGERS = {
@@ -334,6 +393,14 @@ WINGERS = {
     'Leandro Trossard', 'Charles De Ketelaere', 'Alexis Saelemaekers', 'Dodi Lukebakio',
     'Neymar', 'Gabriel Martinelli',
     'Ivan Perišić',
+    # Senegal
+    'Sadio Mané', 'Ismaïla Sarr', 'Iliman Ndiaye',
+    # Japan
+    'Ritsu Doan', 'Junya Ito',
+    # Switzerland
+    'Dan Ndoye', 'Ruben Vargas', 'Noah Okafor',
+    # South Korea
+    'Son Heung-min', 'Hwang Hee-chan', 'Yang Hyun-jun',
 }
 
 # Scoring matrix point values (per event, per 90 min)
