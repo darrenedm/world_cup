@@ -377,6 +377,77 @@ OVR = {
     'Christoph Baumgartner': dict(goals=0.18, assists=0.22, SoT=0.90, shots_off=0.50,
                               passes_own=20, passes_opp=25, pass_pct=0.87,
                               yellow=0.10),
+    # Norway
+    'Fredrik Aursnes':      dict(goals=0.08, assists=0.10, SoT=0.35,
+                              passes_own=35, passes_opp=22, pass_pct=0.88,
+                              tackles=3.5, intercepts=2.5, yellow=0.14),
+    'Alexander Sørloth':    dict(goals=0.45, assists=0.12, SoT=1.50, shots_off=0.90,
+                              bcm=0.40, yellow=0.18),
+    'Jørgen Strand Larsen': dict(goals=0.38, assists=0.14, SoT=1.40, shots_off=0.90,
+                              bcm=0.30, yellow=0.14),
+    'Oscar Bobb':           dict(goals=0.14, assists=0.20, SoT=0.80,
+                              dribbles=2.5, bcc=0.6, yellow=0.10, pen_won=0.05),
+    'Antonio Nusa':         dict(goals=0.14, assists=0.18, SoT=0.85, shots_off=0.60,
+                              dribbles=3.0, bcc=0.7, yellow=0.10),
+    # Scotland
+    'Andrew Robertson':     dict(goals=0.04, assists=0.14, SoT=0.22,
+                              passes_own=38, passes_opp=18, pass_pct=0.87,
+                              tackles=1.5, intercepts=1.5, yellow=0.10),
+    'John McGinn':          dict(goals=0.16, assists=0.14, SoT=0.80,
+                              passes_own=22, passes_opp=25, pass_pct=0.85,
+                              tackles=2.5, intercepts=1.5, bcc=0.5, yellow=0.18),
+    'Billy Gilmour':        dict(goals=0.06, assists=0.12, SoT=0.35,
+                              passes_own=35, passes_opp=22, pass_pct=0.91,
+                              tackles=2.8, intercepts=2.2, yellow=0.12),
+    'Che Adams':            dict(goals=0.45, assists=0.14, SoT=1.50, shots_off=0.90,
+                              bcm=0.30, yellow=0.14),
+    'Ryan Christie':        dict(goals=0.12, assists=0.18, SoT=0.70,
+                              dribbles=2.0, bcc=0.5, yellow=0.12, pen_won=0.05),
+    # Sweden
+    'Viktor Lindelöf':      dict(goals=0.04, assists=0.06, SoT=0.20,
+                              passes_own=52, passes_opp=12, pass_pct=0.90,
+                              tackles=1.5, intercepts=2.2, yellow=0.10),
+    'Lucas Bergvall':       dict(goals=0.10, assists=0.18, SoT=0.55,
+                              passes_own=28, passes_opp=25, pass_pct=0.88,
+                              dribbles=2.0, bcc=0.5, yellow=0.10),
+    'Anthony Elanga':       dict(goals=0.20, assists=0.18, SoT=1.10, shots_off=0.70,
+                              dribbles=3.0, bcc=0.5, yellow=0.10, pen_won=0.05),
+    'Mattias Svanberg':     dict(goals=0.10, assists=0.14, SoT=0.55,
+                              passes_own=30, passes_opp=22, pass_pct=0.89,
+                              tackles=2.0, intercepts=1.5, yellow=0.14),
+    'Isak Hien':            dict(goals=0.05, assists=0.06, SoT=0.22,
+                              passes_own=48, passes_opp=12, pass_pct=0.90,
+                              tackles=1.8, intercepts=2.2, yellow=0.14),
+    # Ivory Coast
+    'Odilon Kossounou':     dict(goals=0.05, assists=0.06, SoT=0.22,
+                              passes_own=48, passes_opp=12, pass_pct=0.90,
+                              tackles=1.8, intercepts=2.2, yellow=0.14),
+    'Wilfried Singo':       dict(goals=0.06, assists=0.14, SoT=0.35,
+                              passes_own=30, passes_opp=20, pass_pct=0.86,
+                              dribbles=1.8, yellow=0.12),
+    'Ibrahim Sangaré':      dict(goals=0.08, assists=0.10, SoT=0.40,
+                              passes_own=30, passes_opp=20, pass_pct=0.87,
+                              tackles=3.5, intercepts=2.8, yellow=0.18),
+    'Seko Fofana':          dict(goals=0.12, assists=0.16, SoT=0.65,
+                              passes_own=28, passes_opp=25, pass_pct=0.87,
+                              tackles=2.0, intercepts=1.8, bcc=0.5, yellow=0.16),
+    'Simon Adingra':        dict(goals=0.22, assists=0.22, SoT=1.10, shots_off=0.70,
+                              dribbles=3.2, bcc=0.6, yellow=0.10, pen_won=0.06),
+    'Evann Guessand':       dict(goals=0.35, assists=0.14, SoT=1.30, shots_off=0.90,
+                              bcm=0.30, yellow=0.14),
+    # DR Congo
+    'Yoane Wissa':          dict(goals=0.38, assists=0.18, SoT=1.50, shots_off=0.90,
+                              dribbles=2.5, bcc=0.4, yellow=0.12),
+    'Gaël Kakuta':          dict(goals=0.14, assists=0.20, SoT=0.75,
+                              passes_own=18, passes_opp=22, pass_pct=0.85,
+                              dribbles=2.5, bcc=0.6, yellow=0.14),
+    'Aaron Wan-Bissaka':    dict(goals=0.02, assists=0.08, SoT=0.10,
+                              passes_own=25, passes_opp=18, pass_pct=0.84,
+                              tackles=2.5, intercepts=1.8, dribbles=1.5, yellow=0.12),
+    'Cédric Bakambu':       dict(goals=0.35, assists=0.12, SoT=1.30, shots_off=0.90,
+                              bcm=0.30, yellow=0.16),
+    'Simon Banza':          dict(goals=0.42, assists=0.12, SoT=1.50, shots_off=0.90,
+                              bcm=0.35, yellow=0.14),
 }
 
 WINGERS = {
@@ -401,6 +472,16 @@ WINGERS = {
     'Dan Ndoye', 'Ruben Vargas', 'Noah Okafor',
     # South Korea
     'Son Heung-min', 'Hwang Hee-chan', 'Yang Hyun-jun',
+    # Norway
+    'Antonio Nusa', 'Oscar Bobb',
+    # Scotland
+    'Ryan Christie', 'Ben Doak',
+    # Sweden
+    'Anthony Elanga', 'Ken Sema',
+    # Ivory Coast
+    'Simon Adingra', 'Nicolas Pépé', 'Dango Ouattara',
+    # DR Congo
+    'Yoane Wissa', 'Nathanaël Mbuku', 'Théo Bongonda',
 }
 
 # Scoring matrix point values (per event, per 90 min)

@@ -88,18 +88,18 @@
 | 24 | Australia | ❌ | TBC | |
 | 25 | Iran | ❌ | TBC | |
 | 26 | Panama | ❌ | TBC | |
-| 27 | Norway | ❌ | TBC | |
-| 28 | Scotland | ❌ | TBC | |
+| 27 | Norway | ✅ | ✅ | 26/26 tracked |
+| 28 | Scotland | ✅ | ✅ | 26/26 tracked |
 | 29 | Egypt | ❌ | TBC | |
 | 30 | Algeria | ❌ | TBC | |
 | 31 | Paraguay | ❌ | TBC | |
 | 32 | Tunisia | ❌ | TBC | |
-| 33 | Sweden | ❌ | TBC | |
-| 34 | Ivory Coast | ❌ | TBC | |
+| 33 | Sweden | ✅ | ✅ | 26/26 tracked |
+| 34 | Ivory Coast | ✅ | ✅ | 25/26 tracked; 1 player TBC |
 | 35 | Czech Republic | ❌ | TBC | |
 | 36 | Uzbekistan | ❌ | TBC | |
 | 37 | Qatar | ❌ | TBC | |
-| 38 | DR Congo | ❌ | TBC | |
+| 38 | DR Congo | ✅ | ✅ | 26/26 tracked |
 | 39 | Iraq | ❌ | TBC | |
 | 40 | Saudi Arabia | ❌ | TBC | |
 | 41 | South Africa | ❌ | TBC | |
