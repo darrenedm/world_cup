@@ -32,7 +32,7 @@
 | 23 | Canada | B | 5.7 | Co-host home boost; Jonathan David-led attack |
 | 24 | Australia | D | 5.6 | AFC qualifier; steady |
 | 25 | Iran | G | 5.5 | AFC Group A winners; well-organised defensively |
-| 26 | Panama | D | 5.3 | CONCACAF qualifier; limited ceiling |
+| 26 | Panama | L | 5.3 | CONCACAF qualifier; limited ceiling |
 | 27 | Norway | I | 5.3 | Haaland-dependent; inconsistent without him in form |
 | 28 | Scotland | C | 5.0 | McTominay heroics; surprising qualification; punching above ranking |
 | 29 | Egypt | G | 5.0 | Salah-dependent; CAF qualifier |
@@ -82,12 +82,12 @@
 | 18 | Switzerland | ✅ | ✅ | 26/26 tracked |
 | 19 | South Korea | ✅ | ✅ | 26/26 tracked |
 | 20 | Austria | ✅ | ✅ | 26/26 tracked |
-| 21 | Turkey | ❌ | TBC | |
-| 22 | Ecuador | ❌ | TBC | |
-| 23 | Canada | ❌ | TBC | |
-| 24 | Australia | ❌ | TBC | |
-| 25 | Iran | ❌ | TBC | |
-| 26 | Panama | ❌ | TBC | |
+| 21 | Turkey | ✅ | ✅ | 26/26 tracked |
+| 22 | Ecuador | ✅ | ✅ | 26/26 tracked |
+| 23 | Canada | ✅ | ✅ | 26/26 tracked |
+| 24 | Australia | ✅ | ✅ | 26/26 tracked |
+| 25 | Iran | ✅ | ✅ | 26/26 tracked |
+| 26 | Panama | ✅ | ✅ | 26/26 tracked |
 | 27 | Norway | ✅ | ✅ | 26/26 tracked |
 | 28 | Scotland | ✅ | ✅ | 26/26 tracked |
 | 29 | Egypt | ❌ | TBC | |

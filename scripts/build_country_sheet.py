@@ -21,8 +21,8 @@ import csv
 import os
 import sys
 
-DATA_PATH = '/tmp/world_cup_repo/data/master_sheet.csv'
-OUT_DIR   = '/tmp/world_cup_repo/countries'
+DATA_PATH = '/tmp/wc_repo/data/master_sheet.csv'
+OUT_DIR   = '/tmp/wc_repo/countries'
 
 
 def load_data():

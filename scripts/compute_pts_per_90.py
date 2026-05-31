@@ -448,6 +448,95 @@ OVR = {
                               bcm=0.30, yellow=0.16),
     'Simon Banza':          dict(goals=0.42, assists=0.12, SoT=1.50, shots_off=0.90,
                               bcm=0.35, yellow=0.14),
+    # Turkey (extra — Güler, Çalhanoğlu, Yıldız already above)
+    'Zeki Çelik':           dict(goals=0.03, assists=0.10, SoT=0.15,
+                              passes_own=25, passes_opp=18, pass_pct=0.83,
+                              tackles=1.5, intercepts=1.0, dribbles=1.5, yellow=0.14),
+    'Ferdi Kadıoğlu':       dict(goals=0.04, assists=0.15, SoT=0.20,
+                              passes_own=28, passes_opp=20, pass_pct=0.84,
+                              tackles=1.8, intercepts=1.2, dribbles=2.0, yellow=0.12),
+    'Merih Demiral':        dict(goals=0.08, assists=0.05, SoT=0.30,
+                              passes_own=40, passes_opp=15, pass_pct=0.87,
+                              tackles=1.5, intercepts=1.2, yellow=0.18),
+    'Kerem Aktürkoğlu':     dict(goals=0.30, assists=0.25, SoT=1.40, shots_off=1.00,
+                              dribbles=3.0, bcc=0.7, yellow=0.14),
+    'Barış Alper Yılmaz':   dict(goals=0.22, assists=0.20, SoT=1.10, shots_off=0.90,
+                              dribbles=2.5, bcc=0.5, yellow=0.12),
+    'Can Uzun':             dict(goals=0.25, assists=0.18, SoT=1.20, shots_off=1.00,
+                              yellow=0.10),
+    # Ecuador (Caicedo already above)
+    'Willian Pacho':        dict(goals=0.06, assists=0.04, SoT=0.25,
+                              passes_own=55, passes_opp=20, pass_pct=0.92,
+                              tackles=1.5, intercepts=1.0, yellow=0.18),
+    'Piero Hincapié':       dict(goals=0.05, assists=0.06, SoT=0.20,
+                              passes_own=52, passes_opp=18, pass_pct=0.90,
+                              tackles=1.8, intercepts=1.2, dribbles=1.0, yellow=0.14),
+    'Kendry Páez':          dict(goals=0.12, assists=0.25, SoT=0.90,
+                              passes_own=22, passes_opp=30, pass_pct=0.87,
+                              bcc=0.60, dribbles=2.5, yellow=0.10),
+    'Enner Valencia':       dict(goals=0.32, assists=0.12, SoT=1.40, shots_off=1.00,
+                              bcm=0.25, yellow=0.14),
+    'Gonzalo Plata':        dict(goals=0.22, assists=0.20, SoT=1.10, shots_off=0.90,
+                              dribbles=3.0, bcc=0.6, yellow=0.12),
+    'Nilson Angulo':        dict(goals=0.18, assists=0.22, SoT=1.00, shots_off=0.80,
+                              dribbles=2.5, bcc=0.5, yellow=0.10),
+    # Canada (Jonathan David already above)
+    'Alphonso Davies':      dict(goals=0.08, assists=0.18, SoT=0.30,
+                              passes_own=30, passes_opp=22, pass_pct=0.86,
+                              tackles=1.8, intercepts=1.2, dribbles=3.0, bcc=0.8, yellow=0.18),
+    'Tajon Buchanan':       dict(goals=0.22, assists=0.18, SoT=1.10, shots_off=0.80,
+                              dribbles=3.0, bcc=0.6, yellow=0.12),
+    'Stephen Eustáquio':    dict(goals=0.08, assists=0.12, SoT=0.35,
+                              passes_own=32, passes_opp=22, pass_pct=0.87,
+                              tackles=2.5, intercepts=1.8, recoveries=4.0, yellow=0.22),
+    'Cyle Larin':           dict(goals=0.38, assists=0.10, SoT=1.50, shots_off=1.20,
+                              bcm=0.30, yellow=0.20),
+    'Ismaël Koné':          dict(goals=0.08, assists=0.10, SoT=0.40,
+                              passes_own=28, passes_opp=22, pass_pct=0.87,
+                              tackles=2.0, intercepts=1.5, yellow=0.18),
+    # Australia
+    'Jackson Irvine':       dict(goals=0.12, assists=0.14, SoT=0.50,
+                              passes_own=25, passes_opp=20, pass_pct=0.85,
+                              tackles=2.5, intercepts=1.5, yellow=0.18),
+    'Ajdin Hrustic':        dict(goals=0.08, assists=0.18, SoT=0.50,
+                              passes_own=22, passes_opp=28, pass_pct=0.86,
+                              bcc=0.50, key2=0.25, yellow=0.12),
+    'Nestory Irankunda':    dict(goals=0.18, assists=0.22, SoT=0.90, shots_off=0.70,
+                              dribbles=3.5, bcc=0.6, yellow=0.10),
+    'Martin Boyle':         dict(goals=0.20, assists=0.18, SoT=1.00, shots_off=0.70,
+                              dribbles=3.0, bcc=0.5, yellow=0.12),
+    'Harry Souttar':        dict(goals=0.06, assists=0.04, SoT=0.30,
+                              passes_own=42, passes_opp=12, pass_pct=0.88,
+                              tackles=1.2, intercepts=0.8, yellow=0.14),
+    'Mohamed Toure':        dict(goals=0.28, assists=0.12, SoT=1.30, shots_off=1.00,
+                              bcm=0.30, yellow=0.18),
+    # Iran
+    'Mehdi Taremi':         dict(goals=0.50, assists=0.20, SoT=1.80, shots_off=1.20,
+                              bcm=0.35, yellow=0.16, pen_won=0.08),
+    'Saeid Ezatolahi':      dict(goals=0.05, assists=0.06, SoT=0.20,
+                              passes_own=32, passes_opp=22, pass_pct=0.85,
+                              tackles=3.0, intercepts=2.0, yellow=0.20),
+    'Alireza Jahanbakhsh':  dict(goals=0.16, assists=0.22, SoT=0.90, shots_off=0.70,
+                              dribbles=2.0, bcc=0.5, yellow=0.12),
+    'Saman Ghoddos':        dict(goals=0.12, assists=0.18, SoT=0.70,
+                              passes_own=18, passes_opp=22, pass_pct=0.85,
+                              dribbles=1.5, bcc=0.4, yellow=0.10),
+    # Panama
+    'Aníbal Godoy':         dict(goals=0.04, assists=0.06, SoT=0.15,
+                              passes_own=35, passes_opp=18, pass_pct=0.84,
+                              tackles=3.5, intercepts=2.0, yellow=0.22),
+    'Adalberto Carrasquilla': dict(goals=0.10, assists=0.18, SoT=0.50,
+                              passes_own=20, passes_opp=25, pass_pct=0.85,
+                              bcc=0.40, yellow=0.16),
+    'Michael Murillo':      dict(goals=0.03, assists=0.10, SoT=0.15,
+                              passes_own=22, passes_opp=18, pass_pct=0.82,
+                              tackles=2.0, intercepts=1.2, dribbles=1.5, yellow=0.16),
+    'Ismael Díaz':          dict(goals=0.28, assists=0.14, SoT=1.30, shots_off=0.90,
+                              bcm=0.25, dribbles=1.5, yellow=0.14),
+    'Cecilio Waterman':     dict(goals=0.22, assists=0.14, SoT=1.10, shots_off=0.80,
+                              dribbles=2.0, bcc=0.4, yellow=0.16),
+    'José Fajardo':         dict(goals=0.30, assists=0.10, SoT=1.30, shots_off=1.00,
+                              bcm=0.25, yellow=0.14),
 }
 
 WINGERS = {
@@ -482,6 +571,18 @@ WINGERS = {
     'Simon Adingra', 'Nicolas Pépé', 'Dango Ouattara',
     # DR Congo
     'Yoane Wissa', 'Nathanaël Mbuku', 'Théo Bongonda',
+    # Turkey
+    'Kerem Aktürkoğlu', 'Barış Alper Yılmaz', 'Yunus Akgün', 'İrfan Can Kahveci',
+    # Ecuador
+    'Gonzalo Plata', 'Nilson Angulo',
+    # Canada
+    'Tajon Buchanan', 'Liam Millar', 'Tani Oluwaseyi', 'Promise David',
+    # Australia
+    'Martin Boyle', 'Nestory Irankunda', 'Mathew Leckie', 'Brandon Borrello', 'Nishan Velupillay',
+    # Iran
+    'Amirhossein Hosseinzadeh',
+    # Panama
+    'Cecilio Waterman', 'Tomás Rodríguez',
 }
 
 # Scoring matrix point values (per event, per 90 min)
@@ -658,7 +759,7 @@ def compute_player_pts(row):
 
 
 def main():
-    path = '/tmp/world_cup_repo/data/master_sheet.csv'
+    path = '/tmp/wc_repo/data/master_sheet.csv'
 
     with open(path, newline='', encoding='utf-8') as f:
         reader    = csv.DictReader(f)
