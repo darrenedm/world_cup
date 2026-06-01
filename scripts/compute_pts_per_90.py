@@ -38,6 +38,9 @@ TEAM = {
     'Egypt':       (17.1, 0.22, 1.40, 0.22, 0.15, 1.30),
     'Ivory Coast': (15.2, 0.18, 1.50, 0.26, 0.15, 1.20),
     'Ghana':       ( 6.3, 0.08, 2.50, 0.08, 0.05, 2.00),
+    'Tunisia':     ( 9.5, 0.14, 1.70, 0.18, 0.10, 1.50),
+    'South Africa':( 5.5, 0.08, 2.20, 0.10, 0.05, 2.00),
+    'Cape Verde':  ( 4.5, 0.06, 2.40, 0.08, 0.05, 2.20),
 }
 
 CS_BONUS = {'GK': 40, 'DEF': 30, 'MID': 10, 'FWD': 0}
@@ -614,6 +617,27 @@ OVR = {
                               bcm=0.30, yellow=0.10),
     'Tim Weah':              dict(goals=0.18, assists=0.16, SoT=0.90, shots_off=0.70,
                               dribbles=2.5, bcc=0.40, yellow=0.14),
+    # Tunisia
+    'Ellyes Skhiri':         dict(goals=0.06, assists=0.10, SoT=0.30,
+                              passes_own=32, passes_opp=20, pass_pct=0.88,
+                              tackles=3.5, intercepts=2.2, yellow=0.20),
+    'Hannibal Mejbri':       dict(goals=0.12, assists=0.15, SoT=0.60,
+                              passes_own=25, passes_opp=25, pass_pct=0.85,
+                              tackles=2.5, intercepts=1.5, dribbles=1.5, yellow=0.18),
+    # South Africa
+    'Ronwen Williams':       dict(saves_pen=0.15),
+    'Lyle Foster':           dict(goals=0.35, assists=0.10, SoT=1.40, shots_off=0.90,
+                              bcm=0.25, yellow=0.14),
+    'Evidence Makgopa':      dict(goals=0.32, assists=0.10, SoT=1.20, shots_off=0.90,
+                              bcm=0.20, yellow=0.12),
+    # Cape Verde
+    'Logan Costa':           dict(goals=0.04, assists=0.06, SoT=0.22,
+                              passes_own=48, passes_opp=12, pass_pct=0.88,
+                              tackles=1.5, intercepts=1.8, yellow=0.12),
+    'Dailon Livramento':     dict(goals=0.30, assists=0.12, SoT=1.20, shots_off=0.90,
+                              bcm=0.25, yellow=0.10),
+    'Ryan Mendes':           dict(goals=0.15, assists=0.22, SoT=0.80, shots_off=0.60,
+                              dribbles=2.0, bcc=0.40, yellow=0.08),
 }
 
 WINGERS = {
@@ -674,6 +698,12 @@ WINGERS = {
     'Daniel Campaz', 'Yaser Asprilla', 'Brayan Rodríguez',
     # USA
     'Tim Weah', 'Brenden Aaronson', 'Alan Zendejas', 'Caden Clark',
+    # Tunisia (FWD sub_position WNG)
+    'Khalil Ayari', 'Elias Achouri', 'Elias Saâd', 'Sebastian Tounekti', 'Rayan Elloumi',
+    # South Africa (FWD sub_position WNG)
+    'Tshepang Moremi', 'Thapelo Maseko',
+    # Cape Verde (FWD sub_position WNG)
+    'Ryan Mendes', 'Garry Rodrigues', 'Jovane Cabral', 'Willy Semedo', 'Hélio Varela',
 }
 
 # Scoring matrix point values (per event, per 90 min)

@@ -93,7 +93,7 @@
 | 29 | Egypt | ❌ | TBC | |
 | 30 | Algeria | ❌ | TBC | |
 | 31 | Paraguay | ❌ | TBC | |
-| 32 | Tunisia | ❌ | TBC | |
+| 32 | Tunisia | ✅ | ✅ | 26/26 tracked; Ayari (PSG WNG) + Achouri (Copenhagen WNG) top scorers; Skhiri captain |
 | 33 | Sweden | ✅ | ✅ | 26/26 tracked |
 | 34 | Ivory Coast | ✅ | ✅ | 25/26 tracked; 1 player TBC |
 | 35 | Czech Republic | ❌ | TBC | |
@@ -102,9 +102,9 @@
 | 38 | DR Congo | ✅ | ✅ | 26/26 tracked |
 | 39 | Iraq | ❌ | TBC | |
 | 40 | Saudi Arabia | ❌ | TBC | |
-| 41 | South Africa | ❌ | TBC | |
+| 41 | South Africa | ✅ | ✅ | 26/26 tracked; Mofokeng + Appollis (Pirates WNGs) key; Williams penalty specialist; Foster CF |
 | 42 | Jordan | ❌ | TBC | |
-| 43 | Cape Verde | ❌ | TBC | |
+| 43 | Cape Verde | ✅ | ✅ | 26/26 tracked; historic debut; Logan Costa DOUBTFUL (ACL); Livramento (Casa Pia CF) star; Mendes captain |
 | 44 | Bosnia | ❌ | TBC | |
 | 45 | Ghana | ❌ | TBC | |
 | 46 | Curaçao | ❌ | TBC | |
