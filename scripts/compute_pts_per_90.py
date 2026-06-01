@@ -537,6 +537,83 @@ OVR = {
                               dribbles=2.0, bcc=0.4, yellow=0.16),
     'José Fajardo':         dict(goals=0.30, assists=0.10, SoT=1.30, shots_off=1.00,
                               bcm=0.25, yellow=0.14),
+    # Argentina
+    'Lionel Messi':          dict(goals=1.10, assists=0.45, SoT=2.20, shots_off=1.50,
+                              bcc=1.50, dribbles=4.5, yellow=0.06, pen_won=0.20, miscont=2.20),
+    'Lautaro Martínez':      dict(goals=0.72, assists=0.22, SoT=2.10, shots_off=1.50,
+                              bcm=0.45, yellow=0.12),
+    'Alexis Mac Allister':   dict(goals=0.10, assists=0.18, SoT=0.60,
+                              passes_own=32, passes_opp=28, pass_pct=0.88,
+                              tackles=2.0, intercepts=1.5, yellow=0.14),
+    'Rodrigo De Paul':       dict(goals=0.10, assists=0.18, SoT=0.55,
+                              passes_own=28, passes_opp=25, pass_pct=0.85,
+                              tackles=2.5, intercepts=1.5, yellow=0.22),
+    'Enzo Fernández':        dict(goals=0.09, assists=0.14, SoT=0.50,
+                              passes_own=30, passes_opp=25, pass_pct=0.88,
+                              tackles=2.5, intercepts=1.8, yellow=0.18),
+    # Spain
+    'Rodri':                 dict(goals=0.08, assists=0.12, SoT=0.45,
+                              passes_own=55, passes_opp=25, pass_pct=0.925,
+                              tackles=2.5, intercepts=1.8, recoveries=5.5, yellow=0.08),
+    'Nico Williams':         dict(goals=0.35, assists=0.30, SoT=1.60, shots_off=1.00,
+                              dribbles=4.5, bcc=0.80, yellow=0.10, pen_won=0.15, miscont=2.00),
+    'Mikel Oyarzabal':       dict(goals=0.50, assists=0.20, SoT=1.80, shots_off=1.20,
+                              bcm=0.30, yellow=0.08),
+    'Fabián Ruiz':           dict(goals=0.14, assists=0.24, SoT=0.80,
+                              passes_own=30, passes_opp=28, pass_pct=0.88,
+                              bcc=0.55, yellow=0.10),
+    'Martín Zubimendi':      dict(goals=0.06, assists=0.08, SoT=0.30,
+                              passes_own=45, passes_opp=22, pass_pct=0.92,
+                              tackles=2.8, intercepts=2.0, yellow=0.10),
+    'Mikel Merino':          dict(goals=0.14, assists=0.16, SoT=0.70,
+                              passes_own=28, passes_opp=20, pass_pct=0.87,
+                              tackles=2.5, intercepts=1.5, yellow=0.14),
+    # Morocco
+    'Ayoub El Kaabi':        dict(goals=0.52, assists=0.14, SoT=1.80, shots_off=1.20,
+                              bcm=0.35, yellow=0.12),
+    'Brahim Díaz':           dict(goals=0.20, assists=0.28, SoT=1.00, shots_off=0.70,
+                              dribbles=3.5, bcc=0.70, yellow=0.10),
+    'Sofyan Amrabat':        dict(goals=0.04, assists=0.08, SoT=0.20,
+                              passes_own=38, passes_opp=22, pass_pct=0.88,
+                              tackles=4.5, intercepts=2.5, recoveries=6.0, yellow=0.30),
+    'Azzedine Ounahi':       dict(goals=0.08, assists=0.14, SoT=0.45,
+                              passes_own=30, passes_opp=25, pass_pct=0.87,
+                              tackles=2.0, intercepts=1.5, dribbles=1.5, yellow=0.16),
+    'Abdessamad Ezzalzouli': dict(goals=0.18, assists=0.22, SoT=1.00, shots_off=0.80,
+                              dribbles=3.0, bcc=0.60, yellow=0.12),
+    # Netherlands
+    'Virgil van Dijk':       dict(goals=0.08, assists=0.06, SoT=0.30,
+                              passes_own=52, passes_opp=12, pass_pct=0.92,
+                              tackles=1.5, intercepts=2.0, yellow=0.10),
+    'Tijjani Reijnders':     dict(goals=0.22, assists=0.26, SoT=1.10, shots_off=0.70,
+                              passes_own=28, passes_opp=30, pass_pct=0.87,
+                              bcc=0.70, yellow=0.12),
+    'Cody Gakpo':            dict(goals=0.52, assists=0.22, SoT=1.85, shots_off=1.20,
+                              dribbles=2.5, bcc=0.50, yellow=0.12),
+    'Memphis Depay':         dict(goals=0.50, assists=0.20, SoT=1.70, shots_off=1.20,
+                              bcm=0.35, dribbles=2.5, yellow=0.14),
+    'Denzel Dumfries':       dict(goals=0.06, assists=0.14, SoT=0.30,
+                              passes_own=22, passes_opp=20, pass_pct=0.83,
+                              tackles=2.0, intercepts=1.2, dribbles=1.8, yellow=0.18),
+    # Colombia
+    'James Rodríguez':       dict(goals=0.18, assists=0.42, SoT=0.80, shots_off=0.60,
+                              bcc=1.00, key2=0.50, passes_own=20, passes_opp=30, pass_pct=0.87,
+                              yellow=0.10),
+    'Richard Ríos':          dict(goals=0.10, assists=0.16, SoT=0.50,
+                              passes_own=30, passes_opp=25, pass_pct=0.88,
+                              tackles=3.0, intercepts=2.0, yellow=0.22),
+    'Cucho Hernández':       dict(goals=0.45, assists=0.18, SoT=1.60, shots_off=1.00,
+                              dribbles=2.5, bcm=0.30, yellow=0.14),
+    # USA
+    'Tyler Adams':           dict(goals=0.04, assists=0.08, SoT=0.20,
+                              passes_own=38, passes_opp=20, pass_pct=0.88,
+                              tackles=4.5, intercepts=2.5, recoveries=5.5, yellow=0.30),
+    'Malik Tillman':         dict(goals=0.20, assists=0.26, SoT=1.00, shots_off=0.70,
+                              bcc=0.60, dribbles=2.0, yellow=0.12),
+    'Folarin Balogun':       dict(goals=0.45, assists=0.14, SoT=1.60, shots_off=0.90,
+                              bcm=0.30, yellow=0.10),
+    'Tim Weah':              dict(goals=0.18, assists=0.16, SoT=0.90, shots_off=0.70,
+                              dribbles=2.5, bcc=0.40, yellow=0.14),
 }
 
 WINGERS = {
@@ -583,6 +660,20 @@ WINGERS = {
     'Amirhossein Hosseinzadeh',
     # Panama
     'Cecilio Waterman', 'Tomás Rodríguez',
+    # Argentina
+    'Lionel Messi', 'Nicolás González', 'Giuliano Simeone', 'Nico Paz',
+    # Spain
+    'Nico Williams', 'Ferran Torres', 'Yeremy Pino',
+    # Morocco
+    'Brahim Díaz', 'Abdessamad Ezzalzouli', 'Soufiane Rahimi',
+    'Ilias Talbi', 'Bilal Amaimouni', 'Nassim Gessime',
+    # Netherlands
+    'Cody Gakpo', 'Donyell Malen', 'Crysencio Summerville',
+    'Noa Lang', 'Memphis Depay', 'Patrick Kluivert',
+    # Colombia
+    'Daniel Campaz', 'Yaser Asprilla', 'Brayan Rodríguez',
+    # USA
+    'Tim Weah', 'Brenden Aaronson', 'Alan Zendejas', 'Caden Clark',
 }
 
 # Scoring matrix point values (per event, per 90 min)

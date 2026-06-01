@@ -9,7 +9,7 @@
 |------|---------|-------|----------|-------|
 | 1 | France | I | 10.0 | Dominant Nations League; full squad depth |
 | 2 | Argentina | J | 10.0 | Defending WC holders; CONMEBOL qualifying won comfortably |
-| 3 | Spain | H | 9.7 | Rodri groin injury (May 2026) — biggest WC concern |
+| 3 | Spain | H | 9.7 | Rodri fully fit (ACL recovery complete; no groin issue confirmed); Yamal doubtful G1-G2 |
 | 4 | England | L | 9.3 | Tuchel era solid; Bellingham fitness resolved |
 | 5 | Portugal | K | 8.6 | Won Nations League Jun 2025; Bruno + Vitinha in form |
 | 6 | Morocco | C | 8.3 | Strong CAF qualifying; defensively elite; Hakimi fitness TBC |
@@ -63,18 +63,18 @@
 | Rank | Country | Sheet | Squad Confirmed | Notes |
 |------|---------|-------|----------------|-------|
 | 1 | France | ✅ | ✅ | 26/26 tracked |
-| 2 | Argentina | ❌ | TBC | |
-| 3 | Spain | ❌ | TBC | |
+| 2 | Argentina | ✅ | ✅ | 26/26 tracked; Romero/Paredes doubtful; Messi minor fatigue flag |
+| 3 | Spain | ✅ | ✅ | 26/26 tracked; Yamal likely misses G1-G2; Rodri fully fit (no groin issue) |
 | 4 | England | ✅ | ✅ | 26/26 tracked |
 | 5 | Portugal | ✅ | ✅ | 26/26 tracked |
-| 6 | Morocco | ❌ | TBC | |
-| 7 | Netherlands | ❌ | TBC | |
+| 6 | Morocco | ✅ | ✅ | 26/26 tracked; Hakimi doubtful opener; En-Nesyri/Ziyech/Saiss all OUT |
+| 7 | Netherlands | ✅ | ✅ | 26/26 tracked; Depay doubtful opener; Xavi Simons OUT (ACL) |
 | 8 | Germany | ✅ | ✅ | 26/26 tracked |
 | 9 | Brazil | ✅ | ✅ | 26/26 tracked |
 | 10 | Belgium | ✅ | ✅ | 26/26 tracked |
 | 11 | Croatia | ✅ | ✅ | 26/26 tracked |
-| 12 | Colombia | ❌ | TBC | |
-| 13 | USA | ❌ | TBC | |
+| 12 | Colombia | ✅ | ✅ | 26/26 tracked; Durán OUT (disciplinary); Luis Díaz Bayern (26G+23A) |
+| 13 | USA | ✅ | ✅ | 26/26 tracked; Richards doubtful opener; Musah OUT (injury); Ream captain |
 | 14 | Senegal | ✅ | Provisional | 28/28 tracked; 2 to be cut Jun 2 |
 | 15 | Mexico | ❌ | TBC | |
 | 16 | Uruguay | ❌ | TBC | |
