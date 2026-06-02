@@ -11,7 +11,7 @@
 
 | Tier | Player | Club | Fitness | Role | Act/90 | Adj Pts | Tourn. | Squad | Notes |
 |------|--------|------|---------|------|-------:|--------:|-------:|------:|-------|
-| GK1 | Emiliano Martínez | Aston Villa | Fit | Starter | 29.6 | 417.5 | 9.7 | 5.3 |  |
+| GK1 | Emiliano Martínez | Aston Villa | Fit | Starter | 29.6 | 417.5 | 2.5 | 5.3 |  |
 | GK2 | Gerónimo Rulli | Olympique Marseille | Fit | Backup | 27.8 | 9.4 | 1.2 | 1.1 |  |
 | GK3 | Juan Musso | Atlético Madrid | Fit | Backup | 0.0 | 0.0 | 1.0 | 1.0 |  |
 

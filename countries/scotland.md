@@ -41,17 +41,17 @@
 | 3 | Kenny McLean | Hearts | CM | Squad Player | Fit | 63.9 | 135.6 | 2.2 | 4.7 |  |
 | 3 | Lewis Ferguson | Bologna | CM | Squad Player | Fit | 63.9 | 135.6 | 2.2 | 4.7 |  |
 | 4 | Ben Doak | Middlesbrough | AM | Depth | Fit | 64.9 | 67.6 | 1.4 | 2.9 |  |
-| 4 | Stuart Curtis | Kilmarnock | CM | Depth | Fit | 63.9 | 65.1 | 1.3 | 2.8 |  |
+| 4 | Stuart Curtis | Kilmarnock | CM | Depth | Fit | 63.9 | 65.1 | 1.4 | 2.8 |  |
 
 ## Forwards
 
 | Tier | Player | Club | Sub-Pos | Role | Fitness | Act/90 | Adj Pts | Tourn. | Squad | Notes |
 |------|--------|------|---------|------|---------|-------:|--------:|-------:|------:|-------|
-| 1 | Che Adams | Celtic | — | Starter | Fit | 46.3 | 227.5 | 3.6 | 7.2 |  |
-| 2 | Lawrence Shankland | Hearts | — | Starter | Fit | 45.2 | 201.2 | 3.3 | 6.5 |  |
-| 2 | Lyndon Dykes | Millwall | — | Starter | Fit | 45.2 | 201.2 | 3.3 | 6.5 |  |
-| 3 | George Hirst | Ipswich Town | — | Squad Player | Fit | 45.2 | 113.6 | 2.3 | 4.1 |  |
-| 3 | Ross Stewart | Southampton | — | Squad Player | Fit | 45.2 | 113.6 | 2.3 | 4.1 |  |
+| 1 | Che Adams | Celtic | — | Starter | Fit | 46.3 | 227.5 | 3.3 | 7.2 |  |
+| 2 | Lawrence Shankland | Hearts | — | Starter | Fit | 45.2 | 201.2 | 3.0 | 6.5 |  |
+| 2 | Lyndon Dykes | Millwall | — | Starter | Fit | 45.2 | 201.2 | 3.0 | 6.5 |  |
+| 3 | George Hirst | Ipswich Town | — | Squad Player | Fit | 45.2 | 113.6 | 2.1 | 4.1 |  |
+| 3 | Ross Stewart | Southampton | — | Squad Player | Fit | 45.2 | 113.6 | 2.1 | 4.1 |  |
 
 ---
 
@@ -65,12 +65,12 @@
 | 4 | Billy Gilmour | MID | Napoli | 244.7 | 3.4 | 7.7 |
 | 5 | Scott McKenna | DEF | Nottingham Forest | 231.8 | 4.3 | 7.4 |
 | 6 | Ryan Christie | MID | Bournemouth | 229.2 | 3.2 | 7.3 |
-| 7 | Che Adams | FWD | Celtic | 227.5 | 3.6 | 7.2 |
+| 7 | Che Adams | FWD | Celtic | 227.5 | 3.3 | 7.2 |
 | 8 | Aaron Hickey | DEF | Brentford | 225.0 | 4.2 | 7.2 |
 | 9 | Kieran Tierney | DEF | Real Sociedad | 225.0 | 4.2 | 7.2 |
 | 10 | Andrew Robertson | DEF | Liverpool | 223.7 | 4.2 | 7.1 |
 | 11 | Jack Hendry | DEF | Club Brugge | 210.4 | 4.0 | 6.8 |
-| 12 | Lawrence Shankland | FWD | Hearts | 201.2 | 3.3 | 6.5 |
+| 12 | Lawrence Shankland | FWD | Hearts | 201.2 | 3.0 | 6.5 |
 
 ---
 

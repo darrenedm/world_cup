@@ -33,7 +33,7 @@
 | Tier | Player | Club | Sub-Pos | Role | Fitness | Act/90 | Adj Pts | Tourn. | Squad | Notes |
 |------|--------|------|---------|------|---------|-------:|--------:|-------:|------:|-------|
 | 1 | Stephen Eustáquio | LAFC | CM | Starter | Fit | 60.6 | 343.0 | 4.5 | 10.0 | Fit; returned from hematoma injury |
-| 1 | Ismaël Koné | US Sassuolo | CM | Starter | Fit | 56.4 | 326.5 | 4.3 | 9.6 |  |
+| 1 | Ismaël Koné | US Sassuolo | CM | Starter | Fit | 56.4 | 326.5 | 4.4 | 9.6 |  |
 | 2 | Ali Ahmed | Norwich City | AM | Starter | Fit | 64.9 | 320.6 | 4.3 | 9.4 |  |
 | 2 | Jonathan Osorio | Toronto FC | CM | Starter | Fit | 63.9 | 315.6 | 4.2 | 9.3 |  |
 | 3 | Mathieu Choinière | LAFC | AM | Squad Player | Fit | 64.9 | 194.7 | 2.8 | 6.1 |  |
@@ -44,14 +44,14 @@
 
 | Tier | Player | Club | Sub-Pos | Role | Fitness | Act/90 | Adj Pts | Tourn. | Squad | Notes |
 |------|--------|------|---------|------|---------|-------:|--------:|-------:|------:|-------|
-| 1 | Tajon Buchanan | Villarreal | — | Starter | Fit | 57.3 | 333.8 | 4.9 | 9.8 |  |
-| 2 | Liam Millar | Hull City | — | Starter | Fit | 65.7 | 323.3 | 4.8 | 9.5 |  |
-| 2 | Tani Oluwaseyi | Villarreal | — | Starter | Fit | 65.7 | 323.3 | 4.8 | 9.5 |  |
-| 1 | Jonathan David | Juventus | — | Starter | Fit | 38.8 | 260.4 | 4.0 | 7.8 |  |
-| 2 | Cyle Larin | Southampton | — | Starter | Fit | 41.0 | 241.2 | 3.8 | 7.3 |  |
-| 3 | Promise David | Union Saint-Gilloise | — | Squad Player | Doubtful | 65.7 | 196.3 | 3.3 | 6.2 | Hip surgery; recovering ahead of schedule; tight fitness timeline for group stage |
-| 3 | Daniel Jebbison | Preston North End | — | Squad Player | Fit | 45.2 | 155.2 | 2.8 | 5.1 |  |
-| 4 | Jacen Russell-Rowe | Toulouse FC | — | Depth | Fit | 45.2 | 76.9 | 1.8 | 3.0 |  |
+| 1 | Tajon Buchanan | Villarreal | — | Starter | Fit | 57.3 | 333.8 | 4.3 | 9.8 |  |
+| 2 | Liam Millar | Hull City | — | Starter | Fit | 65.7 | 323.3 | 4.2 | 9.5 |  |
+| 2 | Tani Oluwaseyi | Villarreal | — | Starter | Fit | 65.7 | 323.3 | 4.2 | 9.5 |  |
+| 1 | Jonathan David | Juventus | — | Starter | Fit | 38.8 | 260.4 | 3.6 | 7.8 |  |
+| 2 | Cyle Larin | Southampton | — | Starter | Fit | 41.0 | 241.2 | 3.4 | 7.3 |  |
+| 3 | Promise David | Union Saint-Gilloise | — | Squad Player | Doubtful | 65.7 | 196.3 | 2.9 | 6.2 | Hip surgery; recovering ahead of schedule; tight fitness timeline for group stage |
+| 3 | Daniel Jebbison | Preston North End | — | Squad Player | Fit | 45.2 | 155.2 | 2.5 | 5.1 |  |
+| 4 | Jacen Russell-Rowe | Toulouse FC | — | Depth | Fit | 45.2 | 76.9 | 1.7 | 3.0 |  |
 
 ---
 
@@ -61,11 +61,11 @@
 |---|--------|-----|------|--------:|-------:|------:|
 | 1 | Stephen Eustáquio | MID | LAFC | 343.0 | 4.5 | 10.0 |
 | 2 | Alphonso Davies | DEF | Bayern Munich | 336.7 | 5.8 | 9.8 |
-| 3 | Tajon Buchanan | FWD | Villarreal | 333.8 | 4.9 | 9.8 |
+| 3 | Tajon Buchanan | FWD | Villarreal | 333.8 | 4.3 | 9.8 |
 | 4 | Alistair Johnston | DEF | Celtic | 332.7 | 5.8 | 9.7 |
-| 5 | Ismaël Koné | MID | US Sassuolo | 326.5 | 4.3 | 9.6 |
-| 6 | Liam Millar | FWD | Hull City | 323.3 | 4.8 | 9.5 |
-| 7 | Tani Oluwaseyi | FWD | Villarreal | 323.3 | 4.8 | 9.5 |
+| 5 | Ismaël Koné | MID | US Sassuolo | 326.5 | 4.4 | 9.6 |
+| 6 | Liam Millar | FWD | Hull City | 323.3 | 4.2 | 9.5 |
+| 7 | Tani Oluwaseyi | FWD | Villarreal | 323.3 | 4.2 | 9.5 |
 | 8 | Ali Ahmed | MID | Norwich City | 320.6 | 4.3 | 9.4 |
 | 9 | Jonathan Osorio | MID | Toronto FC | 315.6 | 4.2 | 9.3 |
 | 10 | Moïse Bombito | DEF | OGC Nice | 311.2 | 5.5 | 9.2 |

@@ -20,7 +20,7 @@
 | Tier | Player | Club | Sub-Pos | Role | Fitness | Act/90 | Adj Pts | Tourn. | Squad | Notes |
 |------|--------|------|---------|------|---------|-------:|--------:|-------:|------:|-------|
 | 1 | Fidel Escobar | Deportivo Saprissa | CB | Starter | Fit | 50.0 | 132.9 | 2.9 | 8.6 |  |
-| 1 | Andrés Andrade | LASK Linz | CB | Starter | Fit | 50.0 | 132.9 | 2.9 | 8.6 |  |
+| 1 | Andrés Andrade | LASK Linz | CB | Starter | Fit | 50.0 | 132.9 | 3.1 | 8.6 |  |
 | 1 | José Córdoba | Norwich City | CB | Starter | Fit | 50.0 | 132.9 | 2.9 | 8.6 |  |
 | 2 | César Blackman | Slovan Bratislava | RB | Starter | Fit | 55.5 | 117.1 | 2.6 | 7.7 |  |
 | 2 | Edgardo Fariña | Pari Nizhny Novgorod | LB | Starter | Fit | 55.5 | 117.1 | 2.6 | 7.7 |  |
@@ -48,10 +48,10 @@
 
 | Tier | Player | Club | Sub-Pos | Role | Fitness | Act/90 | Adj Pts | Tourn. | Squad | Notes |
 |------|--------|------|---------|------|---------|-------:|--------:|-------:|------:|-------|
-| 2 | Tomás Rodríguez | Deportivo Saprissa | — | Starter | Fit | 65.7 | 138.8 | 2.6 | 8.9 |  |
-| 2 | Cecilio Waterman | Universidad de Concepción | — | Starter | Fit | 51.5 | 108.7 | 2.2 | 7.2 |  |
-| 1 | Ismael Díaz | Club León | — | Starter | Fit | 38.0 | 100.8 | 2.1 | 6.7 |  |
-| 1 | José Fajardo | Universidad Católica | — | Starter | Fit | 37.5 | 99.7 | 2.1 | 6.7 |  |
+| 2 | Tomás Rodríguez | Deportivo Saprissa | — | Starter | Fit | 65.7 | 138.8 | 2.3 | 8.9 |  |
+| 2 | Cecilio Waterman | Universidad de Concepción | — | Starter | Fit | 51.5 | 108.7 | 2.0 | 7.2 |  |
+| 1 | Ismael Díaz | Club León | — | Starter | Fit | 38.0 | 100.8 | 1.9 | 6.7 |  |
+| 1 | José Fajardo | Universidad Católica | — | Starter | Fit | 37.5 | 99.7 | 1.9 | 6.7 |  |
 
 ---
 
@@ -61,13 +61,13 @@
 |---|--------|-----|------|--------:|-------:|------:|
 | 1 | Adalberto Carrasquilla | MID | UNAM Pumas | 158.1 | 2.4 | 10.0 |
 | 2 | Aníbal Godoy | MID | San Diego FC | 155.9 | 2.4 | 9.9 |
-| 3 | Tomás Rodríguez | FWD | Deportivo Saprissa | 138.8 | 2.6 | 8.9 |
+| 3 | Tomás Rodríguez | FWD | Deportivo Saprissa | 138.8 | 2.3 | 8.9 |
 | 4 | Alberto Quintero | MID | CD Plaza Amador | 137.1 | 2.2 | 8.8 |
 | 5 | Yoel Bárcenas | MID | Mazatlán FC | 135.0 | 2.2 | 8.7 |
 | 6 | Carlos Harvey | MID | Minnesota United | 135.0 | 2.2 | 8.7 |
 | 7 | Cristian Martínez | MID | Hapoel Ironi Kiryat Shmona | 135.0 | 2.2 | 8.7 |
 | 8 | Fidel Escobar | DEF | Deportivo Saprissa | 132.9 | 2.9 | 8.6 |
-| 9 | Andrés Andrade | DEF | LASK Linz | 132.9 | 2.9 | 8.6 |
+| 9 | Andrés Andrade | DEF | LASK Linz | 132.9 | 3.1 | 8.6 |
 | 10 | José Córdoba | DEF | Norwich City | 132.9 | 2.9 | 8.6 |
 | 11 | César Blackman | DEF | Slovan Bratislava | 117.1 | 2.6 | 7.7 |
 | 12 | Edgardo Fariña | DEF | Pari Nizhny Novgorod | 117.1 | 2.6 | 7.7 |

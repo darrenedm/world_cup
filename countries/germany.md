@@ -32,26 +32,26 @@
 | Tier | Player | Club | Sub-Pos | Role | Fitness | Act/90 | Adj Pts | Tourn. | Squad | Notes |
 |------|--------|------|---------|------|---------|-------:|--------:|-------:|------:|-------|
 | 1 | Joshua Kimmich | Bayern Munich | DM | Starter | Fit | 94.1 | 665.2 | 8.2 | 10.0 |  |
-| 1 | Jamal Musiala | Bayern Munich | AM | Starter | Fit | 79.8 | 582.1 | 7.2 | 8.9 |  |
-| 1 | Florian Wirtz | Liverpool | AM | Starter | Fit | 65.3 | 504.6 | 6.3 | 7.8 |  |
-| 2 | Kai Havertz | Arsenal | AM | Starter | Fit | 71.9 | 416.3 | 5.2 | 6.6 |  |
-| 2 | Leon Goretzka | Bayern Munich | CM | Starter | Fit | 65.6 | 401.1 | 5.0 | 6.4 |  |
-| 2 | Aleksandar Pavlovic | Bayern Munich | DM | Starter | Fit | 65.1 | 399.2 | 5.0 | 6.4 |  |
-| 3 | Angelo Stiller | Stuttgart | DM | Impact | Fit | 66.5 | 192.6 | 2.5 | 3.6 |  |
-| 3 | Jamie Leweling | Stuttgart | RW | Impact | Fit | 64.9 | 166.9 | 2.2 | 3.2 |  |
-| 3 | Pascal Groß | Brighton | CM | Impact | Fit | 63.9 | 162.1 | 2.2 | 3.2 |  |
-| 4 | Felix Nmecha | B. Dortmund | CM | Fringe | Fit | 63.9 | 89.0 | 1.3 | 2.2 | Managed |
-| 4 | Nadiem Amiri | Mainz 05 | AM | Depth | Fit | 64.9 | 82.9 | 1.2 | 2.1 |  |
-| 4 | Lennart Karl | Bayern Munich | AM | Depth | Fit | 64.9 | 82.9 | 1.2 | 2.1 |  |
+| 1 | Jamal Musiala | Bayern Munich | AM | Starter | Fit | 79.8 | 582.1 | 7.3 | 8.9 |  |
+| 1 | Florian Wirtz | Liverpool | AM | Starter | Fit | 65.3 | 504.6 | 6.4 | 7.8 |  |
+| 2 | Kai Havertz | Arsenal | AM | Starter | Fit | 71.9 | 416.3 | 5.4 | 6.6 |  |
+| 2 | Leon Goretzka | Bayern Munich | CM | Starter | Fit | 65.6 | 401.1 | 5.2 | 6.4 |  |
+| 2 | Aleksandar Pavlovic | Bayern Munich | DM | Starter | Fit | 65.1 | 399.2 | 5.2 | 6.4 |  |
+| 3 | Angelo Stiller | Stuttgart | DM | Impact | Fit | 66.5 | 192.6 | 2.8 | 3.6 |  |
+| 3 | Jamie Leweling | Stuttgart | RW | Impact | Fit | 64.9 | 166.9 | 2.5 | 3.2 |  |
+| 3 | Pascal Groß | Brighton | CM | Impact | Fit | 63.9 | 162.1 | 2.5 | 3.2 |  |
+| 4 | Felix Nmecha | B. Dortmund | CM | Fringe | Fit | 63.9 | 89.0 | 1.6 | 2.2 | Managed |
+| 4 | Nadiem Amiri | Mainz 05 | AM | Depth | Fit | 64.9 | 82.9 | 1.6 | 2.1 |  |
+| 4 | Lennart Karl | Bayern Munich | AM | Depth | Fit | 64.9 | 82.9 | 1.6 | 2.1 |  |
 
 ## Forwards
 
 | Tier | Player | Club | Sub-Pos | Role | Fitness | Act/90 | Adj Pts | Tourn. | Squad | Notes |
 |------|--------|------|---------|------|---------|-------:|--------:|-------:|------:|-------|
-| 1 | Nick Woltemade | Newcastle | — | Starter | Fit | 73.7 | 549.7 | 7.5 | 8.4 |  |
-| 1 | Deniz Undav | Stuttgart | — | Starter | Fit | 53.4 | 441.6 | 6.3 | 7.0 |  |
-| 2 | Leroy Sané | Galatasaray | — | Starter | Fit | 64.4 | 387.6 | 5.6 | 6.2 |  |
-| 3 | Maximilian Beier | Borussia Dortmund | — | Impact | Fit | 45.2 | 137.2 | 2.6 | 2.8 |  |
+| 1 | Nick Woltemade | Newcastle | — | Starter | Fit | 73.7 | 549.7 | 6.6 | 8.4 |  |
+| 1 | Deniz Undav | Stuttgart | — | Starter | Fit | 53.4 | 441.6 | 5.5 | 7.0 |  |
+| 2 | Leroy Sané | Galatasaray | — | Starter | Fit | 64.4 | 387.6 | 4.9 | 6.2 |  |
+| 3 | Maximilian Beier | Borussia Dortmund | — | Impact | Fit | 45.2 | 137.2 | 2.3 | 2.8 |  |
 
 ---
 
@@ -60,16 +60,16 @@
 | # | Player | Pos | Club | Adj Pts | Tourn. | Squad |
 |---|--------|-----|------|--------:|-------:|------:|
 | 1 | Joshua Kimmich | MID | Bayern Munich | 665.2 | 8.2 | 10.0 |
-| 2 | Jamal Musiala | MID | Bayern Munich | 582.1 | 7.2 | 8.9 |
-| 3 | Nick Woltemade | FWD | Newcastle | 549.7 | 7.5 | 8.4 |
-| 4 | Florian Wirtz | MID | Liverpool | 504.6 | 6.3 | 7.8 |
+| 2 | Jamal Musiala | MID | Bayern Munich | 582.1 | 7.3 | 8.9 |
+| 3 | Nick Woltemade | FWD | Newcastle | 549.7 | 6.6 | 8.4 |
+| 4 | Florian Wirtz | MID | Liverpool | 504.6 | 6.4 | 7.8 |
 | 5 | David Raum | DEF | RB Leipzig | 490.2 | 8.1 | 7.6 |
 | 6 | Jonathan Tah | DEF | Bayern Munich | 461.4 | 7.7 | 7.2 |
 | 7 | Nico Schlotterbeck | DEF | B. Dortmund | 461.4 | 7.7 | 7.2 |
-| 8 | Deniz Undav | FWD | Stuttgart | 441.6 | 6.3 | 7.0 |
-| 9 | Kai Havertz | MID | Arsenal | 416.3 | 5.2 | 6.6 |
-| 10 | Leon Goretzka | MID | Bayern Munich | 401.1 | 5.0 | 6.4 |
-| 11 | Aleksandar Pavlovic | MID | Bayern Munich | 399.2 | 5.0 | 6.4 |
+| 8 | Deniz Undav | FWD | Stuttgart | 441.6 | 5.5 | 7.0 |
+| 9 | Kai Havertz | MID | Arsenal | 416.3 | 5.4 | 6.6 |
+| 10 | Leon Goretzka | MID | Bayern Munich | 401.1 | 5.2 | 6.4 |
+| 11 | Aleksandar Pavlovic | MID | Bayern Munich | 399.2 | 5.2 | 6.4 |
 | 12 | Manuel Neuer | GK | Bayern Munich | 390.2 | 9.1 | 6.3 |
 
 ---

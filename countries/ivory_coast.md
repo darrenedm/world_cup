@@ -42,16 +42,16 @@
 
 | Tier | Player | Club | Sub-Pos | Role | Fitness | Act/90 | Adj Pts | Tourn. | Squad | Notes |
 |------|--------|------|---------|------|---------|-------:|--------:|-------:|------:|-------|
-| 1 | Amad Diallo | Manchester United | — | Starter | Fit | 55.5 | 284.7 | 4.3 | 9.7 | Fit; ankle resolved |
-| 1 | Simon Adingra | Brighton | — | Starter | Fit | 58.6 | 273.6 | 4.2 | 9.3 |  |
-| 2 | Nicolas Pépé | Angers | — | Starter | Fit | 65.7 | 263.5 | 4.1 | 9.0 |  |
-| 2 | Oumar Diomandé | Sporting CP | — | Starter | Fit | 45.2 | 206.6 | 3.4 | 7.3 |  |
-| 2 | Evann Guessand | Nice | — | Starter | Doubtful | 40.2 | 192.8 | 3.2 | 6.9 | Knee concern; availability uncertain |
-| 3 | Amine Gouiri | Rennes | — | Squad Player | Fit | 45.2 | 118.2 | 2.3 | 4.6 |  |
-| 3 | Jean-Philippe Diakite | Toulouse | — | Squad Player | Fit | 45.2 | 118.2 | 2.3 | 4.6 |  |
-| 3 | Elye Wahi | Marseille | — | Squad Player | Fit | 45.2 | 118.2 | 2.3 | 4.6 |  |
-| 3 | Kévin Bonny | Parma | — | Squad Player | Fit | 45.2 | 118.2 | 2.3 | 4.6 |  |
-| 4 | Dango Ouattara | Bournemouth | — | Depth | Fit | 65.7 | 70.0 | 1.7 | 3.1 |  |
+| 1 | Amad Diallo | Manchester United | — | Starter | Fit | 55.5 | 284.7 | 3.8 | 9.7 | Fit; ankle resolved |
+| 1 | Simon Adingra | Brighton | — | Starter | Fit | 58.6 | 273.6 | 3.7 | 9.3 |  |
+| 2 | Nicolas Pépé | Angers | — | Starter | Fit | 65.7 | 263.5 | 3.6 | 9.0 |  |
+| 2 | Oumar Diomandé | Sporting CP | — | Starter | Fit | 45.2 | 206.6 | 3.0 | 7.3 |  |
+| 2 | Evann Guessand | Nice | — | Starter | Doubtful | 40.2 | 192.8 | 2.9 | 6.9 | Knee concern; availability uncertain |
+| 3 | Amine Gouiri | Rennes | — | Squad Player | Fit | 45.2 | 118.2 | 3.0 | 4.6 |  |
+| 3 | Jean-Philippe Diakite | Toulouse | — | Squad Player | Fit | 45.2 | 118.2 | 2.1 | 4.6 |  |
+| 3 | Elye Wahi | Marseille | — | Squad Player | Fit | 45.2 | 118.2 | 2.1 | 4.6 |  |
+| 3 | Kévin Bonny | Parma | — | Squad Player | Fit | 45.2 | 118.2 | 2.1 | 4.6 |  |
+| 4 | Dango Ouattara | Bournemouth | — | Depth | Fit | 65.7 | 70.0 | 1.6 | 3.1 |  |
 
 ---
 
@@ -60,9 +60,9 @@
 | # | Player | Pos | Club | Adj Pts | Tourn. | Squad |
 |---|--------|-----|------|--------:|-------:|------:|
 | 1 | Ibrahim Sangaré | MID | Nottingham Forest | 295.6 | 4.0 | 10.0 |
-| 2 | Amad Diallo | FWD | Manchester United | 284.7 | 4.3 | 9.7 |
-| 3 | Simon Adingra | FWD | Brighton | 273.6 | 4.2 | 9.3 |
-| 4 | Nicolas Pépé | FWD | Angers | 263.5 | 4.1 | 9.0 |
+| 2 | Amad Diallo | FWD | Manchester United | 284.7 | 3.8 | 9.7 |
+| 3 | Simon Adingra | FWD | Brighton | 273.6 | 3.7 | 9.3 |
+| 4 | Nicolas Pépé | FWD | Angers | 263.5 | 3.6 | 9.0 |
 | 5 | Seko Fofana | MID | Al-Qadsiah | 258.5 | 3.6 | 8.9 |
 | 6 | Franck Kessié | MID | Atalanta | 252.2 | 3.5 | 8.7 |
 | 7 | Odilon Kossounou | DEF | Bayer Leverkusen | 252.1 | 4.6 | 8.7 |
@@ -70,7 +70,7 @@
 | 9 | Ghislain Konan | DEF | Montpellier | 232.4 | 4.3 | 8.1 |
 | 10 | Evan Ndicka | DEF | Roma | 217.4 | 4.1 | 7.6 |
 | 11 | Emmanuel Agbadou | DEF | Wolverhampton Wanderers | 217.4 | 4.1 | 7.6 |
-| 12 | Oumar Diomandé | FWD | Sporting CP | 206.6 | 3.4 | 7.3 |
+| 12 | Oumar Diomandé | FWD | Sporting CP | 206.6 | 3.0 | 7.3 |
 
 ---
 

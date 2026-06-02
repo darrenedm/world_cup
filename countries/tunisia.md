@@ -37,7 +37,7 @@
 | 1 | Ellyes Skhiri | Eintracht Frankfurt | DM | Starter | Fit | 64.5 | 241.2 | 3.4 | 9.5 |  |
 | 2 | Ismaël Gharbi | FC Augsburg | AM | Starter | Fit | 64.9 | 224.2 | 3.2 | 8.9 |  |
 | 2 | Rani Khedira | Union Berlin | DM | Starter | Fit | 66.5 | 219.6 | 3.1 | 8.7 |  |
-| 2 | Anis Ben Slimane | Norwich City | CM | Starter | Fit | 63.9 | 213.0 | 3.0 | 8.5 |  |
+| 2 | Anis Ben Slimane | Norwich City | CM | Starter | Fit | 63.9 | 213.0 | 3.1 | 8.5 |  |
 | 3 | Mohamed Hadj-Mahmoud | FC Lugano | CM | Squad Player | Fit | 63.9 | 115.5 | 1.9 | 5.1 |  |
 | 3 | Mortadha Ben Ouanes | Kasımpaşa | CM | Squad Player | Fit | 63.9 | 115.5 | 1.9 | 5.1 |  |
 
@@ -68,7 +68,7 @@
 | 7 | Rayan Elloumi | FWD | Vancouver Whitecaps | 226.2 | 3.2 | 9.0 |
 | 8 | Ismaël Gharbi | MID | FC Augsburg | 224.2 | 3.2 | 8.9 |
 | 9 | Rani Khedira | MID | Union Berlin | 219.6 | 3.1 | 8.7 |
-| 10 | Anis Ben Slimane | MID | Norwich City | 213.0 | 3.0 | 8.5 |
+| 10 | Anis Ben Slimane | MID | Norwich City | 213.0 | 3.1 | 8.5 |
 | 11 | Yan Valéry | DEF | Young Boys | 212.6 | 4.0 | 8.5 |
 | 12 | Dylan Bronn | DEF | Servette FC | 196.4 | 3.8 | 7.9 |
 

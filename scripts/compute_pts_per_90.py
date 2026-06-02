@@ -41,6 +41,21 @@ TEAM = {
     'Tunisia':     ( 9.5, 0.14, 1.70, 0.18, 0.10, 1.50),
     'South Africa':( 5.5, 0.08, 2.20, 0.10, 0.05, 2.00),
     'Cape Verde':  ( 4.5, 0.06, 2.40, 0.08, 0.05, 2.20),
+    # Co-host / mid-tier nations
+    'Mexico':        (19.5, 0.28, 1.10, 0.40, 0.22, 1.00),
+    # Remaining nations (lower-ranked)
+    'Algeria':       (12.5, 0.16, 1.60, 0.20, 0.12, 1.40),
+    'Paraguay':      (11.5, 0.14, 1.70, 0.18, 0.10, 1.50),
+    'Czech Republic':(10.5, 0.14, 1.80, 0.16, 0.10, 1.60),
+    'Qatar':         ( 9.5, 0.12, 1.90, 0.14, 0.08, 1.70),
+    'Uzbekistan':    ( 7.5, 0.10, 2.10, 0.12, 0.07, 1.90),
+    'Iraq':          ( 6.5, 0.08, 2.30, 0.10, 0.05, 2.10),
+    'Saudi Arabia':  ( 6.0, 0.08, 2.30, 0.10, 0.05, 2.10),
+    'Jordan':        ( 5.5, 0.07, 2.40, 0.08, 0.05, 2.20),
+    'Bosnia':        ( 5.0, 0.07, 2.40, 0.08, 0.05, 2.20),
+    'Curaçao':       ( 4.0, 0.05, 2.60, 0.06, 0.04, 2.40),
+    'Haiti':         ( 4.0, 0.05, 2.60, 0.06, 0.04, 2.40),
+    'New Zealand':   ( 3.5, 0.05, 2.70, 0.05, 0.04, 2.50),
 }
 
 CS_BONUS = {'GK': 40, 'DEF': 30, 'MID': 10, 'FWD': 0}
@@ -630,6 +645,49 @@ OVR = {
                               bcm=0.25, yellow=0.14),
     'Evidence Makgopa':      dict(goals=0.32, assists=0.10, SoT=1.20, shots_off=0.90,
                               bcm=0.20, yellow=0.12),
+    # Mexico
+    'Santiago Giménez':   dict(goals=0.58, assists=0.16, SoT=2.00, shots_off=1.20,
+                              bcm=0.40, yellow=0.10),
+    'Hirving Lozano':     dict(goals=0.25, assists=0.20, SoT=1.20, shots_off=1.00,
+                              dribbles=2.5, bcc=0.50, yellow=0.12),
+    'Edson Álvarez':      dict(goals=0.06, assists=0.08, SoT=0.25,
+                              passes_own=35, passes_opp=22, pass_pct=0.87,
+                              tackles=3.5, intercepts=2.0, yellow=0.25),
+    # Uruguay
+    'Darwin Núñez':       dict(goals=0.55, assists=0.12, SoT=1.80, shots_off=1.50,
+                              bcm=0.45, yellow=0.20),
+    # Algeria
+    'Riyad Mahrez':       dict(goals=0.28, assists=0.22, SoT=1.20, shots_off=0.80,
+                              dribbles=3.0, bcc=0.60, yellow=0.12),
+    'Ibrahim Maza':       dict(goals=0.14, assists=0.22, SoT=0.80, shots_off=0.60,
+                              bcc=0.60, dribbles=1.5, yellow=0.10),
+    'Mohamed Amine Amoura': dict(goals=0.28, assists=0.18, SoT=1.20, shots_off=0.90,
+                              dribbles=2.5, bcc=0.40, yellow=0.14),
+    # Paraguay
+    'Miguel Almiron':     dict(goals=0.22, assists=0.25, SoT=1.10, shots_off=0.80,
+                              dribbles=3.0, bcc=0.50, yellow=0.10),
+    'Julio Enciso':       dict(goals=0.22, assists=0.18, SoT=1.00, shots_off=0.70,
+                              dribbles=2.5, bcc=0.50, yellow=0.12),
+    # Qatar
+    'Akram Afif':         dict(goals=0.20, assists=0.22, SoT=1.00, shots_off=0.80,
+                              dribbles=2.5, bcc=0.60, yellow=0.08),
+    'Almoez Ali':         dict(goals=0.35, assists=0.12, SoT=1.40, shots_off=1.00,
+                              bcm=0.30, yellow=0.12),
+    # Uzbekistan
+    'Eldor Shomurodov':   dict(goals=0.30, assists=0.12, SoT=1.30, shots_off=0.90,
+                              bcm=0.30, yellow=0.12),
+    # Saudi Arabia
+    'Salem Al-Dawsari':   dict(goals=0.22, assists=0.18, SoT=1.00, shots_off=0.80,
+                              dribbles=2.0, bcc=0.40, yellow=0.10),
+    # Jordan
+    'Mousa Al-Tamari':    dict(goals=0.20, assists=0.22, SoT=1.00, shots_off=0.70,
+                              dribbles=2.5, bcc=0.50, yellow=0.10),
+    # Bosnia
+    'Ermedin Demirović':  dict(goals=0.50, assists=0.16, SoT=1.70, shots_off=1.00,
+                              bcm=0.35, yellow=0.14),
+    # New Zealand
+    'Chris Wood':         dict(goals=0.40, assists=0.10, SoT=1.50, shots_off=1.00,
+                              bcm=0.35, yellow=0.14),
     # Cape Verde
     'Logan Costa':           dict(goals=0.04, assists=0.06, SoT=0.22,
                               passes_own=48, passes_opp=12, pass_pct=0.88,
@@ -704,6 +762,32 @@ WINGERS = {
     'Tshepang Moremi', 'Thapelo Maseko',
     # Cape Verde (FWD sub_position WNG)
     'Ryan Mendes', 'Garry Rodrigues', 'Jovane Cabral', 'Willy Semedo', 'Hélio Varela',
+    # Mexico (FWD sub_position WNG)
+    'Julián Quiñones', 'Roberto Alvarado', 'César Huerta', 'Alexis Vega', 'Armando González',
+    # Algeria (FWD sub_position WNG)
+    'Riyad Mahrez', 'Mohamed Amine Amoura', 'Anis Hadj Moussa', 'Nadhir Benbouali',
+    # Czech Republic (FWD sub_position WNG)
+    'Adam Hložek',
+    # Jordan (FWD sub_position WNG)
+    'Odeh Al-Fakhouri', 'Ibrahim Sabra', 'Ali Azaizeh',
+    # Bosnia (FWD sub_position WNG)
+    'Samed Baždar',
+    # Paraguay (FWD sub_position WNG)
+    'Miguel Almiron', 'Julio Enciso', 'Ramon Sosa', 'Gustavo Caballero',
+    # Ghana (FWD sub_position WNG)
+    'Jordan Ayew', 'Antoine Semenyo', 'Iñaki Williams', 'Ernest Nuamah', 'Christopher Bonsu Baah',
+    # Qatar (FWD sub_position WNG)
+    'Akram Afif', 'Edmílson Junior', 'Tahsin Mohammed', 'Ahmed Alaaeldin', 'Yusuf Abdurisag',
+    # Uzbekistan (FWD sub_position WNG)
+    'Abbosbek Fayzullaev', 'Oston Urunov', 'Sherzod Temirov',
+    # Iraq (FWD sub_position WNG)
+    'Ali Jassim',
+    # Curaçao (FWD sub_position WNG)
+    'Tahith Chong', 'Sontje Hansen', 'Kenji Gorré', 'Brandley Kuwas', 'Gervane Kastaneer', 'Jearl Margaritha',
+    # Haiti (FWD sub_position WNG)
+    'Derrick Etienne', 'Josué Casimir', 'Ruben Providence', 'Yassin Fortune',
+    # New Zealand (FWD sub_position WNG)
+    'Callum McCowatt', 'Eli Just', 'Kosta Barbarouses', 'Jesse Randall',
 }
 
 # Scoring matrix point values (per event, per 90 min)

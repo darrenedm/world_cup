@@ -37,11 +37,11 @@
 |------|--------|------|---------|------|---------|-------:|--------:|-------:|------:|-------|
 | 1 | Relebohile Mofokeng | Orlando Pirates | WNG | Starter | Fit | 64.9 | 232.2 | 3.3 | 10.0 |  |
 | 1 | Oswin Appollis | Orlando Pirates | WNG | Starter | Fit | 64.9 | 232.2 | 3.3 | 10.0 |  |
-| 1 | Teboho Mokoena | Mamelodi Sundowns | CM | Starter | Fit | 63.9 | 212.9 | 3.0 | 9.3 |  |
+| 1 | Teboho Mokoena | Mamelodi Sundowns | CM | Starter | Fit | 63.9 | 212.9 | 3.1 | 9.3 |  |
 | 2 | Thalente Mbatha | Orlando Pirates | CM | Starter | Fit | 63.9 | 180.5 | 2.7 | 8.0 |  |
 | 2 | Jayden Adams | Mamelodi Sundowns | CM | Starter | Fit | 63.9 | 180.5 | 2.7 | 8.0 | Fit; restored after 1-year exclusion; monitor form |
-| 3 | Themba Zwane | Mamelodi Sundowns | AM | Squad Player | Fit | 64.9 | 100.0 | 1.7 | 4.9 | Fit; age/fitness managed; cannot do 90 regularly; impact sub role |
-| 3 | Sphephelo Sithole | CD Tondela | CM | Squad Player | Fit | 63.9 | 91.0 | 1.6 | 4.5 |  |
+| 3 | Themba Zwane | Mamelodi Sundowns | AM | Squad Player | Fit | 64.9 | 100.0 | 1.8 | 4.9 | Fit; age/fitness managed; cannot do 90 regularly; impact sub role |
+| 3 | Sphephelo Sithole | CD Tondela | CM | Squad Player | Fit | 63.9 | 91.0 | 1.7 | 4.5 |  |
 
 ## Forwards
 
@@ -61,7 +61,7 @@
 |---|--------|-----|------|--------:|-------:|------:|
 | 1 | Relebohile Mofokeng | MID | Orlando Pirates | 232.2 | 3.3 | 10.0 |
 | 2 | Oswin Appollis | MID | Orlando Pirates | 232.2 | 3.3 | 10.0 |
-| 3 | Teboho Mokoena | MID | Mamelodi Sundowns | 212.9 | 3.0 | 9.3 |
+| 3 | Teboho Mokoena | MID | Mamelodi Sundowns | 212.9 | 3.1 | 9.3 |
 | 4 | Tshepang Moremi | FWD | Orlando Pirates | 197.3 | 2.9 | 8.6 |
 | 5 | Khuliso Mudau | DEF | Mamelodi Sundowns | 181.0 | 3.6 | 8.0 |
 | 6 | Aubrey Modiba | DEF | Mamelodi Sundowns | 181.0 | 3.6 | 8.0 |

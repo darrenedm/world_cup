@@ -34,24 +34,24 @@
 | Tier | Player | Club | Sub-Pos | Role | Fitness | Act/90 | Adj Pts | Tourn. | Squad | Notes |
 |------|--------|------|---------|------|---------|-------:|--------:|-------:|------:|-------|
 | 1 | Michael Olise | Bayern Munich | AM | Starter | Fit | 106.8 | 818.6 | 10.0 | 10.0 |  |
-| 1 | Aurélien Tchouaméni | Real Madrid | DM | Starter | Fit | 58.5 | 544.7 | 6.8 | 7.0 |  |
-| 2 | Warren Zaïre-Emery | AS Roma | CM | Starter | Fit | 60.4 | 401.3 | 5.1 | 5.4 |  |
-| 2 | Adrien Rabiot | Marseille | CM | Starter | Fit | 58.7 | 394.7 | 5.0 | 5.3 |  |
-| 3 | Rayan Cherki | Olympique Lyonnais | AM | Impact | Fit | 64.9 | 213.5 | 2.9 | 3.3 |  |
-| 3 | Maghnes Akliouche | AS Monaco | AM | Impact | Fit | 64.9 | 176.1 | 2.5 | 2.9 |  |
-| 3 | Manu Koné | Real Madrid | CM | Impact | Fit | 63.9 | 171.4 | 2.4 | 2.8 |  |
-| 4 | N'Golo Kanté | Al-Ittihad | DM | Depth | Fit | 66.5 | 89.2 | 1.4 | 1.9 |  |
+| 1 | Aurélien Tchouaméni | Real Madrid | DM | Starter | Fit | 58.5 | 544.7 | 6.9 | 7.0 |  |
+| 2 | Warren Zaïre-Emery | AS Roma | CM | Starter | Fit | 60.4 | 401.3 | 5.2 | 5.4 |  |
+| 2 | Adrien Rabiot | Marseille | CM | Starter | Fit | 58.7 | 394.7 | 5.1 | 5.3 |  |
+| 3 | Rayan Cherki | Olympique Lyonnais | AM | Impact | Fit | 64.9 | 213.5 | 3.1 | 3.3 |  |
+| 3 | Maghnes Akliouche | AS Monaco | AM | Impact | Fit | 64.9 | 176.1 | 2.6 | 2.9 |  |
+| 3 | Manu Koné | Real Madrid | CM | Impact | Fit | 63.9 | 171.4 | 2.6 | 2.8 |  |
+| 4 | N'Golo Kanté | Al-Ittihad | DM | Depth | Fit | 66.5 | 89.2 | 1.6 | 1.9 |  |
 
 ## Forwards
 
 | Tier | Player | Club | Sub-Pos | Role | Fitness | Act/90 | Adj Pts | Tourn. | Squad | Notes |
 |------|--------|------|---------|------|---------|-------:|--------:|-------:|------:|-------|
-| 1 | Kylian Mbappé | Real Madrid | — | Starter | Injury | 96.1 | 754.7 | 10.0 | 9.3 | Injury |
-| 1 | Ousmane Dembélé | Barcelona | — | Starter | Fit | 62.8 | 556.6 | 7.6 | 7.1 |  |
-| 1 | Marcus Thuram | Inter Milan | — | Starter | Fit | 56.2 | 517.6 | 7.2 | 6.7 |  |
-| 2 | Bradley Barcola | Paris Saint-Germain | — | Starter | Fit | 71.3 | 431.5 | 6.1 | 5.7 |  |
-| 3 | Désiré Doué | PSG | — | Impact | Fit | 65.7 | 215.1 | 3.6 | 3.3 |  |
-| 3 | Jean-Philippe Mateta | Crystal Palace | — | Impact | Fit | 45.2 | 145.4 | 2.7 | 2.6 |  |
+| 1 | Kylian Mbappé | Real Madrid | — | Starter | Injury | 96.1 | 754.7 | 8.7 | 9.3 | Injury |
+| 1 | Ousmane Dembélé | Barcelona | — | Starter | Fit | 62.8 | 556.6 | 6.6 | 7.1 |  |
+| 1 | Marcus Thuram | Inter Milan | — | Starter | Fit | 56.2 | 517.6 | 6.2 | 6.7 |  |
+| 2 | Bradley Barcola | Paris Saint-Germain | — | Starter | Fit | 71.3 | 431.5 | 5.4 | 5.7 |  |
+| 3 | Désiré Doué | PSG | — | Impact | Fit | 65.7 | 215.1 | 2.7 | 3.3 |  |
+| 3 | Jean-Philippe Mateta | Crystal Palace | — | Impact | Fit | 45.2 | 145.4 | 2.4 | 2.6 |  |
 
 ---
 
@@ -60,16 +60,16 @@
 | # | Player | Pos | Club | Adj Pts | Tourn. | Squad |
 |---|--------|-----|------|--------:|-------:|------:|
 | 1 | Michael Olise | MID | Bayern Munich | 818.6 | 10.0 | 10.0 |
-| 2 | Kylian Mbappé | FWD | Real Madrid | 754.7 | 10.0 | 9.3 |
+| 2 | Kylian Mbappé | FWD | Real Madrid | 754.7 | 8.7 | 9.3 |
 | 3 | Theo Hernandez | DEF | AC Milan | 622.1 | 10.0 | 7.8 |
 | 4 | Jules Koundé | DEF | Barcelona | 568.1 | 9.2 | 7.2 |
-| 5 | Ousmane Dembélé | FWD | Barcelona | 556.6 | 7.6 | 7.1 |
-| 6 | Aurélien Tchouaméni | MID | Real Madrid | 544.7 | 6.8 | 7.0 |
+| 5 | Ousmane Dembélé | FWD | Barcelona | 556.6 | 6.6 | 7.1 |
+| 6 | Aurélien Tchouaméni | MID | Real Madrid | 544.7 | 6.9 | 7.0 |
 | 7 | William Saliba | DEF | Arsenal | 535.8 | 8.7 | 6.9 |
 | 8 | Dayot Upamecano | DEF | Bayern Munich | 535.8 | 8.7 | 6.9 |
-| 9 | Marcus Thuram | FWD | Inter Milan | 517.6 | 7.2 | 6.7 |
+| 9 | Marcus Thuram | FWD | Inter Milan | 517.6 | 6.2 | 6.7 |
 | 10 | Mike Maignan | GK | AC Milan | 434.3 | 10.0 | 5.8 |
-| 11 | Bradley Barcola | FWD | Paris Saint-Germain | 431.5 | 6.1 | 5.7 |
+| 11 | Bradley Barcola | FWD | Paris Saint-Germain | 431.5 | 5.4 | 5.7 |
 | 12 | Ibrahima Konaté | DEF | Liverpool | 403.8 | 6.8 | 5.4 |
 
 ---

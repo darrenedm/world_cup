@@ -45,13 +45,13 @@
 
 | Tier | Player | Club | Sub-Pos | Role | Fitness | Act/90 | Adj Pts | Tourn. | Squad | Notes |
 |------|--------|------|---------|------|---------|-------:|--------:|-------:|------:|-------|
-| 1 | Kenan Yıldız | Juventus | — | Starter | Doubtful | 67.6 | 368.9 | 5.3 | 8.3 | Calf strain; doubt for opener; targeting return Game 2 |
-| 2 | Kerem Aktürkoğlu | Fenerbahçe | — | Starter | Fit | 65.5 | 316.8 | 4.7 | 7.3 | Fit; individual fitness supervision |
-| 2 | Barış Alper Yılmaz | Galatasaray | — | Starter | Fit | 55.4 | 282.7 | 4.3 | 6.6 |  |
-| 2 | Can Uzun | Eintracht Frankfurt | — | Starter | Fit | 33.8 | 209.4 | 3.4 | 5.2 |  |
-| 3 | Deniz Gül | FC Porto | — | Squad Player | Fit | 45.2 | 142.3 | 2.6 | 3.8 |  |
-| 4 | Yunus Akgün | Galatasaray | — | Depth | Fit | 65.7 | 80.3 | 1.9 | 2.6 |  |
-| 4 | İrfan Can Kahveci | Kasımpaşa | — | Depth | Fit | 65.7 | 80.3 | 1.9 | 2.6 |  |
+| 1 | Kenan Yıldız | Juventus | — | Starter | Doubtful | 67.6 | 368.9 | 4.7 | 8.3 | Calf strain; doubt for opener; targeting return Game 2 |
+| 2 | Kerem Aktürkoğlu | Fenerbahçe | — | Starter | Fit | 65.5 | 316.8 | 4.2 | 7.3 | Fit; individual fitness supervision |
+| 2 | Barış Alper Yılmaz | Galatasaray | — | Starter | Fit | 55.4 | 282.7 | 3.8 | 6.6 |  |
+| 2 | Can Uzun | Eintracht Frankfurt | — | Starter | Fit | 33.8 | 209.4 | 3.1 | 5.2 |  |
+| 3 | Deniz Gül | FC Porto | — | Squad Player | Fit | 45.2 | 142.3 | 2.4 | 3.8 |  |
+| 4 | Yunus Akgün | Galatasaray | — | Depth | Fit | 65.7 | 80.3 | 1.7 | 2.6 |  |
+| 4 | İrfan Can Kahveci | Kasımpaşa | — | Depth | Fit | 65.7 | 80.3 | 1.7 | 2.6 |  |
 
 ---
 
@@ -61,13 +61,13 @@
 |---|--------|-----|------|--------:|-------:|------:|
 | 1 | Hakan Çalhanoğlu | MID | Inter Milan | 454.1 | 5.8 | 10.0 |
 | 2 | Arda Güler | MID | Real Madrid | 371.4 | 4.9 | 8.4 |
-| 3 | Kenan Yıldız | FWD | Juventus | 368.9 | 5.3 | 8.3 |
-| 4 | Kerem Aktürkoğlu | FWD | Fenerbahçe | 316.8 | 4.7 | 7.3 |
+| 3 | Kenan Yıldız | FWD | Juventus | 368.9 | 4.7 | 8.3 |
+| 4 | Kerem Aktürkoğlu | FWD | Fenerbahçe | 316.8 | 4.2 | 7.3 |
 | 5 | İsmail Yüksek | MID | Fenerbahçe | 315.7 | 4.2 | 7.3 |
 | 6 | Orkun Kökçü | MID | Beşiktaş | 306.9 | 4.1 | 7.1 |
 | 7 | Merih Demiral | DEF | Al-Ahli | 298.9 | 5.3 | 6.9 |
 | 8 | Ferdi Kadıoğlu | DEF | Fulham | 282.7 | 5.1 | 6.6 |
-| 9 | Barış Alper Yılmaz | FWD | Galatasaray | 282.7 | 4.3 | 6.6 |
+| 9 | Barış Alper Yılmaz | FWD | Galatasaray | 282.7 | 3.8 | 6.6 |
 | 10 | Abdülkerim Bardakcı | DEF | Galatasaray | 267.5 | 4.8 | 6.3 |
 | 11 | Ozan Kabak | DEF | Hoffenheim | 267.5 | 4.8 | 6.3 |
 | 12 | Zeki Çelik | DEF | AS Roma | 255.8 | 4.7 | 6.1 |

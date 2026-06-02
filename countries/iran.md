@@ -46,12 +46,12 @@
 
 | Tier | Player | Club | Sub-Pos | Role | Fitness | Act/90 | Adj Pts | Tourn. | Squad | Notes |
 |------|--------|------|---------|------|---------|-------:|--------:|-------:|------:|-------|
-| 2 | Amirhossein Hosseinzadeh | Tractor SC | — | Starter | Fit | 65.7 | 179.0 | 3.1 | 9.0 |  |
-| 1 | Mehdi Taremi | Olympiacos | — | Starter | Fit | 50.6 | 167.4 | 2.9 | 8.4 |  |
-| 2 | Ali Alipour | Persepolis | — | Starter | Fit | 45.2 | 123.0 | 2.4 | 6.5 |  |
-| 3 | Amirhossein Mahmoudi | Persepolis | — | Squad Player | Fit | 45.2 | 68.3 | 1.7 | 4.0 |  |
-| 3 | Dennis Eckert Dargahi | Standard Liège | — | Squad Player | Fit | 45.2 | 68.3 | 1.7 | 4.0 |  |
-| 3 | Shahriyar Moghanlou | Kalba FC | — | Squad Player | Fit | 45.2 | 68.3 | 1.7 | 4.0 |  |
+| 2 | Amirhossein Hosseinzadeh | Tractor SC | — | Starter | Fit | 65.7 | 179.0 | 2.8 | 9.0 |  |
+| 1 | Mehdi Taremi | Olympiacos | — | Starter | Fit | 50.6 | 167.4 | 2.6 | 8.4 |  |
+| 2 | Ali Alipour | Persepolis | — | Starter | Fit | 45.2 | 123.0 | 2.2 | 6.5 |  |
+| 3 | Amirhossein Mahmoudi | Persepolis | — | Squad Player | Fit | 45.2 | 68.3 | 1.6 | 4.0 |  |
+| 3 | Dennis Eckert Dargahi | Standard Liège | — | Squad Player | Fit | 45.2 | 68.3 | 1.6 | 4.0 |  |
+| 3 | Shahriyar Moghanlou | Kalba FC | — | Squad Player | Fit | 45.2 | 68.3 | 1.6 | 4.0 |  |
 
 ---
 
@@ -63,11 +63,11 @@
 | 2 | Saeid Ezatolahi | MID | Shabab Al-Ahli | 200.1 | 2.9 | 9.9 |
 | 3 | Ehsan Hajsafi | DEF | Sepahan | 183.6 | 3.6 | 9.2 |
 | 4 | Ramin Rezaeian | DEF | Foolad | 183.6 | 3.6 | 9.2 |
-| 5 | Amirhossein Hosseinzadeh | FWD | Tractor SC | 179.0 | 3.1 | 9.0 |
+| 5 | Amirhossein Hosseinzadeh | FWD | Tractor SC | 179.0 | 2.8 | 9.0 |
 | 6 | Mehdi Ghayedi | MID | Al-Nasr | 176.8 | 2.6 | 8.9 |
 | 7 | Mehdi Torabi | MID | Tractor SC | 174.0 | 2.6 | 8.7 |
 | 8 | Mohammad Ghorbani | MID | Al Wahda | 174.0 | 2.6 | 8.7 |
-| 9 | Mehdi Taremi | FWD | Olympiacos | 167.4 | 2.9 | 8.4 |
+| 9 | Mehdi Taremi | FWD | Olympiacos | 167.4 | 2.6 | 8.4 |
 | 10 | Shojae Khalilzadeh | DEF | Tractor SC | 165.7 | 3.4 | 8.4 |
 | 11 | Hossein Kanaanizadegan | DEF | Persepolis | 165.7 | 3.4 | 8.4 |
 | 12 | Saman Ghoddos | MID | Kalba FC | 153.1 | 2.4 | 7.8 |

@@ -34,24 +34,24 @@
 |------|--------|------|---------|------|---------|-------:|--------:|-------:|------:|-------|
 | 1 | Granit Xhaka | Sunderland | CM | Starter | Fit | 72.9 | 496.9 | 6.3 | 10.0 |  |
 | 1 | Dan Ndoye | Nottingham Forest | AM | Starter | Fit | 67.3 | 462.1 | 5.9 | 9.4 |  |
-| 2 | Remo Freuler | Bologna | CM | Starter | Fit | 63.9 | 387.6 | 5.0 | 8.0 |  |
-| 2 | Ruben Vargas | Sevilla | AM | Starter | Fit | 64.9 | 378.3 | 4.9 | 7.9 |  |
-| 2 | Noah Okafor | Leeds United | AM | Starter | Fit | 64.9 | 361.7 | 4.7 | 7.6 |  |
-| 2 | Ardon Jashari | AC Milan | CM | Starter | Fit | 65.4 | 361.2 | 4.7 | 7.5 |  |
+| 2 | Remo Freuler | Bologna | CM | Starter | Fit | 63.9 | 387.6 | 5.1 | 8.0 |  |
+| 2 | Ruben Vargas | Sevilla | AM | Starter | Fit | 64.9 | 378.3 | 5.0 | 7.9 |  |
+| 2 | Noah Okafor | Leeds United | AM | Starter | Fit | 64.9 | 361.7 | 4.8 | 7.6 |  |
+| 2 | Ardon Jashari | AC Milan | CM | Starter | Fit | 65.4 | 361.2 | 4.8 | 7.5 |  |
 | 3 | Denis Zakaria | AS Monaco | DM | Impact | Fit | 66.5 | 188.4 | 2.8 | 4.4 |  |
 | 3 | Djibril Sow | Sevilla | CM | Squad Player | Fit | 63.9 | 174.9 | 2.6 | 4.2 |  |
 | 3 | Fabian Rieder | FC Augsburg | AM | Squad Player | Fit | 64.9 | 170.9 | 2.6 | 4.1 |  |
 | 3 | Michel Aebischer | Pisa | CM | Squad Player | Fit | 63.9 | 166.4 | 2.5 | 4.0 |  |
-| 4 | Joan Manzambi | SC Freiburg | CM | Depth | Fit | 63.9 | 91.4 | 1.6 | 2.7 |  |
+| 4 | Joan Manzambi | SC Freiburg | CM | Depth | Fit | 63.9 | 91.4 | 1.7 | 2.7 |  |
 | 4 | Christian Fassnacht | BSC Young Boys | AM | Depth | Fit | 64.9 | 85.9 | 1.6 | 2.6 |  |
 
 ## Forwards
 
 | Tier | Player | Club | Sub-Pos | Role | Fitness | Act/90 | Adj Pts | Tourn. | Squad | Notes |
 |------|--------|------|---------|------|---------|-------:|--------:|-------:|------:|-------|
-| 1 | Breel Embolo | Rennes | — | Starter | Fit | 48.0 | 368.7 | 5.3 | 7.7 |  |
-| 2 | Zeki Amdouni | Burnley | — | Starter | Managed | 45.2 | 287.5 | 4.4 | 6.2 | Managed: returning from ACL; limited minutes; Yakin optimistic |
-| 3 | Cedric Itten | Fortuna Düsseldorf | — | Impact | Fit | 45.2 | 146.6 | 2.7 | 3.7 |  |
+| 1 | Breel Embolo | Rennes | — | Starter | Fit | 48.0 | 368.7 | 4.7 | 7.7 |  |
+| 2 | Zeki Amdouni | Burnley | — | Starter | Managed | 45.2 | 287.5 | 3.9 | 6.2 | Managed: returning from ACL; limited minutes; Yakin optimistic |
+| 3 | Cedric Itten | Fortuna Düsseldorf | — | Impact | Fit | 45.2 | 146.6 | 2.4 | 3.7 |  |
 
 ---
 
@@ -63,12 +63,12 @@
 | 2 | Dan Ndoye | MID | Nottingham Forest | 462.1 | 5.9 | 9.4 |
 | 3 | Manuel Akanji | DEF | Inter Milan | 427.7 | 7.2 | 8.7 |
 | 4 | Silvan Widmer | DEF | Mainz 05 | 427.3 | 7.2 | 8.7 |
-| 5 | Remo Freuler | MID | Bologna | 387.6 | 5.0 | 8.0 |
-| 6 | Ruben Vargas | MID | Sevilla | 378.3 | 4.9 | 7.9 |
-| 7 | Breel Embolo | FWD | Rennes | 368.7 | 5.3 | 7.7 |
-| 8 | Noah Okafor | MID | Leeds United | 361.7 | 4.7 | 7.6 |
+| 5 | Remo Freuler | MID | Bologna | 387.6 | 5.1 | 8.0 |
+| 6 | Ruben Vargas | MID | Sevilla | 378.3 | 5.0 | 7.9 |
+| 7 | Breel Embolo | FWD | Rennes | 368.7 | 4.7 | 7.7 |
+| 8 | Noah Okafor | MID | Leeds United | 361.7 | 4.8 | 7.6 |
 | 9 | Ricardo Rodriguez | DEF | Real Betis | 361.3 | 6.2 | 7.5 |
-| 10 | Ardon Jashari | MID | AC Milan | 361.2 | 4.7 | 7.5 |
+| 10 | Ardon Jashari | MID | AC Milan | 361.2 | 4.8 | 7.5 |
 | 11 | Nico Elvedi | DEF | Borussia Mönchengladbach | 350.3 | 6.0 | 7.3 |
 | 12 | Aurele Amenda | DEF | Eintracht Frankfurt | 334.2 | 5.8 | 7.1 |
 

@@ -76,8 +76,8 @@
 | 12 | Colombia | ✅ | ✅ | 26/26 tracked; Durán OUT (disciplinary); Luis Díaz Bayern (26G+23A) |
 | 13 | USA | ✅ | ✅ | 26/26 tracked; Richards doubtful opener; Musah OUT (injury); Ream captain |
 | 14 | Senegal | ✅ | Provisional | 28/28 tracked; 2 to be cut Jun 2 |
-| 15 | Mexico | ❌ | TBC | |
-| 16 | Uruguay | ❌ | TBC | |
+| 15 | Mexico | ✅ | ✅ | 26/26 tracked; Giménez T1 CF; Álvarez Doubtful (ankle); Malagón ACL out → Ochoa recalled |
+| 16 | Uruguay | ✅ | ✅ | 26/26 tracked; Darwin Núñez Doubtful (no Al-Hilal mins since Feb); Bentancur Doubtful; Valverde/Ugarte/de Arrascaeta T1 MID |
 | 17 | Japan | ✅ | ✅ | 26/26 tracked |
 | 18 | Switzerland | ✅ | ✅ | 26/26 tracked |
 | 19 | South Korea | ✅ | ✅ | 26/26 tracked |
@@ -90,23 +90,23 @@
 | 26 | Panama | ✅ | ✅ | 26/26 tracked |
 | 27 | Norway | ✅ | ✅ | 26/26 tracked |
 | 28 | Scotland | ✅ | ✅ | 26/26 tracked |
-| 29 | Egypt | ❌ | TBC | |
-| 30 | Algeria | ❌ | TBC | |
-| 31 | Paraguay | ❌ | TBC | |
+| 29 | Egypt | ✅ | ✅ | 26/26 tracked; Salah captain T1 WNG; Marmoush T1 CF; El Shenawy GK1 |
+| 30 | Algeria | ✅ | ✅ | 26/26 tracked; Mahrez T1 WNG (farewell WC); Luca Zidane GK1; Ibrahim Maza (Leverkusen) T1 AM |
+| 31 | Paraguay | ✅ | ✅ | 26/26 tracked; Almiron + Enciso T1 WNG; Gomez captain CB |
 | 32 | Tunisia | ✅ | ✅ | 26/26 tracked; Ayari (PSG WNG) + Achouri (Copenhagen WNG) top scorers; Skhiri captain |
 | 33 | Sweden | ✅ | ✅ | 26/26 tracked |
 | 34 | Ivory Coast | ✅ | ✅ | 25/26 tracked; 1 player TBC |
-| 35 | Czech Republic | ❌ | TBC | |
-| 36 | Uzbekistan | ❌ | TBC | |
-| 37 | Qatar | ❌ | TBC | |
+| 35 | Czech Republic | ✅ | ✅ | 26/26 tracked; Schick T1 CF; Souček T1 CM; Kovář GK1 |
+| 36 | Uzbekistan | ✅ | ✅ | 26/26 tracked; Shomurodov captain CF; Khusanov (Man City) T1 CB; Cannavaro manager; first WC |
+| 37 | Qatar | ✅ | ✅ | 26/26 tracked; Afif T1 WNG (2× Asian POY); Almoez Ali T1 CF; 9 FWD in squad |
 | 38 | DR Congo | ✅ | ✅ | 26/26 tracked |
-| 39 | Iraq | ❌ | TBC | |
-| 40 | Saudi Arabia | ❌ | TBC | |
+| 39 | Iraq | ✅ | ✅ | 26/26 tracked; Aymen Hussein CF; Zidane Iqbal (Utrecht) T1 CM; Arnold manager; first WC in 40 years |
+| 40 | Saudi Arabia | ✅ | ✅ | 26/26 tracked; Salem Al-Dawsari captain T1 WNG; Al-Owais GK1; 25/26 from Saudi Pro League |
 | 41 | South Africa | ✅ | ✅ | 26/26 tracked; Mofokeng + Appollis (Pirates WNGs) key; Williams penalty specialist; Foster CF |
-| 42 | Jordan | ❌ | TBC | |
+| 42 | Jordan | ✅ | ✅ | 26/26 tracked; Musa Al-Taamari T1 WNG (Rennes); Ali Olwan T1 CF; first-ever WC |
 | 43 | Cape Verde | ✅ | ✅ | 26/26 tracked; historic debut; Logan Costa DOUBTFUL (ACL); Livramento (Casa Pia CF) star; Mendes captain |
-| 44 | Bosnia | ❌ | TBC | |
-| 45 | Ghana | ❌ | TBC | |
-| 46 | Curaçao | ❌ | TBC | |
-| 47 | Haiti | ❌ | TBC | |
-| 48 | New Zealand | ❌ | TBC | |
+| 44 | Bosnia | ✅ | ✅ | 26/26 tracked; Demirović T1 CF (Stuttgart); Džeko captain (40yo); beat Italy in playoff |
+| 45 | Ghana | ✅ | ✅ | 26/26 tracked; Kudus OUT (quad surgery); Semenyo (Man City) + Iñaki Williams T1 WNG; Ayew captain |
+| 46 | Curaçao | ✅ | ✅ | 26/26 tracked; Tahith Chong T1 WNG; Advocaat (oldest WC manager); historic debut |
+| 47 | Haiti | ✅ | ✅ | 26/26 tracked; Isidor + Bellegarde (France allegiance switches); Nazon T1 CF; first WC since 1974 |
+| 48 | New Zealand | ✅ | ✅ | 26/26 tracked; Chris Wood captain CF (Nottm Forest); Cacace T1 LB (Wrexham); Bazeley manager |

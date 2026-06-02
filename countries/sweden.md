@@ -45,13 +45,13 @@
 
 | Tier | Player | Club | Sub-Pos | Role | Fitness | Act/90 | Adj Pts | Tourn. | Squad | Notes |
 |------|--------|------|---------|------|---------|-------:|--------:|-------:|------:|-------|
-| 1 | Viktor Gyökeres | Arsenal | — | Starter | Fit | 46.3 | 223.2 | 3.6 | 9.6 | Fit; peak Arsenal form |
-| 2 | Anthony Elanga | Newcastle United | — | Starter | Fit | 55.3 | 208.7 | 3.4 | 9.0 |  |
-| 2 | Alexander Isak | Liverpool | — | Starter | Doubtful | 35.8 | 171.5 | 3.0 | 7.6 | Fibula Dec 2025; groin May 2026; highly uncertain |
-| 3 | Viktor Bernhardsson | IFK Göteborg | — | Squad Player | Fit | 45.2 | 101.2 | 2.1 | 4.9 |  |
-| 3 | Hamad Ali | Malmö FF | — | Squad Player | Fit | 45.2 | 101.2 | 2.1 | 4.9 |  |
-| 3 | Casper Nygren | Hammarby IF | — | Squad Player | Fit | 45.2 | 101.2 | 2.1 | 4.9 |  |
-| 3 | Johan Nilsson | AIK | — | Squad Player | Fit | 45.2 | 101.2 | 2.1 | 4.9 |  |
+| 1 | Viktor Gyökeres | Arsenal | — | Starter | Fit | 46.3 | 223.2 | 3.2 | 9.6 | Fit; peak Arsenal form |
+| 2 | Anthony Elanga | Newcastle United | — | Starter | Fit | 55.3 | 208.7 | 3.1 | 9.0 |  |
+| 2 | Alexander Isak | Liverpool | — | Starter | Doubtful | 35.8 | 171.5 | 2.7 | 7.6 | Fibula Dec 2025; groin May 2026; highly uncertain |
+| 3 | Viktor Bernhardsson | IFK Göteborg | — | Squad Player | Fit | 45.2 | 101.2 | 2.0 | 4.9 |  |
+| 3 | Hamad Ali | Malmö FF | — | Squad Player | Fit | 45.2 | 101.2 | 2.0 | 4.9 |  |
+| 3 | Casper Nygren | Hammarby IF | — | Squad Player | Fit | 45.2 | 101.2 | 2.0 | 4.9 |  |
+| 3 | Johan Nilsson | AIK | — | Squad Player | Fit | 45.2 | 101.2 | 2.0 | 4.9 |  |
 
 ---
 
@@ -61,16 +61,16 @@
 |---|--------|-----|------|--------:|-------:|------:|
 | 1 | Ken Sema | MID | Udinese | 233.7 | 3.3 | 10.0 |
 | 2 | Lucas Bergvall | MID | Tottenham Hotspur | 228.1 | 3.2 | 9.8 |
-| 3 | Viktor Gyökeres | FWD | Arsenal | 223.2 | 3.6 | 9.6 |
+| 3 | Viktor Gyökeres | FWD | Arsenal | 223.2 | 3.2 | 9.6 |
 | 4 | Daniel Svensson | DEF | B. Dortmund | 219.0 | 4.1 | 9.4 |
 | 5 | Viktor Lindelöf | DEF | Manchester United | 217.9 | 4.1 | 9.4 |
 | 6 | Mattias Svanberg | MID | Wolfsburg | 215.7 | 3.1 | 9.3 |
-| 7 | Anthony Elanga | FWD | Newcastle United | 208.7 | 3.4 | 9.0 |
+| 7 | Anthony Elanga | FWD | Newcastle United | 208.7 | 3.1 | 9.0 |
 | 8 | Emil Holm | DEF | Juventus | 201.6 | 3.9 | 8.8 |
 | 9 | Emil Gudmundsson | DEF | Lazio | 201.6 | 3.9 | 8.8 |
 | 10 | Isak Hien | DEF | Atalanta | 197.4 | 3.8 | 8.6 |
 | 11 | Joel Lagerbielke | DEF | Celtic | 187.6 | 3.7 | 8.2 |
-| 12 | Alexander Isak | FWD | Liverpool | 171.5 | 3.0 | 7.6 |
+| 12 | Alexander Isak | FWD | Liverpool | 171.5 | 2.7 | 7.6 |
 
 ---
 

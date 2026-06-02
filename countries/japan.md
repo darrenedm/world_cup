@@ -46,12 +46,12 @@
 
 | Tier | Player | Club | Sub-Pos | Role | Fitness | Act/90 | Adj Pts | Tourn. | Squad | Notes |
 |------|--------|------|---------|------|---------|-------:|--------:|-------:|------:|-------|
-| 1 | Ayase Ueda | Feyenoord | — | Starter | Fit | 48.7 | 215.4 | 3.5 | 7.0 |  |
-| 2 | Daizen Maeda | Celtic | — | Starter | Fit | 45.2 | 138.5 | 2.6 | 4.9 |  |
-| 2 | Koki Ogawa | NEC Nijmegen | — | Starter | Fit | 45.2 | 133.5 | 2.5 | 4.7 |  |
-| 3 | Yuito Suzuki | SC Freiburg | — | Impact | Fit | 45.2 | 78.3 | 1.8 | 3.2 |  |
-| 3 | Keisuke Goto | Sint-Truiden | — | Squad Player | Fit | 45.2 | 73.3 | 1.8 | 3.1 |  |
-| 3 | Kento Shiogai | VfL Wolfsburg | — | Squad Player | Fit | 45.2 | 69.3 | 1.7 | 2.9 |  |
+| 1 | Ayase Ueda | Feyenoord | — | Starter | Fit | 48.7 | 215.4 | 3.1 | 7.0 |  |
+| 2 | Daizen Maeda | Celtic | — | Starter | Fit | 45.2 | 138.5 | 2.3 | 4.9 |  |
+| 2 | Koki Ogawa | NEC Nijmegen | — | Starter | Fit | 45.2 | 133.5 | 2.3 | 4.7 |  |
+| 3 | Yuito Suzuki | SC Freiburg | — | Impact | Fit | 45.2 | 78.3 | 1.7 | 3.2 |  |
+| 3 | Keisuke Goto | Sint-Truiden | — | Squad Player | Fit | 45.2 | 73.3 | 1.7 | 3.1 |  |
+| 3 | Kento Shiogai | VfL Wolfsburg | — | Squad Player | Fit | 45.2 | 69.3 | 1.6 | 2.9 |  |
 
 ---
 
@@ -63,14 +63,14 @@
 | 2 | Wataru Endo | MID | Liverpool | 313.4 | 4.2 | 9.8 |
 | 3 | Hiroki Ito | DEF | Bayern Munich | 221.2 | 4.2 | 7.2 |
 | 4 | Ko Itakura | DEF | Ajax | 221.2 | 4.2 | 7.2 |
-| 5 | Ayase Ueda | FWD | Feyenoord | 215.4 | 3.5 | 7.0 |
+| 5 | Ayase Ueda | FWD | Feyenoord | 215.4 | 3.1 | 7.0 |
 | 6 | Ritsu Doan | MID | Eintracht Frankfurt | 206.4 | 3.0 | 6.8 |
 | 7 | Ao Tanaka | MID | Leeds United | 203.2 | 2.9 | 6.7 |
 | 8 | Daichi Kamada | MID | Crystal Palace | 199.2 | 2.9 | 6.6 |
 | 9 | Yukinari Sugawara | DEF | Werder Bremen | 172.5 | 3.5 | 5.8 |
 | 10 | Takehiro Tomiyasu | DEF | Ajax | 165.1 | 3.3 | 5.6 |
 | 11 | Tsuyoshi Watanabe | DEF | Feyenoord | 149.0 | 3.1 | 5.2 |
-| 12 | Daizen Maeda | FWD | Celtic | 138.5 | 2.6 | 4.9 |
+| 12 | Daizen Maeda | FWD | Celtic | 138.5 | 2.3 | 4.9 |
 
 ---
 

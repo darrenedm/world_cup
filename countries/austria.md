@@ -36,7 +36,7 @@
 | 1 | Marcel Sabitzer | Borussia Dortmund | CM | Starter | Fit | 70.6 | 312.4 | 4.2 | 10.0 |  |
 | 1 | Christoph Baumgartner | RB Leipzig | AM | Starter | Fit | 69.3 | 297.3 | 4.0 | 9.6 |  |
 | 2 | Konrad Laimer | Bayern Munich | CM | Starter | Fit | 63.9 | 210.3 | 3.0 | 7.1 |  |
-| 2 | Nicolas Seiwald | RB Leipzig | DM | Starter | Fit | 66.5 | 204.0 | 2.9 | 6.9 |  |
+| 2 | Nicolas Seiwald | RB Leipzig | DM | Starter | Fit | 66.5 | 204.0 | 3.0 | 6.9 |  |
 | 2 | Xaver Schlager | RB Leipzig | CM | Starter | Fit | 63.9 | 203.2 | 2.9 | 6.9 |  |
 | 3 | Romano Schmid | Werder Bremen | AM | Impact | Fit | 64.9 | 118.3 | 2.0 | 4.4 |  |
 | 3 | Patrick Wimmer | VfL Wolfsburg | AM | Squad Player | Fit | 64.9 | 112.6 | 1.9 | 4.2 |  |
@@ -49,9 +49,9 @@
 
 | Tier | Player | Club | Sub-Pos | Role | Fitness | Act/90 | Adj Pts | Tourn. | Squad | Notes |
 |------|--------|------|---------|------|---------|-------:|--------:|-------:|------:|-------|
-| 1 | Marko Arnautovic | FK Crvena Zvezda | — | Starter | Fit | 41.6 | 172.6 | 3.0 | 6.0 |  |
-| 2 | Michael Gregoritsch | FC Augsburg | — | Starter | Fit | 45.2 | 143.6 | 2.6 | 5.1 |  |
-| 2 | Sasa Kalajdzic | LASK | — | Starter | Fit | 45.2 | 138.5 | 2.6 | 5.0 |  |
+| 1 | Marko Arnautovic | FK Crvena Zvezda | — | Starter | Fit | 41.6 | 172.6 | 2.7 | 6.0 |  |
+| 2 | Michael Gregoritsch | FC Augsburg | — | Starter | Fit | 45.2 | 143.6 | 2.4 | 5.1 |  |
+| 2 | Sasa Kalajdzic | LASK | — | Starter | Fit | 45.2 | 138.5 | 2.3 | 5.0 |  |
 
 ---
 
@@ -64,13 +64,13 @@
 | 3 | Stefan Posch | DEF | Mainz 05 | 245.2 | 4.5 | 8.1 |
 | 4 | Kevin Danso | DEF | Tottenham Hotspur | 221.2 | 4.2 | 7.4 |
 | 5 | Konrad Laimer | MID | Bayern Munich | 210.3 | 3.0 | 7.1 |
-| 6 | Nicolas Seiwald | MID | RB Leipzig | 204.0 | 2.9 | 6.9 |
+| 6 | Nicolas Seiwald | MID | RB Leipzig | 204.0 | 3.0 | 6.9 |
 | 7 | Xaver Schlager | MID | RB Leipzig | 203.2 | 2.9 | 6.9 |
 | 8 | David Alaba | DEF | Real Madrid | 176.5 | 3.5 | 6.1 |
 | 9 | Marco Friedl | DEF | Werder Bremen | 176.2 | 3.5 | 6.1 |
-| 10 | Marko Arnautovic | FWD | FK Crvena Zvezda | 172.6 | 3.0 | 6.0 |
+| 10 | Marko Arnautovic | FWD | FK Crvena Zvezda | 172.6 | 2.7 | 6.0 |
 | 11 | Philipp Lienhart | DEF | SC Freiburg | 159.0 | 3.3 | 5.6 |
-| 12 | Michael Gregoritsch | FWD | FC Augsburg | 143.6 | 2.6 | 5.1 |
+| 12 | Michael Gregoritsch | FWD | FC Augsburg | 143.6 | 2.4 | 5.1 |
 
 ---
 

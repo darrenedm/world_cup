@@ -35,8 +35,8 @@
 |------|--------|------|---------|------|---------|-------:|--------:|-------:|------:|-------|
 | 1 | Jamiro Monteiro | PEC Zwolle | CM | Starter | Fit | 63.9 | 201.1 | 2.9 | 10.0 |  |
 | 1 | Kevin Pina | Krasnodar | CM | Starter | Fit | 63.9 | 201.1 | 2.9 | 10.0 |  |
-| 2 | Deroy Duarte | Ludogorets Razgrad | CM | Starter | Fit | 63.9 | 169.0 | 2.5 | 8.6 |  |
-| 2 | Telmo Arcanjo | Vitória SC | CM | Starter | Fit | 63.9 | 169.0 | 2.5 | 8.6 |  |
+| 2 | Deroy Duarte | Ludogorets Razgrad | CM | Starter | Fit | 63.9 | 169.0 | 2.6 | 8.6 |  |
+| 2 | Telmo Arcanjo | Vitória SC | CM | Starter | Fit | 63.9 | 169.0 | 2.6 | 8.6 |  |
 | 3 | Yannick Semedo | SC Farense | CM | Squad Player | Fit | 63.9 | 79.4 | 1.5 | 4.6 |  |
 | 3 | Laros Duarte | Puskás Akadémia | CM | Squad Player | Fit | 63.9 | 79.4 | 1.5 | 4.6 |  |
 
@@ -64,8 +64,8 @@
 | 3 | Garry Rodrigues | FWD | Apollon Limassol | 186.8 | 2.8 | 9.4 |
 | 4 | Jovane Cabral | FWD | Estrela da Amadora | 186.8 | 2.8 | 9.4 |
 | 5 | Ryan Mendes | FWD | Iğdır FK | 178.2 | 2.7 | 9.0 |
-| 6 | Deroy Duarte | MID | Ludogorets Razgrad | 169.0 | 2.5 | 8.6 |
-| 7 | Telmo Arcanjo | MID | Vitória SC | 169.0 | 2.5 | 8.6 |
+| 6 | Deroy Duarte | MID | Ludogorets Razgrad | 169.0 | 2.6 | 8.6 |
+| 7 | Telmo Arcanjo | MID | Vitória SC | 169.0 | 2.6 | 8.6 |
 | 8 | Steven Moreira | DEF | Columbus Crew | 168.3 | 3.4 | 8.5 |
 | 9 | Logan Costa | DEF | Villarreal | 155.9 | 3.2 | 8.0 |
 | 10 | Wagner Pina | DEF | Trabzonspor | 153.4 | 3.2 | 7.9 |

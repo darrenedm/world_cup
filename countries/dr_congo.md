@@ -47,9 +47,9 @@
 
 | Tier | Player | Club | Sub-Pos | Role | Fitness | Act/90 | Adj Pts | Tourn. | Squad | Notes |
 |------|--------|------|---------|------|---------|-------:|--------:|-------:|------:|-------|
-| 1 | Yoane Wissa | Brentford | — | Starter | Fit | 64.6 | 191.9 | 3.2 | 10.0 |  |
-| 2 | Simon Banza | SC Braga | — | Starter | Fit | 43.9 | 110.8 | 2.2 | 6.2 |  |
-| 2 | Cédric Bakambu | Panathinaikos | — | Starter | Fit | 39.5 | 99.5 | 2.1 | 5.7 |  |
+| 1 | Yoane Wissa | Brentford | — | Starter | Fit | 64.6 | 191.9 | 2.9 | 10.0 |  |
+| 2 | Simon Banza | SC Braga | — | Starter | Fit | 43.9 | 110.8 | 2.1 | 6.2 |  |
+| 2 | Cédric Bakambu | Panathinaikos | — | Starter | Fit | 39.5 | 99.5 | 1.9 | 5.7 |  |
 | 4 | Alfred Elia | Standard Liège | — | Depth | Fit | 45.2 | 24.6 | 1.2 | 2.2 |  |
 | 4 | Fiston Mayele | Panathinaikos | — | Depth | Fit | 45.2 | 24.6 | 1.2 | 2.2 |  |
 
@@ -59,7 +59,7 @@
 
 | # | Player | Pos | Club | Adj Pts | Tourn. | Squad |
 |---|--------|-----|------|--------:|-------:|------:|
-| 1 | Yoane Wissa | FWD | Brentford | 191.9 | 3.2 | 10.0 |
+| 1 | Yoane Wissa | FWD | Brentford | 191.9 | 2.9 | 10.0 |
 | 2 | Yvan Moutoussamy | MID | Nottingham Forest | 161.2 | 2.5 | 8.6 |
 | 3 | Gaël Kakuta | MID | RC Lens | 156.3 | 2.4 | 8.3 |
 | 4 | Chancel Mbemba | DEF | Marseille | 148.6 | 3.1 | 8.0 |
@@ -67,8 +67,8 @@
 | 6 | Aaron Wan-Bissaka | DEF | West Ham United | 132.8 | 2.9 | 7.2 |
 | 7 | Axel Tuanzebe | DEF | Stade de Reims | 126.2 | 2.8 | 6.9 |
 | 8 | Jordan Bushiri | DEF | Nice | 126.2 | 2.8 | 6.9 |
-| 9 | Simon Banza | FWD | SC Braga | 110.8 | 2.2 | 6.2 |
-| 10 | Cédric Bakambu | FWD | Panathinaikos | 99.5 | 2.1 | 5.7 |
+| 9 | Simon Banza | FWD | SC Braga | 110.8 | 2.1 | 6.2 |
+| 10 | Cédric Bakambu | FWD | Panathinaikos | 99.5 | 1.9 | 5.7 |
 | 11 | Loïs Sadiki | MID | Anderlecht | 95.4 | 1.7 | 5.5 |
 | 12 | Nathanaël Mbuku | MID | RC Lens | 93.1 | 1.7 | 5.4 |
 

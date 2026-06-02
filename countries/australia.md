@@ -44,14 +44,14 @@
 
 | Tier | Player | Club | Sub-Pos | Role | Fitness | Act/90 | Adj Pts | Tourn. | Squad | Notes |
 |------|--------|------|---------|------|---------|-------:|--------:|-------:|------:|-------|
-| 1 | Martin Boyle | Hibernian | — | Starter | Fit | 54.9 | 167.2 | 2.9 | 8.4 |  |
-| 2 | Mathew Leckie | Melbourne City | — | Starter | Fit | 65.7 | 164.3 | 2.9 | 8.3 | Fit; 35 yrs, managed carefully |
-| 2 | Nestory Irankunda | Watford | — | Starter | Fit | 56.5 | 141.3 | 2.6 | 7.3 |  |
-| 2 | Kusini Yengi | Machida Zelvia | — | Starter | Fit | 45.2 | 112.9 | 2.3 | 6.0 |  |
-| 1 | Mohamed Toure | Norwich City | — | Starter | Fit | 36.1 | 109.9 | 2.2 | 5.9 |  |
-| 3 | Brandon Borrello | Western Sydney Wanderers | — | Squad Player | Fit | 65.7 | 89.8 | 2.0 | 5.0 |  |
-| 3 | Nishan Velupillay | Melbourne Victory | — | Squad Player | Fit | 65.7 | 89.8 | 2.0 | 5.0 |  |
-| 3 | Jacob Italiano | Grazer AK | — | Squad Player | Fit | 45.2 | 61.7 | 1.6 | 3.7 |  |
+| 1 | Martin Boyle | Hibernian | — | Starter | Fit | 54.9 | 167.2 | 2.6 | 8.4 |  |
+| 2 | Mathew Leckie | Melbourne City | — | Starter | Fit | 65.7 | 164.3 | 2.6 | 8.3 | Fit; 35 yrs, managed carefully |
+| 2 | Nestory Irankunda | Watford | — | Starter | Fit | 56.5 | 141.3 | 2.4 | 7.3 |  |
+| 2 | Kusini Yengi | Machida Zelvia | — | Starter | Fit | 45.2 | 112.9 | 2.1 | 6.0 |  |
+| 1 | Mohamed Toure | Norwich City | — | Starter | Fit | 36.1 | 109.9 | 2.0 | 5.9 |  |
+| 3 | Brandon Borrello | Western Sydney Wanderers | — | Squad Player | Fit | 65.7 | 89.8 | 1.8 | 5.0 |  |
+| 3 | Nishan Velupillay | Melbourne Victory | — | Squad Player | Fit | 65.7 | 89.8 | 1.8 | 5.0 |  |
+| 3 | Jacob Italiano | Grazer AK | — | Squad Player | Fit | 45.2 | 61.7 | 1.5 | 3.7 |  |
 
 ---
 
@@ -64,11 +64,11 @@
 | 3 | Jackson Irvine | MID | St Pauli | 180.3 | 2.7 | 9.0 |
 | 4 | Aziz Behich | DEF | Melbourne City | 168.8 | 3.4 | 8.5 |
 | 5 | Jason Geria | DEF | Albirex Niigata | 168.8 | 3.4 | 8.5 |
-| 6 | Martin Boyle | FWD | Hibernian | 167.2 | 2.9 | 8.4 |
-| 7 | Mathew Leckie | FWD | Melbourne City | 164.3 | 2.9 | 8.3 |
+| 6 | Martin Boyle | FWD | Hibernian | 167.2 | 2.6 | 8.4 |
+| 7 | Mathew Leckie | FWD | Melbourne City | 164.3 | 2.6 | 8.3 |
 | 8 | Connor Metcalfe | MID | St Pauli | 159.8 | 2.4 | 8.1 |
 | 9 | Cameron Burgess | DEF | Swansea City | 152.3 | 3.2 | 7.8 |
-| 10 | Nestory Irankunda | FWD | Watford | 141.3 | 2.6 | 7.3 |
+| 10 | Nestory Irankunda | FWD | Watford | 141.3 | 2.4 | 7.3 |
 | 11 | Harry Souttar | DEF | Leicester City | 140.5 | 3.0 | 7.2 |
 | 12 | Jordan Bos | DEF | Feyenoord | 138.6 | 3.0 | 7.2 |
 

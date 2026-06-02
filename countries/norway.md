@@ -49,9 +49,9 @@
 
 | Tier | Player | Club | Sub-Pos | Role | Fitness | Act/90 | Adj Pts | Tourn. | Squad | Notes |
 |------|--------|------|---------|------|---------|-------:|--------:|-------:|------:|-------|
-| 1 | Erling Haaland | Manchester City | — | Starter | Fit | 61.0 | 310.6 | 4.6 | 9.4 | Fit; load managed by Guardiola |
-| 2 | Alexander Sørloth | Atlético Madrid | — | Starter | Fit | 44.1 | 224.5 | 3.6 | 7.1 |  |
-| 2 | Jørgen Strand Larsen | Crystal Palace | — | Starter | Fit | 42.4 | 219.3 | 3.5 | 6.9 |  |
+| 1 | Erling Haaland | Manchester City | — | Starter | Fit | 61.0 | 310.6 | 4.1 | 9.4 | Fit; load managed by Guardiola |
+| 2 | Alexander Sørloth | Atlético Madrid | — | Starter | Fit | 44.1 | 224.5 | 3.2 | 7.1 |  |
+| 2 | Jørgen Strand Larsen | Crystal Palace | — | Starter | Fit | 42.4 | 219.3 | 3.2 | 6.9 |  |
 
 ---
 
@@ -60,7 +60,7 @@
 | # | Player | Pos | Club | Adj Pts | Tourn. | Squad |
 |---|--------|-----|------|--------:|-------:|------:|
 | 1 | Fredrik Aursnes | MID | Benfica | 332.2 | 4.4 | 10.0 |
-| 2 | Erling Haaland | FWD | Manchester City | 310.6 | 4.6 | 9.4 |
+| 2 | Erling Haaland | FWD | Manchester City | 310.6 | 4.1 | 9.4 |
 | 3 | Martin Ødegaard | MID | Arsenal | 299.5 | 4.0 | 9.1 |
 | 4 | Sander Berge | MID | Fulham | 288.1 | 3.9 | 8.8 |
 | 5 | Julian Ryerson | DEF | Borussia Dortmund | 281.3 | 5.0 | 8.6 |
@@ -70,7 +70,7 @@
 | 9 | Fredrik Bjørkan | DEF | Bodø/Glimt | 256.3 | 4.7 | 7.9 |
 | 10 | Torbjørn Heggem | DEF | Bologna | 256.3 | 4.7 | 7.9 |
 | 11 | Leo Østigård | DEF | Genoa | 239.0 | 4.4 | 7.5 |
-| 12 | Alexander Sørloth | FWD | Atlético Madrid | 224.5 | 3.6 | 7.1 |
+| 12 | Alexander Sørloth | FWD | Atlético Madrid | 224.5 | 3.2 | 7.1 |
 
 ---
 

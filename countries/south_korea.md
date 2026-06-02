@@ -34,9 +34,9 @@
 
 | Tier | Player | Club | Sub-Pos | Role | Fitness | Act/90 | Adj Pts | Tourn. | Squad | Notes |
 |------|--------|------|---------|------|---------|-------:|--------:|-------:|------:|-------|
-| 1 | Lee Kang-in | Paris Saint-Germain | AM | Starter | Fit | 74.5 | 309.4 | 4.1 | 10.0 |  |
+| 1 | Lee Kang-in | Paris Saint-Germain | AM | Starter | Fit | 74.5 | 309.4 | 4.2 | 10.0 |  |
 | 2 | Hwang Hee-chan | Wolverhampton Wanderers | AM | Starter | Fit | 64.9 | 197.7 | 2.9 | 6.8 |  |
-| 2 | Yang Hyun-jun | Celtic FC | AM | Starter | Fit | 64.9 | 196.3 | 2.8 | 6.7 |  |
+| 2 | Yang Hyun-jun | Celtic FC | AM | Starter | Fit | 64.9 | 196.3 | 2.9 | 6.7 |  |
 | 2 | Hwang In-beom | Feyenoord | CM | Starter | Fit | 63.9 | 186.1 | 2.7 | 6.4 |  |
 | 2 | Lee Jae-sung | Mainz 05 | CM | Starter | Fit | 63.9 | 180.4 | 2.7 | 6.2 |  |
 | 3 | Bae Jun-ho | Stoke City | CM | Impact | Fit | 63.9 | 110.8 | 1.9 | 4.2 |  |
@@ -49,9 +49,9 @@
 
 | Tier | Player | Club | Sub-Pos | Role | Fitness | Act/90 | Adj Pts | Tourn. | Squad | Notes |
 |------|--------|------|---------|------|---------|-------:|--------:|-------:|------:|-------|
-| 1 | Son Heung-min | LAFC | — | Starter | Fit | 70.4 | 292.5 | 4.4 | 9.5 |  |
-| 2 | Oh Hyeon-gyu | Besiktas | — | Starter | Fit | 45.2 | 136.5 | 2.5 | 5.0 |  |
-| 2 | Cho Gue-sung | Midtjylland | — | Starter | Fit | 45.2 | 131.5 | 2.5 | 4.8 |  |
+| 1 | Son Heung-min | LAFC | — | Starter | Fit | 70.4 | 292.5 | 3.9 | 9.5 |  |
+| 2 | Oh Hyeon-gyu | Besiktas | — | Starter | Fit | 45.2 | 136.5 | 2.3 | 5.0 |  |
+| 2 | Cho Gue-sung | Midtjylland | — | Starter | Fit | 45.2 | 131.5 | 2.3 | 4.8 |  |
 
 ---
 
@@ -59,18 +59,18 @@
 
 | # | Player | Pos | Club | Adj Pts | Tourn. | Squad |
 |---|--------|-----|------|--------:|-------:|------:|
-| 1 | Lee Kang-in | MID | Paris Saint-Germain | 309.4 | 4.1 | 10.0 |
-| 2 | Son Heung-min | FWD | LAFC | 292.5 | 4.4 | 9.5 |
+| 1 | Lee Kang-in | MID | Paris Saint-Germain | 309.4 | 4.2 | 10.0 |
+| 2 | Son Heung-min | FWD | LAFC | 292.5 | 3.9 | 9.5 |
 | 3 | Kim Min-jae | DEF | Bayern Munich | 226.3 | 4.2 | 7.6 |
 | 4 | Hwang Hee-chan | MID | Wolverhampton Wanderers | 197.7 | 2.9 | 6.8 |
-| 5 | Yang Hyun-jun | MID | Celtic FC | 196.3 | 2.8 | 6.7 |
+| 5 | Yang Hyun-jun | MID | Celtic FC | 196.3 | 2.9 | 6.7 |
 | 6 | Hwang In-beom | MID | Feyenoord | 186.1 | 2.7 | 6.4 |
 | 7 | Lee Jae-sung | MID | Mainz 05 | 180.4 | 2.7 | 6.2 |
 | 8 | Kim Moon-hwan | DEF | Daejeon Hana Citizen FC | 168.8 | 3.4 | 5.9 |
 | 9 | Cho Yu-min | DEF | Sharjah FC | 161.4 | 3.3 | 5.7 |
 | 10 | Seol Young-woo | DEF | FK Crvena Zvezda | 150.1 | 3.1 | 5.4 |
-| 11 | Oh Hyeon-gyu | FWD | Besiktas | 136.5 | 2.5 | 5.0 |
-| 12 | Cho Gue-sung | FWD | Midtjylland | 131.5 | 2.5 | 4.8 |
+| 11 | Oh Hyeon-gyu | FWD | Besiktas | 136.5 | 2.3 | 5.0 |
+| 12 | Cho Gue-sung | FWD | Midtjylland | 131.5 | 2.3 | 4.8 |
 
 ---
 

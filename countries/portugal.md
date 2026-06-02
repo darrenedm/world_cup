@@ -33,25 +33,25 @@
 | Tier | Player | Club | Sub-Pos | Role | Fitness | Act/90 | Adj Pts | Tourn. | Squad | Notes |
 |------|--------|------|---------|------|---------|-------:|--------:|-------:|------:|-------|
 | 1 | Vitinha | PSG | DM | Starter | Fit | 81.1 | 629.6 | 7.8 | 10.0 | Managed |
-| 1 | Bernardo Silva | Manchester City | CM | Starter | Fit | 80.1 | 624.1 | 7.7 | 9.9 |  |
-| 1 | Bruno Fernandes | Manchester United | AM | Starter | Fit | 76.5 | 597.6 | 7.4 | 9.5 |  |
-| 1 | João Neves | PSG | DM | Starter | Fit | 72.9 | 583.4 | 7.2 | 9.3 |  |
-| 3 | Rúben Neves | Al-Hilal | DM | Impact | Fit | 66.5 | 176.2 | 2.5 | 3.5 |  |
-| 3 | Matheus Nunes | Manchester City | CM | Impact | Fit | 63.9 | 171.9 | 2.4 | 3.4 |  |
-| 4 | Samu Costa | Mallorca | DM | Depth | Fit | 66.5 | 86.9 | 1.4 | 2.2 |  |
+| 1 | Bernardo Silva | Manchester City | CM | Starter | Fit | 80.1 | 624.1 | 7.8 | 9.9 |  |
+| 1 | Bruno Fernandes | Manchester United | AM | Starter | Fit | 76.5 | 597.6 | 7.5 | 9.5 |  |
+| 1 | João Neves | PSG | DM | Starter | Fit | 72.9 | 583.4 | 7.3 | 9.3 |  |
+| 3 | Rúben Neves | Al-Hilal | DM | Impact | Fit | 66.5 | 176.2 | 2.6 | 3.5 |  |
+| 3 | Matheus Nunes | Manchester City | CM | Impact | Fit | 63.9 | 171.9 | 2.6 | 3.4 |  |
+| 4 | Samu Costa | Mallorca | DM | Depth | Fit | 66.5 | 86.9 | 1.6 | 2.2 |  |
 
 ## Forwards
 
 | Tier | Player | Club | Sub-Pos | Role | Fitness | Act/90 | Adj Pts | Tourn. | Squad | Notes |
 |------|--------|------|---------|------|---------|-------:|--------:|-------:|------:|-------|
-| 1 | Rafael Leão | AC Milan | — | Starter | Fit | 76.0 | 594.4 | 8.1 | 9.5 |  |
-| 1 | Cristiano Ronaldo | Al-Nassr | — | Starter | Fit | 48.6 | 440.1 | 6.2 | 7.3 |  |
-| 2 | Francisco Conceição | Juventus | — | Starter | Fit | 60.0 | 370.7 | 5.4 | 6.3 |  |
-| 2 | Gonçalo Ramos | Paris Saint-Germain | — | Starter | Fit | 52.6 | 342.2 | 5.1 | 5.9 |  |
-| 3 | Pedro Neto | Chelsea | — | Impact | Fit | 65.7 | 197.9 | 3.3 | 3.8 |  |
-| 3 | Francisco Trincão | Sporting CP | — | Impact | Fit | 65.7 | 178.6 | 3.1 | 3.5 |  |
-| 3 | João Félix | Al-Nassr | — | Impact | Fit | 54.5 | 160.4 | 2.9 | 3.2 |  |
-| 4 | Gonçalo Guedes | Real Sociedad | — | Depth | Fit | 45.2 | 75.7 | 1.9 | 2.0 |  |
+| 1 | Rafael Leão | AC Milan | — | Starter | Fit | 76.0 | 594.4 | 7.0 | 9.5 |  |
+| 1 | Cristiano Ronaldo | Al-Nassr | — | Starter | Fit | 48.6 | 440.1 | 5.4 | 7.3 |  |
+| 2 | Francisco Conceição | Juventus | — | Starter | Fit | 60.0 | 370.7 | 4.7 | 6.3 |  |
+| 2 | Gonçalo Ramos | Paris Saint-Germain | — | Starter | Fit | 52.6 | 342.2 | 4.4 | 5.9 |  |
+| 3 | Pedro Neto | Chelsea | — | Impact | Fit | 65.7 | 197.9 | 2.9 | 3.8 |  |
+| 3 | Francisco Trincão | Sporting CP | — | Impact | Fit | 65.7 | 178.6 | 2.7 | 3.5 |  |
+| 3 | João Félix | Al-Nassr | — | Impact | Fit | 54.5 | 160.4 | 2.6 | 3.2 |  |
+| 4 | Gonçalo Guedes | Real Sociedad | — | Depth | Fit | 45.2 | 75.7 | 1.7 | 2.0 |  |
 
 ---
 
@@ -60,17 +60,17 @@
 | # | Player | Pos | Club | Adj Pts | Tourn. | Squad |
 |---|--------|-----|------|--------:|-------:|------:|
 | 1 | Vitinha | MID | PSG | 629.6 | 7.8 | 10.0 |
-| 2 | Bernardo Silva | MID | Manchester City | 624.1 | 7.7 | 9.9 |
-| 3 | Bruno Fernandes | MID | Manchester United | 597.6 | 7.4 | 9.5 |
-| 4 | Rafael Leão | FWD | AC Milan | 594.4 | 8.1 | 9.5 |
-| 5 | João Neves | MID | PSG | 583.4 | 7.2 | 9.3 |
+| 2 | Bernardo Silva | MID | Manchester City | 624.1 | 7.8 | 9.9 |
+| 3 | Bruno Fernandes | MID | Manchester United | 597.6 | 7.5 | 9.5 |
+| 4 | Rafael Leão | FWD | AC Milan | 594.4 | 7.0 | 9.5 |
+| 5 | João Neves | MID | PSG | 583.4 | 7.3 | 9.3 |
 | 6 | João Cancelo | DEF | Al-Hilal | 548.3 | 8.9 | 8.8 |
 | 7 | Nuno Mendes | DEF | PSG | 524.0 | 8.6 | 8.5 |
 | 8 | Rúben Dias | DEF | Manchester City | 484.1 | 8.0 | 7.9 |
-| 9 | Cristiano Ronaldo | FWD | Al-Nassr | 440.1 | 6.2 | 7.3 |
+| 9 | Cristiano Ronaldo | FWD | Al-Nassr | 440.1 | 5.4 | 7.3 |
 | 10 | Diogo Costa | GK | Porto | 396.5 | 9.2 | 6.6 |
 | 11 | Diogo Dalot | DEF | Manchester United | 387.1 | 6.6 | 6.5 |
-| 12 | Francisco Conceição | FWD | Juventus | 370.7 | 5.4 | 6.3 |
+| 12 | Francisco Conceição | FWD | Juventus | 370.7 | 4.7 | 6.3 |
 
 ---
 
