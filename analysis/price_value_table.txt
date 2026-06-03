@@ -2,148 +2,148 @@
 
 #    Player                   Nat            Pos     Price  Adj Pts    Pts/$  Status
 ─────────────────────────────────────────────────────────────────────────────────────
-1    Palacios                 Argentina      MID   0.00450    503.6   111911  ✅
-2    Tillman                  USA            MID   0.00524    481.5    91889  ✅
-3    Lukaku                   Belgium        FWD   0.00511    391.8    76673  ✅
-4    Le Normand               Spain          DEF   0.00552    409.7    74221  ⚠️ unconfirmed (82% prob, Spain)
-5    Woltemade                Germany        FWD   0.00751    549.7    73196  ✅
-6    Rafael Leão              Portugal       FWD   0.00827    594.4    71874  ✅
-7    Grimaldo                 Spain          DEF   0.00709    465.9    65712  ✅
-8    Jonathan David           Canada         FWD   0.00520    260.4    50077  ✅
-9    Mohamed Salah            Egypt          FWD   0.00687    322.2    46900  ⚠️ not sheeted (Egypt)
-10   Svensson                 Sweden         DEF   0.00488    219.0    44877  ✅
-11   Gravenberch              Netherlands    MID   0.01080    478.9    44343  ✅
-12   Lautaro Martínez         Argentina      FWD   0.01230    534.8    43480  ✅
-13   Kudus                    Ghana          MID   0.00251    108.5    43227  ⚠️ not sheeted (Ghana)
-14   Diallo                   Ivory Coast    FWD   0.00664    284.7    42877  ✅
-15   Pulisic                  USA            FWD   0.01150    488.5    42478  ✅
-16   Ruiz                     Spain          MID   0.01600    581.4    36338  ✅
-17   De Bruyne                Belgium        MID   0.01470    531.7    36170  ✅
-18   Romero                   Argentina      DEF   0.01430    513.1    35881  ✅
-19   Akliouche                France         MID   0.00498    176.1    35361  ✅
-20   Valverde                 Uruguay        MID   0.01440    505.4    35097  ⚠️ not sheeted (Uruguay)
-21   Stiller                  Germany        MID   0.00564    192.6    34149  ✅
-22   Fernández (CHE)          Argentina      MID   0.01650    558.2    33830  ✅
-23   Olmo                     Spain          FWD   0.01210    407.9    33711  ✅
-24   Caicedo                  Ecuador        MID   0.00998    333.3    33397  ✅
-25   Çalhanoglu               Turkey         MID   0.01370    454.1    33146  ✅
-26   Koundé                   France         DEF   0.01750    568.1    32463  ✅
-27   Eze                      England        MID   0.00662    200.3    30257  ✅
-28   Rodri                    Spain          MID   0.02030    596.9    29404  ✅
-29   Dumfries                 Netherlands    DEF   0.01330    389.8    29308  ✅
-30   Porro                    Spain          DEF   0.01790    521.5    29134  ✅
-31   McTominay                Scotland       MID   0.01160    328.1    28284  ✅
-32   Neuer                    Germany        GK    0.01380    390.2    28275  ✅
-33   João Neves               Portugal       MID   0.02080    583.4    28048  ✅
-34   Bellingham (RMD)         England        MID   0.02220    612.7    27599  ✅
-35   Gvardiol                 Croatia        DEF   0.01380    378.2    27406  ✅
-36   Konsa                    England        DEF   0.01700    454.5    26735  ✅
-37   Jurriën Timber           Netherlands    DEF   0.01380    367.3    26616  ✅
-38   Anderson (NFO)           England        MID   0.01870    490.2    26214  ✅
-39   Rashford                 England        FWD   0.00779    201.8    25905  ✅
-40   Güler                    Turkey         MID   0.01440    371.4    25792  ✅
-41   Isak                     Sweden         FWD   0.00683    171.5    25110  ✅
-42   Cucurella                Spain          DEF   0.02100    521.5    24833  ✅
-43   Yildiz                   Turkey         FWD   0.01490    368.9    24758  ✅
-44   Díaz (FCB)               Colombia       FWD   0.02000    483.3    24165  ✅
-45   Upamecano                France         DEF   0.02230    535.8    24027  ✅
-46   Saka                     England        FWD   0.02290    543.1    23716  ✅
-47   Rúben Dias               Portugal       DEF   0.02090    484.1    23163  ✅
-48   Kimmich                  Germany        MID   0.02880    665.2    23097  ✅
-49   Guéhi                    England        DEF   0.02150    486.6    22633  ✅
-50   Tah                      Germany        DEF   0.02050    461.4    22507  ✅
-51   van Dijk                 Netherlands    DEF   0.02030    437.4    21547  ✅
-52   Cubarsí                  Spain          DEF   0.02340    491.4    21000  ✅
-53   Raphinha                 Brazil         FWD   0.02750    553.3    20120  ✅
-54   Watkins                  England        FWD   0.00809    162.5    20087  ✅
-55   Schlotterbeck            Germany        DEF   0.02300    461.4    20061  ✅
-56   Nuno Mendes              Portugal       DEF   0.02660    524.0    19699  ✅
-57   Pedri                    Spain          MID   0.03430    669.4    19516  ✅
-58   Vinícius Júnior          Brazil         FWD   0.02670    516.9    19360  ✅
-59   Alisson Becker           Brazil         GK    0.01700    328.9    19347  ✅
-60   Saliba                   France         DEF   0.02770    535.8    19343  ✅
-61   Vitinha                  Portugal       MID   0.03270    629.6    19254  ✅
+1    Palacios                 Argentina      MID   0.00461    503.6   109241  ✅
+2    Tillman                  USA            MID   0.00533    481.5    90338  ✅
+3    Le Normand               Spain          DEF   0.00539    409.7    76011  ⚠️ unconfirmed (82% prob, Spain)
+4    Woltemade                Germany        FWD   0.00748    549.7    73489  ✅
+5    Grimaldo                 Spain          DEF   0.00734    465.9    63474  ✅
+6    Lukaku                   Belgium        FWD   0.00635    391.8    61701  ✅
+7    Rafael Leão              Portugal       FWD   0.00996    594.4    59679  ✅
+8    Jonathan David           Canada         FWD   0.00537    260.4    48492  ✅
+9    Gravenberch              Netherlands    MID   0.01050    478.9    45610  ✅
+10   Mohamed Salah            Egypt          MID   0.00691    309.7    44819  ✅
+11   Lautaro Martínez         Argentina      FWD   0.01200    534.8    44567  ✅
+12   Kudus                    Ghana          MID   0.00250    108.5    43400  ✅
+13   Diallo                   Ivory Coast    FWD   0.00706    284.7    40326  ✅
+14   Svensson                 Sweden         DEF   0.00547    219.0    40037  ✅
+15   Pulisic                  USA            FWD   0.01260    488.5    38770  ✅
+16   Ruiz                     Spain          MID   0.01530    581.4    38000  ✅
+17   Stiller                  Germany        MID   0.00509    192.6    37839  ✅
+18   De Bruyne                Belgium        MID   0.01440    531.7    36924  ✅
+19   Çalhanoğlu               Turkey         MID   0.01350    454.1    33637  ✅
+20   Fernández                Argentina      MID   0.01670    558.2    33425  ✅
+21   Akliouche                France         MID   0.00536    176.1    32854  ✅
+22   Olmo                     Spain          FWD   0.01250    407.9    32632  ✅
+23   Caicedo                  Ecuador        MID   0.01050    333.3    31743  ✅
+24   Koundé                   France         DEF   0.01850    568.1    30708  ✅
+25   Eze                      England        MID   0.00653    200.3    30674  ✅
+26   Romero                   Argentina      DEF   0.01720    513.1    29831  ✅
+27   Porro                    Spain          DEF   0.01800    521.5    28972  ✅
+28   McTominay                Scotland       MID   0.01140    328.1    28781  ✅
+29   Rodri                    Spain          MID   0.02120    596.9    28156  ✅
+30   Neuer                    Germany        GK    0.01390    390.2    28072  ✅
+31   Rashford                 England        FWD   0.00722    201.8    27950  ✅
+32   João Neves               Portugal       MID   0.02110    583.4    27649  ✅
+33   Bellingham               England        MID   0.02230    612.7    27475  ✅
+34   Jurriën Timber           Netherlands    DEF   0.01380    367.3    26616  ✅
+35   Saliba                   France         DEF   0.02060    535.8    26010  ✅
+36   Saka                     England        FWD   0.02090    543.1    25986  ✅
+37   Gvardiol                 Croatia        DEF   0.01460    378.2    25904  ✅
+38   Dumfries                 Netherlands    DEF   0.01540    389.8    25312  ✅
+39   Anderson                 England        MID   0.02030    490.2    24148  ✅
+40   Valverde                 Uruguay        MID   0.01510    362.7    24020  ✅
+41   Güler                    Turkey         MID   0.01590    371.4    23358  ✅
+42   Omar Marmoush            Egypt          FWD   0.00765    176.7    23098  ✅
+43   Upamecano                France         DEF   0.02320    535.8    23095  ✅
+44   Yildiz                   Turkey         FWD   0.01600    368.9    23056  ✅
+45   Cucurella                Spain          DEF   0.02270    521.5    22974  ✅
+46   Guéhi                    England        DEF   0.02150    486.6    22633  ✅
+47   Kimmich                  Germany        MID   0.03020    665.2    22026  ✅
+48   Konsa                    England        DEF   0.02070    454.5    21957  ✅
+49   Rúben Dias               Portugal       DEF   0.02240    484.1    21612  ✅
+50   Nuno Mendes              Portugal       DEF   0.02490    524.0    21044  ✅
+51   van Dijk                 Netherlands    DEF   0.02100    437.4    20829  ✅
+52   Cubarsí                  Spain          DEF   0.02370    491.4    20734  ✅
+53   Tah                      Germany        DEF   0.02240    461.4    20598  ✅
+54   Ødegaard                 Norway         MID   0.01490    299.5    20101  ✅
+55   Watkins                  England        FWD   0.00812    162.5    20012  ✅
+56   Raphinha                 Brazil         FWD   0.02780    553.3    19903  ✅
+57   Dembélé                  France         FWD   0.02810    556.6    19808  ✅
+58   Díaz                     Colombia       FWD   0.02440    483.3    19807  ✅
+59   Alisson Becker           Brazil         GK    0.01690    328.9    19462  ✅
+60   Rice                     England        MID   0.02930    569.5    19437  ✅
+61   Schlotterbeck            Germany        DEF   0.02400    461.4    19225  ✅
 62   Courtois                 Belgium        GK    0.01820    348.5    19148  ✅
-63   Omar Marmoush            Egypt          FWD   0.00752    143.3    19056  ⚠️ not sheeted (Egypt)
-64   Rice                     England        MID   0.03000    569.5    18983  ✅
-65   Martínez (AVL)           Argentina      GK    0.02240    417.5    18638  ✅
-66   Wirtz                    Germany        MID   0.02710    504.6    18620  ✅
-67   Ødegaard                 Norway         MID   0.01630    299.5    18374  ✅
-68   Kobel                    Switzerland    GK    0.01620    294.5    18179  ✅
-69   Pickford                 England        GK    0.02230    390.8    17525  ✅
-70   Dembélé                  France         FWD   0.03180    556.6    17503  ✅
-71   Huijsen                  Spain          DEF   0.00803    138.2    17210  ⚠️ unconfirmed (78% prob, Spain)
-72   Gyökeres                 Sweden         FWD   0.01300    223.2    17169  ✅
-73   Quansah                  England        DEF   0.00478     80.6    16862  ✅
-74   Simón                    Spain          GK    0.02330    390.9    16777  ✅
-75   Gabriel Magalhães        Brazil         DEF   0.02500    419.0    16760  ✅
-76   Hakimi                   Morocco        DEF   0.02280    374.2    16412  ✅
-77   Pedro Neto               Portugal       FWD   0.01250    197.9    15832  ✅
-78   Doku                     Belgium        FWD   0.02870    448.3    15620  ✅
-79   Alvarez                  Argentina      FWD   0.02690    401.6    14929  ✅
-80   Maignan                  France         GK    0.03000    434.3    14477  ✅
-81   Olise                    France         MID   0.06500    818.6    12594  ✅
-82   Bruno Fernandes          Portugal       MID   0.04950    597.6    12073  ✅
-83   Kane                     England        FWD   0.05810    643.2    11071  ✅
-84   Cherki                   France         MID   0.01970    213.5    10838  ✅
-85   Nmecha                   Germany        MID   0.00822     89.0    10827  ✅
-86   Mbappé                   France         FWD   0.07060    754.7    10690  ✅
-87   Lamine Yamal             Spain          FWD   0.06750    720.0    10667  ✅
-88   Doué                     France         FWD   0.02170    215.1     9912  ✅
-89   Haaland                  Norway         FWD   0.03400    310.6     9135  ✅
-90   Matheus Cunha            Brazil         FWD   0.01680    148.6     8845  ✅
-91   Soulé                    Argentina      FWD   0.00227      8.8     3877  ⚠️ unconfirmed (22% prob, Argentina)
-92   Rulli                    Argentina      GK    0.00271      9.4     3469  ✅
+63   Huijsen                  Spain          DEF   0.00722    138.2    19141  ⚠️ unconfirmed (78% prob, Spain)
+64   Gyökeres                 Sweden         FWD   0.01180    223.2    18915  ✅
+65   Martínez (AR)            Argentina      GK    0.02210    417.5    18891  ✅
+66   Isak                     Sweden         FWD   0.00923    171.5    18581  ✅
+67   Pedri                    Spain          MID   0.03680    669.4    18190  ✅
+68   Wirtz                    Germany        MID   0.02850    504.6    17705  ✅
+69   Pickford                 England        GK    0.02220    390.8    17604  ✅
+70   Vitinha                  Portugal       MID   0.03590    629.6    17538  ✅
+71   Kobel                    Switzerland    GK    0.01700    294.5    17324  ✅
+72   Gabriel Magalhães        Brazil         DEF   0.02420    419.0    17314  ✅
+73   Simón                    Spain          GK    0.02280    390.9    17145  ✅
+74   Vinícius Júnior          Brazil         FWD   0.03060    516.9    16892  ✅
+75   Hakimi                   Morocco        DEF   0.02230    374.2    16780  ✅
+76   Quansah                  England        DEF   0.00488     80.6    16516  ✅
+77   Alvarez                  Argentina      FWD   0.02450    401.6    16392  ✅
+78   Maignan                  France         GK    0.02740    434.3    15850  ✅
+79   Pedro Neto               Portugal       FWD   0.01250    197.9    15832  ✅
+80   Doku                     Belgium        FWD   0.02880    448.3    15566  ✅
+81   Olise                    France         MID   0.06370    818.6    12851  ✅
+82   Cherki                   France         MID   0.01780    213.5    11994  ✅
+83   Bruno Fernandes          Portugal       MID   0.05130    597.6    11649  ✅
+84   Kane                     England        FWD   0.05620    643.2    11445  ✅
+85   Doué                     France         FWD   0.01980    215.1    10864  ✅
+86   Mbappé                   France         FWD   0.07300    754.7    10338  ✅
+87   Nmecha                   Germany        MID   0.00865     89.0    10289  ✅
+88   Haaland                  Norway         FWD   0.03320    310.6     9355  ✅
+89   Lamine Yamal             Spain          FWD   0.08880    720.0     8108  ✅
+90   Matheus Cunha            Brazil         FWD   0.01850    148.6     8032  ✅
+91   Soulé                    Argentina      FWD   0.00226      8.8     3894  ⚠️ unconfirmed (22% prob, Argentina)
+92   Rulli                    Argentina      GK    0.00297      9.4     3165  ✅
 93   Flekken                  Netherlands    GK    0.00401     11.1     2768  ✅
-94   Dean Henderson           England        GK    0.00464     11.3     2435  ✅
-95   Carreras                 Spain          DEF   0.00311      4.2     1350  ⚠️ unconfirmed (10% prob, Spain)
-96   Trafford                 England        GK    0.00466      4.1      880  ✅
-97   Raya                     Spain          GK    0.01720      9.4      547  ✅
-98   Sánchez                  Spain          GK    0.00229      0.4      175  ⚠️ unconfirmed (10% prob, Spain)
+94   Dean Henderson           England        GK    0.00461     11.3     2451  ✅
+95   Carreras                 Spain          DEF   0.00302      4.2     1391  ⚠️ unconfirmed (10% prob, Spain)
+96   Trafford                 England        GK    0.00463      4.1      886  ✅
+97   Raya                     Spain          GK    0.01510      9.4      623  ✅
+98   Sánchez                  Spain          GK    0.00233      0.4      172  ⚠️ unconfirmed (10% prob, Spain)
 
 ────────────────────────────────────────────────────────────
 ## Players not in WC / not in squad (excluded from ranking)
 
-  Kvaratskhelia            0.00856  Georgia (didn't qualify)
-  Joan García              0.00786  0 pts — OUT/unconfirmed (Spain)
-  Palmer                   0.00724  NOT IN SQUAD (England)
-  Donnarumma               0.00682  Italy (didn't qualify)
-  Bastoni                  0.00612  Italy (didn't qualify)
-  Amir Rrahmani            0.00577  Kosovo (didn't qualify)
-  Greenwood                0.00536  NOT IN SQUAD (England)
-  Alexander-Arnold         0.00493  NOT IN SQUAD (England)
-  João Pedro               0.00491  NOT IN SQUAD (Brazil)
+  Kvaratskhelia            0.00809  Georgia (didn't qualify)
+  Joan García              0.00783  0 pts — OUT/unconfirmed (Spain)
+  Palmer                   0.00721  NOT IN SQUAD (England)
+  Donnarumma               0.00655  Italy (didn't qualify)
+  Bastoni                  0.00636  Italy (didn't qualify)
+  Amir Rrahmani            0.00573  Kosovo (didn't qualify)
+  Greenwood                0.00544  NOT IN SQUAD (England)
+  João Pedro               0.00506  NOT IN SQUAD (Brazil)
+  Alexander-Arnold         0.00498  NOT IN SQUAD (England)
   Foden                    0.00486  NOT IN SQUAD (England)
-  Locatelli                0.00437  Italy (didn't qualify)
-  Tapsoba                  0.00398  Burkina Faso (didn't qualify)
-  Gibbs-White              0.00388  NOT IN SQUAD (England)
-  Mittelstädt              0.00353  NOT IN SQUAD (Germany)
-  Ekitiké                  0.00340  NOT IN SQUAD (France)
-  Antony                   0.00337  NOT IN SQUAD (Brazil)
-  Mbeumo                   0.00330  Cameroon (didn't qualify)
-  Oblak                    0.00329  Slovenia (didn't qualify)
-  Di Lorenzo               0.00319  Italy (didn't qualify)
-  Barella                  0.00290  Italy (didn't qualify)
+  Locatelli                0.00450  Italy (didn't qualify)
+  Gibbs-White              0.00395  NOT IN SQUAD (England)
+  Tapsoba                  0.00392  Burkina Faso (didn't qualify)
+  Mittelstädt              0.00359  NOT IN SQUAD (Germany)
+  Ekitiké                  0.00343  NOT IN SQUAD (France)
+  Mbeumo                   0.00333  Cameroon (didn't qualify)
+  Antony                   0.00327  NOT IN SQUAD (Brazil)
+  Oblak                    0.00322  Slovenia (didn't qualify)
+  Di Lorenzo               0.00320  Italy (didn't qualify)
+  Kerkez                   0.00291  Hungary (didn't qualify)
+  Barella                  0.00287  Italy (didn't qualify)
   Tonali                   0.00287  Italy (didn't qualify)
-  Romagnoli                0.00277  Italy (didn't qualify)
-  Kerkez                   0.00274  Hungary (didn't qualify)
-  Vicario                  0.00271  Italy (didn't qualify)
-  Guirassy                 0.00258  Guinea (didn't qualify)
-  Di Gregorio              0.00253  Italy (didn't qualify)
-  Éder Militão             0.00248  Brazil — not in squad / not tracked
+  Romagnoli                0.00276  Italy (didn't qualify)
+  Vicario                  0.00276  Italy (didn't qualify)
+  Di Gregorio              0.00269  Italy (didn't qualify)
+  Guirassy                 0.00269  Guinea (didn't qualify)
+  Éder Militão             0.00247  Brazil — not in squad / not tracked
   Burkardt                 0.00245  NOT IN SQUAD (Germany)
   Bellingham (BVB)         0.00240  NOT IN SQUAD (England)
-  Pavlovic (ACM)           0.00240  Serbia/Strahinja Pavlović (didn't qualify)
-  Højlund                  0.00215  Denmark (didn't qualify)
-  Chevalier                0.00212  NOT IN SQUAD (France)
-  Højbjerg                 0.00202  Denmark (didn't qualify)
+  Pavlovic (ACM)           0.00213  Serbia/Strahinja Pavlović (didn't qualify)
+  Højlund                  0.00214  Denmark (didn't qualify)
+  Chevalier                0.00214  NOT IN SQUAD (France)
+  Højbjerg                 0.00206  Denmark (didn't qualify)
   Gnabry                   0.00198  NOT IN SQUAD (Germany)
-  Sels                     0.00195  NOT IN SQUAD (Belgium)
+  Sels                     0.00197  NOT IN SQUAD (Belgium)
+  Adeyemi                  0.00192  NOT IN SQUAD (Germany)
   Yoro                     0.00190  NOT IN SQUAD (France)
-  Simons                   0.00183  Netherlands — OUT ACL, not in squad
-  Adeyemi                  0.00175  NOT IN SQUAD (Germany)
-  Aina                     0.00170  Nigeria (didn't qualify)
+  Simons                   0.00186  Netherlands — OUT ACL, not in squad
+  Aina                     0.00172  Nigeria (didn't qualify)
   Rodon                    0.00158  Wales (didn't qualify)
-  Pope                     0.00150  NOT IN SQUAD (England)
+  Pope                     0.00149  NOT IN SQUAD (England)
 
 Total ranked: 98  |  Excluded (not WC/squad): 41  |  Not found: 0
