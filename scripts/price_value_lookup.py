@@ -199,11 +199,119 @@ NOT_WC_NAMES = {
 
 # Players with stale (non-100%) squad probabilities — not in confirmed 26-man squad
 STALE_PROB = {
-    "Robin Le Normand":  82,
-    "Dean Huijsen":      78,
-    "Matías Soulé":      22,
     "Álvaro Carreras":   10,
-    "Robert Sánchez":    10,
+}
+
+# Confirmed not in WC squad as of June 2 2026 (web-verified, overrides master sheet)
+CONFIRMED_OUT = {
+    "Le Normand",   # Spain — omitted from final 26 (knee injury)
+    "Kudus",        # Ghana — quad surgery + hamstring relapse, absent
+    "Huijsen",      # Spain — surprise cut from final 26
+    "Soulé",        # Argentina — cut from final 26
+    "Sánchez",      # Spain — three GKs are Simón, Raya, Joan García
+}
+
+# Web-verified fitness (full/mostly/not) and national-team starter (yes/sometimes/no)
+# Sourced from June 2026 reports; overrides master-sheet static fields
+LIVE_STATUS = {
+    "Palacios":          ("mostly",  "yes"),    # adductor surgery Sep; returned
+    "Tillman":           ("full",    "yes"),
+    "Le Normand":        ("not",     "no"),     # confirmed not in squad
+    "Woltemade":         ("full",    "yes"),
+    "Grimaldo":          ("full",    "yes"),
+    "Lukaku":            ("mostly",  "yes"),    # 69 mins all season; rebuilding
+    "Rafael Leão":       ("mostly",  "yes"),    # recurring adductor issues
+    "Jonathan David":    ("mostly",  "yes"),    # hip surgery Feb; poor form
+    "Gravenberch":       ("full",    "yes"),
+    "Mohamed Salah":     ("mostly",  "yes"),    # hamstring ended Liverpool season
+    "Lautaro Martínez":  ("mostly",  "yes"),    # two muscle injuries Feb & Apr
+    "Kudus":             ("not",     "no"),     # confirmed not in squad
+    "Diallo":            ("full",    "yes"),
+    "Svensson":          ("full",    "yes"),
+    "Pulisic":           ("mostly",  "yes"),    # gluteal strain late May
+    "Ruiz":              ("full",    "yes"),
+    "Stiller":           ("full",    "sometimes"),
+    "De Bruyne":         ("mostly",  "yes"),    # high-grade thigh tear Oct; in friendlies
+    "Çalhanoğlu":        ("mostly",  "yes"),    # soleus strain May; in final squad
+    "Fernández":         ("full",    "yes"),
+    "Akliouche":         ("full",    "sometimes"),
+    "Olmo":              ("full",    "yes"),
+    "Caicedo":           ("full",    "yes"),
+    "Koundé":            ("mostly",  "yes"),    # minor pre-tournament issue
+    "Eze":               ("mostly",  "sometimes"), # calf injury Mar; recovered
+    "Romero":            ("mostly",  "yes"),    # knee sprain Apr; targeting Jun 6
+    "Porro":             ("full",    "sometimes"),  # Cucurella/Grimaldo likely ahead
+    "McTominay":         ("full",    "yes"),
+    "Rodri":             ("mostly",  "yes"),    # ACL recovery complete; managed
+    "Neuer":             ("mostly",  "yes"),    # calf injury May 16; back in training
+    "Rashford":          ("full",    "sometimes"),
+    "João Neves":        ("full",    "sometimes"),  # competing with Vitinha/R.Neves
+    "Bellingham":        ("full",    "yes"),    # hamstring resolved; No.10
+    "Jurriën Timber":    ("mostly",  "yes"),    # groin Mar; carefully managed
+    "Saliba":            ("mostly",  "yes"),    # back injury aggravated UCL final
+    "Saka":              ("mostly",  "yes"),    # Achilles; rested NZ friendly
+    "Gvardiol":          ("mostly",  "yes"),    # recovered from broken leg Jan
+    "Dumfries":          ("full",    "yes"),
+    "Anderson":          ("full",    "yes"),
+    "Valverde":          ("mostly",  "yes"),    # lumbosciatica; named in squad May 31
+    "Güler":             ("full",    "yes"),    # biceps femoris recovered
+    "Omar Marmoush":     ("full",    "yes"),
+    "Upamecano":         ("full",    "yes"),
+    "Yildiz":            ("full",    "yes"),    # confirmed fit by Montella
+    "Cucurella":         ("full",    "yes"),
+    "Guéhi":             ("full",    "yes"),
+    "Kimmich":           ("full",    "yes"),
+    "Konsa":             ("full",    "yes"),
+    "Rúben Dias":        ("mostly",  "yes"),    # hamstring since mid-Mar; in squad
+    "Nuno Mendes":       ("mostly",  "yes"),    # injury history; managed
+    "van Dijk":          ("full",    "yes"),
+    "Cubarsí":           ("mostly",  "yes"),    # finger splint; not affecting availability
+    "Tah":               ("full",    "yes"),
+    "Ødegaard":          ("mostly",  "yes"),    # injury-plagued season; squad captain
+    "Watkins":           ("full",    "no"),     # Kane's backup
+    "Raphinha":          ("mostly",  "yes"),    # hamstring mid-May Brazil friendly
+    "Dembélé":           ("mostly",  "yes"),    # cramped off CL final May 30
+    "Díaz":              ("full",    "yes"),
+    "Alisson Becker":    ("mostly",  "yes"),    # hamstring; targeting Jun 16
+    "Rice":              ("full",    "yes"),
+    "Schlotterbeck":     ("mostly",  "yes"),    # torn meniscus Apr; recovered ahead of schedule
+    "Courtois":          ("mostly",  "yes"),    # thigh Mar; recovered
+    "Huijsen":           ("not",     "no"),     # confirmed not in squad
+    "Gyökeres":          ("full",    "yes"),
+    "Martínez (AR)":     ("mostly",  "yes"),    # broken finger Europa League final
+    "Isak":              ("mostly",  "yes"),    # fibula/ankle Dec; scored Jun 1
+    "Pedri":             ("full",    "yes"),
+    "Wirtz":             ("mostly",  "yes"),    # back issue; says 'really sharp'
+    "Pickford":          ("full",    "yes"),
+    "Vitinha":           ("mostly",  "yes"),    # heel inflammation; healing
+    "Kobel":             ("full",    "yes"),
+    "Gabriel Magalhães": ("full",    "yes"),
+    "Simón":             ("full",    "yes"),
+    "Vinícius Júnior":   ("mostly",  "yes"),    # minor calf/fatigue May 22
+    "Hakimi":            ("mostly",  "yes"),    # hamstring Apr; precautionary rest
+    "Quansah":           ("full",    "no"),
+    "Alvarez":           ("mostly",  "yes"),    # ankle; cleared June 2
+    "Maignan":           ("full",    "yes"),
+    "Pedro Neto":        ("mostly",  "sometimes"),
+    "Doku":              ("full",    "yes"),
+    "Olise":             ("full",    "yes"),
+    "Cherki":            ("full",    "no"),     # clear impact-sub behind Dembélé/Olise/Barcola
+    "Bruno Fernandes":   ("full",    "yes"),
+    "Kane":              ("full",    "yes"),
+    "Doué":              ("full",    "no"),     # behind confirmed starters
+    "Mbappé":            ("mostly",  "yes"),    # hamstring re-aggravated ~Jun 1; doubt G1
+    "Nmecha":            ("mostly",  "no"),     # knee ligament Mar; 2 games back
+    "Haaland":           ("full",    "yes"),
+    "Lamine Yamal":      ("mostly",  "yes"),    # misses G1; doubt G2; targets G3 Jun 26
+    "Matheus Cunha":     ("mostly",  "yes"),    # adductor managed; projects as starter
+    "Soulé":             ("not",     "no"),     # confirmed not in squad
+    "Rulli":             ("full",    "no"),
+    "Flekken":           ("mostly",  "no"),     # missed much of second half injured
+    "Dean Henderson":    ("full",    "no"),
+    "Carreras":          ("full",    "no"),
+    "Trafford":          ("full",    "no"),
+    "Raya":              ("full",    "no"),
+    "Sánchez":           ("not",     "no"),     # confirmed not in Spain squad
 }
 
 
@@ -262,6 +370,11 @@ def main():
             not_wc.append((display, price, status))
             continue
 
+        # Confirmed not in final WC squad (web-verified June 2 2026)
+        if display in CONFIRMED_OUT:
+            not_wc.append((display, price, f"⛔ confirmed not in WC squad ({nat})"))
+            continue
+
         pts_per_price = adj_pts / price
         sheeted = nat in SHEETED
 
@@ -273,17 +386,23 @@ def main():
         else:
             status = "✅"
 
-        results.append((display, full_name, nat, pos, price, adj_pts, pts_per_price, status))
+        # ── Live fitness & starter (web-verified) ─────────────────────────────
+        live = LIVE_STATUS.get(display, ("?", "?"))
+        fit_label     = live[0]   # full / mostly / not
+        starter_label = live[1]   # yes / sometimes / no
+
+        results.append((display, full_name, nat, pos, price, adj_pts, pts_per_price, status, fit_label, starter_label))
 
     # Sort by pts/price descending
     results.sort(key=lambda x: -x[6])
 
     # ── Print main table ─────────────────────────────────────────────────────
-    print("# Fantasy Value Table — Adj Pts per Price Unit\n")
-    print(f"{'#':<4} {'Player':<24} {'Nat':<14} {'Pos':<4} {'Price':>8} {'Adj Pts':>8} {'Pts/$':>8}  Status")
-    print("─" * 85)
-    for i, (disp, full, nat, pos, price, pts, ppp, status) in enumerate(results, 1):
-        print(f"{i:<4} {disp:<24} {nat:<14} {pos:<4} {price:>8.5f} {pts:>8.1f} {ppp:>8.0f}  {status}")
+    print("# Fantasy Value Table — Adj Pts per Price Unit")
+    print("# Fitness: full / mostly / not  |  Starter: yes / sometimes / no  (web-verified June 2 2026)\n")
+    print(f"{'#':<4} {'Player':<24} {'Nat':<14} {'Pos':<4} {'Price':>8} {'Adj Pts':>8} {'Pts/$':>8}  {'Fitness':<8} {'Starter':<10} Status")
+    print("─" * 105)
+    for i, (disp, full, nat, pos, price, pts, ppp, status, fit, starter) in enumerate(results, 1):
+        print(f"{i:<4} {disp:<24} {nat:<14} {pos:<4} {price:>8.5f} {pts:>8.1f} {ppp:>8.0f}  {fit:<8} {starter:<10} {status}")
 
     # ── Not in WC ────────────────────────────────────────────────────────────
     print(f"\n{'─'*60}")
