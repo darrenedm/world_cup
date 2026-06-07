@@ -28,143 +28,144 @@ NOT_IN_WC = {
 # price_list: display_name → (price, full_name_in_master_sheet or None to auto-search)
 # None means use the display_name fragment to find the player
 PRICE_LIST = [
-    # ── prices updated June 2 2026 ───────────────────────────────────────────
-    ("Lamine Yamal",     0.0888,  "Lamine Yamal"),
-    ("Mbappé",           0.0730,  "Kylian Mbappé"),
-    ("Olise",            0.0637,  "Michael Olise"),
-    ("Kane",             0.0562,  "Harry Kane"),
-    ("Bruno Fernandes",  0.0513,  "Bruno Fernandes"),
-    ("Pedri",            0.0368,  "Pedri"),
-    ("Vitinha",          0.0359,  "Vitinha"),
-    ("Haaland",          0.0332,  "Erling Haaland"),
-    ("Vinícius Júnior",  0.0306,  "Vinícius Júnior"),
-    ("Kimmich",          0.0302,  "Joshua Kimmich"),
-    ("Rice",             0.0293,  "Declan Rice"),
-    ("Doku",             0.0288,  "Jérémy Doku"),
-    ("Wirtz",            0.0285,  "Florian Wirtz"),
-    ("Dembélé",          0.0281,  "Ousmane Dembélé"),
-    ("Raphinha",         0.0278,  "Raphinha"),
-    ("Maignan",          0.0274,  "Mike Maignan"),
-    ("Nuno Mendes",      0.0249,  "Nuno Mendes"),
-    ("Alvarez",          0.0245,  "Julián Álvarez"),
-    ("Díaz",             0.0244,  "Luis Díaz"),
-    ("Gabriel Magalhães",0.0242,  "Gabriel Magalhães"),
-    ("Schlotterbeck",    0.0240,  "Nico Schlotterbeck"),
-    ("Cubarsí",          0.0237,  "Pau Cubarsí"),
-    ("Upamecano",        0.0232,  "Dayot Upamecano"),
-    ("Simón",            0.0228,  "Unai Simón"),
-    ("Cucurella",        0.0227,  "Marc Cucurella"),
-    ("Rúben Dias",       0.0224,  "Rúben Dias"),
-    ("Tah",              0.0224,  "Jonathan Tah"),
-    ("Hakimi",           0.0223,  "Achraf Hakimi"),
-    ("Bellingham",       0.0223,  "Jude Bellingham"),
-    ("Pickford",         0.0222,  "Jordan Pickford"),
-    ("Martínez (AR)",    0.0221,  "Emiliano Martínez"),
-    ("Guéhi",            0.0215,  "Marc Guéhi"),
-    ("Rodri",            0.0212,  "Rodri"),
-    ("João Neves",       0.0211,  "João Neves"),
-    ("van Dijk",         0.0210,  "Virgil van Dijk"),
-    ("Saka",             0.0209,  "Bukayo Saka"),
-    ("Konsa",            0.0207,  "Ezri Konsa"),
-    ("Saliba",           0.0206,  "William Saliba"),
-    ("Anderson",         0.0203,  "Elliot Anderson"),
-    ("Doué",             0.0198,  "Désiré Doué|France"),
-    ("Matheus Cunha",    0.0185,  "Matheus Cunha"),
-    ("Koundé",           0.0185,  "Jules Koundé"),
-    ("Courtois",         0.0182,  "Thibaut Courtois"),
-    ("Porro",            0.0180,  "Pedro Porro"),
-    ("Cherki",           0.0178,  "Rayan Cherki"),
-    ("Romero",           0.0172,  "Cristian Romero"),
-    ("Kobel",            0.0170,  "Gregor Kobel"),
-    ("Alisson Becker",   0.0169,  "Alisson Becker"),
-    ("Fernández",        0.0167,  "Enzo Fernández"),
-    ("Yildiz",           0.0160,  "Kenan Yıldız"),
-    ("Güler",            0.0159,  "Arda Güler"),
-    ("Dumfries",         0.0154,  "Denzel Dumfries"),
-    ("Ruiz",             0.0153,  "Fabián Ruiz"),
-    ("Raya",             0.0151,  "David Raya"),
-    ("Valverde",         0.0151,  "Federico Valverde"),
-    ("Ødegaard",         0.0149,  "Martin Ødegaard"),
-    ("Gvardiol",         0.0146,  "Joško Gvardiol"),
-    ("De Bruyne",        0.0144,  "Kevin De Bruyne"),
-    ("Neuer",            0.0139,  "Manuel Neuer"),
-    ("Jurriën Timber",   0.0138,  "Jurriën Timber"),
-    ("Çalhanoğlu",       0.0135,  "Hakan Çalhanoğlu"),
-    ("Pulisic",          0.0126,  "Christian Pulisic"),
-    ("Pedro Neto",       0.0125,  "Pedro Neto"),
-    ("Olmo",             0.0125,  "Dani Olmo"),
-    ("Lautaro Martínez", 0.0120,  "Lautaro Martínez"),
-    ("Gyökeres",         0.0118,  "Viktor Gyökeres"),
-    ("McTominay",        0.0114,  "Scott McTominay"),
-    ("Caicedo",          0.0105,  "Moisés Caicedo"),
-    ("Gravenberch",      0.0105,  "Ryan Gravenberch"),
-    ("Rafael Leão",      0.00996, "Rafael Leão"),
-    ("Isak",             0.00923, "Alexander Isak"),
-    ("Nmecha",           0.00865, "Felix Nmecha"),
-    ("Watkins",          0.00812, "Ollie Watkins"),
-    ("Kvaratskhelia",    0.00809, None),   # Georgia — not in WC
-    ("Joan García",      0.00783, "Joan García"),
-    ("Omar Marmoush",    0.00765, "Omar Marmoush"),
-    ("Woltemade",        0.00748, "Nick Woltemade"),
-    ("Grimaldo",         0.00734, "Alejandro Grimaldo"),
-    ("Rashford",         0.00722, "Marcus Rashford"),
-    ("Huijsen",          0.00722, "Dean Huijsen"),
-    ("Palmer",           0.00721, "Cole Palmer"),
-    ("Diallo",           0.00706, "Amad Diallo"),
-    ("Mohamed Salah",    0.00691, "Mohamed Salah"),
-    ("Donnarumma",       0.00655, None),   # Italy — not in WC
-    ("Eze",              0.00653, "Eberechi Eze"),
-    ("Bastoni",          0.00636, None),   # Italy — not in WC
-    ("Lukaku",           0.00635, "Romelu Lukaku"),
-    ("Amir Rrahmani",    0.00573, None),   # Kosovo — not in WC
-    ("Svensson",         0.00547, "Daniel Svensson"),
-    ("Greenwood",        0.00544, "Mason Greenwood"),
-    ("Le Normand",       0.00539, "Robin Le Normand"),
-    ("Jonathan David",   0.00537, "Jonathan David"),
-    ("Akliouche",        0.00536, "Maghnes Akliouche"),
-    ("Tillman",          0.00533, "Malik Tillman"),
-    ("Stiller",          0.00509, "Angelo Stiller"),
-    ("João Pedro",       0.00506, "João Pedro"),
-    ("Alexander-Arnold", 0.00498, "Trent Alexander-Arnold"),
-    ("Quansah",          0.00488, "Jarell Quansah"),
-    ("Foden",            0.00486, "Phil Foden"),
-    ("Trafford",         0.00463, "James Trafford"),
-    ("Palacios",         0.00461, "Exequiel Palacios"),
-    ("Dean Henderson",   0.00461, "Dean Henderson"),
-    ("Locatelli",        0.00450, None),   # Italy — not in WC
-    ("Flekken",          0.00401, "Mark Flekken"),
-    ("Gibbs-White",      0.00395, "Morgan Gibbs-White"),
+    # ── prices updated June 7 2026 (tenero.io) ──────────────────────────────
+    ("Lamine Yamal",     0.0613,  "Lamine Yamal"),
+    ("Olise",            0.0516,  "Michael Olise"),
+    ("Mbappé",           0.0496,  "Kylian Mbappé"),
+    ("Bruno Fernandes",  0.0411,  "Bruno Fernandes"),
+    ("Kane",             0.0396,  "Harry Kane"),
+    ("Vitinha",          0.0310,  "Vitinha"),
+    ("Pedri",            0.0299,  "Pedri"),
+    ("Kimmich",          0.0276,  "Joshua Kimmich"),
+    ("Haaland",          0.0270,  "Erling Haaland"),
+    ("Vinícius Júnior",  0.0261,  "Vinícius Júnior"),
+    ("Doku",             0.0251,  "Jérémy Doku"),
+    ("Wirtz",            0.0248,  "Florian Wirtz"),
+    ("Rice",             0.0248,  "Declan Rice"),
+    ("Maignan",          0.0245,  "Mike Maignan"),
+    ("Raphinha",         0.0224,  "Raphinha"),
+    ("Díaz",             0.0213,  "Luis Díaz"),
+    ("Cubarsí",          0.0211,  "Pau Cubarsí"),
+    ("Gabriel Magalhães",0.0211,  "Gabriel Magalhães"),
+    ("Dembélé",          0.0209,  "Ousmane Dembélé"),
+    ("Schlotterbeck",    0.0204,  "Nico Schlotterbeck"),
+    ("Nuno Mendes",      0.0204,  "Nuno Mendes"),
+    ("van Dijk",         0.0202,  "Virgil van Dijk"),
+    ("Simón",            0.0201,  "Unai Simón"),
+    ("Anderson",         0.0201,  "Elliot Anderson"),
+    ("João Neves",       0.0195,  "João Neves"),
+    ("Tah",              0.0194,  "Jonathan Tah"),
+    ("Cucurella",        0.0194,  "Marc Cucurella"),
+    ("Rodri",            0.0191,  "Rodri"),
+    ("Bellingham",       0.0189,  "Jude Bellingham"),
+    ("Alvarez",          0.0188,  "Julián Álvarez"),
+    ("Upamecano",        0.0187,  "Dayot Upamecano"),
+    ("Konsa",            0.0185,  "Ezri Konsa"),
+    ("Saka",             0.0185,  "Bukayo Saka"),
+    ("Rúben Dias",       0.0185,  "Rúben Dias"),
+    ("Pickford",         0.0185,  "Jordan Pickford"),
+    ("Martínez (AR)",    0.0183,  "Emiliano Martínez"),
+    ("Hakimi",           0.0181,  "Achraf Hakimi"),
+    ("Guéhi",            0.0178,  "Marc Guéhi"),
+    ("Saliba",           0.0176,  "William Saliba"),
+    ("Matheus Cunha",    0.0174,  "Matheus Cunha"),
+    ("Doué",             0.0169,  "Désiré Doué|France"),
+    ("Porro",            0.0169,  "Pedro Porro"),
+    ("Fernández",        0.0163,  "Enzo Fernández"),
+    ("Koundé",           0.0162,  "Jules Koundé"),
+    ("Ødegaard",         0.0162,  "Martin Ødegaard"),
+    ("Alisson Becker",   0.0162,  "Alisson Becker"),
+    ("Courtois",         0.0158,  "Thibaut Courtois"),
+    ("Yildiz",           0.0154,  "Kenan Yıldız"),
+    ("Kobel",            0.0146,  "Gregor Kobel"),
+    ("Cherki",           0.0142,  "Rayan Cherki"),
+    ("Güler",            0.0138,  "Arda Güler"),
+    ("Dumfries",         0.0133,  "Denzel Dumfries"),
+    ("Lautaro Martínez", 0.0131,  "Lautaro Martínez"),
+    ("Ruiz",             0.0131,  "Fabián Ruiz"),
+    ("De Bruyne",        0.0128,  "Kevin De Bruyne"),
+    ("Gvardiol",         0.0128,  "Joško Gvardiol"),
+    ("Romero",           0.0127,  "Cristian Romero"),
+    ("Olmo",             0.0121,  "Dani Olmo"),
+    ("Pedro Neto",       0.0121,  "Pedro Neto"),
+    ("Jurriën Timber",   0.0120,  "Jurriën Timber"),
+    ("Valverde",         0.0120,  "Federico Valverde"),
+    ("Pulisic",          0.0116,  "Christian Pulisic"),
+    ("Gyökeres",         0.0114,  "Viktor Gyökeres"),
+    ("Neuer",            0.0113,  "Manuel Neuer"),
+    ("Rafael Leão",      0.0109,  "Rafael Leão"),
+    ("McTominay",        0.0107,  "Scott McTominay"),
+    ("Raya",             0.0104,  "David Raya"),
+    ("Çalhanoğlu",       0.0101,  "Hakan Çalhanoğlu"),
+    ("Gravenberch",      0.0100,  "Ryan Gravenberch"),
+    ("Rashford",         0.00900, "Marcus Rashford"),
+    ("Caicedo",          0.00896, "Moisés Caicedo"),
+    ("Isak",             0.00887, "Alexander Isak"),
+    ("Nmecha",           0.00884, "Felix Nmecha"),
+    ("Singo",            0.00856, "Wilfried Singo"),
+    ("Joan García",      0.00823, "Joan García"),
+    ("Grimaldo",         0.00781, "Alejandro Grimaldo"),
+    ("Watkins",          0.00776, "Ollie Watkins"),
+    ("Kvaratskhelia",    0.00760, None),   # Georgia — not in WC
+    ("Omar Marmoush",    0.00733, "Omar Marmoush"),
+    ("Diallo",           0.00730, "Amad Diallo"),
+    ("Palmer",           0.00727, "Cole Palmer"),
+    ("Huijsen",          0.00697, "Dean Huijsen"),
+    ("Donnarumma",       0.00633, None),   # Italy — not in WC
+    ("Mohamed Salah",    0.00630, "Mohamed Salah"),
+    ("Bastoni",          0.00628, None),   # Italy — not in WC
+    ("Woltemade",        0.00621, "Nick Woltemade"),
+    ("Eze",              0.00615, "Eberechi Eze"),
+    ("Lukaku",           0.00567, "Romelu Lukaku"),
+    ("Amir Rrahmani",    0.00564, None),   # Kosovo — not in WC
+    ("Svensson",         0.00542, "Daniel Svensson"),
+    ("Akliouche",        0.00528, "Maghnes Akliouche"),
+    ("Le Normand",       0.00527, "Robin Le Normand"),
+    ("João Pedro",       0.00520, "João Pedro"),
+    ("Jonathan David",   0.00518, "Jonathan David"),
+    ("Alexander-Arnold", 0.00495, "Trent Alexander-Arnold"),
+    ("Tillman",          0.00491, "Malik Tillman"),
+    ("Foden",            0.00491, "Phil Foden"),
+    ("Palacios",         0.00469, "Exequiel Palacios"),
+    ("Quansah",          0.00469, "Jarell Quansah"),
+    ("Locatelli",        0.00469, None),   # Italy — not in WC
+    ("Trafford",         0.00458, "James Trafford"),
+    ("Dean Henderson",   0.00457, "Dean Henderson"),
+    ("Stiller",          0.00455, "Angelo Stiller"),
+    ("Greenwood",        0.00433, "Mason Greenwood"),
+    ("Gibbs-White",      0.00414, "Morgan Gibbs-White"),
+    ("Flekken",          0.00406, "Mark Flekken"),
     ("Tapsoba",          0.00392, None),   # Burkina Faso — not in WC
-    ("Mittelstädt",      0.00359, "Maximilian Mittelstädt"),
-    ("Ekitiké",          0.00343, "Hugo Ekitiké"),
-    ("Mbeumo",           0.00333, None),   # Cameroon — not in WC
-    ("Antony",           0.00327, "Antony"),
-    ("Oblak",            0.00322, None),   # Slovenia — not in WC
-    ("Di Lorenzo",       0.00320, None),   # Italy — not in WC
-    ("Carreras",         0.00302, "Álvaro Carreras"),
-    ("Rulli",            0.00297, "Gerónimo Rulli"),
-    ("Kerkez",           0.00291, None),   # Hungary — not in WC
-    ("Barella",          0.00287, None),   # Italy — not in WC
-    ("Tonali",           0.00287, None),   # Italy — not in WC
-    ("Romagnoli",        0.00276, None),   # Italy — not in WC
-    ("Vicario",          0.00276, None),   # Italy — not in WC
-    ("Di Gregorio",      0.00269, None),   # Italy — not in WC
-    ("Guirassy",         0.00269, None),   # Guinea — not in WC
+    ("Mittelstädt",      0.00372, "Maximilian Mittelstädt"),
+    ("Mbeumo",           0.00360, None),   # Cameroon — not in WC
+    ("Ekitiké",          0.00340, "Hugo Ekitiké"),
+    ("Oblak",            0.00334, None),   # Slovenia — not in WC
+    ("Vicario",          0.00332, None),   # Italy — not in WC
+    ("Barella",          0.00330, None),   # Italy — not in WC
+    ("Di Lorenzo",       0.00322, None),   # Italy — not in WC
+    ("Antony",           0.00317, "Antony"),
+    ("Kerkez",           0.00305, None),   # Hungary — not in WC
+    ("Tonali",           0.00303, None),   # Italy — not in WC
+    ("Rulli",            0.00300, "Gerónimo Rulli"),
+    ("Carreras",         0.00299, "Álvaro Carreras"),
+    ("Guirassy",         0.00273, None),   # Guinea — not in WC
     ("Kudus",            0.00250, "Mohammed Kudus"),
-    ("Éder Militão",     0.00247, None),   # Brazil — not tracked (not in squad)
+    ("Éder Militão",     0.00247, None),   # Brazil — not in squad
     ("Burkardt",         0.00245, "Jonathan Burkardt"),
     ("Bellingham (BVB)", 0.00240, "Jobe Bellingham"),
-    ("Pavlovic (ACM)",   0.00213, None),   # Serbia (didn't qualify)
     ("Sánchez",          0.00233, "Robert Sánchez"),
     ("Soulé",            0.00226, "Matías Soulé"),
-    ("Højlund",          0.00214, None),   # Denmark — not in WC
+    ("Romagnoli",        0.00220, None),   # Italy — not in WC
     ("Chevalier",        0.00214, "Lucas Chevalier"),
-    ("Højbjerg",         0.00206, None),   # Denmark — not in WC
+    ("Pavlovic (ACM)",   0.00213, None),   # Serbia (didn't qualify)
+    ("Højlund",          0.00210, None),   # Denmark — not in WC
+    ("Di Gregorio",      0.00200, None),   # Italy — not in WC
     ("Gnabry",           0.00198, "Serge Gnabry"),
     ("Sels",             0.00197, "Matz Sels"),
     ("Adeyemi",          0.00192, "Karim Adeyemi"),
     ("Yoro",             0.00190, "Leny Yoro"),
-    ("Simons",           0.00186, None),   # Netherlands — OUT ACL, not in squad
+    ("Højbjerg",         0.00185, None),   # Denmark — not in WC
+    ("Simons",           0.00180, None),   # Netherlands — OUT ACL
     ("Aina",             0.00172, None),   # Nigeria — not in WC
     ("Rodon",            0.00158, None),   # Wales — not in WC
     ("Pope",             0.00149, "Nick Pope"),
@@ -198,9 +199,7 @@ NOT_WC_NAMES = {
 }
 
 # Players with stale (non-100%) squad probabilities — not in confirmed 26-man squad
-STALE_PROB = {
-    "Álvaro Carreras":   10,
-}
+STALE_PROB = {}
 
 # Confirmed not in WC squad as of June 2 2026 (web-verified, overrides master sheet)
 CONFIRMED_OUT = {
@@ -209,6 +208,7 @@ CONFIRMED_OUT = {
     "Huijsen",      # Spain — surprise cut from final 26
     "Soulé",        # Argentina — cut from final 26
     "Sánchez",      # Spain — three GKs are Simón, Raya, Joan García
+    "Carreras",     # Spain — no country flag on tenero; confirmed not in final squad
 }
 
 # Web-verified fitness (full/mostly/not) and national-team starter (yes/sometimes/no)
@@ -301,6 +301,7 @@ LIVE_STATUS = {
     "Doué":              ("full",    "no"),     # behind confirmed starters
     "Mbappé":            ("mostly",  "yes"),    # hamstring re-aggravated ~Jun 1; doubt G1
     "Nmecha":            ("mostly",  "no"),     # knee ligament Mar; 2 games back
+    "Singo":             ("full",    "yes"),    # Ivory Coast first-choice RB; no injury concerns
     "Haaland":           ("full",    "yes"),
     "Lamine Yamal":      ("mostly",  "yes"),    # misses G1; doubt G2; targets G3 Jun 26
     "Matheus Cunha":     ("mostly",  "yes"),    # adductor managed; projects as starter
