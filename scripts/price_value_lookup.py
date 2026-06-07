@@ -369,6 +369,141 @@ G1_WIN = {
 }
 
 
+# Friendly lineup data — last 2 pre-WC 2026 friendlies (confirmed lineups only)
+# (F.Starts, F.Apps) — starts=times in starting XI, apps=times played any minute
+# Unconfirmed/future games (G2 not yet played) count as 0; max possible = 2
+# Sources: official FA sites, Sky Sports, ESPN, Vavel, FotMob, 101greatgoals (June 2026)
+FRIENDLY = {
+    # ARGENTINA (G1: Apr 1 vs Zambia, G2: Jun 6 vs Honduras)
+    "Alvarez":          (1, 1),  # started G1; absent G2
+    "Fernández":        (1, 2),  # started G1; sub 61' G2
+    "Romero":           (1, 2),  # started G1; sub 61' G2
+    "Palacios":         (1, 1),  # started G2; absent G1
+    "Lautaro Martínez": (1, 1),  # started G2; absent G1
+    "Martínez (AR)":    (1, 1),  # started G1; Musso in G2
+    "Rulli":            (0, 0),  # backup GK, neither game
+    # USA (G1: May 31 vs Senegal, G2: Jun 6 vs Germany)
+    "Pulisic":          (2, 2),  # started both
+    "Tillman":          (1, 2),  # sub 46' G1; started G2
+    # GERMANY (G1: May 31 vs Finland, G2: Jun 6 vs USA)
+    "Kimmich":          (2, 2),  # started both
+    "Wirtz":            (2, 2),  # started both
+    "Schlotterbeck":    (2, 2),  # started both
+    "Tah":              (2, 2),  # started both
+    "Nmecha":           (2, 2),  # started both
+    "Woltemade":        (0, 1),  # sub 73' G1; not in G2
+    "Neuer":            (0, 0),  # absent both (calf injury)
+    "Stiller":          (0, 0),  # not confirmed in either game
+    "Mittelstädt":      (0, 0),
+    "Gnabry":           (0, 0),
+    "Adeyemi":          (0, 0),
+    "Burkardt":         (0, 0),
+    # SPAIN (G1: Jun 4 vs Iraq — rotated; G2 vs Peru Jun 8 not yet played)
+    "Lamine Yamal":     (0, 0),  # rested both games
+    "Pedri":            (0, 0),  # rested vs Iraq; G2 not played
+    "Simón":            (0, 0),  # Joan García started; G2 not played
+    "Cubarsí":          (0, 0),  # not in Iraq lineup
+    "Cucurella":        (0, 0),  # not in Iraq lineup
+    "Rodri":            (0, 0),  # rested
+    "Porro":            (1, 1),  # started vs Iraq; G2 not played
+    "Grimaldo":         (1, 1),  # started vs Iraq; G2 not played
+    "Ruiz":             (0, 0),  # not in Iraq lineup; G2 not played
+    "Olmo":             (1, 1),  # started vs Iraq; G2 not played
+    "Raya":             (0, 0),  # Joan García started
+    # BELGIUM (G1: Jun 2 vs Croatia, G2: Jun 6 vs Tunisia)
+    "Courtois":         (2, 2),  # started both
+    "Doku":             (2, 2),  # started both
+    "De Bruyne":        (2, 2),  # started both
+    "Lukaku":           (0, 2),  # sub 73' G1, sub 66' G2
+    # PORTUGAL (G1: Jun 6 vs Chile; G2 vs Nigeria Jun 10 not played)
+    "Bruno Fernandes":  (1, 1),  # started vs Chile; G2 not played
+    "Vitinha":          (0, 0),  # not in Chile lineup; G2 not played
+    "Nuno Mendes":      (0, 0),  # not in Chile lineup; G2 not played
+    "João Neves":       (0, 0),  # not in Chile lineup; G2 not played
+    "Rúben Dias":       (1, 1),  # started vs Chile; G2 not played
+    "Rafael Leão":      (1, 1),  # started vs Chile; sent off; G2 not played
+    "Pedro Neto":       (0, 1),  # sub vs Chile; G2 not played
+    # CANADA (G1: Jun 1 vs Uzbekistan, G2: Jun 5 vs Ireland)
+    "Jonathan David":   (2, 2),  # started both
+    # NETHERLANDS (G1: Jun 3 vs Algeria; G2 vs Uzbekistan Jun 8 not played)
+    "van Dijk":         (1, 1),  # started G1; G2 not played
+    "Dumfries":         (0, 0),  # not in G1; G2 not played
+    "Gravenberch":      (1, 1),  # started G1; G2 not played
+    "Jurriën Timber":   (0, 0),  # not in G1; G2 not played
+    "Flekken":          (0, 0),  # Verbruggen started; G2 not played
+    # EGYPT (G1: May 28 vs Russia, G2: Jun 6 vs Brazil)
+    "Omar Marmoush":    (2, 2),  # started both
+    "Mohamed Salah":    (0, 1),  # absent G1; sub 2nd half G2
+    # IVORY COAST (G1: Jun 4 vs France; no 2nd official friendly)
+    "Diallo":           (0, 1),  # sub 46' G1; no G2
+    "Singo":            (1, 1),  # started G1; no G2
+    # SWEDEN (G1: Jun 1 vs Norway, G2: Jun 4 vs Greece)
+    "Gyökeres":         (1, 1),  # absent G1; started G2
+    "Isak":             (1, 2),  # sub 62' G1; started G2
+    "Svensson":         (2, 2),  # started both (Daniel Svensson)
+    # TURKEY (G1: Jun 1 vs N.Macedonia, G2: Jun 6 vs Venezuela)
+    "Çalhanoğlu":       (0, 2),  # sub 88' G1; sub 71' G2
+    "Güler":            (1, 2),  # sub 63' G1; started G2
+    "Yildiz":           (0, 0),  # not in either Turkey lineup
+    # FRANCE (G1: Jun 4 vs Ivory Coast; G2 vs N.Ireland Jun 8 not played)
+    "Mbappé":           (1, 1),  # started G1; G2 not played
+    "Olise":            (1, 1),  # started G1; G2 not played
+    "Maignan":          (1, 1),  # started G1; G2 not played
+    "Dembélé":          (0, 0),  # not in G1 lineup; G2 not played
+    "Koundé":           (1, 1),  # started G1; G2 not played
+    "Upamecano":        (1, 1),  # started G1; G2 not played
+    "Saliba":           (0, 0),  # not in G1 (Konaté+Upamecano); G2 not played
+    "Cherki":           (1, 1),  # started G1; G2 not played
+    "Doué":             (0, 0),  # not in G1; G2 not played
+    "Akliouche":        (0, 1),  # sub 45' G1; G2 not played
+    # ECUADOR (G1: May 30 vs Saudi Arabia — Moisés Caicedo not listed; G2 today unconfirmed)
+    "Caicedo":          (0, 0),  # not confirmed in either game
+    # SCOTLAND (G1: May 30 vs Curaçao, G2: Jun 6 vs Bolivia)
+    "McTominay":        (1, 1),  # started G2; not in G1
+    # ENGLAND (G1: Jun 6 vs NZ — Tuchel rotated full XI at HT; G2 vs Costa Rica Jun 10 not played)
+    "Kane":             (1, 1),  # started G1; G2 not played
+    "Rice":             (0, 0),  # not in G1; G2 not played
+    "Anderson":         (0, 1),  # sub 46' G1; G2 not played
+    "Bellingham":       (0, 1),  # sub 46' G1; G2 not played
+    "Konsa":            (0, 1),  # sub 46' G1; G2 not played
+    "Saka":             (0, 0),  # rested G1; G2 not played
+    "Pickford":         (1, 1),  # started G1; G2 not played
+    "Guéhi":            (1, 1),  # started G1; G2 not played
+    "Rashford":         (1, 1),  # started G1; G2 not played
+    "Watkins":          (1, 1),  # started G1; G2 not played
+    "Quansah":          (1, 1),  # started G1; G2 not played
+    "Trafford":         (0, 1),  # sub 46' G1; G2 not played
+    "Dean Henderson":   (0, 0),
+    "Foden":            (0, 0),
+    "Alexander-Arnold": (0, 0),
+    "Eze":              (0, 0),
+    "Gibbs-White":      (0, 0),
+    "Palmer":           (0, 0),
+    "Greenwood":        (0, 0),
+    # CROATIA (G1: Jun 2 vs Belgium; G2 vs Slovenia Jun 7 unconfirmed)
+    "Gvardiol":         (1, 1),  # started G1; G2 today unconfirmed
+    # URUGUAY (no May/Jun 2026 friendlies; last: Mar 27 vs England, Mar 31 vs Algeria)
+    "Valverde":         (0, 0),
+    # MOROCCO (G1: Jun 2 vs Madagascar — Hakimi rested; G2 vs Norway today unconfirmed)
+    "Hakimi":           (0, 0),  # precautionary rest G1; G2 today unconfirmed
+    # BRAZIL (G1: May 31 vs Panama, G2: Jun 6 vs Egypt)
+    "Vinícius Júnior":  (2, 2),  # started both
+    "Raphinha":         (2, 2),  # started both
+    "Gabriel Magalhães":(0, 0),  # not in either starting XI
+    "Alisson Becker":   (2, 2),  # started both
+    "Matheus Cunha":    (1, 2),  # started G1; sub 45' G2
+    "Antony":           (0, 0),
+    "João Pedro":       (0, 0),
+    # COLOMBIA (G1: Jun 1 vs Costa Rica; G2 vs Jordan today unconfirmed)
+    "Díaz":             (1, 1),  # started G1; G2 today unconfirmed
+    # NORWAY (G1: Jun 1 vs Sweden — Haaland+Ødegaard rested; G2 vs Morocco today unconfirmed)
+    "Haaland":          (0, 0),  # rested G1; G2 today unconfirmed
+    "Ødegaard":         (0, 0),  # rested G1; G2 today unconfirmed
+    # SWITZERLAND (G1: May 31 vs Jordan — Mvogo GK; G2: Jun 6 vs Australia — Kobel GK)
+    "Kobel":            (1, 1),  # started G2; Mvogo in G1
+}
+
+
 def load_data():
     with open(DATA_PATH, newline='', encoding='utf-8') as f:
         rows = list(csv.DictReader(f))
@@ -447,18 +582,22 @@ def main():
 
         g1_win = G1_WIN.get(nat, 0)
 
-        results.append((display, full_name, nat, pos, price, adj_pts, pts_per_price, status, fit_label, starter_label, g1_win))
+        frd = FRIENDLY.get(display, (0, 0))
+        f_starts, f_apps = frd
+
+        results.append((display, full_name, nat, pos, price, adj_pts, pts_per_price, status, fit_label, starter_label, g1_win, f_starts, f_apps))
 
     # Sort by pts/price descending
     results.sort(key=lambda x: -x[6])
 
     # ── Print main table ─────────────────────────────────────────────────────
     print("# Fantasy Value Table — Adj Pts per Price Unit")
-    print("# Fitness: full/mostly/not  |  Starter: yes/sometimes/no  |  G1 Win%: Polymarket/Dimers Jun 7 2026\n")
-    print(f"{'#':<4} {'Player':<24} {'Nat':<14} {'Pos':<4} {'Price':>8} {'Adj Pts':>8} {'Pts/$':>8}  {'Fitness':<8} {'Starter':<10} {'G1 Win%':>7}  Status")
-    print("─" * 115)
-    for i, (disp, full, nat, pos, price, pts, ppp, status, fit, starter, g1) in enumerate(results, 1):
-        print(f"{i:<4} {disp:<24} {nat:<14} {pos:<4} {price:>8.5f} {pts:>8.1f} {ppp:>8.0f}  {fit:<8} {starter:<10} {g1:>6}%  {status}")
+    print("# Fitness: full/mostly/not  |  Starter: yes/sometimes/no  |  G1 Win%: Polymarket/Dimers Jun 7 2026")
+    print("# F.Start/F.App: times started / times played in last 2 pre-WC friendlies (max 2)\n")
+    print(f"{'#':<4} {'Player':<24} {'Nat':<14} {'Pos':<4} {'Price':>8} {'Adj Pts':>8} {'Pts/$':>8}  {'Fitness':<8} {'Starter':<10} {'G1 Win%':>7}  {'F.St':>4} {'F.Ap':>4}  Status")
+    print("─" * 125)
+    for i, (disp, full, nat, pos, price, pts, ppp, status, fit, starter, g1, fst, fap) in enumerate(results, 1):
+        print(f"{i:<4} {disp:<24} {nat:<14} {pos:<4} {price:>8.5f} {pts:>8.1f} {ppp:>8.0f}  {fit:<8} {starter:<10} {g1:>6}%  {fst:>4} {fap:>4}  {status}")
 
     # ── Not in WC ────────────────────────────────────────────────────────────
     print(f"\n{'─'*60}")

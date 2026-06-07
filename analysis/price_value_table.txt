@@ -1,101 +1,102 @@
 # Fantasy Value Table — Adj Pts per Price Unit
 # Fitness: full/mostly/not  |  Starter: yes/sometimes/no  |  G1 Win%: Polymarket/Dimers Jun 7 2026
+# F.Start/F.App: times started / times played in last 2 pre-WC friendlies (max 2)
 
-#    Player                   Nat            Pos     Price  Adj Pts    Pts/$  Fitness  Starter    G1 Win%  Status
-───────────────────────────────────────────────────────────────────────────────────────────────────────────────────
-1    Palacios                 Argentina      MID   0.00469    503.6   107377  mostly   yes            70%  ✅
-2    Tillman                  USA            MID   0.00491    481.5    98065  full     yes            50%  ✅
-3    Woltemade                Germany        FWD   0.00621    549.7    88519  full     yes            95%  ✅
-4    Lukaku                   Belgium        FWD   0.00567    391.8    69101  mostly   yes            59%  ✅
-5    Grimaldo                 Spain          DEF   0.00781    465.9    59654  full     yes            91%  ✅
-6    Rafael Leão              Portugal       FWD   0.01090    594.4    54532  mostly   yes            73%  ✅
-7    Jonathan David           Canada         FWD   0.00518    260.4    50270  mostly   yes            55%  ✅
-8    Mohamed Salah            Egypt          MID   0.00630    309.7    49159  mostly   yes            17%  ✅
-9    Gravenberch              Netherlands    MID   0.01000    478.9    47890  full     yes            49%  ✅
-10   Çalhanoğlu               Turkey         MID   0.01010    454.1    44960  mostly   yes            56%  ✅
-11   Ruiz                     Spain          MID   0.01310    581.4    44382  full     yes            91%  ✅
-12   Stiller                  Germany        MID   0.00455    192.6    42330  full     sometimes      95%  ✅
-13   Pulisic                  USA            FWD   0.01160    488.5    42112  mostly   yes            50%  ✅
-14   De Bruyne                Belgium        MID   0.01280    531.7    41539  mostly   yes            59%  ✅
-15   Lautaro Martínez         Argentina      FWD   0.01310    534.8    40824  mostly   yes            70%  ✅
-16   Svensson                 Sweden         DEF   0.00542    219.0    40406  full     yes            51%  ✅
-17   Romero                   Argentina      DEF   0.01270    513.1    40402  mostly   yes            70%  ✅
-18   Diallo                   Ivory Coast    FWD   0.00730    284.7    39000  full     yes            27%  ✅
-19   Caicedo                  Ecuador        MID   0.00896    333.3    37199  full     yes            40%  ✅
-20   Koundé                   France         DEF   0.01620    568.1    35068  mostly   yes            63%  ✅
-21   Neuer                    Germany        GK    0.01130    390.2    34531  mostly   yes            95%  ✅
-22   Fernández                Argentina      MID   0.01630    558.2    34245  full     yes            70%  ✅
-23   Olmo                     Spain          FWD   0.01210    407.9    33711  full     yes            91%  ✅
-24   Akliouche                France         MID   0.00528    176.1    33352  full     sometimes      63%  ✅
-25   Eze                      England        MID   0.00615    200.3    32569  mostly   sometimes      56%  ✅
-26   Bellingham               England        MID   0.01890    612.7    32418  full     yes            56%  ✅
-27   Rodri                    Spain          MID   0.01910    596.9    31251  mostly   yes            91%  ✅
-28   Porro                    Spain          DEF   0.01690    521.5    30858  full     sometimes      91%  ✅
-29   McTominay                Scotland       MID   0.01070    328.1    30664  full     yes            66%  ✅
-30   Jurriën Timber           Netherlands    DEF   0.01200    367.3    30608  mostly   yes            49%  ✅
-31   Saliba                   France         DEF   0.01760    535.8    30443  mostly   yes            63%  ✅
-32   Valverde                 Uruguay        MID   0.01200    362.7    30225  mostly   yes            67%  ✅
-33   João Neves               Portugal       MID   0.01950    583.4    29918  full     sometimes      73%  ✅
-34   Gvardiol                 Croatia        DEF   0.01280    378.2    29547  mostly   yes            19%  ✅
-35   Saka                     England        FWD   0.01850    543.1    29357  mostly   yes            56%  ✅
-36   Dumfries                 Netherlands    DEF   0.01330    389.8    29308  full     yes            49%  ✅
-37   Upamecano                France         DEF   0.01870    535.8    28652  full     yes            63%  ✅
-38   Singo                    Ivory Coast    DEF   0.00856    240.2    28061  full     yes            27%  ✅
-39   Guéhi                    England        DEF   0.01780    486.6    27337  full     yes            56%  ✅
-40   Güler                    Turkey         MID   0.01380    371.4    26913  full     yes            56%  ✅
-41   Cucurella                Spain          DEF   0.01940    521.5    26881  full     yes            91%  ✅
-42   Dembélé                  France         FWD   0.02090    556.6    26632  mostly   yes            63%  ✅
-43   Rúben Dias               Portugal       DEF   0.01850    484.1    26168  mostly   yes            73%  ✅
-44   Nuno Mendes              Portugal       DEF   0.02040    524.0    25686  mostly   yes            73%  ✅
-45   Raphinha                 Brazil         FWD   0.02240    553.3    24701  mostly   yes            61%  ✅
-46   Konsa                    England        DEF   0.01850    454.5    24568  full     yes            56%  ✅
-47   Anderson                 England        MID   0.02010    490.2    24388  full     yes            56%  ✅
-48   Omar Marmoush            Egypt          FWD   0.00733    176.7    24106  full     yes            17%  ✅
-49   Kimmich                  Germany        MID   0.02760    665.2    24101  full     yes            95%  ✅
-50   Yildiz                   Turkey         FWD   0.01540    368.9    23955  full     yes            56%  ✅
-51   Tah                      Germany        DEF   0.01940    461.4    23784  full     yes            95%  ✅
-52   Cubarsí                  Spain          DEF   0.02110    491.4    23289  mostly   yes            91%  ✅
-53   Rice                     England        MID   0.02480    569.5    22964  full     yes            56%  ✅
-54   Martínez (AR)            Argentina      GK    0.01830    417.5    22814  mostly   yes            70%  ✅
-55   Díaz                     Colombia       FWD   0.02130    483.3    22690  full     yes            67%  ✅
-56   Schlotterbeck            Germany        DEF   0.02040    461.4    22618  mostly   yes            95%  ✅
-57   Rashford                 England        FWD   0.00900    201.8    22422  full     sometimes      56%  ✅
-58   Pedri                    Spain          MID   0.02990    669.4    22388  full     yes            91%  ✅
-59   Courtois                 Belgium        GK    0.01580    348.5    22057  mostly   yes            59%  ✅
-60   van Dijk                 Netherlands    DEF   0.02020    437.4    21653  full     yes            49%  ✅
-61   Alvarez                  Argentina      FWD   0.01880    401.6    21362  mostly   yes            70%  ✅
-62   Pickford                 England        GK    0.01850    390.8    21124  full     yes            56%  ✅
-63   Watkins                  England        FWD   0.00776    162.5    20941  full     no             56%  ✅
-64   Hakimi                   Morocco        DEF   0.01810    374.2    20674  mostly   yes            17%  ✅
-65   Wirtz                    Germany        MID   0.02480    504.6    20347  mostly   yes            95%  ✅
-66   Vitinha                  Portugal       MID   0.03100    629.6    20310  mostly   yes            73%  ✅
-67   Alisson Becker           Brazil         GK    0.01620    328.9    20302  mostly   yes            61%  ✅
-68   Kobel                    Switzerland    GK    0.01460    294.5    20171  full     yes            80%  ✅
-69   Gabriel Magalhães        Brazil         DEF   0.02110    419.0    19858  full     yes            61%  ✅
-70   Vinícius Júnior          Brazil         FWD   0.02610    516.9    19805  mostly   yes            61%  ✅
-71   Gyökeres                 Sweden         FWD   0.01140    223.2    19579  full     yes            51%  ✅
-72   Simón                    Spain          GK    0.02010    390.9    19448  full     yes            91%  ✅
-73   Isak                     Sweden         FWD   0.00887    171.5    19335  mostly   yes            51%  ✅
-74   Ødegaard                 Norway         MID   0.01620    299.5    18488  mostly   yes            76%  ✅
-75   Doku                     Belgium        FWD   0.02510    448.3    17861  full     yes            59%  ✅
-76   Maignan                  France         GK    0.02450    434.3    17727  full     yes            63%  ✅
-77   Quansah                  England        DEF   0.00469     80.6    17186  full     no             56%  ✅
-78   Pedro Neto               Portugal       FWD   0.01210    197.9    16355  mostly   sometimes      73%  ✅
-79   Kane                     England        FWD   0.03960    643.2    16242  full     yes            56%  ✅
-80   Olise                    France         MID   0.05160    818.6    15864  full     yes            63%  ✅
-81   Mbappé                   France         FWD   0.04960    754.7    15216  mostly   yes            63%  ✅
-82   Cherki                   France         MID   0.01420    213.5    15035  full     no             63%  ✅
-83   Bruno Fernandes          Portugal       MID   0.04110    597.6    14540  full     yes            73%  ✅
-84   Doué                     France         FWD   0.01690    215.1    12728  full     no             63%  ✅
-85   Lamine Yamal             Spain          FWD   0.06130    720.0    11746  mostly   yes            91%  ✅
-86   Haaland                  Norway         FWD   0.02700    310.6    11504  full     yes            76%  ✅
-87   Nmecha                   Germany        MID   0.00884     89.0    10068  mostly   no             95%  ✅
-88   Matheus Cunha            Brazil         FWD   0.01740    148.6     8540  mostly   yes            61%  ✅
-89   Rulli                    Argentina      GK    0.00300      9.4     3133  full     no             70%  ✅
-90   Flekken                  Netherlands    GK    0.00406     11.1     2734  mostly   no             49%  ✅
-91   Dean Henderson           England        GK    0.00457     11.3     2473  full     no             56%  ✅
-92   Raya                     Spain          GK    0.01040      9.4      904  full     no             91%  ✅
-93   Trafford                 England        GK    0.00458      4.1      895  full     no             56%  ✅
+#    Player                   Nat            Pos     Price  Adj Pts    Pts/$  Fitness  Starter    G1 Win%  F.St F.Ap  Status
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+1    Palacios                 Argentina      MID   0.00469    503.6   107377  mostly   yes            70%     1    1  ✅
+2    Tillman                  USA            MID   0.00491    481.5    98065  full     yes            50%     1    2  ✅
+3    Woltemade                Germany        FWD   0.00621    549.7    88519  full     yes            95%     0    1  ✅
+4    Lukaku                   Belgium        FWD   0.00567    391.8    69101  mostly   yes            59%     0    2  ✅
+5    Grimaldo                 Spain          DEF   0.00781    465.9    59654  full     yes            91%     1    1  ✅
+6    Rafael Leão              Portugal       FWD   0.01090    594.4    54532  mostly   yes            73%     1    1  ✅
+7    Jonathan David           Canada         FWD   0.00518    260.4    50270  mostly   yes            55%     2    2  ✅
+8    Mohamed Salah            Egypt          MID   0.00630    309.7    49159  mostly   yes            17%     0    1  ✅
+9    Gravenberch              Netherlands    MID   0.01000    478.9    47890  full     yes            49%     1    1  ✅
+10   Çalhanoğlu               Turkey         MID   0.01010    454.1    44960  mostly   yes            56%     0    2  ✅
+11   Ruiz                     Spain          MID   0.01310    581.4    44382  full     yes            91%     0    0  ✅
+12   Stiller                  Germany        MID   0.00455    192.6    42330  full     sometimes      95%     0    0  ✅
+13   Pulisic                  USA            FWD   0.01160    488.5    42112  mostly   yes            50%     2    2  ✅
+14   De Bruyne                Belgium        MID   0.01280    531.7    41539  mostly   yes            59%     2    2  ✅
+15   Lautaro Martínez         Argentina      FWD   0.01310    534.8    40824  mostly   yes            70%     1    1  ✅
+16   Svensson                 Sweden         DEF   0.00542    219.0    40406  full     yes            51%     2    2  ✅
+17   Romero                   Argentina      DEF   0.01270    513.1    40402  mostly   yes            70%     1    2  ✅
+18   Diallo                   Ivory Coast    FWD   0.00730    284.7    39000  full     yes            27%     0    1  ✅
+19   Caicedo                  Ecuador        MID   0.00896    333.3    37199  full     yes            40%     0    0  ✅
+20   Koundé                   France         DEF   0.01620    568.1    35068  mostly   yes            63%     1    1  ✅
+21   Neuer                    Germany        GK    0.01130    390.2    34531  mostly   yes            95%     0    0  ✅
+22   Fernández                Argentina      MID   0.01630    558.2    34245  full     yes            70%     1    2  ✅
+23   Olmo                     Spain          FWD   0.01210    407.9    33711  full     yes            91%     1    1  ✅
+24   Akliouche                France         MID   0.00528    176.1    33352  full     sometimes      63%     0    1  ✅
+25   Eze                      England        MID   0.00615    200.3    32569  mostly   sometimes      56%     0    0  ✅
+26   Bellingham               England        MID   0.01890    612.7    32418  full     yes            56%     0    1  ✅
+27   Rodri                    Spain          MID   0.01910    596.9    31251  mostly   yes            91%     0    0  ✅
+28   Porro                    Spain          DEF   0.01690    521.5    30858  full     sometimes      91%     1    1  ✅
+29   McTominay                Scotland       MID   0.01070    328.1    30664  full     yes            66%     1    1  ✅
+30   Jurriën Timber           Netherlands    DEF   0.01200    367.3    30608  mostly   yes            49%     0    0  ✅
+31   Saliba                   France         DEF   0.01760    535.8    30443  mostly   yes            63%     0    0  ✅
+32   Valverde                 Uruguay        MID   0.01200    362.7    30225  mostly   yes            67%     0    0  ✅
+33   João Neves               Portugal       MID   0.01950    583.4    29918  full     sometimes      73%     0    0  ✅
+34   Gvardiol                 Croatia        DEF   0.01280    378.2    29547  mostly   yes            19%     1    1  ✅
+35   Saka                     England        FWD   0.01850    543.1    29357  mostly   yes            56%     0    0  ✅
+36   Dumfries                 Netherlands    DEF   0.01330    389.8    29308  full     yes            49%     0    0  ✅
+37   Upamecano                France         DEF   0.01870    535.8    28652  full     yes            63%     1    1  ✅
+38   Singo                    Ivory Coast    DEF   0.00856    240.2    28061  full     yes            27%     1    1  ✅
+39   Guéhi                    England        DEF   0.01780    486.6    27337  full     yes            56%     1    1  ✅
+40   Güler                    Turkey         MID   0.01380    371.4    26913  full     yes            56%     1    2  ✅
+41   Cucurella                Spain          DEF   0.01940    521.5    26881  full     yes            91%     0    0  ✅
+42   Dembélé                  France         FWD   0.02090    556.6    26632  mostly   yes            63%     0    0  ✅
+43   Rúben Dias               Portugal       DEF   0.01850    484.1    26168  mostly   yes            73%     1    1  ✅
+44   Nuno Mendes              Portugal       DEF   0.02040    524.0    25686  mostly   yes            73%     0    0  ✅
+45   Raphinha                 Brazil         FWD   0.02240    553.3    24701  mostly   yes            61%     2    2  ✅
+46   Konsa                    England        DEF   0.01850    454.5    24568  full     yes            56%     0    1  ✅
+47   Anderson                 England        MID   0.02010    490.2    24388  full     yes            56%     0    1  ✅
+48   Omar Marmoush            Egypt          FWD   0.00733    176.7    24106  full     yes            17%     2    2  ✅
+49   Kimmich                  Germany        MID   0.02760    665.2    24101  full     yes            95%     2    2  ✅
+50   Yildiz                   Turkey         FWD   0.01540    368.9    23955  full     yes            56%     0    0  ✅
+51   Tah                      Germany        DEF   0.01940    461.4    23784  full     yes            95%     2    2  ✅
+52   Cubarsí                  Spain          DEF   0.02110    491.4    23289  mostly   yes            91%     0    0  ✅
+53   Rice                     England        MID   0.02480    569.5    22964  full     yes            56%     0    0  ✅
+54   Martínez (AR)            Argentina      GK    0.01830    417.5    22814  mostly   yes            70%     1    1  ✅
+55   Díaz                     Colombia       FWD   0.02130    483.3    22690  full     yes            67%     1    1  ✅
+56   Schlotterbeck            Germany        DEF   0.02040    461.4    22618  mostly   yes            95%     2    2  ✅
+57   Rashford                 England        FWD   0.00900    201.8    22422  full     sometimes      56%     1    1  ✅
+58   Pedri                    Spain          MID   0.02990    669.4    22388  full     yes            91%     0    0  ✅
+59   Courtois                 Belgium        GK    0.01580    348.5    22057  mostly   yes            59%     2    2  ✅
+60   van Dijk                 Netherlands    DEF   0.02020    437.4    21653  full     yes            49%     1    1  ✅
+61   Alvarez                  Argentina      FWD   0.01880    401.6    21362  mostly   yes            70%     1    1  ✅
+62   Pickford                 England        GK    0.01850    390.8    21124  full     yes            56%     1    1  ✅
+63   Watkins                  England        FWD   0.00776    162.5    20941  full     no             56%     1    1  ✅
+64   Hakimi                   Morocco        DEF   0.01810    374.2    20674  mostly   yes            17%     0    0  ✅
+65   Wirtz                    Germany        MID   0.02480    504.6    20347  mostly   yes            95%     2    2  ✅
+66   Vitinha                  Portugal       MID   0.03100    629.6    20310  mostly   yes            73%     0    0  ✅
+67   Alisson Becker           Brazil         GK    0.01620    328.9    20302  mostly   yes            61%     2    2  ✅
+68   Kobel                    Switzerland    GK    0.01460    294.5    20171  full     yes            80%     1    1  ✅
+69   Gabriel Magalhães        Brazil         DEF   0.02110    419.0    19858  full     yes            61%     0    0  ✅
+70   Vinícius Júnior          Brazil         FWD   0.02610    516.9    19805  mostly   yes            61%     2    2  ✅
+71   Gyökeres                 Sweden         FWD   0.01140    223.2    19579  full     yes            51%     1    1  ✅
+72   Simón                    Spain          GK    0.02010    390.9    19448  full     yes            91%     0    0  ✅
+73   Isak                     Sweden         FWD   0.00887    171.5    19335  mostly   yes            51%     1    2  ✅
+74   Ødegaard                 Norway         MID   0.01620    299.5    18488  mostly   yes            76%     0    0  ✅
+75   Doku                     Belgium        FWD   0.02510    448.3    17861  full     yes            59%     2    2  ✅
+76   Maignan                  France         GK    0.02450    434.3    17727  full     yes            63%     1    1  ✅
+77   Quansah                  England        DEF   0.00469     80.6    17186  full     no             56%     1    1  ✅
+78   Pedro Neto               Portugal       FWD   0.01210    197.9    16355  mostly   sometimes      73%     0    1  ✅
+79   Kane                     England        FWD   0.03960    643.2    16242  full     yes            56%     1    1  ✅
+80   Olise                    France         MID   0.05160    818.6    15864  full     yes            63%     1    1  ✅
+81   Mbappé                   France         FWD   0.04960    754.7    15216  mostly   yes            63%     1    1  ✅
+82   Cherki                   France         MID   0.01420    213.5    15035  full     no             63%     1    1  ✅
+83   Bruno Fernandes          Portugal       MID   0.04110    597.6    14540  full     yes            73%     1    1  ✅
+84   Doué                     France         FWD   0.01690    215.1    12728  full     no             63%     0    0  ✅
+85   Lamine Yamal             Spain          FWD   0.06130    720.0    11746  mostly   yes            91%     0    0  ✅
+86   Haaland                  Norway         FWD   0.02700    310.6    11504  full     yes            76%     0    0  ✅
+87   Nmecha                   Germany        MID   0.00884     89.0    10068  mostly   no             95%     2    2  ✅
+88   Matheus Cunha            Brazil         FWD   0.01740    148.6     8540  mostly   yes            61%     1    2  ✅
+89   Rulli                    Argentina      GK    0.00300      9.4     3133  full     no             70%     0    0  ✅
+90   Flekken                  Netherlands    GK    0.00406     11.1     2734  mostly   no             49%     0    0  ✅
+91   Dean Henderson           England        GK    0.00457     11.3     2473  full     no             56%     0    0  ✅
+92   Raya                     Spain          GK    0.01040      9.4      904  full     no             91%     0    0  ✅
+93   Trafford                 England        GK    0.00458      4.1      895  full     no             56%     0    1  ✅
 
 ────────────────────────────────────────────────────────────
 ## Players not in WC / not in squad (excluded from ranking)
