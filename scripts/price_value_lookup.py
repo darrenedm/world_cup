@@ -315,6 +315,59 @@ LIVE_STATUS = {
 }
 
 
+# G1 win probability (%) per nation — Polymarket/Dimers, June 7 2026
+# Key: nationality string as it appears in master_sheet
+G1_WIN = {
+    'Argentina':     70,   # vs Algeria Jun 16       (Polymarket/Dimers)
+    'USA':           50,   # vs Paraguay Jun 12       (Polymarket)
+    'Germany':       95,   # vs Curaçao Jun 14        (Polymarket)
+    'Spain':         91,   # vs Cape Verde Jun 15     (Polymarket)
+    'Belgium':       59,   # vs Egypt Jun 15          (Polymarket)
+    'Portugal':      73,   # vs DR Congo Jun 17       (Dimers)
+    'Canada':        55,   # vs Bosnia Jun 12         (Polymarket)
+    'Netherlands':   49,   # vs Japan Jun 14          (Polymarket)
+    'Egypt':         17,   # vs Belgium Jun 15        (Polymarket)
+    'Ivory Coast':   27,   # vs Ecuador Jun 14        (Polymarket)
+    'Sweden':        51,   # vs Tunisia Jun 14        (Polymarket)
+    'Turkey':        56,   # vs Australia Jun 14      (Polymarket)
+    'France':        63,   # vs Senegal Jun 16        (Dimers)
+    'Ecuador':       40,   # vs Ivory Coast Jun 14    (Polymarket)
+    'Scotland':      66,   # vs Haiti Jun 13          (Polymarket)
+    'England':       56,   # vs Croatia Jun 17        (Dimers/bet365)
+    'Croatia':       19,   # vs England Jun 17        (Dimers/bet365)
+    'Uruguay':       67,   # vs Saudi Arabia Jun 15   (Polymarket)
+    'Morocco':       17,   # vs Brazil Jun 13         (Polymarket)
+    'Brazil':        61,   # vs Morocco Jun 13        (Polymarket)
+    'Colombia':      67,   # vs Uzbekistan Jun 17     (Dimers)
+    'Norway':        76,   # vs Iraq Jun 16           (Dimers)
+    'Switzerland':   80,   # vs Qatar Jun 13          (Polymarket)
+    'Mexico':        69,   # vs South Africa Jun 11   (Polymarket)
+    'South Korea':   37,   # vs Czechia Jun 11        (Polymarket)
+    'Czech Republic':34,   # vs South Korea Jun 11    (Polymarket)
+    'Japan':         27,   # vs Netherlands Jun 14    (Polymarket)
+    'Tunisia':       23,   # vs Sweden Jun 14         (Polymarket)
+    'Iran':          53,   # vs New Zealand Jun 15    (Dimers)
+    'New Zealand':   21,   # vs Iran Jun 15           (Dimers)
+    'Saudi Arabia':  13,   # vs Uruguay Jun 15        (Polymarket)
+    'Qatar':          7,   # vs Switzerland Jun 13    (Polymarket)
+    'Ghana':         41,   # vs Panama Jun 17         (Dimers)
+    'Panama':        33,   # vs Ghana Jun 17          (Dimers)
+    'Australia':     19,   # vs Turkey Jun 14         (Polymarket)
+    'South Africa':  11,   # vs Mexico Jun 11         (Polymarket)
+    'Senegal':       15,   # vs France Jun 16         (Dimers)
+    'Algeria':       11,   # vs Argentina Jun 16      (Dimers)
+    'Bosnia':        20,   # vs Canada Jun 12         (Polymarket)
+    'DR Congo':       9,   # vs Portugal Jun 17       (Dimers)
+    'Uzbekistan':    13,   # vs Colombia Jun 17       (Dimers)
+    'Iraq':           9,   # vs Norway Jun 16         (Dimers)
+    'Jordan':        13,   # vs Austria Jun 16        (Dimers)
+    'Paraguay':      24,   # vs USA Jun 12            (Polymarket)
+    'Curaçao':        2,   # vs Germany Jun 14        (Polymarket)
+    'Haiti':         15,   # vs Scotland Jun 13       (Polymarket)
+    'Cape Verde':     4,   # vs Spain Jun 15          (Polymarket)
+}
+
+
 def load_data():
     with open(DATA_PATH, newline='', encoding='utf-8') as f:
         rows = list(csv.DictReader(f))
@@ -391,18 +444,20 @@ def main():
         fit_label     = live[0]   # full / mostly / not
         starter_label = live[1]   # yes / sometimes / no
 
-        results.append((display, full_name, nat, pos, price, adj_pts, pts_per_price, status, fit_label, starter_label))
+        g1_win = G1_WIN.get(nat, 0)
+
+        results.append((display, full_name, nat, pos, price, adj_pts, pts_per_price, status, fit_label, starter_label, g1_win))
 
     # Sort by pts/price descending
     results.sort(key=lambda x: -x[6])
 
     # ── Print main table ─────────────────────────────────────────────────────
     print("# Fantasy Value Table — Adj Pts per Price Unit")
-    print("# Fitness: full / mostly / not  |  Starter: yes / sometimes / no  (web-verified June 2 2026)\n")
-    print(f"{'#':<4} {'Player':<24} {'Nat':<14} {'Pos':<4} {'Price':>8} {'Adj Pts':>8} {'Pts/$':>8}  {'Fitness':<8} {'Starter':<10} Status")
-    print("─" * 105)
-    for i, (disp, full, nat, pos, price, pts, ppp, status, fit, starter) in enumerate(results, 1):
-        print(f"{i:<4} {disp:<24} {nat:<14} {pos:<4} {price:>8.5f} {pts:>8.1f} {ppp:>8.0f}  {fit:<8} {starter:<10} {status}")
+    print("# Fitness: full/mostly/not  |  Starter: yes/sometimes/no  |  G1 Win%: Polymarket/Dimers Jun 7 2026\n")
+    print(f"{'#':<4} {'Player':<24} {'Nat':<14} {'Pos':<4} {'Price':>8} {'Adj Pts':>8} {'Pts/$':>8}  {'Fitness':<8} {'Starter':<10} {'G1 Win%':>7}  Status")
+    print("─" * 115)
+    for i, (disp, full, nat, pos, price, pts, ppp, status, fit, starter, g1) in enumerate(results, 1):
+        print(f"{i:<4} {disp:<24} {nat:<14} {pos:<4} {price:>8.5f} {pts:>8.1f} {ppp:>8.0f}  {fit:<8} {starter:<10} {g1:>6}%  {status}")
 
     # ── Not in WC ────────────────────────────────────────────────────────────
     print(f"\n{'─'*60}")
