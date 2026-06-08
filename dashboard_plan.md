@@ -279,18 +279,18 @@ wc_repo/
 
 ### Phase 6 — Storylines + polish
 - Editorial cards (static content, dynamic player stats)
-- Animated number transitions
-- Mobile layout pass
-- Cross-browser smoke test
+- Animated number transitions on bracket changes
+- Linear ↔ Exact formula toggle wiring
+- Cross-browser smoke test (Chrome/Firefox/Safari desktop)
 
 ---
 
-## 9. Open Questions / Decisions Needed
+## 9. Decisions — Confirmed
 
-1. **Scope of player data**: Show all 1,216 tracked WC players (full dataset) or just the 93 in the priced universe? Recommendation: show all in scatter/list, but only 93 have price data so pts/$ only available for priced players.
+1. **Scope of player data**: ✅ **All 1,216 confirmed WC players** shown in scatter plot and ranked list. Players without a tenero price show conditional pts but no pts/$ column (displayed as `—`).
 
-2. **WC 2026 wildcard slots**: The 8 best 3rd-place teams qualifying for R32 adds complexity to the bracket builder. Simplest implementation: show group stage advancement only (2 per group = 24), then add a "3rd place wildcard" toggle that auto-advances the 8 highest-ranked 3rd-place finishers.
+2. **WC 2026 wildcard slots**: ✅ **Fully implement the 3rd-place wildcard**. Bracket builder shows top-2 per group (24 teams) plus an auto-calculated wildcard panel showing the 8 best 3rd-place finishers by group points/GD heuristic. Users can override wildcard picks manually.
 
-3. **Conditional pts formula**: The plan uses a linear `pts_per_game × n_games` model. The existing `adj_pts` already bakes in dead-rubber G3 adjustments. Decision needed: use the simple linear model for interactivity (cleaner UX) and note it's an approximation, or try to reconstruct the exact formula.
+3. **Conditional pts formula**: ✅ **Both, with a toggle**. Default view uses the linear `pts_per_game × n_games` model (fast, intuitive). A "⚡ Exact model" toggle switches to the reconstructed formula that respects dead-rubber G3 probability, role-based minutes, and the existing `adj_pts` calibration. Toggle state persists across bracket changes.
 
-4. **Mobile layout**: The side-by-side scatter + list layout likely needs to stack on mobile. The advancement builder needs to be scrollable on small screens. Confirm mobile is in scope.
+4. **Mobile layout**: ✅ **Web only, mobile not in scope**. Minimum supported viewport: 1,280px wide. No responsive breakpoints needed.
