@@ -1,8 +1,59 @@
 # G1 Performance Report — World Cup 2026
 *Covers all 23 matchdays of Group Stage Round 1 (Jun 12–17 2026)*  
-*Scoring: Goal=6, Assist=3, GK CS=6, DEF CS=4, MID CS=1, FWD CS=0, Started=+2, Sub=+1, Yellow=-1*  
-*Δ = G1 actual pts minus pre-game appearance expectation (starter=2, sub/sometimes=1, bench=0)*  
 *Only covers the 93 priced players tracked in price_value_table.txt*
+
+---
+
+## Methodology — How to reproduce this report for G2
+
+### Scoring system
+Every player's G1 fantasy score is computed from the raw match result using this rule set:
+
+| Event | Points |
+|-------|--------|
+| Goal scored | +6 |
+| Assist | +3 |
+| GK clean sheet (90 min) | +6 |
+| DEF clean sheet (played any min) | +4 |
+| MID clean sheet (played any min) | +1 |
+| FWD clean sheet | 0 |
+| Started (in XI from kick-off) | +2 |
+| Came on as substitute | +1 |
+| Yellow card | −1 |
+| Red card | −3 |
+
+A "clean sheet" counts only if the player's team conceded 0 goals **and** the player appeared in the match. A 90+4' equaliser breaks a clean sheet (see Switzerland–Qatar).
+
+### What G1 Pts measures
+`G1 Pts` = the sum of the above for that player in their Group 1 match only. Players who were not selected (bench, injury DNP) score 0.
+
+### What Δ means
+`Δ = G1 Pts − appearance expectation`
+
+Appearance expectation is derived from that player's **pre-tournament** `LIVE_STATUS` starter rating in `price_value_lookup.py`:
+- `"yes"` → expected 2 pts (starter appearance value)
+- `"sometimes"` → expected 1 pt (sub-role appearance value)
+- `"no"` → expected 0 pts
+
+Δ > 0: delivered goals/assists/CS bonus on top of appearing  
+Δ = 0: appeared and scored exactly the baseline (or wasn't expected to play and didn't)  
+Δ < 0: expected to play but didn't (benched, injured, or rotated)
+
+### How to reproduce this for G2
+
+1. **Collect match data** for all G2 fixtures (Jun 18–22) — scorers, assisters, starting XIs, substitution times, clean sheets.
+2. **Add a `G2_ACTUAL` dict** to `price_value_lookup.py` with the same structure as `G1_ACTUAL`:
+   ```python
+   G2_ACTUAL = {
+       "Player display name": (g2_pts, goals, assists, cs_bonus, "notes"),
+       ...
+   }
+   ```
+   One entry per priced player. Players not in the squad or whose team hasn't played yet get `None` (omit from dict).
+3. **Update `main()`** to look up `G2_ACTUAL.get(display)` and compute `g2_delta` using the same appearance-expectation logic. Use the **actual** G2 starting XI (not pre-tournament `LIVE_STATUS`) as the baseline — i.e. update `LIVE_STATUS` starters from G2 observed lineups before computing Δ, or pass actual starter status from the dict's notes field.
+4. **Add `G2 Pts` and `G2 Δ` columns** to the print format (extend the tuple in `results.append`).
+5. **Run the script** → regenerates `analysis/price_value_table.txt`.
+6. **Write `analysis/g2_report.md`** following the same section structure as this file.
 
 ---
 
@@ -59,7 +110,7 @@ These players were rated "yes" for starter pre-tournament but scored 0 (bench or
 | Daniel Svensson | Sweden | DEF | #16 | 0 | −2 | Not in Sweden XI vs Tunisia |
 | Manuel Neuer | Germany | GK | #21 | 0 | −2 | Baumann started G1; Neuer GK1 but rested |
 
-**Key finding**: Palacios (#1 by value/price ratio) was benched in G1. The model's top value pick delivered nothing. Watch for G2 selection.
+**Key finding**: Palacios (#1 by value/price ratio) was benched in G1. The model's top value pick delivered nothing.
 
 ---
 
@@ -102,11 +153,10 @@ Argentina kept a CS (3-0 Algeria): **Emiliano Martínez** 8 pts (+6), **Cristian
 | "Portugal value picks" | ❌ All drew 1-1 vs DR Congo; every POR player scored just 2 pts |
 | "Spain CS candidates" | ✅ Correct — 0-0 vs Cape Verde; all Spain defenders delivered |
 | "Haaland rested both friendlies → risk" | ✅ Risk was worth it — 14 pts G1 brace |
-| "Jonathan David hat trick" | ❌ That was G2 — G1 he was a 61' sub vs Bosnia (1-1) and scored 0 |
 | "Germany value (7-1 win)" | ✅ Schlotterbeck, Nmecha both 8 pts; cheap German defenders delivered |
 | "Belgium disappointment" | Partial — drew 1-1 with Egypt; De Bruyne assist (+3) but Lukaku only sub (1 pt) |
 | "Brazil will dominate Morocco" | ❌ Drew 1-1; Vinícius 8 pts but Raphinha/Alisson just 2 each |
-| "Switzerland safe CS pick vs Qatar" | ❌ Khoukhi 90+4' equaliser; Kobel GK = 2 pts only |
+| "Switzerland safe CS pick vs Qatar" | ❌ Late equaliser; Kobel GK = 2 pts only |
 
 ---
 
@@ -116,13 +166,8 @@ Argentina kept a CS (3-0 Algeria): **Emiliano Martínez** 8 pts (+6), **Cristian
 |--------|-------|
 | Highest G1 score | 14 pts (Kane, Mbappé, Haaland) |
 | Most assists in G1 | 1 each (Rice, Anderson, Olise, Salah, Ødegaard, Díaz, Pulisic, De Bruyne, Saka) |
-| Only triple-digit scorer | — (none; max was 14) |
 | Players who scored 0 G1 pts | 21 (mostly bench/DNP) |
 | Players who matched expectation (Δ=0) | 17 |
 | Biggest surprise overperformer | Nmecha (starter="no", 8 pts) |
 | Biggest selection miss | Palacios (#1 value pick, benched, 0 pts) |
-| CS matches yielding DEF/GK bonus | 3: Spain (0-0 vs CVI), Argentina (3-0), Scotland (1-0) |
-
----
-
-*Next: G2 performance sheet (Jun 18–22), then G1+G2 combined model for G3 predictions.*
+| CS matches yielding DEF/GK bonus | 3: Spain (0-0 vs Cape Verde), Argentina (3-0 Algeria), Scotland (1-0 Haiti) |
