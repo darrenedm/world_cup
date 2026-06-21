@@ -504,6 +504,148 @@ FRIENDLY = {
 }
 
 
+# G1 actual performance
+# Scoring: Goal=6, Assist=3, GK CS=6, DEF CS=4, MID CS=1, FWD CS=0, Started=+2, Sub=+1
+# Tuple: (g1_pts, goals, assists, cs_bonus, notes)
+G1_ACTUAL = {
+    # ARGENTINA 3-0 Algeria (Jun 16) — CS
+    "Martínez (AR)":    (8,  0, 0, 6, "GK CS; started"),
+    "Romero":           (6,  0, 0, 4, "DEF CS; started"),
+    "Fernández":        (3,  0, 0, 1, "MID CS; started"),
+    "Lautaro Martínez": (2,  0, 0, 0, "started; no g/a"),
+    "Alvarez":          (0,  0, 0, 0, "bench"),
+    "Palacios":         (0,  0, 0, 0, "bench — Almada started"),
+    "Rulli":            (0,  0, 0, 0, "backup GK"),
+    # USA 4-1 Paraguay (Jun 12)
+    "Pulisic":          (5,  0, 1, 0, "started; 1 assist"),
+    "Tillman":          (2,  0, 0, 0, "started"),
+    # GERMANY 7-1 Curaçao (Jun 14)
+    "Kimmich":          (2,  0, 0, 0, "started"),
+    "Wirtz":            (2,  0, 0, 0, "started"),
+    "Schlotterbeck":    (8,  1, 0, 0, "started; 1 goal"),
+    "Tah":              (2,  0, 0, 0, "started"),
+    "Nmecha":           (8,  1, 0, 0, "started; 1 goal"),
+    "Woltemade":        (1,  0, 0, 0, "sub"),
+    "Neuer":            (0,  0, 0, 0, "DNP — Baumann started"),
+    "Stiller":          (0,  0, 0, 0, "DNP/sub unconfirmed"),
+    # SPAIN 0-0 Cape Verde (Jun 15) — CS
+    "Lamine Yamal":     (0,  0, 0, 0, "DNP — hamstring"),
+    "Pedri":            (3,  0, 0, 1, "MID CS; started"),
+    "Simón":            (8,  0, 0, 6, "GK CS; started"),
+    "Cubarsí":          (6,  0, 0, 4, "DEF CS; started"),
+    "Cucurella":        (6,  0, 0, 4, "DEF CS; started"),
+    "Rodri":            (3,  0, 0, 1, "MID CS; started"),
+    "Porro":            (6,  0, 0, 4, "DEF CS; started"),
+    "Grimaldo":         (6,  0, 0, 4, "DEF CS; started"),
+    "Ruiz":             (3,  0, 0, 1, "MID CS; started"),
+    "Olmo":             (2,  0, 0, 0, "started; FWD no CS"),
+    "Raya":             (0,  0, 0, 0, "DNP — Simón started"),
+    "Joan García":      (0,  0, 0, 0, "bench"),
+    # BELGIUM 1-1 Egypt (Jun 15)
+    "Courtois":         (2,  0, 0, 0, "started; no CS"),
+    "Doku":             (2,  0, 0, 0, "started"),
+    "De Bruyne":        (5,  0, 1, 0, "started; assist (OG)"),
+    "Lukaku":           (1,  0, 0, 0, "sub ~66'"),
+    "Sels":             (0,  0, 0, 0, "bench GK"),
+    # PORTUGAL 1-1 DR Congo (Jun 17)
+    "Bruno Fernandes":  (2,  0, 0, 0, "started"),
+    "Vitinha":          (2,  0, 0, 0, "started"),
+    "Rúben Dias":       (2,  0, 0, 0, "started; DEF no CS"),
+    "Nuno Mendes":      (2,  0, 0, 0, "started; DEF no CS"),
+    "João Neves":       (2,  0, 0, 0, "started"),
+    "Rafael Leão":      (2,  0, 0, 0, "started"),
+    "Pedro Neto":       (1,  0, 0, 0, "sub"),
+    # CANADA 1-1 Bosnia (Jun 12)
+    "Jonathan David":   (1,  0, 0, 0, "sub 61'; hat trick was G2"),
+    # NETHERLANDS 2-2 Japan (Jun 14)
+    "van Dijk":         (8,  1, 0, 0, "started; 1 goal"),
+    "Gravenberch":      (2,  0, 0, 0, "started"),
+    "Dumfries":         (2,  0, 0, 0, "started"),
+    "Jurriën Timber":   (2,  0, 0, 0, "started"),
+    "Flekken":          (0,  0, 0, 0, "DNP — Verbruggen started"),
+    # EGYPT 1-1 Belgium (Jun 15)
+    "Mohamed Salah":    (5,  0, 1, 0, "started; 1 assist"),
+    "Omar Marmoush":    (2,  0, 0, 0, "started"),
+    # IVORY COAST 1-0 Ecuador (Jun 14) — CS
+    "Diallo":           (8,  1, 0, 0, "started; 1 goal; FWD no CS"),
+    "Singo":            (6,  0, 0, 4, "DEF CS; started"),
+    # SWEDEN 5-1 Tunisia (Jun 14)
+    "Gyökeres":         (8,  1, 0, 0, "started; 1 goal"),
+    "Isak":             (8,  1, 0, 0, "started; 1 goal"),
+    "Svensson":         (0,  0, 0, 0, "DNP — not in Sweden XI"),
+    # TURKEY 0-2 Australia (Jun 14)
+    "Çalhanoğlu":       (2,  0, 0, 0, "started; lost 0-2"),
+    "Güler":            (2,  0, 0, 0, "started; lost 0-2"),
+    "Yildiz":           (2,  0, 0, 0, "started; lost 0-2"),
+    # FRANCE 3-1 Senegal (Jun 16)
+    "Mbappé":           (14, 2, 0, 0, "started; 2 goals"),
+    "Olise":            (5,  0, 1, 0, "started; 1 assist"),
+    "Maignan":          (2,  0, 0, 0, "started; GK no CS"),
+    "Dembélé":          (2,  0, 0, 0, "started"),
+    "Koundé":           (2,  0, 0, 0, "started; DEF no CS"),
+    "Upamecano":        (2,  0, 0, 0, "started; DEF no CS"),
+    "Saliba":           (0,  0, 0, 0, "bench — Konaté started"),
+    "Cherki":           (0,  0, 0, 0, "bench"),
+    "Doué":             (0,  0, 0, 0, "bench"),
+    "Akliouche":        (0,  0, 0, 0, "bench"),
+    "Yoro":             (0,  0, 0, 0, "bench"),
+    "Chevalier":        (0,  0, 0, 0, "bench GK"),
+    # ECUADOR 0-1 Ivory Coast (Jun 14)
+    "Caicedo":          (2,  0, 0, 0, "started"),
+    # SCOTLAND 1-0 Haiti (Jun 13) — CS
+    "McTominay":        (3,  0, 0, 1, "MID CS; started"),
+    # ENGLAND 4-2 Croatia (Jun 17)
+    "Kane":             (14, 2, 0, 0, "started; 2 goals"),
+    "Rice":             (5,  0, 1, 0, "started; 1 assist"),
+    "Anderson":         (5,  0, 1, 0, "started; 1 assist"),
+    "Bellingham":       (8,  1, 0, 0, "started; 1 goal"),
+    "Rashford":         (7,  1, 0, 0, "sub; 1 goal"),
+    "Saka":             (4,  0, 1, 0, "sub; 1 assist"),
+    "Pickford":         (2,  0, 0, 0, "started; GK no CS"),
+    "Guéhi":            (0,  0, 0, 0, "bench — Konsa started"),
+    "Konsa":            (2,  0, 0, 0, "started; DEF no CS"),
+    "Watkins":          (0,  0, 0, 0, "bench"),
+    "Quansah":          (0,  0, 0, 0, "bench"),
+    "Trafford":         (0,  0, 0, 0, "bench"),
+    "Dean Henderson":   (0,  0, 0, 0, "bench"),
+    "Foden":            (0,  0, 0, 0, "bench"),
+    "Palmer":           (0,  0, 0, 0, "bench"),
+    "Alexander-Arnold": (0,  0, 0, 0, "bench"),
+    "Eze":              (0,  0, 0, 0, "bench"),
+    "Gibbs-White":      (0,  0, 0, 0, "bench"),
+    "Pope":             (0,  0, 0, 0, "bench GK3"),
+    "Bellingham (BVB)": (0,  0, 0, 0, "bench"),
+    # CROATIA 2-4 England (Jun 17)
+    "Gvardiol":         (2,  0, 0, 0, "started; DEF conceded 4"),
+    # URUGUAY 1-1 Saudi Arabia (Jun 15)
+    "Valverde":         (2,  0, 0, 0, "started"),
+    # MOROCCO 1-1 Brazil (Jun 13)
+    "Hakimi":           (2,  0, 0, 0, "started; DEF no CS"),
+    # BRAZIL 1-1 Morocco (Jun 13)
+    "Vinícius Júnior":  (8,  1, 0, 0, "started; 1 goal"),
+    "Raphinha":         (2,  0, 0, 0, "started"),
+    "Gabriel Magalhães":(2,  0, 0, 0, "started; DEF no CS"),
+    "Alisson Becker":   (2,  0, 0, 0, "started; GK no CS"),
+    "Matheus Cunha":    (2,  0, 0, 0, "started"),
+    # COLOMBIA 3-1 Uzbekistan (Jun 17)
+    "Díaz":             (11, 1, 1, 0, "started; 1G+1A"),
+    # NORWAY 4-1 Iraq (Jun 16)
+    "Haaland":          (14, 2, 0, 0, "started; 2 goals"),
+    "Ødegaard":         (5,  0, 1, 0, "started; 1 assist"),
+    # SWITZERLAND 1-1 Qatar (Jun 13 — Khoukhi eq 90+4')
+    "Kobel":            (2,  0, 0, 0, "started; GK no CS (late eq.)"),
+    # GERMANY 7-1 Curaçao (Jun 14) — bench/late subs
+    "Gnabry":           (1,  0, 0, 0, "sub"),
+    "Adeyemi":          (1,  0, 0, 0, "sub"),
+    "Burkardt":         (1,  0, 0, 0, "sub"),
+    "Mittelstädt":      (1,  0, 0, 0, "sub"),
+    "Ekitiké":          (1,  0, 0, 0, "sub"),
+    # BRAZIL 1-1 Morocco (Jun 13)
+    "Antony":           (1,  0, 0, 0, "sub"),
+    "João Pedro":       (1,  0, 0, 0, "sub"),
+}
+
+
 def load_data():
     with open(DATA_PATH, newline='', encoding='utf-8') as f:
         rows = list(csv.DictReader(f))
@@ -585,7 +727,26 @@ def main():
         frd = FRIENDLY.get(display, (0, 0))
         f_starts, f_apps = frd
 
-        results.append((display, full_name, nat, pos, price, adj_pts, pts_per_price, status, fit_label, starter_label, g1_win, f_starts, f_apps))
+        # ── G1 actual vs expected ──────────────────────────────────────────────
+        # Δ = G1 Pts minus appearance expectation (starter=2, sometimes=1, no/bench=0)
+        # Shows goals/assists/CS value above just showing up
+        g1_data = G1_ACTUAL.get(display)
+        if g1_data is not None:
+            g1_pts_actual = g1_data[0]
+            if starter_label == "yes":
+                g1_exp = 2.0
+            elif starter_label == "sometimes":
+                g1_exp = 1.0
+            else:
+                g1_exp = 0.0
+            g1_delta = g1_pts_actual - g1_exp
+        else:
+            g1_pts_actual = None
+            g1_delta      = None
+
+        results.append((display, full_name, nat, pos, price, adj_pts, pts_per_price, status,
+                        fit_label, starter_label, g1_win, f_starts, f_apps,
+                        g1_pts_actual, g1_delta))
 
     # Sort by pts/price descending
     results.sort(key=lambda x: -x[6])
@@ -593,11 +754,14 @@ def main():
     # ── Print main table ─────────────────────────────────────────────────────
     print("# Fantasy Value Table — Adj Pts per Price Unit")
     print("# Fitness: full/mostly/not  |  Starter: yes/sometimes/no  |  G1 Win%: Polymarket/Dimers Jun 7 2026")
-    print("# F.Start/F.App: times started / times played in last 2 pre-WC friendlies (max 2)\n")
-    print(f"{'#':<4} {'Player':<24} {'Nat':<14} {'Pos':<4} {'Price':>8} {'Adj Pts':>8} {'Pts/$':>8}  {'Fitness':<8} {'Starter':<10} {'G1 Win%':>7}  {'F.St':>4} {'F.Ap':>4}  Status")
-    print("─" * 125)
-    for i, (disp, full, nat, pos, price, pts, ppp, status, fit, starter, g1, fst, fap) in enumerate(results, 1):
-        print(f"{i:<4} {disp:<24} {nat:<14} {pos:<4} {price:>8.5f} {pts:>8.1f} {ppp:>8.0f}  {fit:<8} {starter:<10} {g1:>6}%  {fst:>4} {fap:>4}  {status}")
+    print("# F.Start/F.App: times started / times played in last 2 pre-WC friendlies (max 2)")
+    print("# G1 Pts: actual G1 fantasy pts  |  Δ: G1 Pts minus expected pts/game (+=over, -=under)\n")
+    print(f"{'#':<4} {'Player':<24} {'Nat':<14} {'Pos':<4} {'Price':>8} {'Adj Pts':>8} {'Pts/$':>8}  {'Fitness':<8} {'Starter':<10} {'G1 Win%':>7}  {'F.St':>4} {'F.Ap':>4}  {'G1 Pts':>6} {'Δ':>6}  Status")
+    print("─" * 138)
+    for i, (disp, full, nat, pos, price, pts, ppp, status, fit, starter, g1, fst, fap, g1pts, g1d) in enumerate(results, 1):
+        g1pts_str = f"{g1pts:>6}"   if g1pts is not None else "     —"
+        g1d_str   = f"{g1d:>+6.1f}" if g1d   is not None else "     —"
+        print(f"{i:<4} {disp:<24} {nat:<14} {pos:<4} {price:>8.5f} {pts:>8.1f} {ppp:>8.0f}  {fit:<8} {starter:<10} {g1:>6}%  {fst:>4} {fap:>4}  {g1pts_str} {g1d_str}  {status}")
 
     # ── Not in WC ────────────────────────────────────────────────────────────
     print(f"\n{'─'*60}")
