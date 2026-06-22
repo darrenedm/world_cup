@@ -173,10 +173,10 @@ Players to flag as high-uncertainty despite good model scores:
 | 3  | Díaz            | COL | FWD | 78%  | yes       | +9  | 5.5 | B | Exceptional G1; COL vs weak DRC |
 | 4  | Vinícius Júnior | BRA | FWD | 93%  | yes       | +6  | 5.4 | B | Form + massive BRA attack vs Haiti |
 | 5  | Kane            | ENG | FWD | 75%  | yes       | +12 | 5.4 | B | Best in world form; ENG dominant vs Ghana |
-| 6  | Grimaldo        | SPA | DEF | 91%  | yes       | +4  | 4.8 | A | DEF CS banker + G1 deliverer |
-| 7  | Porro           | SPA | DEF | 91%  | yes       | +5  | 4.8 | A | Started G1 (upgraded from sometimes); CS candidate |
-| 8  | Cubarsí         | SPA | DEF | 91%  | yes       | +4  | 4.8 | A | Confirmed starter; Spain defence dominant |
-| 9  | Cucurella       | SPA | DEF | 91%  | yes       | +4  | 4.8 | A | Spain CS quad value pick |
+| 6  | Cubarsí         | SPA | DEF | 91%  | yes       | +4  | 4.8 | A | Confirmed starter; Spain defence dominant |
+| 7  | Cucurella       | SPA | DEF | 91%  | yes       | +4  | 4.8 | A | Confirmed Spain G1 starter; CS candidate |
+| 8  | Grimaldo        | SPA | DEF | 91%  | sometimes | +3  | 2.7 | A | Sub 71' in G1 (not starter); lower APP_EXP for G2 |
+| 9  | Porro           | SPA | DEF | 91%  | sometimes | −1  | 2.0 | D | Bench DNP in G1; rotation risk for G2 |
 | 10 | Maignan         | FRA | GK  | 93%  | yes       | +0  | 4.8 | A | GK CS banker vs Iraq; top floor pick |
 | 11 | Alisson Becker  | BRA | GK  | 93%  | yes       | +0  | 4.8 | A | BRA dominant vs Haiti; high CS probability |
 | 12 | Schlotterbeck   | GER | DEF | 68%  | yes       | +6  | 4.2 | B/A | Scored G1; DEF with attack upside vs CIV |
@@ -188,12 +188,13 @@ Players to flag as high-uncertainty despite good model scores:
 | 18 | Olise           | FRA | MID | 93%  | yes       | +3  | 4.6 | C | MID + CS bonus vs Iraq; France's creative engine |
 | 19 | Koundé          | FRA | DEF | 93%  | yes       | +0  | 4.5 | A | Reliable France DEF; high CS probability |
 | 20 | Upamecano       | FRA | DEF | 93%  | yes       | +0  | 4.5 | A | Same profile as Koundé |
+| 21 | Saliba          | FRA | DEF | 93%  | yes       | +0  | 4.5 | A | Confirmed G1 starter (corrected from bench); France CS banker vs Iraq |
 
 ---
 
 ## Key G2 Narratives to Watch
 
-1. **Spain's CS wall** — Spain kept a 0-0 in G1. Facing Saudi Arabia (G2 Win% 91%) they are the clearest CS opportunity of the round. All 4 of Grimaldo/Porro/Cubarsí/Cucurella are strong picks; Simón has the GK CS ceiling.
+1. **Spain's CS wall** — Spain kept a 0-0 in G1. Facing Saudi Arabia (G2 Win% 91%) they are the clearest CS opportunity of the round. **Corrected**: Spain's G1 back four was Llorente/Laporte/Cubarsí/Cucurella — Grimaldo and Porro were both bench. Reliable CS picks: Cubarsí and Cucurella (confirmed G1 starters), Simón (GK CS ceiling). Grimaldo/Porro are "sometimes" starter risk for G2.
 
 2. **France/Brazil vs minnows** — France vs Iraq (93%) and Brazil vs Haiti (93%) are the two highest-probability mismatches. Expect high-scoring games with multiple CS-eligible players delivering. Risk: France may rotate for G3 rest.
 

@@ -80,17 +80,16 @@ Mbappé's G1 broke France's all-time scoring record. All three were started desp
 | 3 | Erling Haaland | Norway | FWD | 14 | +12 | #86 | 2 goals; rested both pre-WC friendlies |
 | 4 | Luis Díaz | Colombia | FWD | 11 | +9 | #55 | 1G+1A vs Uzbekistan; Bayern form carries over |
 | 5 | Felix Nmecha | Germany | MID | 8 | +8 | #87 | Started; 1 goal in 7-1 demolition; was listed "no" for starter |
-| 6 | Jude Bellingham | England | MID | 8 | +6 | #26 | 1 goal (47'); sub 46' but still delivered |
+| 6 | Jude Bellingham | England | MID | 8 | +6 | #26 | 1 goal (47'); started, subbed off later |
 | 7 | Nico Schlotterbeck | Germany | DEF | 8 | +6 | #56 | 1 goal; defender scoring in 7-1 rout |
 | 8 | Viktor Gyökeres | Sweden | FWD | 8 | +6 | #71 | 1 goal vs Tunisia; 5-1 win |
 | 9 | Unai Simón | Spain | GK | 8 | +6 | #72 | GK CS in 0-0 vs Cape Verde; clean sheet banker |
 | 10 | Alexander Isak | Sweden | FWD | 8 | +6 | #73 | 1 goal vs Tunisia; fibula scare forgotten |
 | 11 | Marcus Rashford | England | FWD | 7 | +6 | #57 | Sub 2nd half; 1 goal (85'); impact role vindicated |
 | 12 | Amad Diallo | Ivory Coast | FWD | 8 | +6 | #18 | 1 goal; CIV won 1-0; strong G1 for cheap pick |
-| 13 | Alejandro Grimaldo | Spain | DEF | 6 | +4 | #5 | DEF CS; best-value pick in entire table delivered |
+| 13 | Alejandro Grimaldo | Spain | DEF | 5 | +3 | #5 | Sub 71'; DEF CS (5 pts = 1 sub + 4 CS) |
 | 14 | Cristian Romero | Argentina | DEF | 6 | +4 | #17 | DEF CS; ARG 3-0 Algeria |
-| 15 | Marc Cucurella | Spain | DEF | 6 | +4 | #41 | DEF CS; value sub-5c pick |
-| 16 | Pedro Porro | Spain | DEF | 6 | +5 | #28 | DEF CS; listed "sometimes" but started |
+| 15 | Marc Cucurella | Spain | DEF | 6 | +4 | #41 | DEF CS; started in Spain's 0-0 |
 
 **Notable: Bukayo Saka (+3, sub assist)**, **Christian Pulisic (+3, assist)**, **Kevin De Bruyne (+3, assist for OG)**, **Mohamed Salah (+3, assist)**, **Martin Ødegaard (+3, assist)** — all delivered above appearance value.
 
@@ -98,19 +97,19 @@ Mbappé's G1 broke France's all-time scoring record. All three were started desp
 
 ## Underperformers — Expected starters who blanked (Δ = −2)
 
-These players were rated "yes" for starter pre-tournament but scored 0 (bench or DNP):
+These players were rated "yes" for starter pre-tournament but scored 0 or underperformed (bench or limited role):
 
 | Player | Nat | Pos | Pre-WC Rank | G1 Pts | Δ | Reason |
 |--------|-----|-----|------------:|-------:|--:|--------|
 | Exequiel Palacios | Argentina | MID | #1 | 0 | −2 | Bench — Almada started; ARG 3-0 Algeria |
-| Lamine Yamal | Spain | FWD | #85 | 0 | −2 | DNP — hamstring, missed G1 |
-| William Saliba | France | DEF | #31 | 0 | −2 | Bench — Konaté+Upamecano started |
+| Lamine Yamal | Spain | FWD | #85 | 1 | −1 | Sub 71' (19 mins); hamstring management; 1 pt appearance only |
 | Marc Guéhi | England | DEF | #39 | 0 | −2 | Bench — Konsa started ahead of him |
 | Julián Álvarez | Argentina | FWD | #61 | 0 | −2 | Bench |
 | Daniel Svensson | Sweden | DEF | #16 | 0 | −2 | Not in Sweden XI vs Tunisia |
-| Manuel Neuer | Germany | GK | #21 | 0 | −2 | Baumann started G1; Neuer GK1 but rested |
 
 **Key finding**: Palacios (#1 by value/price ratio) was benched in G1. The model's top value pick delivered nothing.
+
+**Correction vs pre-report assumptions**: William Saliba (France DEF) actually started alongside Upamecano — Konaté was the one who was benched. Manuel Neuer (Germany GK) started vs Curaçao; Baumann was not used. Both scored 2 pts (start, no CS).
 
 ---
 
@@ -127,18 +126,19 @@ Players who weren't expected to contribute heavily but delivered:
 
 ## CS Cleaners — Defensive clean sheet value
 
-Spain's 0-0 vs Cape Verde was the only true defensive CS across all 23 G1 matches among tracked players. All Spain starters collected 4 pts (DEF), 6 pts (GK), or 1 pt (MID):
+Spain's 0-0 vs Cape Verde was the only true defensive CS across all 23 G1 matches among tracked players. Spain's back four was Llorente (RB), Laporte, Cubarsí, Cucurella — Grimaldo and Porro were both on the bench:
 
-| Player | Pos | G1 Pts | Δ |
-|--------|-----|-------:|--:|
-| Unai Simón (GK) | GK | 8 | +6 |
-| Pau Cubarsí (DEF) | DEF | 6 | +4 |
-| Marc Cucurella (DEF) | DEF | 6 | +4 |
-| Pedro Porro (DEF) | DEF | 6 | +5 |
-| Alejandro Grimaldo (DEF) | DEF | 6 | +4 |
-| Pedri (MID) | MID | 3 | +1 |
-| Fabián Ruiz (MID) | MID | 3 | +1 |
-| Rodri (MID) | MID | 3 | +1 |
+| Player | Pos | G1 Pts | Δ | Note |
+|--------|-----|-------:|--:|------|
+| Unai Simón (GK) | GK | 8 | +6 | Started |
+| Pau Cubarsí (DEF) | DEF | 6 | +4 | Started |
+| Marc Cucurella (DEF) | DEF | 6 | +4 | Started |
+| Pedri (MID) | MID | 3 | +1 | Started |
+| Fabián Ruiz (MID) | MID | 3 | +1 | Started |
+| Rodri (MID) | MID | 3 | +1 | Started |
+| Alejandro Grimaldo (DEF) | DEF | 5 | +3 | Sub 71' (DEF CS: 1+4) |
+| Lamine Yamal (FWD) | FWD | 1 | −1 | Sub 71' (no FWD CS bonus) |
+| Pedro Porro (DEF) | DEF | 0 | −1 | Bench DNP |
 
 Scotland also kept a CS (1-0 vs Haiti): **Scott McTominay** 3 pts (+1).  
 Argentina kept a CS (3-0 Algeria): **Emiliano Martínez** 8 pts (+6), **Cristian Romero** 6 pts (+4), **Enzo Fernández** 3 pts (+1).
@@ -166,8 +166,8 @@ Argentina kept a CS (3-0 Algeria): **Emiliano Martínez** 8 pts (+6), **Cristian
 |--------|-------|
 | Highest G1 score | 14 pts (Kane, Mbappé, Haaland) |
 | Most assists in G1 | 1 each (Rice, Anderson, Olise, Salah, Ødegaard, Díaz, Pulisic, De Bruyne, Saka) |
-| Players who scored 0 G1 pts | 21 (mostly bench/DNP) |
-| Players who matched expectation (Δ=0) | 17 |
+| Players who scored 0 G1 pts | 19 (mostly bench/DNP; Neuer and Saliba corrected to 2 pts starters) |
+| Players who matched expectation (Δ=0) | 19 (including Saliba and Neuer, now confirmed starters) |
 | Biggest surprise overperformer | Nmecha (starter="no", 8 pts) |
 | Biggest selection miss | Palacios (#1 value pick, benched, 0 pts) |
 | CS matches yielding DEF/GK bonus | 3: Spain (0-0 vs Cape Verde), Argentina (3-0 Algeria), Scotland (1-0 Haiti) |
