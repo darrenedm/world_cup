@@ -60,7 +60,7 @@
 52   Akliouche                France         MID    0.00518   176.1    34015  full     no             93%     0    0       —      —  ✅
 53   Ødegaard                 Norway         MID    0.00892   299.5    33577  mostly   yes            29%     1    1       —      —  ✅
 54   Álvarez                  Argentina      FWD    0.0121    401.6    33190  mostly   sometimes      63%     0    0       —      —  ✅
-55   Diallo                   Ivory Coast    FWD    0.00865   284.7    32914  full     yes            13%     2    2       2   +0.0  ✅
+55   Diallo                   Ivory Coast    FWD    0.00865   284.7    32914  full     yes            13%     1    2       2   +1.0  ✅
 56   Anderson                 England        MID    0.0154    490.2    31831  full     yes            75%     1    1       —      —  ✅
 57   Pedri                    Spain          MID    0.0218    669.4    30706  full     yes            91%     2    2       3   +1.0  ✅
 58   Martínez (AR)            Argentina      GK     0.0137    417.5    30474  mostly   yes            63%     1    1       —      —  ✅

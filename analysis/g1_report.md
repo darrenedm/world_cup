@@ -86,7 +86,7 @@ Mbappé's G1 broke France's all-time scoring record. All three were started desp
 | 9 | Unai Simón | Spain | GK | 8 | +6 | #72 | GK CS in 0-0 vs Cape Verde; clean sheet banker |
 | 10 | Alexander Isak | Sweden | FWD | 8 | +6 | #73 | 1 goal vs Tunisia; fibula scare forgotten |
 | 11 | Marcus Rashford | England | FWD | 7 | +6 | #57 | Sub 2nd half; 1 goal (85'); impact role vindicated |
-| 12 | Amad Diallo | Ivory Coast | FWD | 8 | +6 | #18 | 1 goal; CIV won 1-0; strong G1 for cheap pick |
+| 12 | Amad Diallo | Ivory Coast | FWD | 7 | +6 | #18 | Sub 56'; 1 goal (90'); CIV won 1-0; strong G1 for cheap pick |
 | 13 | Alejandro Grimaldo | Spain | DEF | 5 | +3 | #5 | Sub 71'; DEF CS (5 pts = 1 sub + 4 CS) |
 | 14 | Cristian Romero | Argentina | DEF | 6 | +4 | #17 | DEF CS; ARG 3-0 Algeria |
 | 15 | Marc Cucurella | Spain | DEF | 6 | +4 | #41 | DEF CS; started in Spain's 0-0 |
@@ -118,7 +118,7 @@ These players were rated "yes" for starter pre-tournament but scored 0 or underp
 Players who weren't expected to contribute heavily but delivered:
 
 - **Felix Nmecha** (Germany MID, #87): 8 pts, 1 goal. Listed as a bench option pre-WC, Nmecha started and scored in Germany's 7-1 rout. Best surprise of G1.
-- **Amad Diallo** (Ivory Coast FWD, #18): 8 pts, 1 goal. CIV's 1-0 win over Ecuador was unexpected; Diallo scored the winner. Cheap at 0.00730.
+- **Amad Diallo** (Ivory Coast FWD, #18): 7 pts, 1 goal (sub 56', scored 90'). CIV's 1-0 win over Ecuador was unexpected; Diallo came off the bench and scored the winner. Cheap at 0.00730.
 - **Marcus Rashford** (England FWD, #57): 7 pts as sub. Was "sometimes" starter but his 85' goal was England's 4th. Sub-role delivery.
 - **Nico Schlotterbeck** (Germany DEF, #56): 8 pts in a 7-1 blowout. Defenders scoring is bonus territory.
 
