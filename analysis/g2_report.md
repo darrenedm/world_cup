@@ -1,6 +1,6 @@
 # G2 Performance Report — World Cup 2026
 *Covers completed Group Stage Round 2 matches as of Jun 21 2026*  
-*Pending (Jun 22–23): France, England, Argentina, Colombia, Norway, Portugal, Croatia, Egypt*  
+*Pending (Jun 22–23): France, England, Argentina, Colombia, Norway, Portugal, Croatia*  
 *Only covers the 93 priced players tracked in price_value_table.txt*
 
 ---
@@ -69,18 +69,19 @@ David came off the bench in G1 (1pt appearance; G2 expected baseline = 1pt), the
 
 | # | Player | Nat | Pos | G2 Pts | G2 Δ | G1 Role | Notes |
 |---|--------|-----|-----|-------:|-----:|---------|-------|
-| 1 | Jonathan David | Canada | FWD | 20 | +19 | G1 sub | Hat-trick vs Qatar; biggest G2 surprise |
+| 1 | Jonathan David | Canada | FWD | 20 | +19 | G1 starter | Hat-trick vs Qatar; biggest G2 surprise |
 | 2 | Matheus Cunha | Brazil | FWD | 14 | +12 | G1 starter | 2 goals vs Haiti; not in prediction top 20 |
-| 3 | Lamine Yamal | Spain | FWD | 8 | +7 | G1 sub | First WC start; scored vs Saudi Arabia |
-| 4 | Pedro Porro | Spain | DEF | 6 | +6 | G1 bench | Reversed G1 DNP; started and earned full DEF CS |
-| 5 | Unai Simón | Spain | GK | 8 | +6 | G1 starter | GK CS vs Saudi Arabia; Category A top pick delivered |
-| 6 | Alisson Becker | Brazil | GK | 8 | +6 | G1 starter | GK CS vs Haiti; Category A banker |
-| 7 | Vinícius Júnior | Brazil | FWD | 8 | +6 | G1 starter | Goal vs Haiti; G1 form carried forward |
-| 8 | Thibaut Courtois | Belgium | GK | 8 | +6 | G1 starter | GK CS vs Iran despite Doku illness absence |
-| 9 | Pau Cubarsí | Spain | DEF | 6 | +4 | G1 starter | DEF CS vs Saudi Arabia; confirmed every-game starter |
-| 10 | Marc Cucurella | Spain | DEF | 6 | +4 | G1 starter | DEF CS vs Saudi Arabia |
-| 11 | Gabriel Magalhães | Brazil | DEF | 6 | +4 | G1 starter | DEF CS vs Haiti |
-| 12 | Achraf Hakimi | Morocco | DEF | 6 | +4 | G1 starter | DEF CS vs Scotland |
+| 3 | Mohamed Salah | Egypt | MID | 11 | +9 | G1 starter | 1G+1A vs New Zealand; Egypt's historic first WC win |
+| 4 | Lamine Yamal | Spain | FWD | 8 | +7 | G1 sub | First WC start; scored vs Saudi Arabia |
+| 5 | Pedro Porro | Spain | DEF | 6 | +6 | G1 bench | Reversed G1 DNP; started and earned full DEF CS |
+| 6 | Unai Simón | Spain | GK | 8 | +6 | G1 starter | GK CS vs Saudi Arabia; Category A top pick delivered |
+| 7 | Alisson Becker | Brazil | GK | 8 | +6 | G1 starter | GK CS vs Haiti; Category A banker |
+| 8 | Vinícius Júnior | Brazil | FWD | 8 | +6 | G1 starter | Goal vs Haiti; G1 form carried forward |
+| 9 | Thibaut Courtois | Belgium | GK | 8 | +6 | G1 starter | GK CS vs Iran despite Doku illness absence |
+| 10 | Pau Cubarsí | Spain | DEF | 6 | +4 | G1 starter | DEF CS vs Saudi Arabia; confirmed every-game starter |
+| 11 | Marc Cucurella | Spain | DEF | 6 | +4 | G1 starter | DEF CS vs Saudi Arabia |
+| 12 | Gabriel Magalhães | Brazil | DEF | 6 | +4 | G1 starter | DEF CS vs Haiti |
+| 13 | Achraf Hakimi | Morocco | DEF | 6 | +4 | G1 starter | DEF CS vs Scotland |
 
 **Notable Δ = +3:** Felix Nmecha (Germany MID, 5pts, assist vs Ivory Coast — G1 form carry), Dani Olmo (Spain FWD, 5pts, assisted Yamal's goal).
 
@@ -111,7 +112,7 @@ Six of the eleven completed G2 matches produced clean sheets for tracked nations
 | USA vs Australia | USA | Tillman 3pts (MID CS) |
 | Ecuador vs Curaçao | Ecuador | Caicedo 3pts (MID CS) |
 
-**No CS in completed G2 matches:** Germany vs Ivory Coast, Netherlands vs Sweden, Turkey vs Paraguay, Uruguay vs Cape Verde, Switzerland, Canada vs Qatar.
+**No CS in completed G2 matches:** Germany vs Ivory Coast, Netherlands vs Sweden, Turkey vs Paraguay, Uruguay vs Cape Verde, Switzerland, Canada vs Qatar, Egypt vs New Zealand (NZL scored 15').
 
 Spain's G2 vs Saudi Arabia was the richest single defensive game for tracked players — six players collected CS bonus points across GK (8pts), DEF (6pts each) and MID (3pts each). The prediction model's "Spain CS wall" narrative from the G2 plan was the round's clearest structural call.
 
@@ -136,6 +137,8 @@ Spain's G2 vs Saudi Arabia was the richest single defensive game for tracked pla
 | Doku Belgium injury risk | ✅ Correct — respiratory infection ruled him out |
 | Jonathan David (sometimes APP_EXP) | ❌ Model miss — predicted ~3pts, delivered 20pts hat-trick |
 | Matheus Cunha (unranked) | ❌ Model miss — 14pts, 2 goals; not in top 20 |
+| Salah Egypt (Category C, ~4pt OUTLOOK) | 🟡 Direction correct, magnitude undersold — 11pts (1G+1A vs NZL); model had him as a good pick but ceiling was higher |
+| Marmoush Egypt (Category B FWD) | ✅ Correct baseline — started, 2pts +0; no goals but delivered appearance value |
 | France vs Iraq CS (pending) | ⏳ Mbappé, Maignan, Koundé, Saliba, Olise all pending Jun 22–23 |
 | Kane England form carry (pending) | ⏳ ENG vs GHA Jun 23 |
 | Díaz momentum (pending) | ⏳ COL vs DRC Jun 22 |
@@ -159,6 +162,8 @@ Spain's G2 vs Saudi Arabia was the richest single defensive game for tracked pla
 
 7. **Morocco CS vs Scotland** — Hakimi delivered DEF CS (6pts, Δ=+4) as Scotland managed only a started-but-blanked performance from McTominay (2pts). The 65% Morocco win probability CS expectation was correct.
 
+8. **Salah leads Egypt to historic first WC win** — Egypt 3-1 New Zealand (Jun 21). Salah started, scored at 67' (combination with Zico) and delivered the corner assist for Trezeguet's 82' header. 11pts, Δ=+9 — third-highest G2 score among all tracked players. Marmoush started but didn't feature on the scoresheet (2pts, Δ=0). New Zealand's Surman header at 15' broke Egyptian CS hopes early, so no defensive bonus for Egyptian players. The G2_OUTLOOK model had Salah at ~4.21 (Category C); he exceeded that significantly.
+
 ---
 
 ## Summary Stats (completed G2 matches only)
@@ -167,15 +172,15 @@ Spain's G2 vs Saudi Arabia was the richest single defensive game for tracked pla
 |--------|-------|
 | Highest G2 score | 20 pts (Jonathan David, hat-trick vs Qatar) |
 | Biggest G2 Δ | +19 (Jonathan David) |
-| CS matches among completed | 6 of 11 (Spain, Brazil, Belgium, Morocco, USA, Ecuador) |
+| CS matches among completed | 6 of 13 (Spain, Brazil, Belgium, Morocco, USA, Ecuador) |
 | Richest single CS game | Spain vs Saudi Arabia — 6 tracked players, CS bonus across GK/DEF/MID |
 | Biggest model miss | Jonathan David — predicted ~3pts, delivered 20pts |
 | Biggest unranked overperformer | Matheus Cunha — 14pts, 2 goals, not in prediction top 20 |
-| G1 form that carried | Vinícius Jr (+6→+6), Nmecha (+8→+3), Simón (+6→+6) |
+| G1 form that carried | Vinícius Jr (+6→+6), Nmecha (+8→+3), Simón (+6→+6), Salah (+3→+9) |
 | G1 form that faded | Schlotterbeck (8pts G1 → 2pts G2), Raphinha (blank offensively) |
 | Injury/illness blanks | Pulisic (Δ=−2), Doku (Δ=−2) |
 | Rotation surprises | Porro returned to XI (+6); Grimaldo DNP again (−1) |
-| Prediction model hit rate (completed) | 6 clear ✅, 3 ❌, 2 🟡 partial out of 11 assessed |
+| Prediction model hit rate (completed) | 7 clear ✅, 3 ❌, 3 🟡 partial out of 13 assessed |
 
 ---
 
@@ -190,6 +195,5 @@ Spain's G2 vs Saudi Arabia was the richest single defensive game for tracked pla
 | Norway vs Senegal | Haaland, Ødegaard | 29% | Haaland individual rate above team; high-variance |
 | Portugal vs Uzbekistan | Leão, Vitinha, Bruno Fernandes, Rúben Dias, João Neves | 84% | POR attack overdue after G1 1-1 draw |
 | Croatia vs Panama | Gvardiol | 57% | Near-even; modest CS expectation |
-| Egypt vs New Zealand | Salah, Marmoush | 83% | Salah +3 G1 form; EGY should dominate |
 
 *Update this file once all G2 fixtures complete (by Jun 23).*
