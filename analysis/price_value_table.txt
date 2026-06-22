@@ -11,7 +11,7 @@
 3    Çalhanoğlu               Turkey         MID    0.00395   454.1   114962  mostly   yes            48%     2    2       2   +0.0  ✅
 4    Lukaku                   Belgium        FWD    0.00351   391.8   111624  mostly   yes            71%     1    2       2   +1.0  ✅
 5    Tillman                  USA            MID    0.00434   481.5   110899  full     yes            60%     2    2       3   +1.0  ✅
-6    Rafael Leão              Portugal       FWD    0.00690   594.4    86145  mostly   yes            84%     1    1       —      —  ✅
+6    Rafael Leão              Portugal       FWD    0.00690   594.4    86145  mostly   yes            84%     0    1       —      —  ✅
 7    Grimaldo                 Spain          DEF    0.00584   465.9    79777  full     no             91%     0    1       0   -1.0  ✅
 8    Raphinha                 Brazil         FWD    0.00702   553.3    78817  mostly   yes            93%     2    2       2   +0.0  ✅
 9    Ruiz                     Spain          MID    0.00744   581.4    78144  full     sometimes      91%     1    2       2   +0.0  ✅
@@ -33,7 +33,7 @@
 25   Saka                     England        FWD    0.0118    543.1    46025  mostly   sometimes      75%     0    1       —      —  ✅
 26   Bellingham               England        MID    0.0134    612.7    45724  full     yes            75%     1    1       —      —  ✅
 27   Koundé                   France         DEF    0.0125    568.1    45448  mostly   yes            93%     1    1       —      —  ✅
-28   Yildiz                   Turkey         FWD    0.00812   368.9    45430  full     yes            48%     2    2       2   +0.0  ✅
+28   Yildiz                   Turkey         FWD    0.00812   368.9    45430  full     yes            48%     1    2       2   +1.0  ✅
 29   Eze                      England        MID    0.00441   200.3    45419  mostly   no             75%     0    0       —      —  ✅
 30   Doku                     Belgium        FWD    0.00990   448.3    45283  not      no             71%     1    1       0   -2.0  ✅
 31   Guéhi                    England        DEF    0.0109    486.6    44642  full     sometimes      75%     0    0       —      —  ✅
@@ -42,7 +42,7 @@
 34   João Neves               Portugal       MID    0.0135    583.4    43215  full     yes            84%     1    1       —      —  ✅
 35   Romero                   Argentina      DEF    0.0119    513.1    43118  mostly   yes            63%     1    1       —      —  ✅
 36   Rodri                    Spain          MID    0.0147    596.9    40605  mostly   yes            91%     2    2       3   +1.0  ✅
-37   Rúben Dias               Portugal       DEF    0.0121    484.1    40008  mostly   yes            84%     1    1       —      —  ✅
+37   Rúben Dias               Portugal       DEF    0.0121    484.1    40008  mostly   yes            84%     0    0       —      —  ✅
 38   Tah                      Germany        DEF    0.0118    461.4    39102  full     yes            68%     2    2       2   +0.0  ✅
 39   Saliba                   France         DEF    0.0141    535.8    37993  mostly   yes            93%     1    1       —      —  ✅
 40   Rashford                 England        FWD    0.00534   201.8    37790  full     sometimes      75%     0    1       —      —  ✅

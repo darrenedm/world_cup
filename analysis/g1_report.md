@@ -106,10 +106,13 @@ These players were rated "yes" for starter pre-tournament but scored 0 or underp
 | Marc Guéhi | England | DEF | #39 | 0 | −2 | Bench — Konsa started ahead of him |
 | Julián Álvarez | Argentina | FWD | #61 | 0 | −2 | Bench |
 | Daniel Svensson | Sweden | DEF | #16 | 0 | −2 | Not in Sweden XI vs Tunisia |
+| Rúben Dias | Portugal | DEF | — | 0 | −2 | Bench DNP — fitness concern confirmed pre-match by Martinez; Araújo/Veiga started |
+| Kenan Yıldız | Turkey | FWD | — | 1 | −1 | Sub 46' (halftime); rested vs Australia; 1 pt appearance only |
+| Rafael Leão | Portugal | FWD | — | 1 | −1 | Sub 72' (replaced Neto); benched for POR vs DR Congo opener |
 
 **Key finding**: Palacios (#1 by value/price ratio) was benched in G1. The model's top value pick delivered nothing.
 
-**Correction vs pre-report assumptions**: William Saliba (France DEF) actually started alongside Upamecano — Konaté was the one who was benched. Manuel Neuer (Germany GK) started vs Curaçao; Baumann was not used. Both scored 2 pts (start, no CS).
+**Correction vs pre-report assumptions**: William Saliba (France DEF) actually started alongside Upamecano — Konaté was the one who was benched. Manuel Neuer (Germany GK) started vs Curaçao; Baumann was not used. Both scored 2 pts (start, no CS). Rúben Dias, Yıldız, and Leão were also confirmed non-starters in G1 (see above) — all had been assumed starters in earlier model versions.
 
 ---
 
@@ -166,8 +169,8 @@ Argentina kept a CS (3-0 Algeria): **Emiliano Martínez** 8 pts (+6), **Cristian
 |--------|-------|
 | Highest G1 score | 14 pts (Kane, Mbappé, Haaland) |
 | Most assists in G1 | 1 each (Rice, Anderson, Olise, Salah, Ødegaard, Díaz, Pulisic, De Bruyne, Saka) |
-| Players who scored 0 G1 pts | 19 (mostly bench/DNP; Neuer and Saliba corrected to 2 pts starters) |
-| Players who matched expectation (Δ=0) | 19 (including Saliba and Neuer, now confirmed starters) |
+| Players who scored 0 G1 pts | 20 (mostly bench/DNP; Neuer and Saliba corrected to 2 pts starters; Rúben Dias added as confirmed bench DNP) |
+| Players who matched expectation (Δ=0) | 16 (Rúben Dias/Yıldız/Leão removed — confirmed sub/bench not starters) |
 | Biggest surprise overperformer | Nmecha (starter="no", 8 pts) |
 | Biggest selection miss | Palacios (#1 value pick, benched, 0 pts) |
 | CS matches yielding DEF/GK bonus | 3: Spain (0-0 vs Cape Verde), Argentina (3-0 Algeria), Scotland (1-0 Haiti) |
