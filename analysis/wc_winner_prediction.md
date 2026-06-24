@@ -1,6 +1,6 @@
 # World Cup 2026 Winner Prediction
-*Written Jun 23 2026 — after G1+G2, before G3 (Jun 24–27)*
-*Colombia vs DR Congo G2 result pending at time of writing*
+*Written Jun 23 2026, updated Jun 24 — after G1+G2, before G3 (Jun 24–27)*
+*All 21 G2 matches complete: Colombia 1-0 DR Congo (Muñoz 76'), Croatia 1-0 Panama (Budimir 54')*
 
 ---
 
@@ -71,7 +71,7 @@ Each team's most likely bracket opponents are identified round by round. P(wins 
 | Netherlands | 6 | 2.5 (est.) | 0.5 (est.) | +4.0 (limited data) | 2W | **8.0** | 7.5 | **7.80** |
 | Germany | 6 | 4.0 (7-1⚠️, 3-1) | 1.0 | +5.0 (Nmecha/Schlotterbeck) | 2W | **7.5** | 8.0 | **7.70** |
 | Brazil | 4 | 2.0 (1-1, 3-0) | 0.5 | +5.0 (Vinícius/Raphinha) | 1D1W | **7.0** | 8.5 | **7.60** |
-| Colombia | 4–6† | 2.0 | 0.5 | +7.0 (Díaz G1 +9) | 1W+TBD | **7.5** | 6.5 | **7.10** |
+| Colombia | 6 | 2.0 | 0.5 | +4.5 (Díaz G1 +9, G2 +0) | 2W | **7.0** | 6.5 | **6.90** |
 | Spain | 4 | 1.0 (0-0, 2-0) | 0.2 | +5.7 (Simón/Yamal/Cubarsí) | 1D1W | **6.7** | 8.0 | **7.22** |
 | England | 4 | 2.0 (4-2, 0-0) | 1.0 | +4.3 (Kane peak/Guéhi) | 1W1D | **6.5** | 8.0 | **7.10** |
 | Norway | 6 | 3.0 (4-1, 2-1) | 1.0 | +9.0 (Haaland ×2 games) | 2W | **9.0** | 4.0 | **7.00** |
@@ -83,7 +83,7 @@ Each team's most likely bracket opponents are identified round by round. P(wins 
 | Canada | 3–4† | 2.5 (David hat-trick) | 1.5 | +8.0 (David) | 1W+ | **6.5** | 4.5 | **5.70** |
 | Croatia | 3 | 0.5 (0-4, 1-0) | 2.0 | +2.0 (Gvardiol +4 G2) | 1L1W | **3.8** | 6.0 | **4.68** |
 
-*† Colombia G2 still in progress (tied at time of writing). Canada David hat-trick inflates form.*  
+*† Canada David hat-trick inflates form.*  
 *⚠️ Germany's 7-1 was vs Curaçao — quality-adjusted down from raw GF score.*
 
 ---
@@ -347,7 +347,7 @@ Norway's 1% probability is the clearest example of great form meeting a brutal b
 | 6 | **Brazil** | 7.60 | M102 | Norway R16, Argentina SF | **~3%** |
 | 7 | **Spain** | 7.22 | M101 | France SF | **~2%** |
 | 8 | **England** | 7.10 | M102 | Brazil QF, Argentina SF | **~2%** |
-| 9 | **Colombia** | 7.10 | M102 | Argentina QF (via M100) | **~2%** |
+| 9 | **Colombia** | 6.90 | M102 | Argentina QF (via M100) | **~2%** |
 | 10 | **Norway** | 7.00 | M102 | Brazil R16 | **~1%** |
 | 11 | **Belgium** | 6.64 | M101 | France SF | **~1%** |
 | 12 | **Canada** | 5.70 | M102 | Portugal R16 | **~1%** |
@@ -402,7 +402,7 @@ Following each team's most probable path through the bracket, the Final odds hea
 | Factor | Impact |
 |--------|--------|
 | G3 results not yet played (Jun 24–27) | Could shift group standings and bracket position |
-| Colombia vs DR Congo G2 pending | Colombia's rating uses estimated form |
+| Díaz G2 blank (Mpasi 8 saves) | Colombia 6pts qualified; star metric slightly reduced from G1 +9 baseline |
 | Argentina rotation risk (G3 vs Jordan) | Key players may arrive the knockouts with rest vs form trade-off |
 | Romero injury (knee vs Austria G2) | If Romero misses R32, Argentina DEF rating drops |
 | France/Norway G3 match (group decider) | Will both play full strength? Key warm-up before knockouts |

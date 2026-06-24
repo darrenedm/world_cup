@@ -2,7 +2,7 @@
 # Fitness: full/mostly/not  |  Starter: yes/sometimes/no  |  G2 Win%: pre-G2 odds (G3 odds TBD post-G2 completion)
 # F.Start/F.Ap: cumulative starts / appearances across G1+G2 (max 2)
 # G2 Pts: actual G2 fantasy pts  |  G2 Δ: G2 Pts minus expected (G1 starter→2, G1 sub→1, G1 bench→0)
-# G2 complete Jun 23 except Colombia/Croatia (Jun 23 pending)
+# G2 complete Jun 23 — all 23 matches done
 
 #    Player                   Nat            Pos     Price  Adj Pts    Pts/$  Fitness  Starter    G2 Win%  F.St F.Ap  G2 Pts   G2 Δ  Status
 ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
@@ -53,7 +53,7 @@
 45   Nuno Mendes              Portugal       DEF    0.0141    524.0    37163  mostly   yes            84%     2    2      12  +10.0  ✅
 46   Singo                    Ivory Coast    DEF    0.00650   240.2    36954  full     yes            13%     2    2       2   +0.0  ✅
 47   Cucurella                Spain          DEF    0.0142    521.5    36725  full     yes            91%     2    2       6   +4.0  ✅
-48   Gvardiol                 Croatia        DEF    0.0104    378.2    36365  mostly   yes            57%     1    1       —      —  ✅
+48   Gvardiol                 Croatia        DEF    0.0104    378.2    36365  mostly   yes            57%     2    2       6   +4.0  ✅
 49   Upamecano                France         DEF    0.0149    535.8    35960  full     yes            93%     2    2       6   +4.0  ✅
 50   Konsa                    England        DEF    0.0131    454.5    34695  full     yes            75%     2    2       6   +4.0  ✅
 51   Valverde                 Uruguay        MID    0.0106    362.7    34217  mostly   yes            87%     2    2       2   +0.0  ✅
@@ -69,7 +69,7 @@
 61   Alisson Becker           Brazil         GK     0.0111    328.9    29631  mostly   yes            93%     2    2       8   +6.0  ✅
 62   Omar Marmoush            Egypt          FWD    0.00604   176.7    29254  full     yes            83%     2    2       2   +0.0  ✅
 63   Rice                     England        MID    0.0195    569.5    29205  full     yes            75%     2    2       3   +1.0  ✅
-64   Díaz                     Colombia       FWD    0.0166    483.3    29114  full     yes            78%     1    1       —      —  ✅
+64   Díaz                     Colombia       FWD    0.0166    483.3    29114  full     yes            78%     2    2       2   +0.0  ✅
 65   Vitinha                  Portugal       MID    0.0218    629.6    28880  mostly   yes            84%     2    2       3   +1.0  ✅
 66   Watkins                  England        FWD    0.00597   162.5    27219  full     no             75%     0    0       0   +0.0  ✅
 67   Gyökeres                 Sweden         FWD    0.00822   223.2    27153  full     yes            21%     2    2       2   +0.0  ✅

@@ -1,6 +1,5 @@
 # G2 Performance Report — World Cup 2026
-*Covers completed Group Stage Round 2 matches as of Jun 21 2026*  
-*Pending: Colombia vs DR Congo, Croatia vs Panama (Jun 23)*  
+*Covers all 21 Group Stage Round 2 matches (Jun 18–23 2026)*  
 *Only covers the 93 priced players tracked in price_value_table.txt*
 
 ---
@@ -98,6 +97,7 @@ David came off the bench in G1 (1pt appearance; G2 expected baseline = 1pt), the
 | 27 | Marc Cucurella | Spain | DEF | 6 | +4 | G1 starter | DEF CS vs Saudi Arabia |
 | 28 | Gabriel Magalhães | Brazil | DEF | 6 | +4 | G1 starter | DEF CS vs Haiti |
 | 29 | Achraf Hakimi | Morocco | DEF | 6 | +4 | G1 starter | DEF CS vs Scotland |
+| 30 | Joško Gvardiol | Croatia | DEF | 6 | +4 | G1 starter | Started, subbed HT; DEF CS vs Panama 1-0 |
 
 **Notable Δ = +3:** Ødegaard (NOR MID, 5pts, assist for Haaland 48'), Enzo Fernández (ARG MID, 3pts, MID CS), Bruno Fernandes (POR MID, 6pts +4, OG corner assist + MID CS), Felix Nmecha (GER MID, 5pts, assist vs Ivory Coast — G1 form carry), Dani Olmo (Spain FWD, 5pts, assisted Yamal's goal).
 
@@ -117,7 +117,7 @@ David came off the bench in G1 (1pt appearance; G2 expected baseline = 1pt), the
 
 ## CS Cleaners — Defensive clean sheet hauls
 
-Ten of the nineteen completed G2 matches produced clean sheets for tracked nations:
+Twelve of the twenty-one G2 matches produced clean sheets for tracked nations:
 
 | Match | CS Team | Tracked beneficiaries |
 |-------|---------|----------------------|
@@ -131,6 +131,8 @@ Ten of the nineteen completed G2 matches produced clean sheets for tracked natio
 | England vs Ghana (0-0) | England | Pickford 8pts, Konsa/Guéhi 6pts each, Bellingham/Rice/Anderson 3pts each |
 | Argentina vs Austria (2-0) | Argentina | Martínez 8pts, Romero 6pts, Fernández 3pts |
 | Portugal vs Uzbekistan (5-0) | Portugal | Nuno Mendes 12pts, Rúben Dias 6pts, Bruno Fernandes 6pts, João Neves/Vitinha 3pts each |
+| Croatia vs Panama (1-0) | Croatia | Gvardiol 6pts (start + DEF CS; subbed HT) |
+| Colombia vs DR Congo (1-0) | Colombia | No tracked CS earners (Díaz=FWD, no CS bonus) |
 
 **No CS in completed G2 matches:** Germany vs Ivory Coast, Netherlands vs Sweden, Turkey vs Paraguay, Uruguay vs Cape Verde, Switzerland, Canada vs Qatar, Egypt vs New Zealand, Norway vs Senegal (Senegal scored twice).
 
@@ -172,7 +174,8 @@ Spain's G2 vs Saudi Arabia was the richest single defensive game for tracked pla
 | Portugal CS vs Uzbekistan (Nuno Mendes) | ✅ Exceeded — Mendes scored a free-kick (12pts, +10); Category A floor became Category B ceiling |
 | Rúben Dias POR (G1 fitness DNP) | ❌ Wrong direction — model gave near-zero APP_EXP; he started and earned DEF CS (6pts, +6) |
 | Leão vs Neto POR (rotation gamble) | 🟡 Correct swap predicted — Neto started (2pts), Leão sub scored (7pts); if-starts scenario played out |
-| Díaz COL momentum (pending) | ⏳ COL vs DRC pending Jun 23 |
+| Díaz COL G1 momentum carry | ❌ Started but blanked — 2pts +0; DRC GK Mpasi made 8 saves; disallowed goal ruled out offside |
+| Gvardiol CRO CS (57% win%) | ✅ Correct — started, DEF CS (6pts, +4); Croatia 1-0 Panama; Budimir sub winner |
 
 ---
 
@@ -204,9 +207,13 @@ Spain's G2 vs Saudi Arabia was the richest single defensive game for tracked pla
 
 13. **Portugal explode for 5 — Nuno Mendes the standout** — Portugal 5-0 Uzbekistan (Jun 23). Rúben Dias returned from G1 fitness DNP to start and earn DEF CS (6pts, +6). Nuno Mendes scored a free-kick + DEF CS = 12pts (+10), highest DEF score of G2. Bruno Fernandes OG corner assist + MID CS (6pts, +4). Leão sub-on scored at 86' (7pts, +6). Neto started (2pts, Δ=0).
 
+14. **Croatia grind past Panama — Gvardiol's CS on Modrić's 200th cap** — Croatia 1-0 Panama (Jun 23). Ante Budimir came off the bench at HT and scored from Stanišić's cross (54'). Gvardiol started but was the player replaced at HT by Budimir — he still collected DEF CS (played any min, +4) + start (+2) = 6pts (+4). Livaković made crucial late saves to preserve the shutout. Croatia's first WC 2026 points; Panama eliminated.
+
+15. **Colombia 1-0 DR Congo — Muñoz beats Mpasi, Díaz goes scoreless** — Muñoz (76', deflected) was the difference after a thoroughly dominant Colombia display that DRC goalkeeper Mpasi single-handedly contained: 8 saves including Díaz twice denied (one disallowed for offside at 81'). Lucumí booked (55'). Colombia qualified on 6pts; Díaz: 2pts (+0) — strong underlying performance that produced no trackable stats, confirming the model's pattern of his form not always converting to scoreline.
+
 ---
 
-## Summary Stats (19 of 21 G2 matches completed; Colombia/Croatia pending)
+## Summary Stats — G2 Complete (all 21 matches)
 
 | Metric | Value |
 |--------|-------|
@@ -214,7 +221,7 @@ Spain's G2 vs Saudi Arabia was the richest single defensive game for tracked pla
 | Joint second highest | 14 pts (Haaland, Mbappé, Matheus Cunha) |
 | Biggest G2 Δ | +19 (Jonathan David) |
 | Best DEF/GK single game | Nuno Mendes 12pts (goal + DEF CS vs Uzbekistan) |
-| CS matches among completed | 10 of 19 (Spain, Brazil, Belgium, Morocco, USA, Ecuador, France, England, Argentina, Portugal) |
+| CS matches | 12 of 21 (Spain, Brazil, Belgium, Morocco, USA, Ecuador, France, England, Argentina, Portugal, Croatia, Colombia) |
 | Richest single CS game | France vs Iraq — GK (8), 3×DEF (6 each), Olise MID (9), Cherki MID sub (2) |
 | Biggest model miss | Jonathan David — predicted ~3pts, delivered 20pts |
 | Biggest positive surprise | Nuno Mendes — predicted ~4.1pt OUTLOOK, delivered 12pts |
@@ -223,15 +230,15 @@ Spain's G2 vs Saudi Arabia was the richest single defensive game for tracked pla
 | G1 bench → G2 CS bonus | Guéhi (+6), Rúben Dias (+6), Porro (+6) |
 | Injury/illness blanks | Pulisic (Δ=−2), Doku (Δ=−2) |
 | Rotation surprises | Porro returned to XI; Grimaldo DNP twice; Palacios bench both games |
-| Prediction model hit rate | 12 clear ✅, 4 ❌, 3 🟡 partial out of 19 assessed |
+| Prediction model hit rate | 13 ✅, 5 ❌, 3 🟡 partial out of 21 assessed |
 
 ---
 
-## Pending G2 Fixtures (Jun 23)
+## G2 Final Results — Colombia and Croatia
 
-| Match | Key tracked players | G2 Win% | Notes |
-|-------|---------------------|---------|-------|
-| Colombia vs DR Congo | Díaz | 78% | G1 +9 momentum carry; COL should dominate |
-| Croatia vs Panama | Gvardiol | 57% | Near-even; modest CS expectation |
+| Match | Result | Key tracked player | G2 Pts | G2 Δ |
+|-------|--------|-------------------|-------:|-----:|
+| Colombia vs DR Congo | **1-0** (Muñoz 76') | Díaz (FWD, started) | 2 | +0 |
+| Croatia vs Panama | **1-0** (Budimir 54' sub) | Gvardiol (DEF, started/HT off) | 6 | +4 |
 
-*Update this file once both fixtures complete (Jun 23).*
+Colombia qualified with 6pts. Croatia earned their first WC 2026 points (3pts total). Both advance with G3 still to come.
